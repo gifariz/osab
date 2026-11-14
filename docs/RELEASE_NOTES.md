@@ -1,15 +1,17 @@
 # Release notes
 
-## 0.1.0 (draft, not released yet)
+## 0.1.0
 
 The first public release of OSAB (Open Structural Analysis for Buildings): a free structural analysis app for
 buildings, with a desktop app for Windows, a web demo and a command-line tool.
 
 ### Downloads
-- **Windows desktop app:** `OSAB_0.1.0_x64-setup.exe` (installer). Windows may warn about an unknown publisher on
+- **Windows desktop app:** `OSAB_0.1.0_x64-setup.exe` (installer; `.osab` files then open with a double-click), or
+  `OSAB_0.1.0_x64_portable.exe` (no installation: put it anywhere and run it; needs Microsoft Edge WebView2, which
+  Windows 10 and 11 have). Windows may warn about an unknown publisher on
   the first run (the installer is not code-signed yet): choose *More info > Run anyway*.
-- **Command-line tool** (for scripts, servers and agents): `osab` for Linux (x86_64, one file, any distribution)
-  and `osab.exe` for Windows. See *For scripts and agents* in the README.
+- **Command-line tool** (for scripts, servers and agents): `osab-linux-x86_64` (Linux x86_64, one file, any distribution;
+  rename it to `osab`) and `osab-windows-x86_64.exe` (Windows; rename it to `osab.exe`). See *For scripts and agents* in the README.
 - **Web demo:** https://www.gifariz.com/osab/ (nothing to install; models up to 8,000 analysis joints).
 
 ### What it does
