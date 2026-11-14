@@ -3511,17 +3511,6 @@ pub fn length(a: &Node, b: &Node) -> f64 {
 mod tests {
     use super::*;
 
-    fn n(x: f64, y: f64, z: f64) -> Node {
-        Node {
-            id: Id::default(),
-            x,
-            y,
-            z,
-            in_mesh: None,
-            diaphragm: None,
-        }
-    }
-
     #[test]
     fn old_key_names_still_load() {
         // Files written before Phase 3a call frames `elements` and frame loads `member_loads`.

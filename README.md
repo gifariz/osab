@@ -5,6 +5,9 @@
 **Try it in your browser:** https://gifariz.com/osab/ (web demo; models up to 8,000 analysis
 joints; nothing is uploaded).
 
+**Download:** [the latest release](https://github.com/gifariz/osab/releases/latest): the Windows desktop app
+(installer or portable) and the command-line tool for Windows and Linux.
+
 **What it does:** a desktop app (Windows, English or Indonesian) to draw frames, slabs and walls on a
 grid, assign sections, supports, springs, rigid links, releases, end offsets, diaphragms, property
 modifiers and loads, and run linear static and modal analysis: deformed shapes, force diagrams, shell
