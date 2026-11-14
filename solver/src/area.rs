@@ -248,7 +248,6 @@ pub fn plan_shape(p: &[[f64; 2]], q: [f64; 2]) -> Option<Vec<f64>> {
 mod tests {
     use super::*;
 
-
     #[test]
     fn angle_rotates_axes_1_and_2_about_3() {
         let p = [

@@ -100,4 +100,3 @@ fn benchmarks_give_the_same_results_with_patterns() {
         same(&run(&with_patterns(&m)), &run(&m), b);
     }
 }
-

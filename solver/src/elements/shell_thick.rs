@@ -936,7 +936,6 @@ mod triangle_compatibility_tests {
     }
 }
 
-
 #[cfg(test)]
 mod quad_compatibility_tests {
     use super::*;
@@ -1228,4 +1227,3 @@ mod quad_compatibility_tests {
         }
     }
 }
-

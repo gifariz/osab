@@ -81,4 +81,3 @@ fn a_deck_must_be_a_one_way_membrane_with_its_data() {
     v["deck"]["rib_depth"] = json!(-0.01);
     assert!(read(&model(v)).unwrap_err().contains("0 or more"));
 }
-

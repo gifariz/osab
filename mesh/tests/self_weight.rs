@@ -4,11 +4,9 @@
 use osab_solver::{Model, Results};
 use serde_json::{json, Value};
 
-
 fn run(m: &Value) -> Results {
     osab_mesh::run(&Model::from_json(&m.to_string()).unwrap()).unwrap()
 }
-
 
 #[test]
 fn overlapping_floors_weigh_once() {

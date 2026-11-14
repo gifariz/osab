@@ -3522,7 +3522,6 @@ mod tests {
         }
     }
 
-
     #[test]
     fn old_key_names_still_load() {
         // Files written before Phase 3a call frames `elements` and frame loads `member_loads`.
