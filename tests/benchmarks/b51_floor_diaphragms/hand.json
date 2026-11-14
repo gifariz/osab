@@ -1,0 +1,61 @@
+{
+  "source": "Statics: the base reactions balance the self-weight (columns, beams over their whole length - no end offsets - and slabs), the live load and the story forces.",
+  "values": [
+    {
+      "case": "DEAD",
+      "kind": "reaction_sum",
+      "nodes": [
+        "0A1",
+        "0A2",
+        "0B1",
+        "0B2",
+        "0C1",
+        "0C2"
+      ],
+      "dof": "fz",
+      "value": 1693.4400000000003
+    },
+    {
+      "case": "LIVE",
+      "kind": "reaction_sum",
+      "nodes": [
+        "0A1",
+        "0A2",
+        "0B1",
+        "0B2",
+        "0C1",
+        "0C2"
+      ],
+      "dof": "fz",
+      "value": 450.0
+    },
+    {
+      "case": "EQX",
+      "kind": "reaction_sum",
+      "nodes": [
+        "0A1",
+        "0A2",
+        "0B1",
+        "0B2",
+        "0C1",
+        "0C2"
+      ],
+      "dof": "fx",
+      "value": -60.0
+    },
+    {
+      "case": "EQY",
+      "kind": "reaction_sum",
+      "nodes": [
+        "0A1",
+        "0A2",
+        "0B1",
+        "0B2",
+        "0C1",
+        "0C2"
+      ],
+      "dof": "fy",
+      "value": -48.0
+    }
+  ]
+}

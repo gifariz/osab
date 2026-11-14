@@ -1,0 +1,207 @@
+{
+  "title": "B44 frame property modifiers",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "concrete",
+      "E": 25000000.0,
+      "nu": 0.2
+    }
+  ],
+  "sections": [
+    {
+      "id": "COL1",
+      "A": 0.24,
+      "I22": 0.0032,
+      "I33": 0.0072,
+      "J": 0.0075,
+      "As2": 0.2,
+      "As3": 0.2,
+      "modifiers": {
+        "A": 0.8,
+        "As2": 0.6,
+        "As3": 0.6,
+        "J": 0.25,
+        "I22": 0.7,
+        "I33": 0.7,
+        "mass": 0.9,
+        "weight": 0.9
+      }
+    },
+    {
+      "id": "COL2",
+      "A": 0.25,
+      "I22": 0.0052083,
+      "I33": 0.0052083,
+      "J": 0.0088,
+      "As2": 0.20833,
+      "As3": 0.20833,
+      "modifiers": {
+        "I22": 0.7,
+        "I33": 0.7
+      }
+    },
+    {
+      "id": "BM",
+      "A": 0.18,
+      "I22": 0.00135,
+      "I33": 0.0054,
+      "J": 0.0037,
+      "As2": 0.15,
+      "As3": 0.15,
+      "modifiers": {
+        "I22": 0.35,
+        "I33": 0.35,
+        "J": 0.1
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "2",
+      "x": 0,
+      "y": 0,
+      "z": 3.5
+    },
+    {
+      "id": "3",
+      "x": 0,
+      "y": 8,
+      "z": 0
+    },
+    {
+      "id": "4",
+      "x": 6,
+      "y": 8,
+      "z": 0
+    },
+    {
+      "id": "5",
+      "x": 0,
+      "y": 8,
+      "z": 4.0
+    },
+    {
+      "id": "6",
+      "x": 6,
+      "y": 8,
+      "z": 4.0
+    }
+  ],
+  "frames": [
+    {
+      "id": "C1",
+      "type": "frame",
+      "nodes": [
+        "1",
+        "2"
+      ],
+      "material": "concrete",
+      "section": "COL1",
+      "modifiers": {
+        "I22": 0.5,
+        "J": 0.4
+      }
+    },
+    {
+      "id": "C2",
+      "type": "frame",
+      "nodes": [
+        "3",
+        "5"
+      ],
+      "material": "concrete",
+      "section": "COL2"
+    },
+    {
+      "id": "C3",
+      "type": "frame",
+      "nodes": [
+        "4",
+        "6"
+      ],
+      "material": "concrete",
+      "section": "COL2",
+      "modifiers": {
+        "I22": 0.5,
+        "I33": 0.5
+      }
+    },
+    {
+      "id": "B1",
+      "type": "frame",
+      "nodes": [
+        "5",
+        "6"
+      ],
+      "material": "concrete",
+      "section": "BM",
+      "modifiers": {
+        "A": 0.5
+      }
+    }
+  ],
+  "supports": [
+    {
+      "node": "1",
+      "fix": "fixed"
+    },
+    {
+      "node": "3",
+      "fix": "fixed"
+    },
+    {
+      "node": "4",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "TIP",
+      "node_loads": [
+        {
+          "node": "2",
+          "fx": 8.0,
+          "fy": -5.0,
+          "fz": -120.0,
+          "mz": 3.0
+        }
+      ]
+    },
+    {
+      "id": "GRAV",
+      "frame_loads": [
+        {
+          "type": "uniform",
+          "frame": "B1",
+          "dir": "Z",
+          "w": -20.0
+        }
+      ]
+    },
+    {
+      "id": "LAT",
+      "node_loads": [
+        {
+          "node": "5",
+          "fx": 15.0
+        },
+        {
+          "node": "6",
+          "fy": 6.0
+        }
+      ]
+    }
+  ],
+  "mesh": "off"
+}

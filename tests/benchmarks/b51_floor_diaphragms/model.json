@@ -1,0 +1,783 @@
+{
+  "title": "B51 rigid diaphragms on meshed floors: three stories",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "concrete",
+      "E": 25000000.0,
+      "nu": 0.2,
+      "weight": 24.0
+    }
+  ],
+  "sections": [
+    {
+      "id": "C50",
+      "A": 0.25,
+      "I22": 0.005208333333333333,
+      "I33": 0.005208333333333333,
+      "J": 0.008802083333,
+      "depth": 0.5,
+      "width": 0.5,
+      "As2": 0.20833333333333334,
+      "As3": 0.20833333333333334
+    },
+    {
+      "id": "B30x60",
+      "A": 0.18,
+      "I22": 0.0013499999999999996,
+      "I33": 0.0053999999999999986,
+      "J": 0.003707859375,
+      "depth": 0.6,
+      "width": 0.3,
+      "As2": 0.15,
+      "As3": 0.15
+    }
+  ],
+  "area_sections": [
+    {
+      "id": "S200",
+      "type": "shell-thin",
+      "material": "concrete",
+      "thickness": 0.2
+    }
+  ],
+  "nodes": [
+    {
+      "id": "0A1",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "0A2",
+      "x": 0.0,
+      "y": 5.0,
+      "z": 0.0
+    },
+    {
+      "id": "0B1",
+      "x": 6.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "0B2",
+      "x": 6.0,
+      "y": 5.0,
+      "z": 0.0
+    },
+    {
+      "id": "0C1",
+      "x": 12.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "0C2",
+      "x": 12.0,
+      "y": 5.0,
+      "z": 0.0
+    },
+    {
+      "id": "1A1",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "1A2",
+      "x": 0.0,
+      "y": 5.0,
+      "z": 3.0
+    },
+    {
+      "id": "1B1",
+      "x": 6.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "1B2",
+      "x": 6.0,
+      "y": 5.0,
+      "z": 3.0
+    },
+    {
+      "id": "1C1",
+      "x": 12.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "1C2",
+      "x": 12.0,
+      "y": 5.0,
+      "z": 3.0
+    },
+    {
+      "id": "2A1",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "2A2",
+      "x": 0.0,
+      "y": 5.0,
+      "z": 6.0
+    },
+    {
+      "id": "2B1",
+      "x": 6.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "2B2",
+      "x": 6.0,
+      "y": 5.0,
+      "z": 6.0
+    },
+    {
+      "id": "2C1",
+      "x": 12.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "2C2",
+      "x": 12.0,
+      "y": 5.0,
+      "z": 6.0
+    },
+    {
+      "id": "3A1",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 9.0
+    },
+    {
+      "id": "3A2",
+      "x": 0.0,
+      "y": 5.0,
+      "z": 9.0
+    },
+    {
+      "id": "3B1",
+      "x": 6.0,
+      "y": 0.0,
+      "z": 9.0
+    },
+    {
+      "id": "3B2",
+      "x": 6.0,
+      "y": 5.0,
+      "z": 9.0
+    },
+    {
+      "id": "3C1",
+      "x": 12.0,
+      "y": 0.0,
+      "z": 9.0
+    },
+    {
+      "id": "3C2",
+      "x": 12.0,
+      "y": 5.0,
+      "z": 9.0
+    }
+  ],
+  "frames": [
+    {
+      "id": "C1A1",
+      "type": "frame",
+      "nodes": [
+        "0A1",
+        "1A1"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "C1A2",
+      "type": "frame",
+      "nodes": [
+        "0A2",
+        "1A2"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "C1B1",
+      "type": "frame",
+      "nodes": [
+        "0B1",
+        "1B1"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "C1B2",
+      "type": "frame",
+      "nodes": [
+        "0B2",
+        "1B2"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "C1C1",
+      "type": "frame",
+      "nodes": [
+        "0C1",
+        "1C1"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "C1C2",
+      "type": "frame",
+      "nodes": [
+        "0C2",
+        "1C2"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "BX1A1",
+      "type": "frame",
+      "nodes": [
+        "1A1",
+        "1B1"
+      ],
+      "material": "concrete",
+      "section": "B30x60"
+    },
+    {
+      "id": "BX1B1",
+      "type": "frame",
+      "nodes": [
+        "1B1",
+        "1C1"
+      ],
+      "material": "concrete",
+      "section": "B30x60"
+    },
+    {
+      "id": "BX1A2",
+      "type": "frame",
+      "nodes": [
+        "1A2",
+        "1B2"
+      ],
+      "material": "concrete",
+      "section": "B30x60"
+    },
+    {
+      "id": "BX1B2",
+      "type": "frame",
+      "nodes": [
+        "1B2",
+        "1C2"
+      ],
+      "material": "concrete",
+      "section": "B30x60"
+    },
+    {
+      "id": "BY1A",
+      "type": "frame",
+      "nodes": [
+        "1A1",
+        "1A2"
+      ],
+      "material": "concrete",
+      "section": "B30x60"
+    },
+    {
+      "id": "BY1B",
+      "type": "frame",
+      "nodes": [
+        "1B1",
+        "1B2"
+      ],
+      "material": "concrete",
+      "section": "B30x60"
+    },
+    {
+      "id": "BY1C",
+      "type": "frame",
+      "nodes": [
+        "1C1",
+        "1C2"
+      ],
+      "material": "concrete",
+      "section": "B30x60"
+    },
+    {
+      "id": "C2A1",
+      "type": "frame",
+      "nodes": [
+        "1A1",
+        "2A1"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "C2A2",
+      "type": "frame",
+      "nodes": [
+        "1A2",
+        "2A2"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "C2B1",
+      "type": "frame",
+      "nodes": [
+        "1B1",
+        "2B1"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "C2B2",
+      "type": "frame",
+      "nodes": [
+        "1B2",
+        "2B2"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "C2C1",
+      "type": "frame",
+      "nodes": [
+        "1C1",
+        "2C1"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "C2C2",
+      "type": "frame",
+      "nodes": [
+        "1C2",
+        "2C2"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "BX2A1",
+      "type": "frame",
+      "nodes": [
+        "2A1",
+        "2B1"
+      ],
+      "material": "concrete",
+      "section": "B30x60"
+    },
+    {
+      "id": "BX2B1",
+      "type": "frame",
+      "nodes": [
+        "2B1",
+        "2C1"
+      ],
+      "material": "concrete",
+      "section": "B30x60"
+    },
+    {
+      "id": "BX2A2",
+      "type": "frame",
+      "nodes": [
+        "2A2",
+        "2B2"
+      ],
+      "material": "concrete",
+      "section": "B30x60"
+    },
+    {
+      "id": "BX2B2",
+      "type": "frame",
+      "nodes": [
+        "2B2",
+        "2C2"
+      ],
+      "material": "concrete",
+      "section": "B30x60"
+    },
+    {
+      "id": "BY2A",
+      "type": "frame",
+      "nodes": [
+        "2A1",
+        "2A2"
+      ],
+      "material": "concrete",
+      "section": "B30x60"
+    },
+    {
+      "id": "BY2B",
+      "type": "frame",
+      "nodes": [
+        "2B1",
+        "2B2"
+      ],
+      "material": "concrete",
+      "section": "B30x60"
+    },
+    {
+      "id": "BY2C",
+      "type": "frame",
+      "nodes": [
+        "2C1",
+        "2C2"
+      ],
+      "material": "concrete",
+      "section": "B30x60"
+    },
+    {
+      "id": "C3A1",
+      "type": "frame",
+      "nodes": [
+        "2A1",
+        "3A1"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "C3A2",
+      "type": "frame",
+      "nodes": [
+        "2A2",
+        "3A2"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "C3B1",
+      "type": "frame",
+      "nodes": [
+        "2B1",
+        "3B1"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "C3B2",
+      "type": "frame",
+      "nodes": [
+        "2B2",
+        "3B2"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "C3C1",
+      "type": "frame",
+      "nodes": [
+        "2C1",
+        "3C1"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "C3C2",
+      "type": "frame",
+      "nodes": [
+        "2C2",
+        "3C2"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "BX3A1",
+      "type": "frame",
+      "nodes": [
+        "3A1",
+        "3B1"
+      ],
+      "material": "concrete",
+      "section": "B30x60"
+    },
+    {
+      "id": "BX3B1",
+      "type": "frame",
+      "nodes": [
+        "3B1",
+        "3C1"
+      ],
+      "material": "concrete",
+      "section": "B30x60"
+    },
+    {
+      "id": "BX3A2",
+      "type": "frame",
+      "nodes": [
+        "3A2",
+        "3B2"
+      ],
+      "material": "concrete",
+      "section": "B30x60"
+    },
+    {
+      "id": "BX3B2",
+      "type": "frame",
+      "nodes": [
+        "3B2",
+        "3C2"
+      ],
+      "material": "concrete",
+      "section": "B30x60"
+    },
+    {
+      "id": "BY3A",
+      "type": "frame",
+      "nodes": [
+        "3A1",
+        "3A2"
+      ],
+      "material": "concrete",
+      "section": "B30x60"
+    },
+    {
+      "id": "BY3B",
+      "type": "frame",
+      "nodes": [
+        "3B1",
+        "3B2"
+      ],
+      "material": "concrete",
+      "section": "B30x60"
+    },
+    {
+      "id": "BY3C",
+      "type": "frame",
+      "nodes": [
+        "3C1",
+        "3C2"
+      ],
+      "material": "concrete",
+      "section": "B30x60"
+    }
+  ],
+  "areas": [
+    {
+      "id": "F1A",
+      "nodes": [
+        "1A1",
+        "1B1",
+        "1B2",
+        "1A2"
+      ],
+      "section": "S200",
+      "diaphragm": "D1"
+    },
+    {
+      "id": "F1B",
+      "nodes": [
+        "1B1",
+        "1C1",
+        "1C2",
+        "1B2"
+      ],
+      "section": "S200",
+      "diaphragm": "D1"
+    },
+    {
+      "id": "F2A",
+      "nodes": [
+        "2A1",
+        "2B1",
+        "2B2",
+        "2A2"
+      ],
+      "section": "S200",
+      "diaphragm": "D1"
+    },
+    {
+      "id": "F2B",
+      "nodes": [
+        "2B1",
+        "2C1",
+        "2C2",
+        "2B2"
+      ],
+      "section": "S200",
+      "diaphragm": "D1"
+    },
+    {
+      "id": "F3A",
+      "nodes": [
+        "3A1",
+        "3B1",
+        "3B2",
+        "3A2"
+      ],
+      "section": "S200",
+      "diaphragm": "D1"
+    },
+    {
+      "id": "F3B",
+      "nodes": [
+        "3B1",
+        "3C1",
+        "3C2",
+        "3B2"
+      ],
+      "section": "S200",
+      "diaphragm": "D1"
+    }
+  ],
+  "supports": [
+    {
+      "node": "0A1",
+      "fix": "fixed"
+    },
+    {
+      "node": "0A2",
+      "fix": "fixed"
+    },
+    {
+      "node": "0B1",
+      "fix": "fixed"
+    },
+    {
+      "node": "0B2",
+      "fix": "fixed"
+    },
+    {
+      "node": "0C1",
+      "fix": "fixed"
+    },
+    {
+      "node": "0C2",
+      "fix": "fixed"
+    }
+  ],
+  "diaphragms": [
+    {
+      "id": "D1"
+    }
+  ],
+  "stories": [
+    {
+      "id": "Base",
+      "z": 0.0
+    },
+    {
+      "id": "Story1",
+      "z": 3.0
+    },
+    {
+      "id": "Story2",
+      "z": 6.0
+    },
+    {
+      "id": "Story3",
+      "z": 9.0
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "DEAD",
+      "self_weight": 1
+    },
+    {
+      "id": "LIVE",
+      "area_loads": [
+        {
+          "area": "F1A",
+          "dir": "Z",
+          "q": -2.5
+        },
+        {
+          "area": "F1B",
+          "dir": "Z",
+          "q": -2.5
+        },
+        {
+          "area": "F2A",
+          "dir": "Z",
+          "q": -2.5
+        },
+        {
+          "area": "F2B",
+          "dir": "Z",
+          "q": -2.5
+        },
+        {
+          "area": "F3A",
+          "dir": "Z",
+          "q": -2.5
+        },
+        {
+          "area": "F3B",
+          "dir": "Z",
+          "q": -2.5
+        }
+      ]
+    },
+    {
+      "id": "EQX",
+      "node_loads": [
+        {
+          "node": "1A1",
+          "fx": 10.0
+        },
+        {
+          "node": "2A1",
+          "fx": 20.0
+        },
+        {
+          "node": "3A1",
+          "fx": 30.0
+        }
+      ]
+    },
+    {
+      "id": "EQY",
+      "node_loads": [
+        {
+          "node": "1C2",
+          "fy": 8.0
+        },
+        {
+          "node": "2C2",
+          "fy": 16.0
+        },
+        {
+          "node": "3C2",
+          "fy": 24.0
+        }
+      ]
+    }
+  ],
+  "mesh": {
+    "floor": "general",
+    "floor_size": 1.25,
+    "wall_size": 1.25
+  }
+}

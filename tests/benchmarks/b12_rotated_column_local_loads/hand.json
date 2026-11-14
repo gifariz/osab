@@ -1,0 +1,102 @@
+{
+  "source": "Cantilever formulas with shear deformation per local plane (numpy), statics at the base",
+  "values": [
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "ux",
+      "value": 0.004195826058253689
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "uy",
+      "value": -0.0015903796667819257
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "uz",
+      "value": -4e-06
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "rx",
+      "value": 0.0004817216123805803
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "ry",
+      "value": 0.001332300358919501
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "rz",
+      "value": 0.039
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "P",
+      "value": -4.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "V2",
+      "value": 13.732050807568877
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "V3",
+      "value": -5.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "T",
+      "value": 1.5
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "M3",
+      "value": 25.73205080756888
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "M2",
+      "value": -11.0
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fx",
+      "value": -14.392304845413264
+    }
+  ]
+}

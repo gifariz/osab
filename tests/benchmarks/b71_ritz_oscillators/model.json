@@ -1,0 +1,145 @@
+{
+ "title": "Ritz vectors, full basis: four point masses on springs, UX UY UZ starts",
+ "units": {
+  "force": "kN",
+  "length": "m"
+ },
+ "materials": [],
+ "sections": [],
+ "frames": [],
+ "nodes": [
+  {
+   "id": "P1",
+   "x": 0,
+   "y": 0,
+   "z": 3
+  },
+  {
+   "id": "P2",
+   "x": 2,
+   "y": 0,
+   "z": 3
+  },
+  {
+   "id": "P3",
+   "x": 0,
+   "y": 3,
+   "z": 3
+  },
+  {
+   "id": "P4",
+   "x": 4,
+   "y": 5,
+   "z": 3
+  }
+ ],
+ "springs": [
+  {
+   "node": "P1",
+   "ux": 8.0,
+   "uy": 18.0,
+   "uz": 32.0
+  },
+  {
+   "node": "P2",
+   "ux": 75.0,
+   "uy": 108.0,
+   "uz": 147.0
+  },
+  {
+   "node": "P3",
+   "ux": 405.0,
+   "uy": 500.0,
+   "uz": 605.0
+  },
+  {
+   "node": "P4",
+   "ux": 1372.0,
+   "uy": 1575.0,
+   "uz": 1792.0
+  }
+ ],
+ "masses": [
+  {
+   "node": "P1",
+   "ux": 2.0,
+   "uy": 2.0,
+   "uz": 2.0
+  },
+  {
+   "node": "P2",
+   "ux": 3.0,
+   "uy": 3.0,
+   "uz": 3.0
+  },
+  {
+   "node": "P3",
+   "ux": 5.0,
+   "uy": 5.0,
+   "uz": 5.0
+  },
+  {
+   "node": "P4",
+   "ux": 7.0,
+   "uy": 7.0,
+   "uz": 7.0
+  }
+ ],
+ "supports": [
+  {
+   "node": "P1",
+   "fix": [
+    "rx",
+    "ry",
+    "rz"
+   ]
+  },
+  {
+   "node": "P2",
+   "fix": [
+    "rx",
+    "ry",
+    "rz"
+   ]
+  },
+  {
+   "node": "P3",
+   "fix": [
+    "rx",
+    "ry",
+    "rz"
+   ]
+  },
+  {
+   "node": "P4",
+   "fix": [
+    "rx",
+    "ry",
+    "rz"
+   ]
+  }
+ ],
+ "mass_source": {
+  "elements": false,
+  "joint_masses": true,
+  "lateral_only": false,
+  "lump_at_stories": false
+ },
+ "load_cases": [],
+ "modal": {
+  "id": "Modal",
+  "type": "ritz",
+  "modes": 12,
+  "starts": [
+   {
+    "accel": "UX"
+   },
+   {
+    "accel": "UY"
+   },
+   {
+    "accel": "UZ"
+   }
+  ]
+ }
+}

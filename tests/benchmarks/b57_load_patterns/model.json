@@ -1,0 +1,478 @@
+{
+  "title": "B57 load patterns",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "concrete",
+      "E": 25000000.0,
+      "nu": 0.2,
+      "weight": 24.0
+    }
+  ],
+  "sections": [
+    {
+      "id": "COL",
+      "A": 0.16,
+      "I22": 0.0021333,
+      "I33": 0.0021333,
+      "J": 0.0036
+    },
+    {
+      "id": "BEAM",
+      "A": 0.15,
+      "I22": 0.001125,
+      "I33": 0.003125,
+      "J": 0.0028
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "2",
+      "x": 6,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "3",
+      "x": 6,
+      "y": 4,
+      "z": 0
+    },
+    {
+      "id": "4",
+      "x": 0,
+      "y": 4,
+      "z": 0
+    },
+    {
+      "id": "5",
+      "x": 0,
+      "y": 0,
+      "z": 3
+    },
+    {
+      "id": "6",
+      "x": 6,
+      "y": 0,
+      "z": 3
+    },
+    {
+      "id": "7",
+      "x": 6,
+      "y": 4,
+      "z": 3
+    },
+    {
+      "id": "8",
+      "x": 0,
+      "y": 4,
+      "z": 3
+    },
+    {
+      "id": "9",
+      "x": 10,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "10",
+      "x": 10,
+      "y": 0,
+      "z": 3
+    }
+  ],
+  "frames": [
+    {
+      "id": "C1",
+      "type": "frame",
+      "nodes": [
+        "1",
+        "5"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C2",
+      "type": "frame",
+      "nodes": [
+        "2",
+        "6"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C3",
+      "type": "frame",
+      "nodes": [
+        "3",
+        "7"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C4",
+      "type": "frame",
+      "nodes": [
+        "4",
+        "8"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C5",
+      "type": "frame",
+      "nodes": [
+        "9",
+        "10"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "B1",
+      "type": "frame",
+      "nodes": [
+        "5",
+        "6"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "B2",
+      "type": "frame",
+      "nodes": [
+        "6",
+        "7"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "B3",
+      "type": "frame",
+      "nodes": [
+        "8",
+        "7"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "B4",
+      "type": "frame",
+      "nodes": [
+        "5",
+        "8"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    }
+  ],
+  "area_sections": [
+    {
+      "id": "SLAB",
+      "type": "shell-thin",
+      "material": "concrete",
+      "thickness": 0.2
+    }
+  ],
+  "areas": [
+    {
+      "id": "F1",
+      "nodes": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section": "SLAB"
+    }
+  ],
+  "supports": [
+    {
+      "node": "1",
+      "fix": "fixed"
+    },
+    {
+      "node": "2",
+      "fix": "fixed"
+    },
+    {
+      "node": "3",
+      "fix": "fixed"
+    },
+    {
+      "node": "4",
+      "fix": "fixed"
+    },
+    {
+      "node": "9",
+      "fix": "fixed"
+    }
+  ],
+  "load_patterns": [
+    {
+      "id": "Dead",
+      "type": "dead",
+      "self_weight": 1
+    },
+    {
+      "id": "SDL",
+      "type": "super-dead",
+      "area_loads": [
+        {
+          "area": "F1",
+          "dir": "Z",
+          "q": -1.5
+        }
+      ],
+      "frame_loads": [
+        {
+          "type": "uniform",
+          "frame": "B1",
+          "dir": "Z",
+          "w": -3.0
+        }
+      ]
+    },
+    {
+      "id": "Live",
+      "type": "live",
+      "area_loads": [
+        {
+          "area": "F1",
+          "dir": "Z",
+          "q": -2.0
+        }
+      ],
+      "frame_loads": [
+        {
+          "type": "point",
+          "frame": "B1",
+          "dir": "Z",
+          "p": -10.0,
+          "at": 2.0
+        }
+      ],
+      "node_loads": [
+        {
+          "node": "10",
+          "fz": -10.0
+        }
+      ]
+    },
+    {
+      "id": "Roof",
+      "type": "roof-live",
+      "frame_loads": [
+        {
+          "type": "uniform",
+          "frame": "B3",
+          "dir": "Z",
+          "w": -2.0,
+          "from": 1.0,
+          "to": 4.0
+        }
+      ]
+    },
+    {
+      "id": "Wind",
+      "type": "wind",
+      "node_loads": [
+        {
+          "node": "5",
+          "fx": 5.0
+        },
+        {
+          "node": "10",
+          "fy": 4.0
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "type": "seismic",
+      "node_loads": [
+        {
+          "node": "7",
+          "fx": -3.0,
+          "fy": 2.0
+        }
+      ]
+    },
+    {
+      "id": "SW2",
+      "type": "other",
+      "self_weight": 0.5,
+      "node_loads": [
+        {
+          "node": "10",
+          "mx": 2.0
+        }
+      ]
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "Dead",
+      "loads": [
+        {
+          "pattern": "Dead",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "id": "SDL",
+      "loads": [
+        {
+          "pattern": "SDL",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "id": "Live",
+      "loads": [
+        {
+          "pattern": "Live",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "id": "Wind",
+      "loads": [
+        {
+          "pattern": "Wind",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "id": "C1",
+      "loads": [
+        {
+          "pattern": "Dead",
+          "scale": 1.2
+        },
+        {
+          "pattern": "SDL",
+          "scale": 1.2
+        },
+        {
+          "pattern": "Live",
+          "scale": 1.6
+        },
+        {
+          "pattern": "Wind",
+          "scale": -0.8
+        }
+      ]
+    },
+    {
+      "id": "TWICE",
+      "loads": [
+        {
+          "pattern": "Dead",
+          "scale": 1
+        },
+        {
+          "pattern": "Dead",
+          "scale": 1
+        },
+        {
+          "pattern": "Live",
+          "scale": 0.5
+        }
+      ]
+    },
+    {
+      "id": "EMPTY"
+    },
+    {
+      "id": "SW2",
+      "loads": [
+        {
+          "pattern": "SW2",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "id": "MIXED",
+      "loads": [
+        {
+          "pattern": "Roof",
+          "scale": 1
+        },
+        {
+          "pattern": "E",
+          "scale": 2
+        }
+      ]
+    }
+  ],
+  "load_combinations": [
+    {
+      "id": "COMB1",
+      "type": "linear-add",
+      "items": [
+        {
+          "case": "C1",
+          "scale": 1
+        },
+        {
+          "case": "Wind",
+          "scale": 0.5
+        }
+      ]
+    },
+    {
+      "id": "ENV",
+      "type": "envelope",
+      "items": [
+        {
+          "case": "C1",
+          "scale": 1
+        },
+        {
+          "case": "TWICE",
+          "scale": 1
+        }
+      ]
+    }
+  ],
+  "mass_source": {
+    "loads": [
+      {
+        "pattern": "SDL",
+        "scale": 1
+      },
+      {
+        "pattern": "Live",
+        "scale": 0.25
+      }
+    ]
+  },
+  "modal": {
+    "id": "Modal",
+    "modes": 6
+  },
+  "mesh": "off"
+}

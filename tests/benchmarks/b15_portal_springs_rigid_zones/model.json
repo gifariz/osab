@@ -1,0 +1,172 @@
+{
+  "title": "Portal frame on spring bases with rigid end zones",
+  "dimension": "2D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "steel",
+      "E": 200000000.0,
+      "nu": 0.3
+    }
+  ],
+  "sections": [
+    {
+      "id": "COL",
+      "A": 0.012,
+      "I22": 5e-05,
+      "I33": 0.00015,
+      "J": 2e-06
+    },
+    {
+      "id": "BEAM",
+      "A": 0.008,
+      "I22": 4e-05,
+      "I33": 0.00025,
+      "J": 1e-06
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "2",
+      "x": 0,
+      "y": 0,
+      "z": 4.0
+    },
+    {
+      "id": "3",
+      "x": 6,
+      "y": 0,
+      "z": 4.0
+    },
+    {
+      "id": "4",
+      "x": 6,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "5",
+      "x": 0.2,
+      "y": 0,
+      "z": 4.0
+    },
+    {
+      "id": "6",
+      "x": 5.8,
+      "y": 0,
+      "z": 4.0
+    }
+  ],
+  "frames": [
+    {
+      "id": "C1",
+      "type": "frame",
+      "nodes": [
+        "1",
+        "2"
+      ],
+      "material": "steel",
+      "section": "COL"
+    },
+    {
+      "id": "C2",
+      "type": "frame",
+      "nodes": [
+        "4",
+        "3"
+      ],
+      "material": "steel",
+      "section": "COL"
+    },
+    {
+      "id": "B1",
+      "type": "frame",
+      "nodes": [
+        "5",
+        "6"
+      ],
+      "material": "steel",
+      "section": "BEAM"
+    }
+  ],
+  "supports": [
+    {
+      "node": "1",
+      "fix": [
+        "uz"
+      ]
+    },
+    {
+      "node": "4",
+      "fix": [
+        "uz"
+      ]
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "DEAD",
+      "frame_loads": [
+        {
+          "type": "uniform",
+          "frame": "B1",
+          "dir": "Z",
+          "w": -15.0
+        }
+      ]
+    },
+    {
+      "id": "WIND",
+      "node_loads": [
+        {
+          "node": "2",
+          "fx": 5.0
+        },
+        {
+          "node": "3",
+          "fx": 5.0
+        }
+      ]
+    }
+  ],
+  "springs": [
+    {
+      "node": "1",
+      "ux": 30000.0,
+      "ry": 25000.0
+    },
+    {
+      "node": "4",
+      "ux": 30000.0,
+      "ry": 25000.0
+    }
+  ],
+  "links": [
+    {
+      "id": "L1",
+      "type": "rigid",
+      "nodes": [
+        "2",
+        "5"
+      ]
+    },
+    {
+      "id": "L2",
+      "type": "rigid",
+      "nodes": [
+        "6",
+        "3"
+      ]
+    }
+  ],
+  "mesh": "off"
+}

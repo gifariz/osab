@@ -1,0 +1,370 @@
+{
+  "title": "B58 user wind loads on a rigid diaphragm",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "concrete",
+      "E": 25000000.0,
+      "nu": 0.2,
+      "weight": 24.0
+    }
+  ],
+  "sections": [
+    {
+      "id": "S1",
+      "A": 0.16000000000000003,
+      "I22": 0.002133333333333334,
+      "I33": 0.002133333333333334,
+      "J": 0.003605333333,
+      "depth": 0.4,
+      "width": 0.4
+    },
+    {
+      "id": "S2",
+      "A": 0.18,
+      "I22": 0.0013499999999999996,
+      "I33": 0.0053999999999999986,
+      "J": 0.003707859375,
+      "depth": 0.6,
+      "width": 0.3
+    },
+    {
+      "id": "S3",
+      "A": 0.18,
+      "I22": 0.0053999999999999986,
+      "I33": 0.0013499999999999996,
+      "J": 0.003707859375,
+      "depth": 0.3,
+      "width": 0.6
+    }
+  ],
+  "nodes": [
+    {
+      "id": "B1",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "L11",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 3.5,
+      "diaphragm": "D1"
+    },
+    {
+      "id": "L21",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 7.0,
+      "diaphragm": "D1"
+    },
+    {
+      "id": "B2",
+      "x": 8.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "L12",
+      "x": 8.0,
+      "y": 0.0,
+      "z": 3.5,
+      "diaphragm": "D1"
+    },
+    {
+      "id": "L22",
+      "x": 8.0,
+      "y": 0.0,
+      "z": 7.0,
+      "diaphragm": "D1"
+    },
+    {
+      "id": "B3",
+      "x": 8.0,
+      "y": 6.0,
+      "z": 0.0
+    },
+    {
+      "id": "L13",
+      "x": 8.0,
+      "y": 6.0,
+      "z": 3.5,
+      "diaphragm": "D1"
+    },
+    {
+      "id": "L23",
+      "x": 8.0,
+      "y": 6.0,
+      "z": 7.0,
+      "diaphragm": "D1"
+    },
+    {
+      "id": "B4",
+      "x": 0.0,
+      "y": 6.0,
+      "z": 0.0
+    },
+    {
+      "id": "L14",
+      "x": 0.0,
+      "y": 6.0,
+      "z": 3.5,
+      "diaphragm": "D1"
+    },
+    {
+      "id": "L24",
+      "x": 0.0,
+      "y": 6.0,
+      "z": 7.0,
+      "diaphragm": "D1"
+    }
+  ],
+  "frames": [
+    {
+      "id": "C11",
+      "type": "frame",
+      "nodes": [
+        "B1",
+        "L11"
+      ],
+      "material": "concrete",
+      "section": "S1"
+    },
+    {
+      "id": "C12",
+      "type": "frame",
+      "nodes": [
+        "L11",
+        "L21"
+      ],
+      "material": "concrete",
+      "section": "S1"
+    },
+    {
+      "id": "C21",
+      "type": "frame",
+      "nodes": [
+        "B2",
+        "L12"
+      ],
+      "material": "concrete",
+      "section": "S2"
+    },
+    {
+      "id": "C22",
+      "type": "frame",
+      "nodes": [
+        "L12",
+        "L22"
+      ],
+      "material": "concrete",
+      "section": "S2"
+    },
+    {
+      "id": "C31",
+      "type": "frame",
+      "nodes": [
+        "B3",
+        "L13"
+      ],
+      "material": "concrete",
+      "section": "S3"
+    },
+    {
+      "id": "C32",
+      "type": "frame",
+      "nodes": [
+        "L13",
+        "L23"
+      ],
+      "material": "concrete",
+      "section": "S3"
+    },
+    {
+      "id": "C41",
+      "type": "frame",
+      "nodes": [
+        "B4",
+        "L14"
+      ],
+      "material": "concrete",
+      "section": "S2",
+      "angle": 90.0
+    },
+    {
+      "id": "C42",
+      "type": "frame",
+      "nodes": [
+        "L14",
+        "L24"
+      ],
+      "material": "concrete",
+      "section": "S2",
+      "angle": 90.0
+    }
+  ],
+  "supports": [
+    {
+      "node": "B1",
+      "fix": "fixed"
+    },
+    {
+      "node": "B2",
+      "fix": "fixed"
+    },
+    {
+      "node": "B3",
+      "fix": "fixed"
+    },
+    {
+      "node": "B4",
+      "fix": "fixed"
+    }
+  ],
+  "diaphragms": [
+    {
+      "id": "D1"
+    }
+  ],
+  "stories": [
+    {
+      "id": "Base",
+      "z": 0.0
+    },
+    {
+      "id": "Story1",
+      "z": 3.5
+    },
+    {
+      "id": "Story2",
+      "z": 7.0
+    }
+  ],
+  "load_patterns": [
+    {
+      "id": "Dead",
+      "type": "dead",
+      "self_weight": 1
+    },
+    {
+      "id": "WX",
+      "type": "wind",
+      "auto": "user-wind",
+      "wind_point": "coordinates",
+      "wind_loads": [
+        {
+          "story": "Story1",
+          "diaphragm": "D1",
+          "fx": 40.0,
+          "fy": 0.0,
+          "mz": 10.0,
+          "x": 2.0,
+          "y": 1.5
+        },
+        {
+          "story": "Story2",
+          "diaphragm": "D1",
+          "fx": 60.0,
+          "fy": 0.0,
+          "mz": 0.0,
+          "x": 5.0,
+          "y": 4.0
+        }
+      ]
+    },
+    {
+      "id": "WY",
+      "type": "wind",
+      "auto": "user-wind",
+      "wind_point": "coordinates",
+      "wind_loads": [
+        {
+          "story": "Story1",
+          "diaphragm": "D1",
+          "fx": 0.0,
+          "fy": 30.0,
+          "mz": 0.0,
+          "x": 10.0,
+          "y": 9.0
+        },
+        {
+          "story": "Story2",
+          "diaphragm": "D1",
+          "fx": 0.0,
+          "fy": 50.0,
+          "mz": -20.0,
+          "x": 1.0,
+          "y": 5.0
+        }
+      ]
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "Dead",
+      "loads": [
+        {
+          "pattern": "Dead",
+          "scale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "WX",
+      "loads": [
+        {
+          "pattern": "WX",
+          "scale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "WY",
+      "loads": [
+        {
+          "pattern": "WY",
+          "scale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "C1",
+      "loads": [
+        {
+          "pattern": "Dead",
+          "scale": 1.2
+        },
+        {
+          "pattern": "WX",
+          "scale": 1.6
+        },
+        {
+          "pattern": "WY",
+          "scale": -0.8
+        }
+      ]
+    }
+  ],
+  "load_combinations": [
+    {
+      "id": "ENV",
+      "type": "envelope",
+      "items": [
+        {
+          "case": "WX",
+          "scale": 1
+        },
+        {
+          "case": "WY",
+          "scale": 1
+        }
+      ]
+    }
+  ],
+  "mesh": "off"
+}

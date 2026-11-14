@@ -1,0 +1,77 @@
+{
+  "title": "Propped cantilever, member point load",
+  "dimension": "2D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "steel",
+      "E": 200000000.0,
+      "nu": 0.3
+    }
+  ],
+  "sections": [
+    {
+      "id": "S1",
+      "A": 0.01,
+      "I22": 5e-05,
+      "I33": 0.0002,
+      "J": 1e-05
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "2",
+      "x": 5.0,
+      "y": 0,
+      "z": 0
+    }
+  ],
+  "frames": [
+    {
+      "id": "1",
+      "type": "frame",
+      "nodes": [
+        "1",
+        "2"
+      ],
+      "material": "steel",
+      "section": "S1"
+    }
+  ],
+  "supports": [
+    {
+      "node": "1",
+      "fix": "fixed"
+    },
+    {
+      "node": "2",
+      "fix": [
+        "uz"
+      ]
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "LC1",
+      "frame_loads": [
+        {
+          "type": "point",
+          "frame": "1",
+          "dir": "Z",
+          "p": -20.0,
+          "at": 2.0
+        }
+      ]
+    }
+  ],
+  "mesh": "off"
+}

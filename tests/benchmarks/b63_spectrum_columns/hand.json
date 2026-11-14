@@ -1,0 +1,1959 @@
+{
+  "source": "Closed form: each column is a one-mode system with T = 2 pi sqrt(m / k), k = 1 / (L^3 / 3EI + L / G As); tip displacement Sa / w^2 and base shear m Sa, Sa = the function's value at T (linear between its points; for the ASCE 7-16 functions the points of section 11.4.6 with Fa, Fv from Tables 11.4-1 and 11.4-2, kept at 0, T0, TS and the fixed periods above TS + 0.1 s; between points, constant outside them) x the damping factor (2.31 - 0.41 ln 100 xi) / (2.31 - 0.41 ln 100 xi_f) x the scale factor; the base shear of the case by CQC (equal modal damping), SRSS or the absolute sum of the columns' shears.",
+  "values": [
+    {
+      "case": "A_CQC",
+      "kind": "disp",
+      "node": "T1",
+      "dof": "ux",
+      "value": 0.00024840534639153296
+    },
+    {
+      "case": "A_CQC",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "fx",
+      "value": 3.5233601464848423
+    },
+    {
+      "case": "A_CQC",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "my",
+      "value": 10.570080439454527
+    },
+    {
+      "case": "A_CQC",
+      "kind": "disp",
+      "node": "T2",
+      "dof": "ux",
+      "value": 0.006955349698962921
+    },
+    {
+      "case": "A_CQC",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "fx",
+      "value": 98.65408410157558
+    },
+    {
+      "case": "A_CQC",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "my",
+      "value": 295.96225230472675
+    },
+    {
+      "case": "A_CQC",
+      "kind": "disp",
+      "node": "T3",
+      "dof": "ux",
+      "value": 0.06210133659788323
+    },
+    {
+      "case": "A_CQC",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "fx",
+      "value": 880.8400366212107
+    },
+    {
+      "case": "A_CQC",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "my",
+      "value": 2642.520109863632
+    },
+    {
+      "case": "A_CQC",
+      "kind": "disp",
+      "node": "T4",
+      "dof": "ux",
+      "value": 0.07514261728343873
+    },
+    {
+      "case": "A_CQC",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "fx",
+      "value": 1065.8164443116648
+    },
+    {
+      "case": "A_CQC",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "my",
+      "value": 3197.4493329349943
+    },
+    {
+      "case": "A_CQC",
+      "kind": "disp",
+      "node": "T5",
+      "dof": "ux",
+      "value": 0.2682777741028555
+    },
+    {
+      "case": "A_CQC",
+      "kind": "reaction",
+      "node": "B5",
+      "dof": "fx",
+      "value": 3805.2289582036287
+    },
+    {
+      "case": "A_CQC",
+      "kind": "reaction",
+      "node": "B5",
+      "dof": "my",
+      "value": 11415.686874610887
+    },
+    {
+      "case": "A_CQC",
+      "kind": "disp",
+      "node": "T6",
+      "dof": "ux",
+      "value": 0.31795884338116215
+    },
+    {
+      "case": "A_CQC",
+      "kind": "reaction",
+      "node": "B6",
+      "dof": "fx",
+      "value": 4509.900987500598
+    },
+    {
+      "case": "A_CQC",
+      "kind": "reaction",
+      "node": "B6",
+      "dof": "my",
+      "value": 13529.702962501793
+    },
+    {
+      "case": "A_CQC",
+      "kind": "disp",
+      "node": "T7",
+      "dof": "ux",
+      "value": 0.536555548205711
+    },
+    {
+      "case": "A_CQC",
+      "kind": "reaction",
+      "node": "B7",
+      "dof": "fx",
+      "value": 7610.4579164072575
+    },
+    {
+      "case": "A_CQC",
+      "kind": "reaction",
+      "node": "B7",
+      "dof": "my",
+      "value": 22831.373749221773
+    },
+    {
+      "case": "A_CQC",
+      "kind": "disp",
+      "node": "T8",
+      "dof": "ux",
+      "value": 2.2356481175237968
+    },
+    {
+      "case": "A_CQC",
+      "kind": "reaction",
+      "node": "B8",
+      "dof": "fx",
+      "value": 31710.24131836358
+    },
+    {
+      "case": "A_CQC",
+      "kind": "reaction",
+      "node": "B8",
+      "dof": "my",
+      "value": 95130.72395509074
+    },
+    {
+      "case": "A_CQC",
+      "kind": "base_reaction",
+      "dof": "fx",
+      "value": 33416.5095430998
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "disp",
+      "node": "T1",
+      "dof": "ux",
+      "value": 0.00024840534639153296
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "fx",
+      "value": 3.5233601464848423
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "my",
+      "value": 10.570080439454527
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "disp",
+      "node": "T2",
+      "dof": "ux",
+      "value": 0.006955349698962921
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "fx",
+      "value": 98.65408410157558
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "my",
+      "value": 295.96225230472675
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "disp",
+      "node": "T3",
+      "dof": "ux",
+      "value": 0.06210133659788323
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "fx",
+      "value": 880.8400366212107
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "my",
+      "value": 2642.520109863632
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "disp",
+      "node": "T4",
+      "dof": "ux",
+      "value": 0.07514261728343873
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "fx",
+      "value": 1065.8164443116648
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "my",
+      "value": 3197.4493329349943
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "disp",
+      "node": "T5",
+      "dof": "ux",
+      "value": 0.2682777741028555
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "reaction",
+      "node": "B5",
+      "dof": "fx",
+      "value": 3805.2289582036287
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "reaction",
+      "node": "B5",
+      "dof": "my",
+      "value": 11415.686874610887
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "disp",
+      "node": "T6",
+      "dof": "ux",
+      "value": 0.31795884338116215
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "reaction",
+      "node": "B6",
+      "dof": "fx",
+      "value": 4509.900987500598
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "reaction",
+      "node": "B6",
+      "dof": "my",
+      "value": 13529.702962501793
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "disp",
+      "node": "T7",
+      "dof": "ux",
+      "value": 0.536555548205711
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "reaction",
+      "node": "B7",
+      "dof": "fx",
+      "value": 7610.4579164072575
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "reaction",
+      "node": "B7",
+      "dof": "my",
+      "value": 22831.373749221773
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "disp",
+      "node": "T8",
+      "dof": "ux",
+      "value": 2.2356481175237968
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "reaction",
+      "node": "B8",
+      "dof": "fx",
+      "value": 31710.24131836358
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "reaction",
+      "node": "B8",
+      "dof": "my",
+      "value": 95130.72395509074
+    },
+    {
+      "case": "A_SRSS",
+      "kind": "base_reaction",
+      "dof": "fx",
+      "value": 33169.24836973436
+    },
+    {
+      "case": "A_ABS",
+      "kind": "disp",
+      "node": "T1",
+      "dof": "ux",
+      "value": 0.00024840534639153296
+    },
+    {
+      "case": "A_ABS",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "fx",
+      "value": 3.5233601464848423
+    },
+    {
+      "case": "A_ABS",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "my",
+      "value": 10.570080439454527
+    },
+    {
+      "case": "A_ABS",
+      "kind": "disp",
+      "node": "T2",
+      "dof": "ux",
+      "value": 0.006955349698962921
+    },
+    {
+      "case": "A_ABS",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "fx",
+      "value": 98.65408410157558
+    },
+    {
+      "case": "A_ABS",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "my",
+      "value": 295.96225230472675
+    },
+    {
+      "case": "A_ABS",
+      "kind": "disp",
+      "node": "T3",
+      "dof": "ux",
+      "value": 0.06210133659788323
+    },
+    {
+      "case": "A_ABS",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "fx",
+      "value": 880.8400366212107
+    },
+    {
+      "case": "A_ABS",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "my",
+      "value": 2642.520109863632
+    },
+    {
+      "case": "A_ABS",
+      "kind": "disp",
+      "node": "T4",
+      "dof": "ux",
+      "value": 0.07514261728343873
+    },
+    {
+      "case": "A_ABS",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "fx",
+      "value": 1065.8164443116648
+    },
+    {
+      "case": "A_ABS",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "my",
+      "value": 3197.4493329349943
+    },
+    {
+      "case": "A_ABS",
+      "kind": "disp",
+      "node": "T5",
+      "dof": "ux",
+      "value": 0.2682777741028555
+    },
+    {
+      "case": "A_ABS",
+      "kind": "reaction",
+      "node": "B5",
+      "dof": "fx",
+      "value": 3805.2289582036287
+    },
+    {
+      "case": "A_ABS",
+      "kind": "reaction",
+      "node": "B5",
+      "dof": "my",
+      "value": 11415.686874610887
+    },
+    {
+      "case": "A_ABS",
+      "kind": "disp",
+      "node": "T6",
+      "dof": "ux",
+      "value": 0.31795884338116215
+    },
+    {
+      "case": "A_ABS",
+      "kind": "reaction",
+      "node": "B6",
+      "dof": "fx",
+      "value": 4509.900987500598
+    },
+    {
+      "case": "A_ABS",
+      "kind": "reaction",
+      "node": "B6",
+      "dof": "my",
+      "value": 13529.702962501793
+    },
+    {
+      "case": "A_ABS",
+      "kind": "disp",
+      "node": "T7",
+      "dof": "ux",
+      "value": 0.536555548205711
+    },
+    {
+      "case": "A_ABS",
+      "kind": "reaction",
+      "node": "B7",
+      "dof": "fx",
+      "value": 7610.4579164072575
+    },
+    {
+      "case": "A_ABS",
+      "kind": "reaction",
+      "node": "B7",
+      "dof": "my",
+      "value": 22831.373749221773
+    },
+    {
+      "case": "A_ABS",
+      "kind": "disp",
+      "node": "T8",
+      "dof": "ux",
+      "value": 2.2356481175237968
+    },
+    {
+      "case": "A_ABS",
+      "kind": "reaction",
+      "node": "B8",
+      "dof": "fx",
+      "value": 31710.24131836358
+    },
+    {
+      "case": "A_ABS",
+      "kind": "reaction",
+      "node": "B8",
+      "dof": "my",
+      "value": 95130.72395509074
+    },
+    {
+      "case": "A_ABS",
+      "kind": "base_reaction",
+      "dof": "fx",
+      "value": 49684.663105656
+    },
+    {
+      "case": "A_D0",
+      "kind": "disp",
+      "node": "T1",
+      "dof": "ux",
+      "value": 0.00024840534639153296
+    },
+    {
+      "case": "A_D0",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "fx",
+      "value": 3.5233601464848423
+    },
+    {
+      "case": "A_D0",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "my",
+      "value": 10.570080439454527
+    },
+    {
+      "case": "A_D0",
+      "kind": "disp",
+      "node": "T2",
+      "dof": "ux",
+      "value": 0.006955349698962921
+    },
+    {
+      "case": "A_D0",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "fx",
+      "value": 98.65408410157558
+    },
+    {
+      "case": "A_D0",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "my",
+      "value": 295.96225230472675
+    },
+    {
+      "case": "A_D0",
+      "kind": "disp",
+      "node": "T3",
+      "dof": "ux",
+      "value": 0.06210133659788323
+    },
+    {
+      "case": "A_D0",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "fx",
+      "value": 880.8400366212107
+    },
+    {
+      "case": "A_D0",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "my",
+      "value": 2642.520109863632
+    },
+    {
+      "case": "A_D0",
+      "kind": "disp",
+      "node": "T4",
+      "dof": "ux",
+      "value": 0.07514261728343873
+    },
+    {
+      "case": "A_D0",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "fx",
+      "value": 1065.8164443116648
+    },
+    {
+      "case": "A_D0",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "my",
+      "value": 3197.4493329349943
+    },
+    {
+      "case": "A_D0",
+      "kind": "disp",
+      "node": "T5",
+      "dof": "ux",
+      "value": 0.2682777741028555
+    },
+    {
+      "case": "A_D0",
+      "kind": "reaction",
+      "node": "B5",
+      "dof": "fx",
+      "value": 3805.2289582036287
+    },
+    {
+      "case": "A_D0",
+      "kind": "reaction",
+      "node": "B5",
+      "dof": "my",
+      "value": 11415.686874610887
+    },
+    {
+      "case": "A_D0",
+      "kind": "disp",
+      "node": "T6",
+      "dof": "ux",
+      "value": 0.31795884338116215
+    },
+    {
+      "case": "A_D0",
+      "kind": "reaction",
+      "node": "B6",
+      "dof": "fx",
+      "value": 4509.900987500598
+    },
+    {
+      "case": "A_D0",
+      "kind": "reaction",
+      "node": "B6",
+      "dof": "my",
+      "value": 13529.702962501793
+    },
+    {
+      "case": "A_D0",
+      "kind": "disp",
+      "node": "T7",
+      "dof": "ux",
+      "value": 0.536555548205711
+    },
+    {
+      "case": "A_D0",
+      "kind": "reaction",
+      "node": "B7",
+      "dof": "fx",
+      "value": 7610.4579164072575
+    },
+    {
+      "case": "A_D0",
+      "kind": "reaction",
+      "node": "B7",
+      "dof": "my",
+      "value": 22831.373749221773
+    },
+    {
+      "case": "A_D0",
+      "kind": "disp",
+      "node": "T8",
+      "dof": "ux",
+      "value": 2.2356481175237968
+    },
+    {
+      "case": "A_D0",
+      "kind": "reaction",
+      "node": "B8",
+      "dof": "fx",
+      "value": 31710.24131836358
+    },
+    {
+      "case": "A_D0",
+      "kind": "reaction",
+      "node": "B8",
+      "dof": "my",
+      "value": 95130.72395509074
+    },
+    {
+      "case": "A_D0",
+      "kind": "base_reaction",
+      "dof": "fx",
+      "value": 33169.24836973436
+    },
+    {
+      "case": "A_D2",
+      "kind": "disp",
+      "node": "T1",
+      "dof": "ux",
+      "value": 0.0003049588882592718
+    },
+    {
+      "case": "A_D2",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "fx",
+      "value": 4.325510738063835
+    },
+    {
+      "case": "A_D2",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "my",
+      "value": 12.976532214191506
+    },
+    {
+      "case": "A_D2",
+      "kind": "disp",
+      "node": "T2",
+      "dof": "ux",
+      "value": 0.00853884887125961
+    },
+    {
+      "case": "A_D2",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "fx",
+      "value": 121.11430066578741
+    },
+    {
+      "case": "A_D2",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "my",
+      "value": 363.3429019973622
+    },
+    {
+      "case": "A_D2",
+      "kind": "disp",
+      "node": "T3",
+      "dof": "ux",
+      "value": 0.07623972206481794
+    },
+    {
+      "case": "A_D2",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "fx",
+      "value": 1081.3776845159591
+    },
+    {
+      "case": "A_D2",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "my",
+      "value": 3244.1330535478774
+    },
+    {
+      "case": "A_D2",
+      "kind": "disp",
+      "node": "T4",
+      "dof": "ux",
+      "value": 0.09225006369842972
+    },
+    {
+      "case": "A_D2",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "fx",
+      "value": 1308.4669982643104
+    },
+    {
+      "case": "A_D2",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "my",
+      "value": 3925.400994792931
+    },
+    {
+      "case": "A_D2",
+      "kind": "disp",
+      "node": "T5",
+      "dof": "ux",
+      "value": 0.32935559932001346
+    },
+    {
+      "case": "A_D2",
+      "kind": "reaction",
+      "node": "B5",
+      "dof": "fx",
+      "value": 4671.551597108942
+    },
+    {
+      "case": "A_D2",
+      "kind": "reaction",
+      "node": "B5",
+      "dof": "my",
+      "value": 14014.654791326826
+    },
+    {
+      "case": "A_D2",
+      "kind": "disp",
+      "node": "T6",
+      "dof": "ux",
+      "value": 0.39034737697186783
+    },
+    {
+      "case": "A_D2",
+      "kind": "reaction",
+      "node": "B6",
+      "dof": "fx",
+      "value": 5536.65374472171
+    },
+    {
+      "case": "A_D2",
+      "kind": "reaction",
+      "node": "B6",
+      "dof": "my",
+      "value": 16609.96123416513
+    },
+    {
+      "case": "A_D2",
+      "kind": "disp",
+      "node": "T7",
+      "dof": "ux",
+      "value": 0.6587111986400269
+    },
+    {
+      "case": "A_D2",
+      "kind": "reaction",
+      "node": "B7",
+      "dof": "fx",
+      "value": 9343.103194217883
+    },
+    {
+      "case": "A_D2",
+      "kind": "reaction",
+      "node": "B7",
+      "dof": "my",
+      "value": 28029.309582653652
+    },
+    {
+      "case": "A_D2",
+      "kind": "disp",
+      "node": "T8",
+      "dof": "ux",
+      "value": 2.744629994333446
+    },
+    {
+      "case": "A_D2",
+      "kind": "reaction",
+      "node": "B8",
+      "dof": "fx",
+      "value": 38929.59664257452
+    },
+    {
+      "case": "A_D2",
+      "kind": "reaction",
+      "node": "B8",
+      "dof": "my",
+      "value": 116788.78992772356
+    },
+    {
+      "case": "A_D2",
+      "kind": "base_reaction",
+      "dof": "fx",
+      "value": 40773.613715348874
+    },
+    {
+      "case": "A_D10",
+      "kind": "disp",
+      "node": "T1",
+      "dof": "ux",
+      "value": 0.00020562424348097134
+    },
+    {
+      "case": "A_D10",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "fx",
+      "value": 2.916556648865448
+    },
+    {
+      "case": "A_D10",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "my",
+      "value": 8.749669946596343
+    },
+    {
+      "case": "A_D10",
+      "kind": "disp",
+      "node": "T2",
+      "dof": "ux",
+      "value": 0.005757478817467197
+    },
+    {
+      "case": "A_D10",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "fx",
+      "value": 81.66358616823254
+    },
+    {
+      "case": "A_D10",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "my",
+      "value": 244.99075850469762
+    },
+    {
+      "case": "A_D10",
+      "kind": "disp",
+      "node": "T3",
+      "dof": "ux",
+      "value": 0.05140606087024283
+    },
+    {
+      "case": "A_D10",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "fx",
+      "value": 729.139162216362
+    },
+    {
+      "case": "A_D10",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "my",
+      "value": 2187.417486649086
+    },
+    {
+      "case": "A_D10",
+      "kind": "disp",
+      "node": "T4",
+      "dof": "ux",
+      "value": 0.062201333652993844
+    },
+    {
+      "case": "A_D10",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "fx",
+      "value": 882.2583862817979
+    },
+    {
+      "case": "A_D10",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "my",
+      "value": 2646.775158845394
+    },
+    {
+      "case": "A_D10",
+      "kind": "disp",
+      "node": "T5",
+      "dof": "ux",
+      "value": 0.222074182959449
+    },
+    {
+      "case": "A_D10",
+      "kind": "reaction",
+      "node": "B5",
+      "dof": "fx",
+      "value": 3149.881180774683
+    },
+    {
+      "case": "A_D10",
+      "kind": "reaction",
+      "node": "B5",
+      "dof": "my",
+      "value": 9449.64354232405
+    },
+    {
+      "case": "A_D10",
+      "kind": "disp",
+      "node": "T6",
+      "dof": "ux",
+      "value": 0.2631990316556433
+    },
+    {
+      "case": "A_D10",
+      "kind": "reaction",
+      "node": "B6",
+      "dof": "fx",
+      "value": 3733.192510547773
+    },
+    {
+      "case": "A_D10",
+      "kind": "reaction",
+      "node": "B6",
+      "dof": "my",
+      "value": 11199.57753164332
+    },
+    {
+      "case": "A_D10",
+      "kind": "disp",
+      "node": "T7",
+      "dof": "ux",
+      "value": 0.444148365918898
+    },
+    {
+      "case": "A_D10",
+      "kind": "reaction",
+      "node": "B7",
+      "dof": "fx",
+      "value": 6299.762361549366
+    },
+    {
+      "case": "A_D10",
+      "kind": "reaction",
+      "node": "B7",
+      "dof": "my",
+      "value": 18899.2870846481
+    },
+    {
+      "case": "A_D10",
+      "kind": "disp",
+      "node": "T8",
+      "dof": "ux",
+      "value": 1.8506181913287423
+    },
+    {
+      "case": "A_D10",
+      "kind": "reaction",
+      "node": "B8",
+      "dof": "fx",
+      "value": 26249.00983978903
+    },
+    {
+      "case": "A_D10",
+      "kind": "reaction",
+      "node": "B8",
+      "dof": "my",
+      "value": 78747.02951936709
+    },
+    {
+      "case": "A_D10",
+      "kind": "base_reaction",
+      "dof": "fx",
+      "value": 28155.606349791746
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "disp",
+      "node": "T1",
+      "dof": "ux",
+      "value": 0.0002023394578466477
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "fx",
+      "value": 2.8699655309130994
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "my",
+      "value": 8.609896592739299
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "disp",
+      "node": "T2",
+      "dof": "ux",
+      "value": 0.005665504819706135
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "fx",
+      "value": 80.35903486556677
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "my",
+      "value": 241.0771045967003
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "disp",
+      "node": "T3",
+      "dof": "ux",
+      "value": 0.050584864461661924
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "fx",
+      "value": 717.491382728275
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "my",
+      "value": 2152.474148184825
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "disp",
+      "node": "T4",
+      "dof": "ux",
+      "value": 0.06120768599861094
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "fx",
+      "value": 868.1645731012126
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "my",
+      "value": 2604.4937193036376
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "disp",
+      "node": "T5",
+      "dof": "ux",
+      "value": 0.21852661447437946
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "reaction",
+      "node": "B5",
+      "dof": "fx",
+      "value": 3099.5627733861465
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "reaction",
+      "node": "B5",
+      "dof": "my",
+      "value": 9298.688320158439
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "disp",
+      "node": "T6",
+      "dof": "ux",
+      "value": 0.25899450604370905
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "reaction",
+      "node": "B6",
+      "dof": "fx",
+      "value": 3673.555879568767
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "reaction",
+      "node": "B6",
+      "dof": "my",
+      "value": 11020.667638706302
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "disp",
+      "node": "T7",
+      "dof": "ux",
+      "value": 0.4370532289487589
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "reaction",
+      "node": "B7",
+      "dof": "fx",
+      "value": 6199.125546772293
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "reaction",
+      "node": "B7",
+      "dof": "my",
+      "value": 18597.376640316877
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "disp",
+      "node": "T8",
+      "dof": "ux",
+      "value": 1.8210551206198295
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "reaction",
+      "node": "B8",
+      "dof": "fx",
+      "value": 25829.689778217893
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "reaction",
+      "node": "B8",
+      "dof": "my",
+      "value": 77489.06933465367
+    },
+    {
+      "case": "A_F2_D5",
+      "kind": "base_reaction",
+      "dof": "fx",
+      "value": 27219.536625515288
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "disp",
+      "node": "T1",
+      "dof": "ux",
+      "value": 0.00036840703698555607
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "fx",
+      "value": 5.225453842501193
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "my",
+      "value": 15.67636152750358
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "disp",
+      "node": "T2",
+      "dof": "ux",
+      "value": 0.010315397035595567
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "fx",
+      "value": 146.31270759003334
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "my",
+      "value": 438.9381227701
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "disp",
+      "node": "T3",
+      "dof": "ux",
+      "value": 0.09210175924638901
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "fx",
+      "value": 1306.3634606252983
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "my",
+      "value": 3919.090381875895
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "disp",
+      "node": "T4",
+      "dof": "ux",
+      "value": 0.11144312868813074
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "fx",
+      "value": 1580.6997873566108
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "my",
+      "value": 4742.099362069833
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "disp",
+      "node": "T5",
+      "dof": "ux",
+      "value": 0.3978795999444005
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "reaction",
+      "node": "B5",
+      "dof": "fx",
+      "value": 5643.490149901286
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "reaction",
+      "node": "B5",
+      "dof": "my",
+      "value": 16930.47044970386
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "disp",
+      "node": "T6",
+      "dof": "ux",
+      "value": 0.47156100734151174
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "reaction",
+      "node": "B6",
+      "dof": "fx",
+      "value": 6688.580918401526
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "reaction",
+      "node": "B6",
+      "dof": "my",
+      "value": 20065.742755204577
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "disp",
+      "node": "T7",
+      "dof": "ux",
+      "value": 0.795759199888801
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "reaction",
+      "node": "B7",
+      "dof": "fx",
+      "value": 11286.980299802572
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "reaction",
+      "node": "B7",
+      "dof": "my",
+      "value": 33860.94089940772
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "disp",
+      "node": "T8",
+      "dof": "ux",
+      "value": 3.315663332870005
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "reaction",
+      "node": "B8",
+      "dof": "fx",
+      "value": 47029.08458251073
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "reaction",
+      "node": "B8",
+      "dof": "my",
+      "value": 141087.2537475322
+    },
+    {
+      "case": "A_F3_D2",
+      "kind": "base_reaction",
+      "dof": "fx",
+      "value": 49256.75818733449
+    },
+    {
+      "case": "A_SF2",
+      "kind": "disp",
+      "node": "T1",
+      "dof": "ux",
+      "value": 0.0004968106927830659
+    },
+    {
+      "case": "A_SF2",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "fx",
+      "value": 7.046720292969685
+    },
+    {
+      "case": "A_SF2",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "my",
+      "value": 21.140160878909054
+    },
+    {
+      "case": "A_SF2",
+      "kind": "disp",
+      "node": "T2",
+      "dof": "ux",
+      "value": 0.013910699397925842
+    },
+    {
+      "case": "A_SF2",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "fx",
+      "value": 197.30816820315115
+    },
+    {
+      "case": "A_SF2",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "my",
+      "value": 591.9245046094535
+    },
+    {
+      "case": "A_SF2",
+      "kind": "disp",
+      "node": "T3",
+      "dof": "ux",
+      "value": 0.12420267319576646
+    },
+    {
+      "case": "A_SF2",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "fx",
+      "value": 1761.6800732424215
+    },
+    {
+      "case": "A_SF2",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "my",
+      "value": 5285.040219727264
+    },
+    {
+      "case": "A_SF2",
+      "kind": "disp",
+      "node": "T4",
+      "dof": "ux",
+      "value": 0.15028523456687745
+    },
+    {
+      "case": "A_SF2",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "fx",
+      "value": 2131.6328886233296
+    },
+    {
+      "case": "A_SF2",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "my",
+      "value": 6394.898665869989
+    },
+    {
+      "case": "A_SF2",
+      "kind": "disp",
+      "node": "T5",
+      "dof": "ux",
+      "value": 0.536555548205711
+    },
+    {
+      "case": "A_SF2",
+      "kind": "reaction",
+      "node": "B5",
+      "dof": "fx",
+      "value": 7610.4579164072575
+    },
+    {
+      "case": "A_SF2",
+      "kind": "reaction",
+      "node": "B5",
+      "dof": "my",
+      "value": 22831.373749221773
+    },
+    {
+      "case": "A_SF2",
+      "kind": "disp",
+      "node": "T6",
+      "dof": "ux",
+      "value": 0.6359176867623243
+    },
+    {
+      "case": "A_SF2",
+      "kind": "reaction",
+      "node": "B6",
+      "dof": "fx",
+      "value": 9019.801975001195
+    },
+    {
+      "case": "A_SF2",
+      "kind": "reaction",
+      "node": "B6",
+      "dof": "my",
+      "value": 27059.405925003586
+    },
+    {
+      "case": "A_SF2",
+      "kind": "disp",
+      "node": "T7",
+      "dof": "ux",
+      "value": 1.073111096411422
+    },
+    {
+      "case": "A_SF2",
+      "kind": "reaction",
+      "node": "B7",
+      "dof": "fx",
+      "value": 15220.915832814515
+    },
+    {
+      "case": "A_SF2",
+      "kind": "reaction",
+      "node": "B7",
+      "dof": "my",
+      "value": 45662.74749844355
+    },
+    {
+      "case": "A_SF2",
+      "kind": "disp",
+      "node": "T8",
+      "dof": "ux",
+      "value": 4.4712962350475935
+    },
+    {
+      "case": "A_SF2",
+      "kind": "reaction",
+      "node": "B8",
+      "dof": "fx",
+      "value": 63420.48263672716
+    },
+    {
+      "case": "A_SF2",
+      "kind": "reaction",
+      "node": "B8",
+      "dof": "my",
+      "value": 190261.44791018148
+    },
+    {
+      "case": "A_SF2",
+      "kind": "base_reaction",
+      "dof": "fx",
+      "value": 66833.0190861996
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "disp",
+      "node": "T1",
+      "dof": "ux",
+      "value": 0.000237415093146641
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "fx",
+      "value": 3.367475336252965
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "my",
+      "value": 10.102426008758894
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "disp",
+      "node": "T2",
+      "dof": "ux",
+      "value": 0.006253190586496188
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "fx",
+      "value": 88.69471942084509
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "my",
+      "value": 266.08415826253525
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "disp",
+      "node": "T3",
+      "dof": "ux",
+      "value": 0.03908244116560118
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "fx",
+      "value": 554.3419963802819
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "my",
+      "value": 1663.0259891408457
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "disp",
+      "node": "T4",
+      "dof": "ux",
+      "value": 0.047289753810377436
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "fx",
+      "value": 670.753815620141
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "my",
+      "value": 2012.2614468604231
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "disp",
+      "node": "T5",
+      "dof": "ux",
+      "value": 0.13562931912977694
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "reaction",
+      "node": "B5",
+      "dof": "fx",
+      "value": 1923.754639980723
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "reaction",
+      "node": "B5",
+      "dof": "my",
+      "value": 5771.263919942168
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "disp",
+      "node": "T6",
+      "dof": "ux",
+      "value": 0.18083909217303593
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "reaction",
+      "node": "B6",
+      "dof": "fx",
+      "value": 2565.0061866409646
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "reaction",
+      "node": "B6",
+      "dof": "my",
+      "value": 7695.0185599228935
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "disp",
+      "node": "T7",
+      "dof": "ux",
+      "value": 0.2734287073656303
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "reaction",
+      "node": "B7",
+      "dof": "fx",
+      "value": 3878.2893542011375
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "reaction",
+      "node": "B7",
+      "dof": "my",
+      "value": 11634.868062603413
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "disp",
+      "node": "T8",
+      "dof": "ux",
+      "value": 0.6781465956488849
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "reaction",
+      "node": "B8",
+      "dof": "fx",
+      "value": 9618.773199903617
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "reaction",
+      "node": "B8",
+      "dof": "my",
+      "value": 28856.31959971085
+    },
+    {
+      "case": "A_ASCE_D",
+      "kind": "base_reaction",
+      "dof": "fx",
+      "value": 11072.069181794051
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "disp",
+      "node": "T1",
+      "dof": "ux",
+      "value": 0.0005515612589265058
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "fx",
+      "value": 7.82329763137859
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "my",
+      "value": 23.469892894135768
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "disp",
+      "node": "T2",
+      "dof": "ux",
+      "value": 0.012718353735246487
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "fx",
+      "value": 180.39603950002393
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "my",
+      "value": 541.1881185000718
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "disp",
+      "node": "T3",
+      "dof": "ux",
+      "value": 0.07948971084529054
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "fx",
+      "value": 1127.4752468751497
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "my",
+      "value": 3382.425740625449
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "disp",
+      "node": "T4",
+      "dof": "ux",
+      "value": 0.09142351769485042
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "fx",
+      "value": 1296.743340579192
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "my",
+      "value": 3890.230021737576
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "disp",
+      "node": "T5",
+      "dof": "ux",
+      "value": 0.19474979157096178
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "reaction",
+      "node": "B5",
+      "dof": "fx",
+      "value": 2762.3143548441158
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "reaction",
+      "node": "B5",
+      "dof": "my",
+      "value": 8286.943064532348
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "disp",
+      "node": "T6",
+      "dof": "ux",
+      "value": 0.25966638876128234
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "reaction",
+      "node": "B6",
+      "dof": "fx",
+      "value": 3683.0858064588206
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "reaction",
+      "node": "B6",
+      "dof": "my",
+      "value": 11049.257419376461
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "disp",
+      "node": "T7",
+      "dof": "ux",
+      "value": 0.39261557980705897
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "reaction",
+      "node": "B7",
+      "dof": "fx",
+      "value": 5568.825739365737
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "reaction",
+      "node": "B7",
+      "dof": "my",
+      "value": 16706.47721809721
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "disp",
+      "node": "T8",
+      "dof": "ux",
+      "value": 0.649165971903206
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "reaction",
+      "node": "B8",
+      "dof": "fx",
+      "value": 9207.714516147053
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "reaction",
+      "node": "B8",
+      "dof": "my",
+      "value": 27623.143548441156
+    },
+    {
+      "case": "A_ASCE_C",
+      "kind": "base_reaction",
+      "dof": "fx",
+      "value": 11831.08938507818
+    },
+    {
+      "kind": "period",
+      "mode": 1,
+      "value": 6.0
+    },
+    {
+      "kind": "period",
+      "mode": 2,
+      "value": 2.4
+    },
+    {
+      "kind": "period",
+      "mode": 3,
+      "value": 1.6
+    },
+    {
+      "kind": "period",
+      "mode": 4,
+      "value": 1.2
+    },
+    {
+      "kind": "period",
+      "mode": 5,
+      "value": 0.55
+    },
+    {
+      "kind": "period",
+      "mode": 6,
+      "value": 0.5
+    },
+    {
+      "kind": "period",
+      "mode": 7,
+      "value": 0.2
+    },
+    {
+      "kind": "period",
+      "mode": 8,
+      "value": 0.05
+    }
+  ]
+}

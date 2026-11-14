@@ -1,0 +1,122 @@
+{
+  "source": "Method of joints (member forces); virtual work for the midspan deflection",
+  "values": [
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "3",
+      "dof": "uz",
+      "value": -0.0018985281374238566
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fz",
+      "value": 30.0
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "5",
+      "dof": "fz",
+      "value": 30.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "P",
+      "value": 29.999999999999996
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "2",
+      "at": "i",
+      "comp": "P",
+      "value": 29.999999999999996
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "3",
+      "at": "i",
+      "comp": "P",
+      "value": 29.999999999999996
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "4",
+      "at": "i",
+      "comp": "P",
+      "value": 29.999999999999996
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "5",
+      "at": "i",
+      "comp": "P",
+      "value": -40.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "6",
+      "at": "i",
+      "comp": "P",
+      "value": -40.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "7",
+      "at": "i",
+      "comp": "P",
+      "value": -42.426406871192846
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "8",
+      "at": "i",
+      "comp": "P",
+      "value": -42.426406871192846
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "9",
+      "at": "i",
+      "comp": "P",
+      "value": 20.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "11",
+      "at": "i",
+      "comp": "P",
+      "value": 20.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "12",
+      "at": "i",
+      "comp": "P",
+      "value": 14.14213562373095
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "13",
+      "at": "i",
+      "comp": "P",
+      "value": 14.14213562373095
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "source": "Closed form: each joint with mass gets a string -m g / z sideways to the ground, z its height above the lowest joint; a cantilever's tip H / (k - W / z) with k = 3 EI / L\u00b3 (with shear 1 / (L\u00b3 / 3EI + L / G As)), its base shear H + W u / z; small solves where a string sits on a longer column (checks/make_pdelta_benchmarks.py); base reactions equal to the loads.",
+  "values": [
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "K1_1",
+      "dof": "ux",
+      "value": 0.0007142857142857145
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "K1_0",
+      "dof": "fx",
+      "value": -10.714285714285715
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "K1_0",
+      "dof": "my",
+      "value": -32.142857142857146
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "K2_1",
+      "dof": "ux",
+      "value": 0.0007363719651855246
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "K2_0",
+      "dof": "fx",
+      "value": -10.736371965185525
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "K2_0",
+      "dof": "my",
+      "value": -32.20911589555657
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "K4_4",
+      "dof": "ux",
+      "value": 0.0007142857142857145
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "K4_0",
+      "dof": "fx",
+      "value": -10.714285714285715
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "K4_0",
+      "dof": "my",
+      "value": -32.142857142857146
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "KH_1",
+      "dof": "ux",
+      "value": 0.0007017543859649124
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "KH_0",
+      "dof": "fx",
+      "value": -10.526315789473685
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "KH_0",
+      "dof": "my",
+      "value": -31.578947368421055
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "KSW_1",
+      "dof": "ux",
+      "value": 0.0006768189509306263
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "KSW_0",
+      "dof": "fx",
+      "value": -10.152284263959391
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "KSW_0",
+      "dof": "my",
+      "value": -30.456852791878173
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "KO1_1",
+      "dof": "ux",
+      "value": 0.0003979460847240048
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "LNK_2",
+      "dof": "ux",
+      "value": 0.0006194690265486731
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "K6_2",
+      "dof": "ux",
+      "value": 0.00784202123967514
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "KM_2",
+      "dof": "ux",
+      "value": 0.0006851380642729257
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "K1_1",
+      "dof": "uy",
+      "value": 0.0018181818181818188
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "K1_0",
+      "dof": "fy",
+      "value": -6.818181818181818
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "K1_0",
+      "dof": "mx",
+      "value": 20.454545454545453
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "K2_1",
+      "dof": "uy",
+      "value": 0.0018360799183316323
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "K2_0",
+      "dof": "fy",
+      "value": -6.836079918331633
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "K2_0",
+      "dof": "mx",
+      "value": 20.508239754994896
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "K4_4",
+      "dof": "uy",
+      "value": 0.0018181818181818188
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "K4_0",
+      "dof": "fy",
+      "value": -6.818181818181818
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "K4_0",
+      "dof": "mx",
+      "value": 20.454545454545453
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "KH_1",
+      "dof": "uy",
+      "value": 0.0016666666666666672
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "KH_0",
+      "dof": "fy",
+      "value": -6.25
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "KH_0",
+      "dof": "mx",
+      "value": 18.75
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "KSW_1",
+      "dof": "uy",
+      "value": 0.001418439716312057
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "KSW_0",
+      "dof": "fy",
+      "value": -5.319148936170213
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "KSW_0",
+      "dof": "mx",
+      "value": 15.957446808510639
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "KO1_1",
+      "dof": "uy",
+      "value": 0.0009037900874635566
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "LNK_2",
+      "dof": "uy",
+      "value": 0.0015217391304347839
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "K6_2",
+      "dof": "uy",
+      "value": 0.024521510096575837
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "KM_2",
+      "dof": "uy",
+      "value": 0.0014960058097312982
+    },
+    {
+      "case": "LAT",
+      "kind": "base_reaction",
+      "dof": "fx",
+      "value": -110.0
+    },
+    {
+      "case": "LAT",
+      "kind": "base_reaction",
+      "dof": "fy",
+      "value": -55.0
+    }
+  ]
+}

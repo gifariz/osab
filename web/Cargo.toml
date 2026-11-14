@@ -1,0 +1,18 @@
+[package]
+name = "osab-web"
+description = "OSAB in the browser: the mesh step and the solver as a WebAssembly module (JSON in, JSON out)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+# Built for the browser with `cargo build --release --target wasm32-unknown-unknown -p osab-web`
+# (`npm run build:wasm` in gui/); natively it builds and tests like the other crates.
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+osab-solver = { path = "../solver" }
+osab-mesh = { path = "../mesh" }
+
+[dev-dependencies]
+serde_json.workspace = true

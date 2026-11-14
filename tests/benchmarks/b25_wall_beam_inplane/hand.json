@@ -1,0 +1,57 @@
+{
+  "source": "Statics: base reaction totals (wall base joints and the column base).",
+  "values": [
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "20"
+      ],
+      "dof": "fx",
+      "value": -50.0
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "20"
+      ],
+      "dof": "fz",
+      "value": 0.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "20"
+      ],
+      "dof": "fx",
+      "value": 0.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "20"
+      ],
+      "dof": "fz",
+      "value": 100.0
+    }
+  ]
+}

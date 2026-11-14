@@ -1,0 +1,931 @@
+{
+  "source": "Closed-form tip stiffness of each column (inverted cantilever flexibility) and the rigid-body compatibility of the tied tops, solved with numpy (6 x 6)",
+  "values": [
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "ux",
+      "value": 0.002881429725459721
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "uy",
+      "value": 0.001653701235190619
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "uz",
+      "value": 1.5202650972977579e-05
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "rx",
+      "value": -0.0009443143749397652
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "ry",
+      "value": 3.468916642811015e-05
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "rz",
+      "value": 0.00017590367136069315
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "4",
+      "dof": "ux",
+      "value": 0.002881429725459721
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "4",
+      "dof": "uy",
+      "value": 0.0025332195919940846
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "4",
+      "dof": "uz",
+      "value": -0.00015824318116757315
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "4",
+      "dof": "rx",
+      "value": -0.0009443143749397652
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "4",
+      "dof": "ry",
+      "value": 3.468916642811015e-05
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "4",
+      "dof": "rz",
+      "value": 0.00017590367136069315
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fx",
+      "value": -23.68421052631579
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fy",
+      "value": -0.0038660147551787816
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fz",
+      "value": -10.424674952898913
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "mx",
+      "value": 3.244414811329328
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "my",
+      "value": -41.74470413329358
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "mz",
+      "value": -0.01159804426554021
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C1",
+      "at": "i",
+      "comp": "P",
+      "value": 10.424674952898913
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C1",
+      "at": "i",
+      "comp": "V2",
+      "value": 23.68421052631579
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C1",
+      "at": "i",
+      "comp": "V3",
+      "value": 0.0038660147551787816
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C1",
+      "at": "i",
+      "comp": "T",
+      "value": 0.01159804426554021
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C1",
+      "at": "i",
+      "comp": "M2",
+      "value": 3.244414811329328
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C1",
+      "at": "i",
+      "comp": "M3",
+      "value": 41.74470413329358
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C1",
+      "at": "j",
+      "comp": "P",
+      "value": 10.424674952898913
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C1",
+      "at": "j",
+      "comp": "V2",
+      "value": 23.68421052631579
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C1",
+      "at": "j",
+      "comp": "V3",
+      "value": 0.0038660147551787816
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C1",
+      "at": "j",
+      "comp": "T",
+      "value": 0.01159804426554021
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C1",
+      "at": "j",
+      "comp": "M2",
+      "value": 3.2308837596862023
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C1",
+      "at": "j",
+      "comp": "M3",
+      "value": -41.15003270881169
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "3",
+      "dof": "fx",
+      "value": -6.315789473684216
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "3",
+      "dof": "fy",
+      "value": -4.929694801256649
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "3",
+      "dof": "fz",
+      "value": 90.42467495289895
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "3",
+      "dof": "mx",
+      "value": 14.023048044712077
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "3",
+      "dof": "my",
+      "value": -11.131921102211628
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "3",
+      "dof": "mz",
+      "value": -0.007732029510360138
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C2",
+      "at": "i",
+      "comp": "P",
+      "value": -90.42467495289895
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C2",
+      "at": "i",
+      "comp": "V2",
+      "value": 4.929694801256649
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C2",
+      "at": "i",
+      "comp": "V3",
+      "value": -6.315789473684216
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C2",
+      "at": "i",
+      "comp": "T",
+      "value": 0.007732029510360138
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C2",
+      "at": "i",
+      "comp": "M2",
+      "value": -11.131921102211628
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C2",
+      "at": "i",
+      "comp": "M3",
+      "value": 14.023048044712077
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C2",
+      "at": "j",
+      "comp": "P",
+      "value": -90.42467495289895
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C2",
+      "at": "j",
+      "comp": "V2",
+      "value": 4.929694801256649
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C2",
+      "at": "j",
+      "comp": "V3",
+      "value": -6.315789473684216
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C2",
+      "at": "j",
+      "comp": "T",
+      "value": 0.007732029510360138
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C2",
+      "at": "j",
+      "comp": "M2",
+      "value": 10.973342055683126
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "C2",
+      "at": "j",
+      "comp": "M3",
+      "value": -3.2308837596861952
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "4",
+      "dof": "fy",
+      "value": -5.0664391839881695
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "L1",
+      "at": "i",
+      "comp": "P",
+      "value": -6.315789473684216
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "L1",
+      "at": "i",
+      "comp": "V2",
+      "value": 10.424674952898954
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "L1",
+      "at": "i",
+      "comp": "V3",
+      "value": -0.003866014755181446
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "L1",
+      "at": "i",
+      "comp": "T",
+      "value": -3.2308837596861943
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "L1",
+      "at": "i",
+      "comp": "M2",
+      "value": -0.011598044265547093
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "L1",
+      "at": "i",
+      "comp": "M3",
+      "value": 41.15003270881164
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "L1",
+      "at": "j",
+      "comp": "P",
+      "value": -6.315789473684216
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "L1",
+      "at": "j",
+      "comp": "V2",
+      "value": 10.424674952898954
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "L1",
+      "at": "j",
+      "comp": "V3",
+      "value": -0.003866014755181446
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "L1",
+      "at": "j",
+      "comp": "T",
+      "value": -3.2308837596861943
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "L1",
+      "at": "j",
+      "comp": "M2",
+      "value": 0.007732029510360138
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "L1",
+      "at": "j",
+      "comp": "M3",
+      "value": -10.973342055683126
+    },
+    {
+      "case": "LC2",
+      "kind": "disp",
+      "node": "2",
+      "dof": "ux",
+      "value": -8.515268328180049e-21
+    },
+    {
+      "case": "LC2",
+      "kind": "disp",
+      "node": "2",
+      "dof": "uy",
+      "value": -0.001068248337534209
+    },
+    {
+      "case": "LC2",
+      "kind": "disp",
+      "node": "2",
+      "dof": "uz",
+      "value": 6.176300723319793e-24
+    },
+    {
+      "case": "LC2",
+      "kind": "disp",
+      "node": "2",
+      "dof": "rx",
+      "value": 0.00010100718628914774
+    },
+    {
+      "case": "LC2",
+      "kind": "disp",
+      "node": "2",
+      "dof": "ry",
+      "value": 2.7175723182607062e-24
+    },
+    {
+      "case": "LC2",
+      "kind": "disp",
+      "node": "2",
+      "dof": "rz",
+      "value": 0.0002664207689150498
+    },
+    {
+      "case": "LC2",
+      "kind": "disp",
+      "node": "4",
+      "dof": "ux",
+      "value": -8.515268328180049e-21
+    },
+    {
+      "case": "LC2",
+      "kind": "disp",
+      "node": "4",
+      "dof": "uy",
+      "value": 0.0002638555070410399
+    },
+    {
+      "case": "LC2",
+      "kind": "disp",
+      "node": "4",
+      "dof": "uz",
+      "value": -7.411560867983738e-24
+    },
+    {
+      "case": "LC2",
+      "kind": "disp",
+      "node": "4",
+      "dof": "rx",
+      "value": 0.00010100718628914774
+    },
+    {
+      "case": "LC2",
+      "kind": "disp",
+      "node": "4",
+      "dof": "ry",
+      "value": 2.7175723182607062e-24
+    },
+    {
+      "case": "LC2",
+      "kind": "disp",
+      "node": "4",
+      "dof": "rz",
+      "value": 0.0002664207689150498
+    },
+    {
+      "case": "LC2",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fx",
+      "value": 7.153839460537189e-17
+    },
+    {
+      "case": "LC2",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fy",
+      "value": 2.994144598485383
+    },
+    {
+      "case": "LC2",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fz",
+      "value": -4.2351776388478584e-18
+    },
+    {
+      "case": "LC2",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "mx",
+      "value": -5.586063400340784
+    },
+    {
+      "case": "LC2",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "my",
+      "value": 1.2516889708238714e-16
+    },
+    {
+      "case": "LC2",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "mz",
+      "value": -0.01756620454384944
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C1",
+      "at": "i",
+      "comp": "P",
+      "value": 4.2351776388478584e-18
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C1",
+      "at": "i",
+      "comp": "V2",
+      "value": -7.153839460537189e-17
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C1",
+      "at": "i",
+      "comp": "V3",
+      "value": -2.994144598485383
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C1",
+      "at": "i",
+      "comp": "T",
+      "value": 0.01756620454384944
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C1",
+      "at": "i",
+      "comp": "M2",
+      "value": -5.586063400340784
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C1",
+      "at": "i",
+      "comp": "M3",
+      "value": -1.2516889708238714e-16
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C1",
+      "at": "j",
+      "comp": "P",
+      "value": 4.2351776388478584e-18
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C1",
+      "at": "j",
+      "comp": "V2",
+      "value": -7.153839460537189e-17
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C1",
+      "at": "j",
+      "comp": "V3",
+      "value": -2.994144598485383
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C1",
+      "at": "j",
+      "comp": "T",
+      "value": 0.01756620454384944
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C1",
+      "at": "j",
+      "comp": "M2",
+      "value": 4.893442694358056
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C1",
+      "at": "j",
+      "comp": "M3",
+      "value": 1.2521548403641448e-16
+    },
+    {
+      "case": "LC2",
+      "kind": "reaction",
+      "node": "3",
+      "dof": "fx",
+      "value": -7.153839460537194e-17
+    },
+    {
+      "case": "LC2",
+      "kind": "reaction",
+      "node": "3",
+      "dof": "fy",
+      "value": -2.466433584403303
+    },
+    {
+      "case": "LC2",
+      "kind": "reaction",
+      "node": "3",
+      "dof": "fz",
+      "value": 4.235177638847851e-18
+    },
+    {
+      "case": "LC2",
+      "kind": "reaction",
+      "node": "3",
+      "dof": "mx",
+      "value": 3.7390748510535063
+    },
+    {
+      "case": "LC2",
+      "kind": "reaction",
+      "node": "3",
+      "dof": "my",
+      "value": -1.0399300888814802e-16
+    },
+    {
+      "case": "LC2",
+      "kind": "reaction",
+      "node": "3",
+      "dof": "mz",
+      "value": -0.011710803029232959
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C2",
+      "at": "i",
+      "comp": "P",
+      "value": -4.235177638847851e-18
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C2",
+      "at": "i",
+      "comp": "V2",
+      "value": 2.466433584403303
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C2",
+      "at": "i",
+      "comp": "V3",
+      "value": 7.948710511707998e-17
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C2",
+      "at": "i",
+      "comp": "T",
+      "value": 0.011710803029232959
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C2",
+      "at": "i",
+      "comp": "M2",
+      "value": 1.2495929351760413e-16
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C2",
+      "at": "i",
+      "comp": "M3",
+      "value": 3.7390748510535063
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C2",
+      "at": "j",
+      "comp": "P",
+      "value": -4.235177638847851e-18
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C2",
+      "at": "j",
+      "comp": "V2",
+      "value": 2.466433584403303
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C2",
+      "at": "j",
+      "comp": "V3",
+      "value": 7.948710511707998e-17
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C2",
+      "at": "j",
+      "comp": "T",
+      "value": 0.011710803029232959
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C2",
+      "at": "j",
+      "comp": "M2",
+      "value": -1.5324557439217568e-16
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "C2",
+      "at": "j",
+      "comp": "M3",
+      "value": -4.893442694358053
+    },
+    {
+      "case": "LC2",
+      "kind": "reaction",
+      "node": "4",
+      "dof": "fy",
+      "value": -0.5277110140820799
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "L1",
+      "at": "i",
+      "comp": "P",
+      "value": -7.153839460537194e-17
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "L1",
+      "at": "i",
+      "comp": "V2",
+      "value": 4.235177638847851e-18
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "L1",
+      "at": "i",
+      "comp": "V3",
+      "value": 2.994144598485383
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "L1",
+      "at": "i",
+      "comp": "T",
+      "value": -4.893442694358053
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "L1",
+      "at": "i",
+      "comp": "M2",
+      "value": 14.982433795456148
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "L1",
+      "at": "i",
+      "comp": "M3",
+      "value": -1.2521548403641456e-16
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "L1",
+      "at": "j",
+      "comp": "P",
+      "value": -7.153839460537194e-17
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "L1",
+      "at": "j",
+      "comp": "V2",
+      "value": 4.235177638847851e-18
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "L1",
+      "at": "j",
+      "comp": "V3",
+      "value": 2.994144598485383
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "L1",
+      "at": "j",
+      "comp": "T",
+      "value": -4.893442694358053
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "L1",
+      "at": "j",
+      "comp": "M2",
+      "value": 0.011710803029232959
+    },
+    {
+      "case": "LC2",
+      "kind": "force",
+      "element": "L1",
+      "at": "j",
+      "comp": "M3",
+      "value": -1.463913722306538e-16
+    }
+  ]
+}

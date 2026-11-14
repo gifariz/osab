@@ -1,0 +1,104 @@
+{
+  "title": "Column with a rigid L-shaped bracket",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "steel",
+      "E": 200000000.0,
+      "nu": 0.3
+    }
+  ],
+  "sections": [
+    {
+      "id": "COL",
+      "A": 0.012,
+      "I22": 6e-05,
+      "I33": 0.00015,
+      "J": 3e-06
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "2",
+      "x": 0,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "3",
+      "x": 1.0,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "4",
+      "x": 1.0,
+      "y": 0.8,
+      "z": 3.0
+    }
+  ],
+  "frames": [
+    {
+      "id": "C1",
+      "type": "frame",
+      "nodes": [
+        "1",
+        "2"
+      ],
+      "material": "steel",
+      "section": "COL"
+    }
+  ],
+  "supports": [
+    {
+      "node": "1",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "LC1",
+      "node_loads": [
+        {
+          "node": "4",
+          "fx": 4.0,
+          "fz": -20.0
+        },
+        {
+          "node": "3",
+          "fy": 3.0,
+          "mz": 1.5
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "id": "L1",
+      "type": "rigid",
+      "nodes": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id": "L2",
+      "type": "rigid",
+      "nodes": [
+        "3",
+        "4"
+      ]
+    }
+  ],
+  "mesh": "off"
+}

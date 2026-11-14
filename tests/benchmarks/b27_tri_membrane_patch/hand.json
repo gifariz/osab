@@ -1,0 +1,1781 @@
+{
+  "source": "Exact constant-strain state, as B18 (every correct membrane element reproduces it on any mesh): TENS u = F11 x/(E t), v = -nu F11 y/(E t); SHEAR u = gamma y/2, v = gamma x/2; drilling rotation 0; constant F11 / F12 in every triangle.",
+  "values": [
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "1",
+      "dof": "ux",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "1",
+      "dof": "uy",
+      "value": -0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "1",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "1",
+      "dof": "ux",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "1",
+      "dof": "uy",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "1",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "2",
+      "dof": "ux",
+      "value": 4.8e-06
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "2",
+      "dof": "uy",
+      "value": -0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "2",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "2",
+      "dof": "ux",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "2",
+      "dof": "uy",
+      "value": 2.879999999999999e-06
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "2",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "3",
+      "dof": "ux",
+      "value": 4.8e-06
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "3",
+      "dof": "uy",
+      "value": -4.8e-07
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "3",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "3",
+      "dof": "ux",
+      "value": 1.4399999999999996e-06
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "3",
+      "dof": "uy",
+      "value": 2.879999999999999e-06
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "3",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "4",
+      "dof": "ux",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "4",
+      "dof": "uy",
+      "value": -4.8e-07
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "4",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "4",
+      "dof": "ux",
+      "value": 1.4399999999999996e-06
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "4",
+      "dof": "uy",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "4",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "5",
+      "dof": "ux",
+      "value": 8e-07
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "5",
+      "dof": "uy",
+      "value": -8e-08
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "5",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "5",
+      "dof": "ux",
+      "value": 2.4e-07
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "5",
+      "dof": "uy",
+      "value": 4.8e-07
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "5",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "6",
+      "dof": "ux",
+      "value": 3.6e-06
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "6",
+      "dof": "uy",
+      "value": -1.2e-07
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "6",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "6",
+      "dof": "ux",
+      "value": 3.599999999999999e-07
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "6",
+      "dof": "uy",
+      "value": 2.1599999999999996e-06
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "6",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "7",
+      "dof": "ux",
+      "value": 3.2e-06
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "7",
+      "dof": "uy",
+      "value": -3.2e-07
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "7",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "7",
+      "dof": "ux",
+      "value": 9.6e-07
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "7",
+      "dof": "uy",
+      "value": 1.92e-06
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "7",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "8",
+      "dof": "ux",
+      "value": 1.6e-06
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "8",
+      "dof": "uy",
+      "value": -3.2e-07
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "8",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "8",
+      "dof": "ux",
+      "value": 9.6e-07
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "8",
+      "dof": "uy",
+      "value": 9.6e-07
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "8",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F1",
+      "node": "1",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F1",
+      "node": "1",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F1",
+      "node": "1",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F1",
+      "node": "1",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F1",
+      "node": "1",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F1",
+      "node": "1",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F1",
+      "node": "2",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F1",
+      "node": "2",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F1",
+      "node": "2",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F1",
+      "node": "2",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F1",
+      "node": "2",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F1",
+      "node": "2",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F1",
+      "node": "6",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F1",
+      "node": "6",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F1",
+      "node": "6",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F1",
+      "node": "6",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F1",
+      "node": "6",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F1",
+      "node": "6",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F2",
+      "node": "1",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F2",
+      "node": "1",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F2",
+      "node": "1",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F2",
+      "node": "1",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F2",
+      "node": "1",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F2",
+      "node": "1",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F2",
+      "node": "6",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F2",
+      "node": "6",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F2",
+      "node": "6",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F2",
+      "node": "6",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F2",
+      "node": "6",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F2",
+      "node": "6",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F2",
+      "node": "5",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F2",
+      "node": "5",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F2",
+      "node": "5",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F2",
+      "node": "5",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F2",
+      "node": "5",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F2",
+      "node": "5",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F3",
+      "node": "2",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F3",
+      "node": "2",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F3",
+      "node": "2",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F3",
+      "node": "2",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F3",
+      "node": "2",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F3",
+      "node": "2",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F3",
+      "node": "3",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F3",
+      "node": "3",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F3",
+      "node": "3",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F3",
+      "node": "3",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F3",
+      "node": "3",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F3",
+      "node": "3",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F3",
+      "node": "7",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F3",
+      "node": "7",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F3",
+      "node": "7",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F3",
+      "node": "7",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F3",
+      "node": "7",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F3",
+      "node": "7",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F4",
+      "node": "2",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F4",
+      "node": "2",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F4",
+      "node": "2",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F4",
+      "node": "2",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F4",
+      "node": "2",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F4",
+      "node": "2",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F4",
+      "node": "7",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F4",
+      "node": "7",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F4",
+      "node": "7",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F4",
+      "node": "7",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F4",
+      "node": "7",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F4",
+      "node": "7",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F4",
+      "node": "6",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F4",
+      "node": "6",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F4",
+      "node": "6",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F4",
+      "node": "6",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F4",
+      "node": "6",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F4",
+      "node": "6",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F5",
+      "node": "3",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F5",
+      "node": "3",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F5",
+      "node": "3",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F5",
+      "node": "3",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F5",
+      "node": "3",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F5",
+      "node": "3",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F5",
+      "node": "4",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F5",
+      "node": "4",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F5",
+      "node": "4",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F5",
+      "node": "4",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F5",
+      "node": "4",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F5",
+      "node": "4",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F5",
+      "node": "8",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F5",
+      "node": "8",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F5",
+      "node": "8",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F5",
+      "node": "8",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F5",
+      "node": "8",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F5",
+      "node": "8",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F6",
+      "node": "3",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F6",
+      "node": "3",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F6",
+      "node": "3",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F6",
+      "node": "3",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F6",
+      "node": "3",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F6",
+      "node": "3",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F6",
+      "node": "8",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F6",
+      "node": "8",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F6",
+      "node": "8",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F6",
+      "node": "8",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F6",
+      "node": "8",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F6",
+      "node": "8",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F6",
+      "node": "7",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F6",
+      "node": "7",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F6",
+      "node": "7",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F6",
+      "node": "7",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F6",
+      "node": "7",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F6",
+      "node": "7",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F7",
+      "node": "4",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F7",
+      "node": "4",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F7",
+      "node": "4",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F7",
+      "node": "4",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F7",
+      "node": "4",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F7",
+      "node": "4",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F7",
+      "node": "1",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F7",
+      "node": "1",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F7",
+      "node": "1",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F7",
+      "node": "1",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F7",
+      "node": "1",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F7",
+      "node": "1",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F7",
+      "node": "5",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F7",
+      "node": "5",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F7",
+      "node": "5",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F7",
+      "node": "5",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F7",
+      "node": "5",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F7",
+      "node": "5",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F8",
+      "node": "4",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F8",
+      "node": "4",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F8",
+      "node": "4",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F8",
+      "node": "4",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F8",
+      "node": "4",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F8",
+      "node": "4",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F8",
+      "node": "5",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F8",
+      "node": "5",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F8",
+      "node": "5",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F8",
+      "node": "5",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F8",
+      "node": "5",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F8",
+      "node": "5",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F8",
+      "node": "8",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F8",
+      "node": "8",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F8",
+      "node": "8",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F8",
+      "node": "8",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F8",
+      "node": "8",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F8",
+      "node": "8",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F9",
+      "node": "5",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F9",
+      "node": "5",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F9",
+      "node": "5",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F9",
+      "node": "5",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F9",
+      "node": "5",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F9",
+      "node": "5",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F9",
+      "node": "6",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F9",
+      "node": "6",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F9",
+      "node": "6",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F9",
+      "node": "6",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F9",
+      "node": "6",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F9",
+      "node": "6",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F9",
+      "node": "7",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F9",
+      "node": "7",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F9",
+      "node": "7",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F9",
+      "node": "7",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F9",
+      "node": "7",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F9",
+      "node": "7",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F10",
+      "node": "5",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F10",
+      "node": "5",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F10",
+      "node": "5",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F10",
+      "node": "5",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F10",
+      "node": "5",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F10",
+      "node": "5",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F10",
+      "node": "7",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F10",
+      "node": "7",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F10",
+      "node": "7",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F10",
+      "node": "7",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F10",
+      "node": "7",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F10",
+      "node": "7",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F10",
+      "node": "8",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F10",
+      "node": "8",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "F10",
+      "node": "8",
+      "comp": "F12",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F10",
+      "node": "8",
+      "comp": "F11",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F10",
+      "node": "8",
+      "comp": "F22",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "F10",
+      "node": "8",
+      "comp": "F12",
+      "value": 5.0
+    }
+  ]
+}

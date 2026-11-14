@@ -1,0 +1,279 @@
+{
+ "title": "B67 pier and spandrel forces: wall with a door and a header",
+ "units": {
+  "force": "kN",
+  "length": "m"
+ },
+ "materials": [
+  {
+   "id": "M",
+   "E": 25000000.0,
+   "nu": 0.2,
+   "weight": 0
+  }
+ ],
+ "sections": [
+  {
+   "id": "R",
+   "shape": {
+    "type": "rectangle",
+    "depth": 0.4,
+    "width": 0.3
+   }
+  }
+ ],
+ "area_sections": [
+  {
+   "id": "W",
+   "type": "shell-thin",
+   "material": "M",
+   "thickness": 0.2
+  },
+  {
+   "id": "W2",
+   "type": "shell-thin",
+   "material": "M",
+   "thickness": 0.4
+  }
+ ],
+ "nodes": [
+  {
+   "id": "1",
+   "x": 0,
+   "y": 0,
+   "z": 0
+  },
+  {
+   "id": "2",
+   "x": 6,
+   "y": 0,
+   "z": 0
+  },
+  {
+   "id": "3",
+   "x": 6,
+   "y": 0,
+   "z": 3
+  },
+  {
+   "id": "4",
+   "x": 0,
+   "y": 0,
+   "z": 3
+  },
+  {
+   "id": "5",
+   "x": 2,
+   "y": 0,
+   "z": 0
+  },
+  {
+   "id": "6",
+   "x": 4,
+   "y": 0,
+   "z": 0
+  },
+  {
+   "id": "7",
+   "x": 4,
+   "y": 0,
+   "z": 2
+  },
+  {
+   "id": "8",
+   "x": 2,
+   "y": 0,
+   "z": 2
+  },
+  {
+   "id": "9",
+   "x": 4,
+   "y": 0,
+   "z": 3
+  },
+  {
+   "id": "10",
+   "x": 2,
+   "y": 0,
+   "z": 3
+  }
+ ],
+ "supports": [
+  {
+   "node": "1",
+   "fix": [
+    "ux",
+    "uy",
+    "uz",
+    "rx",
+    "ry",
+    "rz"
+   ]
+  },
+  {
+   "node": "2",
+   "fix": [
+    "ux",
+    "uy",
+    "uz",
+    "rx",
+    "ry",
+    "rz"
+   ]
+  },
+  {
+   "node": "5",
+   "fix": [
+    "ux",
+    "uy",
+    "uz",
+    "rx",
+    "ry",
+    "rz"
+   ]
+  },
+  {
+   "node": "6",
+   "fix": [
+    "ux",
+    "uy",
+    "uz",
+    "rx",
+    "ry",
+    "rz"
+   ]
+  }
+ ],
+ "frames": [],
+ "links": [],
+ "areas": [
+  {
+   "id": "A",
+   "nodes": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "section": "W",
+   "edge_restraints": true,
+   "pier": "P"
+  },
+  {
+   "id": "O",
+   "nodes": [
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "opening": true
+  },
+  {
+   "id": "H",
+   "nodes": [
+    "8",
+    "7",
+    "9",
+    "10"
+   ],
+   "section": "W",
+   "edge_restraints": true,
+   "pier": "P",
+   "spandrel": "S"
+  }
+ ],
+ "pier_labels": [
+  {
+   "id": "P"
+  },
+  {
+   "id": "Q"
+  }
+ ],
+ "spandrel_labels": [
+  {
+   "id": "S"
+  }
+ ],
+ "stories": [
+  {
+   "id": "Base",
+   "z": 0
+  },
+  {
+   "id": "L1",
+   "z": 3
+  }
+ ],
+ "load_cases": [
+  {
+   "id": "FX",
+   "node_loads": [
+    {
+     "node": "3",
+     "fx": 11
+    }
+   ]
+  },
+  {
+   "id": "FY",
+   "node_loads": [
+    {
+     "node": "3",
+     "fy": 13
+    }
+   ]
+  },
+  {
+   "id": "FZ",
+   "node_loads": [
+    {
+     "node": "3",
+     "fz": -17
+    }
+   ]
+  },
+  {
+   "id": "MX",
+   "node_loads": [
+    {
+     "node": "3",
+     "mx": 19
+    }
+   ]
+  },
+  {
+   "id": "MY",
+   "node_loads": [
+    {
+     "node": "3",
+     "my": 23
+    }
+   ]
+  },
+  {
+   "id": "MZ",
+   "node_loads": [
+    {
+     "node": "3",
+     "mz": 29
+    }
+   ]
+  },
+  {
+   "id": "L",
+   "node_loads": [
+    {
+     "node": "3",
+     "fx": 11,
+     "fy": 13,
+     "fz": -17,
+     "mx": 19,
+     "my": 23,
+     "mz": 29
+    }
+   ]
+  }
+ ]
+}

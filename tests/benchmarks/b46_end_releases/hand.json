@@ -1,0 +1,229 @@
+{
+  "source": "Statics of the released (statically determinate) parts: pinned beams w L^2 / 8 at midspan and no end moments; the pinned brace carries no moment; Gerber beam: the hinge carries P/4, the roller 3P/4, the cantilever's base moment and tip deflection (P/4) L^3 / (3 E I); the torque goes all through the beam whose end is not released in torsion.",
+  "values": [
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "B1",
+      "at": 3.0,
+      "comp": "M3",
+      "value": 67.5
+    },
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "B1",
+      "at": "i",
+      "comp": "M3",
+      "value": 0.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "B1",
+      "at": "j",
+      "comp": "M3",
+      "value": 0.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "B1",
+      "at": "i",
+      "comp": "M2",
+      "value": 0.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "B1",
+      "at": "j",
+      "comp": "M2",
+      "value": 0.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "B2",
+      "at": 3.0,
+      "comp": "M3",
+      "value": 67.5
+    },
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "B2",
+      "at": "i",
+      "comp": "M3",
+      "value": 0.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "B2",
+      "at": "j",
+      "comp": "M3",
+      "value": 0.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "B2",
+      "at": "i",
+      "comp": "M2",
+      "value": 0.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "B2",
+      "at": "j",
+      "comp": "M2",
+      "value": 0.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "D1",
+      "at": "i",
+      "comp": "M3",
+      "value": 0.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "D1",
+      "at": "j",
+      "comp": "M3",
+      "value": 0.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "D1",
+      "at": "i",
+      "comp": "M2",
+      "value": 0.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "D1",
+      "at": "j",
+      "comp": "M2",
+      "value": 0.0
+    },
+    {
+      "case": "LAT",
+      "kind": "force",
+      "element": "D1",
+      "at": "i",
+      "comp": "M3",
+      "value": 0.0
+    },
+    {
+      "case": "LAT",
+      "kind": "force",
+      "element": "D1",
+      "at": "j",
+      "comp": "M3",
+      "value": 0.0
+    },
+    {
+      "case": "LAT",
+      "kind": "force",
+      "element": "D1",
+      "at": "i",
+      "comp": "M2",
+      "value": 0.0
+    },
+    {
+      "case": "LAT",
+      "kind": "force",
+      "element": "D1",
+      "at": "j",
+      "comp": "M2",
+      "value": 0.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "dof": "fz",
+      "value": 180.0
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "dof": "fx",
+      "value": -20.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction",
+      "node": "9",
+      "dof": "fz",
+      "value": 22.5
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction",
+      "node": "7",
+      "dof": "fz",
+      "value": 7.5
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction",
+      "node": "7",
+      "dof": "my",
+      "value": -30.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "disp",
+      "node": "8",
+      "dof": "uz",
+      "value": -0.006666666666666667
+    },
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "B3",
+      "at": "j",
+      "comp": "M3",
+      "value": 0.0
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "10",
+      "dof": "mx",
+      "value": 0.0
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "12",
+      "dof": "mx",
+      "value": -6.0
+    },
+    {
+      "case": "LAT",
+      "kind": "force",
+      "element": "B5",
+      "at": 1.5,
+      "comp": "T",
+      "value": 0.0
+    }
+  ]
+}

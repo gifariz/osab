@@ -1,0 +1,73 @@
+{
+  "source": "Symmetry and statics: the frame is symmetric, DEAD is symmetric and WIND (5 kN at each column top) antisymmetric",
+  "values": [
+    {
+      "case": "DEAD",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fz",
+      "value": 42.0
+    },
+    {
+      "case": "DEAD",
+      "kind": "reaction",
+      "node": "4",
+      "dof": "fz",
+      "value": 42.0
+    },
+    {
+      "case": "DEAD",
+      "kind": "force",
+      "element": "B1",
+      "at": "i",
+      "comp": "V2",
+      "value": -42.0
+    },
+    {
+      "case": "DEAD",
+      "kind": "force",
+      "element": "B1",
+      "at": "j",
+      "comp": "V2",
+      "value": 42.0
+    },
+    {
+      "case": "DEAD",
+      "kind": "force",
+      "element": "L1",
+      "at": "i",
+      "comp": "V2",
+      "value": -42.0
+    },
+    {
+      "case": "DEAD",
+      "kind": "force",
+      "element": "L2",
+      "at": "j",
+      "comp": "V2",
+      "value": 42.0
+    },
+    {
+      "case": "WIND",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fx",
+      "value": -5.0
+    },
+    {
+      "case": "WIND",
+      "kind": "reaction",
+      "node": "4",
+      "dof": "fx",
+      "value": -5.0
+    },
+    {
+      "case": "WIND",
+      "kind": "force",
+      "element": "B1",
+      "at": "i",
+      "comp": "P",
+      "value": 0.0
+    }
+  ]
+}

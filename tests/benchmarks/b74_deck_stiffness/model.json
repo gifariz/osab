@@ -1,0 +1,560 @@
+{
+  "title": "Deck in-plane stiffness: filled, unfilled and solid slab decks",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "4000Psi",
+      "E": 24855578.0,
+      "nu": 0.2,
+      "weight": 23.563121
+    },
+    {
+      "id": "A992Fy50",
+      "E": 199947980.0,
+      "nu": 0.3,
+      "weight": 76.972865
+    }
+  ],
+  "sections": [],
+  "frames": [],
+  "area_sections": [
+    {
+      "id": "DF",
+      "type": "membrane",
+      "material": "4000Psi",
+      "thickness": 0.14,
+      "property_type": "deck",
+      "one_way": true,
+      "deck": {
+        "type": "filled",
+        "steel": "A992Fy50",
+        "slab_depth": 0.065,
+        "rib_depth": 0.075,
+        "rib_width_top": 0.15,
+        "rib_width_bottom": 0.12,
+        "rib_spacing": 0.3,
+        "shear_thickness": 0.001,
+        "unit_weight": 0.1
+      }
+    },
+    {
+      "id": "DU",
+      "type": "membrane",
+      "material": "4000Psi",
+      "thickness": 0.075,
+      "property_type": "deck",
+      "one_way": true,
+      "deck": {
+        "type": "unfilled",
+        "steel": "A992Fy50",
+        "slab_depth": 0,
+        "rib_depth": 0.075,
+        "rib_width_top": 0.15,
+        "rib_width_bottom": 0.12,
+        "rib_spacing": 0.3,
+        "shear_thickness": 0.001,
+        "unit_weight": 0.1
+      }
+    },
+    {
+      "id": "DS",
+      "type": "membrane",
+      "material": "4000Psi",
+      "thickness": 0.15,
+      "property_type": "deck",
+      "one_way": true,
+      "deck": {
+        "type": "solid",
+        "steel": "A992Fy50",
+        "slab_depth": 0.15,
+        "rib_depth": 0,
+        "rib_width_top": 0,
+        "rib_width_bottom": 0,
+        "rib_spacing": 0,
+        "shear_thickness": 0,
+        "unit_weight": 0
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "DF@0.0",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "DF@0.1",
+      "x": 4.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "DF@0.2",
+      "x": 4.0,
+      "y": 2.0,
+      "z": 3.0
+    },
+    {
+      "id": "DF@0.3",
+      "x": 0.0,
+      "y": 2.0,
+      "z": 3.0
+    },
+    {
+      "id": "DF@90.0",
+      "x": 10.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "DF@90.1",
+      "x": 14.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "DF@90.2",
+      "x": 14.0,
+      "y": 2.0,
+      "z": 3.0
+    },
+    {
+      "id": "DF@90.3",
+      "x": 10.0,
+      "y": 2.0,
+      "z": 3.0
+    },
+    {
+      "id": "DU@0.0",
+      "x": 20.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "DU@0.1",
+      "x": 24.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "DU@0.2",
+      "x": 24.0,
+      "y": 2.0,
+      "z": 3.0
+    },
+    {
+      "id": "DU@0.3",
+      "x": 20.0,
+      "y": 2.0,
+      "z": 3.0
+    },
+    {
+      "id": "DU@90.0",
+      "x": 30.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "DU@90.1",
+      "x": 34.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "DU@90.2",
+      "x": 34.0,
+      "y": 2.0,
+      "z": 3.0
+    },
+    {
+      "id": "DU@90.3",
+      "x": 30.0,
+      "y": 2.0,
+      "z": 3.0
+    },
+    {
+      "id": "DS@0.0",
+      "x": 40.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "DS@0.1",
+      "x": 44.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "DS@0.2",
+      "x": 44.0,
+      "y": 2.0,
+      "z": 3.0
+    },
+    {
+      "id": "DS@0.3",
+      "x": 40.0,
+      "y": 2.0,
+      "z": 3.0
+    },
+    {
+      "id": "DS@90.0",
+      "x": 50.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "DS@90.1",
+      "x": 54.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "DS@90.2",
+      "x": 54.0,
+      "y": 2.0,
+      "z": 3.0
+    },
+    {
+      "id": "DS@90.3",
+      "x": 50.0,
+      "y": 2.0,
+      "z": 3.0
+    }
+  ],
+  "areas": [
+    {
+      "id": "DF@0",
+      "nodes": [
+        "DF@0.0",
+        "DF@0.1",
+        "DF@0.2",
+        "DF@0.3"
+      ],
+      "section": "DF"
+    },
+    {
+      "id": "DF@90",
+      "nodes": [
+        "DF@90.0",
+        "DF@90.1",
+        "DF@90.2",
+        "DF@90.3"
+      ],
+      "section": "DF",
+      "angle": 90
+    },
+    {
+      "id": "DU@0",
+      "nodes": [
+        "DU@0.0",
+        "DU@0.1",
+        "DU@0.2",
+        "DU@0.3"
+      ],
+      "section": "DU"
+    },
+    {
+      "id": "DU@90",
+      "nodes": [
+        "DU@90.0",
+        "DU@90.1",
+        "DU@90.2",
+        "DU@90.3"
+      ],
+      "section": "DU",
+      "angle": 90
+    },
+    {
+      "id": "DS@0",
+      "nodes": [
+        "DS@0.0",
+        "DS@0.1",
+        "DS@0.2",
+        "DS@0.3"
+      ],
+      "section": "DS"
+    },
+    {
+      "id": "DS@90",
+      "nodes": [
+        "DS@90.0",
+        "DS@90.1",
+        "DS@90.2",
+        "DS@90.3"
+      ],
+      "section": "DS",
+      "angle": 90
+    }
+  ],
+  "supports": [
+    {
+      "node": "DF@0.0",
+      "fix": "fixed"
+    },
+    {
+      "node": "DF@0.1",
+      "fix": [
+        "uz",
+        "rx",
+        "ry",
+        "rz"
+      ]
+    },
+    {
+      "node": "DF@0.2",
+      "fix": [
+        "uz",
+        "rx",
+        "ry",
+        "rz"
+      ]
+    },
+    {
+      "node": "DF@0.3",
+      "fix": "fixed"
+    },
+    {
+      "node": "DF@90.0",
+      "fix": "fixed"
+    },
+    {
+      "node": "DF@90.1",
+      "fix": [
+        "uz",
+        "rx",
+        "ry",
+        "rz"
+      ]
+    },
+    {
+      "node": "DF@90.2",
+      "fix": [
+        "uz",
+        "rx",
+        "ry",
+        "rz"
+      ]
+    },
+    {
+      "node": "DF@90.3",
+      "fix": "fixed"
+    },
+    {
+      "node": "DU@0.0",
+      "fix": "fixed"
+    },
+    {
+      "node": "DU@0.1",
+      "fix": [
+        "uz",
+        "rx",
+        "ry",
+        "rz"
+      ]
+    },
+    {
+      "node": "DU@0.2",
+      "fix": [
+        "uz",
+        "rx",
+        "ry",
+        "rz"
+      ]
+    },
+    {
+      "node": "DU@0.3",
+      "fix": "fixed"
+    },
+    {
+      "node": "DU@90.0",
+      "fix": "fixed"
+    },
+    {
+      "node": "DU@90.1",
+      "fix": [
+        "uz",
+        "rx",
+        "ry",
+        "rz"
+      ]
+    },
+    {
+      "node": "DU@90.2",
+      "fix": [
+        "uz",
+        "rx",
+        "ry",
+        "rz"
+      ]
+    },
+    {
+      "node": "DU@90.3",
+      "fix": "fixed"
+    },
+    {
+      "node": "DS@0.0",
+      "fix": "fixed"
+    },
+    {
+      "node": "DS@0.1",
+      "fix": [
+        "uz",
+        "rx",
+        "ry",
+        "rz"
+      ]
+    },
+    {
+      "node": "DS@0.2",
+      "fix": [
+        "uz",
+        "rx",
+        "ry",
+        "rz"
+      ]
+    },
+    {
+      "node": "DS@0.3",
+      "fix": "fixed"
+    },
+    {
+      "node": "DS@90.0",
+      "fix": "fixed"
+    },
+    {
+      "node": "DS@90.1",
+      "fix": [
+        "uz",
+        "rx",
+        "ry",
+        "rz"
+      ]
+    },
+    {
+      "node": "DS@90.2",
+      "fix": [
+        "uz",
+        "rx",
+        "ry",
+        "rz"
+      ]
+    },
+    {
+      "node": "DS@90.3",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "PX",
+      "node_loads": [
+        {
+          "node": "DF@0.1",
+          "fx": 10.0
+        },
+        {
+          "node": "DF@0.2",
+          "fx": 10.0
+        },
+        {
+          "node": "DF@90.1",
+          "fx": 10.0
+        },
+        {
+          "node": "DF@90.2",
+          "fx": 10.0
+        },
+        {
+          "node": "DU@0.1",
+          "fx": 10.0
+        },
+        {
+          "node": "DU@0.2",
+          "fx": 10.0
+        },
+        {
+          "node": "DU@90.1",
+          "fx": 10.0
+        },
+        {
+          "node": "DU@90.2",
+          "fx": 10.0
+        },
+        {
+          "node": "DS@0.1",
+          "fx": 10.0
+        },
+        {
+          "node": "DS@0.2",
+          "fx": 10.0
+        },
+        {
+          "node": "DS@90.1",
+          "fx": 10.0
+        },
+        {
+          "node": "DS@90.2",
+          "fx": 10.0
+        }
+      ]
+    },
+    {
+      "id": "PY",
+      "node_loads": [
+        {
+          "node": "DF@0.1",
+          "fy": 10.0
+        },
+        {
+          "node": "DF@0.2",
+          "fy": 10.0
+        },
+        {
+          "node": "DF@90.1",
+          "fy": 10.0
+        },
+        {
+          "node": "DF@90.2",
+          "fy": 10.0
+        },
+        {
+          "node": "DU@0.1",
+          "fy": 10.0
+        },
+        {
+          "node": "DU@0.2",
+          "fy": 10.0
+        },
+        {
+          "node": "DU@90.1",
+          "fy": 10.0
+        },
+        {
+          "node": "DU@90.2",
+          "fy": 10.0
+        },
+        {
+          "node": "DS@0.1",
+          "fy": 10.0
+        },
+        {
+          "node": "DS@0.2",
+          "fy": 10.0
+        },
+        {
+          "node": "DS@90.1",
+          "fy": 10.0
+        },
+        {
+          "node": "DS@90.2",
+          "fy": 10.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1272 @@
+{
+ "source": "OpenSees 3.8.0 via openseespy on OSAB's mesh (ShellDKGQ / ShellDKGT, ElasticTimoshenkoBeam pieces): the objects meshed by opensees at maximum sizes 0.5, 0.25, 0.125 m, each value extrapolated (Richardson, observed rate within 1..2), checks/convergence.py",
+ "convergence": {
+  "sizes": [
+   0.5,
+   0.25,
+   0.125
+  ]
+ },
+ "values": [
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g00",
+   "dof": "ux",
+   "value": 1.5229513383188352e-06
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g00",
+   "dof": "uy",
+   "value": 5.917550186226471e-07
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g00",
+   "dof": "uz",
+   "value": -1.5619529316578213e-05
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g00",
+   "dof": "rx",
+   "value": -8.49856922349924e-05
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g00",
+   "dof": "ry",
+   "value": 0.0001330691405019397
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g01",
+   "dof": "ux",
+   "value": 1.8418677449203479e-06
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g01",
+   "dof": "uy",
+   "value": -7.229484813826719e-16
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g01",
+   "dof": "uz",
+   "value": -4.3177470233424936e-05
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g01",
+   "dof": "rx",
+   "value": 5.294896377766792e-16
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g01",
+   "dof": "ry",
+   "value": 0.0002414205576225022
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g02",
+   "dof": "ux",
+   "value": 1.5229513387488942e-06
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g02",
+   "dof": "uy",
+   "value": -5.917550195818627e-07
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g02",
+   "dof": "uz",
+   "value": -1.5619529316852296e-05
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g02",
+   "dof": "rx",
+   "value": 8.4985692232232e-05
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g02",
+   "dof": "ry",
+   "value": 0.00013306914051000398
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g10",
+   "dof": "ux",
+   "value": -1.306452243985909e-16
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g10",
+   "dof": "uy",
+   "value": 1.0057601413080872e-06
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g10",
+   "dof": "uz",
+   "value": -4.310226567734764e-05
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g10",
+   "dof": "rx",
+   "value": -0.00016877922594803348
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g10",
+   "dof": "ry",
+   "value": -2.220845829641103e-15
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g11",
+   "dof": "ux",
+   "value": 1.0943800563574306e-17
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g11",
+   "dof": "uy",
+   "value": -1.0608621918463503e-15
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g11",
+   "dof": "uz",
+   "value": -0.00011496240934975249
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g11",
+   "dof": "rx",
+   "value": -3.824631851209006e-15
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g11",
+   "dof": "ry",
+   "value": -1.782873755921774e-15
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g12",
+   "dof": "ux",
+   "value": 2.7273827984544143e-16
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g12",
+   "dof": "uy",
+   "value": -1.0057601428343522e-06
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g12",
+   "dof": "uz",
+   "value": -4.310226568231858e-05
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g12",
+   "dof": "rx",
+   "value": 0.00016877922596229082
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g12",
+   "dof": "ry",
+   "value": -2.7210231202902077e-15
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g20",
+   "dof": "ux",
+   "value": -1.522951338594892e-06
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g20",
+   "dof": "uy",
+   "value": 5.917550181481454e-07
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g20",
+   "dof": "uz",
+   "value": -1.561952931625657e-05
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g20",
+   "dof": "rx",
+   "value": -8.498569223194103e-05
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g20",
+   "dof": "ry",
+   "value": -0.0001330691404953243
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g21",
+   "dof": "ux",
+   "value": -1.8418677449044565e-06
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g21",
+   "dof": "uy",
+   "value": -1.4008426076929909e-15
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g21",
+   "dof": "uz",
+   "value": -4.317747023451513e-05
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g21",
+   "dof": "rx",
+   "value": -3.603365225499293e-15
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g21",
+   "dof": "ry",
+   "value": -0.00024142055761895983
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g22",
+   "dof": "ux",
+   "value": -1.5229513383224122e-06
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g22",
+   "dof": "uy",
+   "value": -5.917550200474818e-07
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g22",
+   "dof": "uz",
+   "value": -1.561952931501952e-05
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g22",
+   "dof": "rx",
+   "value": 8.498569223198988e-05
+  },
+  {
+   "case": "DEAD",
+   "kind": "disp",
+   "node": "g22",
+   "dof": "ry",
+   "value": -0.0001330691405046108
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g00",
+   "dof": "ux",
+   "value": 0.00015509507219840847
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g00",
+   "dof": "uy",
+   "value": 0.00014597117923498092
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g00",
+   "dof": "uz",
+   "value": 1.5449038308508778e-06
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g00",
+   "dof": "rx",
+   "value": -2.0496540140533342e-05
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g00",
+   "dof": "ry",
+   "value": 2.509681320477495e-05
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g01",
+   "dof": "ux",
+   "value": 0.00019640412743224654
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g01",
+   "dof": "uy",
+   "value": 0.00014604952929394443
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g01",
+   "dof": "uz",
+   "value": 1.018110738587943e-06
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g01",
+   "dof": "rx",
+   "value": -7.4044658420528265e-06
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g01",
+   "dof": "ry",
+   "value": 2.8528006033440273e-05
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g02",
+   "dof": "ux",
+   "value": 0.00023680756911841557
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g02",
+   "dof": "uy",
+   "value": 0.0001453635972569916
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g02",
+   "dof": "uz",
+   "value": 1.870418903015238e-07
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g02",
+   "dof": "rx",
+   "value": -2.1839024049510568e-05
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g02",
+   "dof": "ry",
+   "value": 3.932611145921936e-05
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g10",
+   "dof": "ux",
+   "value": 0.000154932985131551
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g10",
+   "dof": "uy",
+   "value": 9.563540239916752e-05
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g10",
+   "dof": "uz",
+   "value": 6.32020978224007e-07
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g10",
+   "dof": "rx",
+   "value": -1.2048679461713002e-05
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g10",
+   "dof": "ry",
+   "value": 9.340934366264804e-06
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g11",
+   "dof": "ux",
+   "value": 0.0001968748264710995
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g11",
+   "dof": "uy",
+   "value": 9.589755042054777e-05
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g11",
+   "dof": "uz",
+   "value": 7.238272705864076e-09
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g11",
+   "dof": "rx",
+   "value": -3.994330429596089e-06
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g11",
+   "dof": "ry",
+   "value": 9.52928475449868e-06
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g12",
+   "dof": "ux",
+   "value": 0.00023878829080981973
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g12",
+   "dof": "uy",
+   "value": 9.582393395066605e-05
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g12",
+   "dof": "uz",
+   "value": -6.037560192255691e-07
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g12",
+   "dof": "rx",
+   "value": -1.2084302454493723e-05
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g12",
+   "dof": "ry",
+   "value": 1.4308744154135195e-05
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g20",
+   "dof": "ux",
+   "value": 0.00015419244250295625
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g20",
+   "dof": "uy",
+   "value": 4.3521661403099267e-05
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g20",
+   "dof": "uz",
+   "value": -4.230255758938178e-07
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g20",
+   "dof": "rx",
+   "value": -7.025023569145797e-06
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g20",
+   "dof": "ry",
+   "value": 2.5890480155774696e-05
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g21",
+   "dof": "ux",
+   "value": 0.00019688143272041296
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g21",
+   "dof": "uy",
+   "value": 4.378216519036454e-05
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g21",
+   "dof": "uz",
+   "value": -1.0151504878842508e-06
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g21",
+   "dof": "rx",
+   "value": -2.104171792134961e-06
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g21",
+   "dof": "ry",
+   "value": 2.867125956694703e-05
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g22",
+   "dof": "ux",
+   "value": 0.0002465709022057311
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g22",
+   "dof": "uy",
+   "value": 4.558478381674034e-05
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g22",
+   "dof": "uz",
+   "value": -1.3476796323545973e-06
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g22",
+   "dof": "rx",
+   "value": -5.870741342543643e-06
+  },
+  {
+   "case": "WIND",
+   "kind": "disp",
+   "node": "g22",
+   "dof": "ry",
+   "value": 4.0053451232538325e-05
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s0",
+   "dof": "fx",
+   "value": 3.328165216208679
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s0",
+   "dof": "fy",
+   "value": 2.1310393431743764
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s0",
+   "dof": "fz",
+   "value": 17.850890647517964
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s0",
+   "dof": "mx",
+   "value": -2.4342987784028933
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s0",
+   "dof": "my",
+   "value": 3.796568892145154
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s1",
+   "dof": "fx",
+   "value": 6.05137229883083
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s1",
+   "dof": "fy",
+   "value": -7.894198499088256e-12
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s1",
+   "dof": "fz",
+   "value": 49.345680266771375
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s1",
+   "dof": "mx",
+   "value": 5.746433845378859e-12
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s1",
+   "dof": "my",
+   "value": 6.911112076244439
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s2",
+   "dof": "fx",
+   "value": 3.3281652164055133
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s2",
+   "dof": "fy",
+   "value": -2.1310393430910826
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s2",
+   "dof": "fz",
+   "value": 17.850890647831207
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s2",
+   "dof": "mx",
+   "value": 2.4342987782991927
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s2",
+   "dof": "my",
+   "value": 3.7965688923667305
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s3",
+   "dof": "fx",
+   "value": -5.403131612673448e-11
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s3",
+   "dof": "fy",
+   "value": 4.23462267343767
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s3",
+   "dof": "fz",
+   "value": 49.25973220268304
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s3",
+   "dof": "mx",
+   "value": -4.838715759307793
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s3",
+   "dof": "my",
+   "value": -6.071334296058756e-11
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s4",
+   "dof": "fx",
+   "value": -4.5042070837242457e-11
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s4",
+   "dof": "fy",
+   "value": 1.0417878524629044e-10
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s4",
+   "dof": "fz",
+   "value": 131.3856106854315
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s4",
+   "dof": "mx",
+   "value": -1.2403276978163292e-10
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s4",
+   "dof": "my",
+   "value": -5.165602387493774e-11
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s5",
+   "dof": "fx",
+   "value": -7.066576834695147e-11
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s5",
+   "dof": "fy",
+   "value": -4.234622673774648
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s5",
+   "dof": "fz",
+   "value": 49.25973220836411
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s5",
+   "dof": "mx",
+   "value": 4.83871575968025
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s5",
+   "dof": "my",
+   "value": -8.22018851551238e-11
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s6",
+   "dof": "fx",
+   "value": -3.3281652160381614
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s6",
+   "dof": "fy",
+   "value": 2.1310393431043826
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s6",
+   "dof": "fz",
+   "value": 17.850890647150372
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s6",
+   "dof": "mx",
+   "value": -2.4342987783269012
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s6",
+   "dof": "my",
+   "value": -3.796568891947554
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s7",
+   "dof": "fx",
+   "value": -6.051372298741948
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s7",
+   "dof": "fy",
+   "value": 1.010683584190686e-10
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s7",
+   "dof": "fz",
+   "value": 49.3456802680173
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s7",
+   "dof": "mx",
+   "value": -1.2196120474957128e-10
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s7",
+   "dof": "my",
+   "value": -6.911112076142875
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s8",
+   "dof": "fx",
+   "value": -3.328165216275873
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s8",
+   "dof": "fy",
+   "value": -2.1310393430782892
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s8",
+   "dof": "fz",
+   "value": 17.850890645736598
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s8",
+   "dof": "mx",
+   "value": 2.434298778280493
+  },
+  {
+   "case": "DEAD",
+   "kind": "reaction",
+   "node": "s8",
+   "dof": "my",
+   "value": -3.7965688922220417
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s0",
+   "dof": "fx",
+   "value": -1.5993691622789505
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s0",
+   "dof": "fy",
+   "value": -1.5839270486063701
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s0",
+   "dof": "fz",
+   "value": -1.7656043781152895
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s0",
+   "dof": "mx",
+   "value": 3.0842005657740366
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s0",
+   "dof": "my",
+   "value": -3.181323663775211
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s1",
+   "dof": "fx",
+   "value": -2.107258052751197
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s1",
+   "dof": "fy",
+   "value": -1.9146453293044758
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s1",
+   "dof": "fz",
+   "value": -1.1635551298147924
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s1",
+   "dof": "mx",
+   "value": 3.463472598363365
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s1",
+   "dof": "my",
+   "value": -4.122414065205112
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s2",
+   "dof": "fx",
+   "value": -2.4166535410036083
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s2",
+   "dof": "fy",
+   "value": -1.5413887697081634
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s2",
+   "dof": "fz",
+   "value": -0.2137621603445987
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s2",
+   "dof": "mx",
+   "value": 3.0302154753627804
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s2",
+   "dof": "my",
+   "value": -4.828398728515847
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s3",
+   "dof": "fx",
+   "value": -1.9937201660552613
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s3",
+   "dof": "fy",
+   "value": -1.0724768709252575
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s3",
+   "dof": "fz",
+   "value": -0.7223096893988653
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s3",
+   "dof": "mx",
+   "value": 2.0604334492500653
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s3",
+   "dof": "my",
+   "value": -3.631310574548599
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s4",
+   "dof": "fx",
+   "value": -2.5923307067660164
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s4",
+   "dof": "fy",
+   "value": -1.2790199153026889
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s4",
+   "dof": "fz",
+   "value": -0.008272311663844662
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s4",
+   "dof": "mx",
+   "value": 2.2991508392783135
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s4",
+   "dof": "my",
+   "value": -4.682125877059245
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s5",
+   "dof": "fx",
+   "value": -3.074971400376131
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s5",
+   "dof": "fy",
+   "value": -1.0742922549416538
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s5",
+   "dof": "fz",
+   "value": 0.6900068791149363
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s5",
+   "dof": "mx",
+   "value": 2.064153197835418
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s5",
+   "dof": "my",
+   "value": -5.599237956816481
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s6",
+   "dof": "fx",
+   "value": -1.5664030459457283
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s6",
+   "dof": "fy",
+   "value": -0.44924309362432513
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s6",
+   "dof": "fz",
+   "value": 0.4834578010215062
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s6",
+   "dof": "mx",
+   "value": 0.893223392039076
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s6",
+   "dof": "my",
+   "value": -3.135726932778734
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s7",
+   "dof": "fx",
+   "value": -2.110518079700135
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s7",
+   "dof": "fy",
+   "value": -0.5768753077167708
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s7",
+   "dof": "fz",
+   "value": 1.1601719861534299
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s7",
+   "dof": "mx",
+   "value": 1.041595358670215
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s7",
+   "dof": "my",
+   "value": -4.130302023352524
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s8",
+   "dof": "fx",
+   "value": -2.539044211839425
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s8",
+   "dof": "fy",
+   "value": -0.5081238004423806
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s8",
+   "dof": "fz",
+   "value": 1.54020529411954
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s8",
+   "dof": "mx",
+   "value": 0.978590142384959
+  },
+  {
+   "case": "WIND",
+   "kind": "reaction",
+   "node": "s8",
+   "dof": "my",
+   "value": -5.053233796173178
+  }
+ ]
+}

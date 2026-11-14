@@ -1,0 +1,53 @@
+{
+  "source": "Statics with the automatic offset lengths (checks/p4_findings.py's rule): the self-weight total has beams over their clear length, columns over the whole; load totals for LIVE and LAT.",
+  "values": [
+    {
+      "case": "DEAD",
+      "kind": "reaction_sum",
+      "nodes": [
+        "A0",
+        "B0",
+        "C0",
+        "D0"
+      ],
+      "dof": "fz",
+      "value": 280.4595
+    },
+    {
+      "case": "LIVE",
+      "kind": "reaction_sum",
+      "nodes": [
+        "A0",
+        "B0",
+        "C0",
+        "D0"
+      ],
+      "dof": "fz",
+      "value": 220.0
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "A0",
+        "B0",
+        "C0",
+        "D0"
+      ],
+      "dof": "fx",
+      "value": -80.0
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "A0",
+        "B0",
+        "C0",
+        "D0"
+      ],
+      "dof": "fy",
+      "value": -40.0
+    }
+  ]
+}

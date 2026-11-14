@@ -1,0 +1,2271 @@
+{
+  "title": "B60 beam on elastic foundation (line spring)",
+  "dimension": "3D",
+  "mesh": "off",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "C",
+      "E": 25000000.0,
+      "nu": 0.2
+    }
+  ],
+  "sections": [
+    {
+      "id": "R",
+      "A": 0.18,
+      "I22": 0.0013499999999999996,
+      "I33": 0.0053999999999999986,
+      "J": 0.003707859374999999,
+      "depth": 0.6,
+      "width": 0.3
+    }
+  ],
+  "line_spring_props": [
+    {
+      "id": "SOIL",
+      "u1": 100.0,
+      "u2": 5000.0,
+      "u3": 100.0,
+      "r1": 100.0
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "2",
+      "x": 0.125,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "3",
+      "x": 0.25,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "4",
+      "x": 0.375,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "5",
+      "x": 0.5,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "6",
+      "x": 0.625,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "7",
+      "x": 0.75,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "8",
+      "x": 0.875,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "9",
+      "x": 1.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "10",
+      "x": 1.125,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "11",
+      "x": 1.25,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "12",
+      "x": 1.375,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "13",
+      "x": 1.5,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "14",
+      "x": 1.625,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "15",
+      "x": 1.75,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "16",
+      "x": 1.875,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "17",
+      "x": 2.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "18",
+      "x": 2.125,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "19",
+      "x": 2.25,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "20",
+      "x": 2.375,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "21",
+      "x": 2.5,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "22",
+      "x": 2.625,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "23",
+      "x": 2.75,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "24",
+      "x": 2.875,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "25",
+      "x": 3.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "26",
+      "x": 3.125,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "27",
+      "x": 3.25,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "28",
+      "x": 3.375,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "29",
+      "x": 3.5,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "30",
+      "x": 3.625,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "31",
+      "x": 3.75,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "32",
+      "x": 3.875,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "33",
+      "x": 4.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "34",
+      "x": 4.125,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "35",
+      "x": 4.25,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "36",
+      "x": 4.375,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "37",
+      "x": 4.5,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "38",
+      "x": 4.625,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "39",
+      "x": 4.75,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "40",
+      "x": 4.875,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "41",
+      "x": 5.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "42",
+      "x": 5.125,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "43",
+      "x": 5.25,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "44",
+      "x": 5.375,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "45",
+      "x": 5.5,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "46",
+      "x": 5.625,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "47",
+      "x": 5.75,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "48",
+      "x": 5.875,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "49",
+      "x": 6.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "50",
+      "x": 6.125,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "51",
+      "x": 6.25,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "52",
+      "x": 6.375,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "53",
+      "x": 6.5,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "54",
+      "x": 6.625,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "55",
+      "x": 6.75,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "56",
+      "x": 6.875,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "57",
+      "x": 7.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "58",
+      "x": 7.125,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "59",
+      "x": 7.25,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "60",
+      "x": 7.375,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "61",
+      "x": 7.5,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "62",
+      "x": 7.625,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "63",
+      "x": 7.75,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "64",
+      "x": 7.875,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "65",
+      "x": 8.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "66",
+      "x": 8.125,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "67",
+      "x": 8.25,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "68",
+      "x": 8.375,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "69",
+      "x": 8.5,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "70",
+      "x": 8.625,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "71",
+      "x": 8.75,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "72",
+      "x": 8.875,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "73",
+      "x": 9.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "74",
+      "x": 9.125,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "75",
+      "x": 9.25,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "76",
+      "x": 9.375,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "77",
+      "x": 9.5,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "78",
+      "x": 9.625,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "79",
+      "x": 9.75,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "80",
+      "x": 9.875,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "81",
+      "x": 10.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "82",
+      "x": 10.125,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "83",
+      "x": 10.25,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "84",
+      "x": 10.375,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "85",
+      "x": 10.5,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "86",
+      "x": 10.625,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "87",
+      "x": 10.75,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "88",
+      "x": 10.875,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "89",
+      "x": 11.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "90",
+      "x": 11.125,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "91",
+      "x": 11.25,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "92",
+      "x": 11.375,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "93",
+      "x": 11.5,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "94",
+      "x": 11.625,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "95",
+      "x": 11.75,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "96",
+      "x": 11.875,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "97",
+      "x": 12.0,
+      "y": 0.0,
+      "z": 1.0
+    }
+  ],
+  "frames": [
+    {
+      "id": "M1",
+      "type": "frame",
+      "nodes": [
+        "1",
+        "2"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M2",
+      "type": "frame",
+      "nodes": [
+        "2",
+        "3"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M3",
+      "type": "frame",
+      "nodes": [
+        "3",
+        "4"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M4",
+      "type": "frame",
+      "nodes": [
+        "4",
+        "5"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M5",
+      "type": "frame",
+      "nodes": [
+        "5",
+        "6"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M6",
+      "type": "frame",
+      "nodes": [
+        "6",
+        "7"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M7",
+      "type": "frame",
+      "nodes": [
+        "7",
+        "8"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M8",
+      "type": "frame",
+      "nodes": [
+        "8",
+        "9"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M9",
+      "type": "frame",
+      "nodes": [
+        "9",
+        "10"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M10",
+      "type": "frame",
+      "nodes": [
+        "10",
+        "11"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M11",
+      "type": "frame",
+      "nodes": [
+        "11",
+        "12"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M12",
+      "type": "frame",
+      "nodes": [
+        "12",
+        "13"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M13",
+      "type": "frame",
+      "nodes": [
+        "13",
+        "14"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M14",
+      "type": "frame",
+      "nodes": [
+        "14",
+        "15"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M15",
+      "type": "frame",
+      "nodes": [
+        "15",
+        "16"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M16",
+      "type": "frame",
+      "nodes": [
+        "16",
+        "17"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M17",
+      "type": "frame",
+      "nodes": [
+        "17",
+        "18"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M18",
+      "type": "frame",
+      "nodes": [
+        "18",
+        "19"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M19",
+      "type": "frame",
+      "nodes": [
+        "19",
+        "20"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M20",
+      "type": "frame",
+      "nodes": [
+        "20",
+        "21"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M21",
+      "type": "frame",
+      "nodes": [
+        "21",
+        "22"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M22",
+      "type": "frame",
+      "nodes": [
+        "22",
+        "23"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M23",
+      "type": "frame",
+      "nodes": [
+        "23",
+        "24"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M24",
+      "type": "frame",
+      "nodes": [
+        "24",
+        "25"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M25",
+      "type": "frame",
+      "nodes": [
+        "25",
+        "26"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M26",
+      "type": "frame",
+      "nodes": [
+        "26",
+        "27"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M27",
+      "type": "frame",
+      "nodes": [
+        "27",
+        "28"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M28",
+      "type": "frame",
+      "nodes": [
+        "28",
+        "29"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M29",
+      "type": "frame",
+      "nodes": [
+        "29",
+        "30"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M30",
+      "type": "frame",
+      "nodes": [
+        "30",
+        "31"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M31",
+      "type": "frame",
+      "nodes": [
+        "31",
+        "32"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M32",
+      "type": "frame",
+      "nodes": [
+        "32",
+        "33"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M33",
+      "type": "frame",
+      "nodes": [
+        "33",
+        "34"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M34",
+      "type": "frame",
+      "nodes": [
+        "34",
+        "35"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M35",
+      "type": "frame",
+      "nodes": [
+        "35",
+        "36"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M36",
+      "type": "frame",
+      "nodes": [
+        "36",
+        "37"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M37",
+      "type": "frame",
+      "nodes": [
+        "37",
+        "38"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M38",
+      "type": "frame",
+      "nodes": [
+        "38",
+        "39"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M39",
+      "type": "frame",
+      "nodes": [
+        "39",
+        "40"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M40",
+      "type": "frame",
+      "nodes": [
+        "40",
+        "41"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M41",
+      "type": "frame",
+      "nodes": [
+        "41",
+        "42"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M42",
+      "type": "frame",
+      "nodes": [
+        "42",
+        "43"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M43",
+      "type": "frame",
+      "nodes": [
+        "43",
+        "44"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M44",
+      "type": "frame",
+      "nodes": [
+        "44",
+        "45"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M45",
+      "type": "frame",
+      "nodes": [
+        "45",
+        "46"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M46",
+      "type": "frame",
+      "nodes": [
+        "46",
+        "47"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M47",
+      "type": "frame",
+      "nodes": [
+        "47",
+        "48"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M48",
+      "type": "frame",
+      "nodes": [
+        "48",
+        "49"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M49",
+      "type": "frame",
+      "nodes": [
+        "49",
+        "50"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M50",
+      "type": "frame",
+      "nodes": [
+        "50",
+        "51"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M51",
+      "type": "frame",
+      "nodes": [
+        "51",
+        "52"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M52",
+      "type": "frame",
+      "nodes": [
+        "52",
+        "53"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M53",
+      "type": "frame",
+      "nodes": [
+        "53",
+        "54"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M54",
+      "type": "frame",
+      "nodes": [
+        "54",
+        "55"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M55",
+      "type": "frame",
+      "nodes": [
+        "55",
+        "56"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M56",
+      "type": "frame",
+      "nodes": [
+        "56",
+        "57"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M57",
+      "type": "frame",
+      "nodes": [
+        "57",
+        "58"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M58",
+      "type": "frame",
+      "nodes": [
+        "58",
+        "59"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M59",
+      "type": "frame",
+      "nodes": [
+        "59",
+        "60"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M60",
+      "type": "frame",
+      "nodes": [
+        "60",
+        "61"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M61",
+      "type": "frame",
+      "nodes": [
+        "61",
+        "62"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M62",
+      "type": "frame",
+      "nodes": [
+        "62",
+        "63"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M63",
+      "type": "frame",
+      "nodes": [
+        "63",
+        "64"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M64",
+      "type": "frame",
+      "nodes": [
+        "64",
+        "65"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M65",
+      "type": "frame",
+      "nodes": [
+        "65",
+        "66"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M66",
+      "type": "frame",
+      "nodes": [
+        "66",
+        "67"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M67",
+      "type": "frame",
+      "nodes": [
+        "67",
+        "68"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M68",
+      "type": "frame",
+      "nodes": [
+        "68",
+        "69"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M69",
+      "type": "frame",
+      "nodes": [
+        "69",
+        "70"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M70",
+      "type": "frame",
+      "nodes": [
+        "70",
+        "71"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M71",
+      "type": "frame",
+      "nodes": [
+        "71",
+        "72"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M72",
+      "type": "frame",
+      "nodes": [
+        "72",
+        "73"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M73",
+      "type": "frame",
+      "nodes": [
+        "73",
+        "74"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M74",
+      "type": "frame",
+      "nodes": [
+        "74",
+        "75"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M75",
+      "type": "frame",
+      "nodes": [
+        "75",
+        "76"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M76",
+      "type": "frame",
+      "nodes": [
+        "76",
+        "77"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M77",
+      "type": "frame",
+      "nodes": [
+        "77",
+        "78"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M78",
+      "type": "frame",
+      "nodes": [
+        "78",
+        "79"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M79",
+      "type": "frame",
+      "nodes": [
+        "79",
+        "80"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M80",
+      "type": "frame",
+      "nodes": [
+        "80",
+        "81"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M81",
+      "type": "frame",
+      "nodes": [
+        "81",
+        "82"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M82",
+      "type": "frame",
+      "nodes": [
+        "82",
+        "83"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M83",
+      "type": "frame",
+      "nodes": [
+        "83",
+        "84"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M84",
+      "type": "frame",
+      "nodes": [
+        "84",
+        "85"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M85",
+      "type": "frame",
+      "nodes": [
+        "85",
+        "86"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M86",
+      "type": "frame",
+      "nodes": [
+        "86",
+        "87"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M87",
+      "type": "frame",
+      "nodes": [
+        "87",
+        "88"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M88",
+      "type": "frame",
+      "nodes": [
+        "88",
+        "89"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M89",
+      "type": "frame",
+      "nodes": [
+        "89",
+        "90"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M90",
+      "type": "frame",
+      "nodes": [
+        "90",
+        "91"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M91",
+      "type": "frame",
+      "nodes": [
+        "91",
+        "92"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M92",
+      "type": "frame",
+      "nodes": [
+        "92",
+        "93"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M93",
+      "type": "frame",
+      "nodes": [
+        "93",
+        "94"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M94",
+      "type": "frame",
+      "nodes": [
+        "94",
+        "95"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M95",
+      "type": "frame",
+      "nodes": [
+        "95",
+        "96"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    },
+    {
+      "id": "M96",
+      "type": "frame",
+      "nodes": [
+        "96",
+        "97"
+      ],
+      "material": "C",
+      "section": "R",
+      "line_spring": "SOIL"
+    }
+  ],
+  "supports": [],
+  "load_cases": [
+    {
+      "id": "W",
+      "frame_loads": [
+        {
+          "type": "uniform",
+          "frame": "M1",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M2",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M3",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M4",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M5",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M6",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M7",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M8",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M9",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M10",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M11",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M12",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M13",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M14",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M15",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M16",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M17",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M18",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M19",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M20",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M21",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M22",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M23",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M24",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M25",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M26",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M27",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M28",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M29",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M30",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M31",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M32",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M33",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M34",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M35",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M36",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M37",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M38",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M39",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M40",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M41",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M42",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M43",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M44",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M45",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M46",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M47",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M48",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M49",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M50",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M51",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M52",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M53",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M54",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M55",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M56",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M57",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M58",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M59",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M60",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M61",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M62",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M63",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M64",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M65",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M66",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M67",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M68",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M69",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M70",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M71",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M72",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M73",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M74",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M75",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M76",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M77",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M78",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M79",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M80",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M81",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M82",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M83",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M84",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M85",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M86",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M87",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M88",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M89",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M90",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M91",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M92",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M93",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M94",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M95",
+          "dir": "Z",
+          "w": -20.0
+        },
+        {
+          "type": "uniform",
+          "frame": "M96",
+          "dir": "Z",
+          "w": -20.0
+        }
+      ]
+    },
+    {
+      "id": "P",
+      "node_loads": [
+        {
+          "node": "49",
+          "fz": -100.0
+        }
+      ]
+    }
+  ]
+}

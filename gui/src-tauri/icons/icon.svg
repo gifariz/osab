@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="100 85 1050 1050">
+  <!-- OSAB: two towers on a base (blue) under a detached beam (silver-grey); after Astra's "blue faceted" concept -->
+  <!-- Beam -->
+  <path d="M315 150 H940 Q965 150 965 175 V280 L706 412 V262 H548 V340 L290 262 V175 Q290 150 315 150 Z" fill="#B2BCC9"/>
+  <path d="M315 150 H940 Q965 150 965 175 V182 L290 240 V175 Q290 150 315 150 Z" fill="#CAD2DC"/>
+  <path d="M290 238 L548 316 V340 L290 262 Z" fill="#8492A5"/>
+  <path d="M706 386 L965 254 V280 L706 412 Z" fill="#8492A5"/>
+  <!-- Towers and base -->
+  <path d="M290 330 L548 408 V945 H706 V475 L965 343 V1050 Q965 1075 940 1075 H315 Q290 1075 290 1050 Z" fill="#326BC0"/>
+  <path d="M290 330 L328 341.5 V1075 H315 Q290 1075 290 1050 Z" fill="#5A8DDA"/>
+  <path d="M510 396.5 L548 408 V945 L510 975 Z" fill="#245197"/>
+  <path d="M706 475 L745 455 V975 L706 945 Z" fill="#245197"/>
+  <path d="M510 975 L548 945 H706 L745 975 Z" fill="#2A5CA8"/>
+</svg>

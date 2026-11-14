@@ -1,0 +1,77 @@
+{
+  "source": "Statics: the base reactions (column bases and the wall's base, its bottom edge) balance the self-weight (columns full length, beams over their clear length between the automatic offsets - half a column at each column end, none at the wall -, slabs and the wall), the floor loads and the story forces; combinations scale them.",
+  "values": [
+    {
+      "case": "DEAD",
+      "kind": "reaction_sum",
+      "nodes": [
+        "*"
+      ],
+      "dof": "fz",
+      "value": 3141.0
+    },
+    {
+      "case": "SDL",
+      "kind": "reaction_sum",
+      "nodes": [
+        "*"
+      ],
+      "dof": "fz",
+      "value": 540.0
+    },
+    {
+      "case": "LIVE",
+      "kind": "reaction_sum",
+      "nodes": [
+        "*"
+      ],
+      "dof": "fz",
+      "value": 720.0
+    },
+    {
+      "case": "EQX",
+      "kind": "reaction_sum",
+      "nodes": [
+        "*"
+      ],
+      "dof": "fx",
+      "value": -60.0
+    },
+    {
+      "case": "EQY",
+      "kind": "reaction_sum",
+      "nodes": [
+        "*"
+      ],
+      "dof": "fy",
+      "value": -72.0
+    },
+    {
+      "case": "C1",
+      "kind": "reaction_sum",
+      "nodes": [
+        "*"
+      ],
+      "dof": "fz",
+      "value": 5569.2
+    },
+    {
+      "case": "C2",
+      "kind": "reaction_sum",
+      "nodes": [
+        "*"
+      ],
+      "dof": "fz",
+      "value": 5137.2
+    },
+    {
+      "case": "C2",
+      "kind": "reaction_sum",
+      "nodes": [
+        "*"
+      ],
+      "dof": "fx",
+      "value": -60.0
+    }
+  ]
+}

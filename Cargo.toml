@@ -1,0 +1,26 @@
+[workspace]
+members = ["solver", "mesh", "cli", "web", "gui/src-tauri"]
+# The desktop app needs extra system libraries on Linux; plain `cargo test` covers the other crates.
+default-members = ["solver", "mesh", "cli", "web"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+
+[workspace.dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+
+[profile.release]
+lto = true
+
+# The solver and the mesh step optimised in debug builds too: the benchmarks by convergence solve floors of
+# a few thousand elements (cargo test, osab bench), which take minutes unoptimised.
+[profile.dev.package.osab-solver]
+opt-level = 3
+
+[profile.dev.package.osab-mesh]
+opt-level = 3

@@ -1,0 +1,189 @@
+{
+  "title": "B50 rigid diaphragm: one story, unequal columns, eccentric loads",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "concrete",
+      "E": 25000000.0,
+      "nu": 0.2
+    }
+  ],
+  "sections": [
+    {
+      "id": "S1",
+      "A": 0.16000000000000003,
+      "I22": 0.002133333333333334,
+      "I33": 0.002133333333333334,
+      "J": 0.003605333333,
+      "depth": 0.4,
+      "width": 0.4
+    },
+    {
+      "id": "S2",
+      "A": 0.18,
+      "I22": 0.0013499999999999996,
+      "I33": 0.0053999999999999986,
+      "J": 0.003707859375,
+      "depth": 0.6,
+      "width": 0.3
+    },
+    {
+      "id": "S3",
+      "A": 0.18,
+      "I22": 0.0053999999999999986,
+      "I33": 0.0013499999999999996,
+      "J": 0.003707859375,
+      "depth": 0.3,
+      "width": 0.6
+    }
+  ],
+  "nodes": [
+    {
+      "id": "B1",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "T1",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 3.5,
+      "diaphragm": "D1"
+    },
+    {
+      "id": "B2",
+      "x": 8.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "T2",
+      "x": 8.0,
+      "y": 0.0,
+      "z": 3.5,
+      "diaphragm": "D1"
+    },
+    {
+      "id": "B3",
+      "x": 8.0,
+      "y": 6.0,
+      "z": 0.0
+    },
+    {
+      "id": "T3",
+      "x": 8.0,
+      "y": 6.0,
+      "z": 3.5,
+      "diaphragm": "D1"
+    },
+    {
+      "id": "B4",
+      "x": 0.0,
+      "y": 6.0,
+      "z": 0.0
+    },
+    {
+      "id": "T4",
+      "x": 0.0,
+      "y": 6.0,
+      "z": 3.5,
+      "diaphragm": "D1"
+    }
+  ],
+  "frames": [
+    {
+      "id": "C1",
+      "type": "frame",
+      "nodes": [
+        "B1",
+        "T1"
+      ],
+      "material": "concrete",
+      "section": "S1"
+    },
+    {
+      "id": "C2",
+      "type": "frame",
+      "nodes": [
+        "B2",
+        "T2"
+      ],
+      "material": "concrete",
+      "section": "S2"
+    },
+    {
+      "id": "C3",
+      "type": "frame",
+      "nodes": [
+        "B3",
+        "T3"
+      ],
+      "material": "concrete",
+      "section": "S3"
+    },
+    {
+      "id": "C4",
+      "type": "frame",
+      "nodes": [
+        "B4",
+        "T4"
+      ],
+      "material": "concrete",
+      "section": "S2",
+      "angle": 90.0
+    }
+  ],
+  "supports": [
+    {
+      "node": "B1",
+      "fix": "fixed"
+    },
+    {
+      "node": "B2",
+      "fix": "fixed"
+    },
+    {
+      "node": "B3",
+      "fix": "fixed"
+    },
+    {
+      "node": "B4",
+      "fix": "fixed"
+    }
+  ],
+  "diaphragms": [
+    {
+      "id": "D1"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "LX",
+      "node_loads": [
+        {
+          "node": "T2",
+          "fx": 100.0
+        }
+      ]
+    },
+    {
+      "id": "LY",
+      "node_loads": [
+        {
+          "node": "T4",
+          "fy": 60.0
+        },
+        {
+          "node": "T3",
+          "mz": 40.0
+        }
+      ]
+    }
+  ],
+  "mesh": "off"
+}

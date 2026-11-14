@@ -1,0 +1,20 @@
+[package]
+name = "osab-cli"
+description = "OSAB developer command line (solve models, run benchmarks)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "osab"
+path = "src/main.rs"
+
+[features]
+# Counts the memory in use, phase by phase, in `osab solve --timing` (src/mem.rs). Off in normal builds.
+mem-profile = []
+
+[dependencies]
+osab-solver = { path = "../solver" }
+osab-mesh = { path = "../mesh" }
+serde.workspace = true
+serde_json.workspace = true

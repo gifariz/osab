@@ -1,0 +1,312 @@
+{
+  "title": "L-shaped floor with an opening on columns (Rectangular mesh)",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "mesh": {
+    "floor": "rectangular",
+    "floor_size": 1.0
+  },
+  "materials": [
+    {
+      "id": "concrete",
+      "E": 25000000.0,
+      "nu": 0.2
+    }
+  ],
+  "sections": [
+    {
+      "id": "COL",
+      "A": 0.16000000000000003,
+      "I22": 0.002133333333333334,
+      "I33": 0.002133333333333334,
+      "J": 0.0036053333333333345,
+      "As2": 0.13333333333333336,
+      "As3": 0.13333333333333336
+    }
+  ],
+  "nodes": [
+    {
+      "id": "c0",
+      "x": 0,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "c1",
+      "x": 8,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "c2",
+      "x": 8,
+      "y": 4,
+      "z": 3.0
+    },
+    {
+      "id": "c3",
+      "x": 4,
+      "y": 4,
+      "z": 3.0
+    },
+    {
+      "id": "c4",
+      "x": 4,
+      "y": 8,
+      "z": 3.0
+    },
+    {
+      "id": "c5",
+      "x": 0,
+      "y": 8,
+      "z": 3.0
+    },
+    {
+      "id": "h0",
+      "x": 1,
+      "y": 5,
+      "z": 3.0
+    },
+    {
+      "id": "h1",
+      "x": 2,
+      "y": 5,
+      "z": 3.0
+    },
+    {
+      "id": "h2",
+      "x": 2,
+      "y": 7,
+      "z": 3.0
+    },
+    {
+      "id": "h3",
+      "x": 1,
+      "y": 7,
+      "z": 3.0
+    },
+    {
+      "id": "s0",
+      "x": 0,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "t1",
+      "x": 4,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "s1",
+      "x": 4,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "s2",
+      "x": 8,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "s3",
+      "x": 8,
+      "y": 4,
+      "z": 0.0
+    },
+    {
+      "id": "s4",
+      "x": 4,
+      "y": 4,
+      "z": 0.0
+    },
+    {
+      "id": "s5",
+      "x": 4,
+      "y": 8,
+      "z": 0.0
+    },
+    {
+      "id": "s6",
+      "x": 0,
+      "y": 8,
+      "z": 0.0
+    },
+    {
+      "id": "t7",
+      "x": 0,
+      "y": 4,
+      "z": 3.0
+    },
+    {
+      "id": "s7",
+      "x": 0,
+      "y": 4,
+      "z": 0.0
+    }
+  ],
+  "frames": [
+    {
+      "id": "C1",
+      "type": "frame",
+      "nodes": [
+        "s0",
+        "c0"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C2",
+      "type": "frame",
+      "nodes": [
+        "s1",
+        "t1"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C3",
+      "type": "frame",
+      "nodes": [
+        "s2",
+        "c1"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C4",
+      "type": "frame",
+      "nodes": [
+        "s3",
+        "c2"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C5",
+      "type": "frame",
+      "nodes": [
+        "s4",
+        "c3"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C6",
+      "type": "frame",
+      "nodes": [
+        "s5",
+        "c4"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C7",
+      "type": "frame",
+      "nodes": [
+        "s6",
+        "c5"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C8",
+      "type": "frame",
+      "nodes": [
+        "s7",
+        "t7"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    }
+  ],
+  "area_sections": [
+    {
+      "id": "SLAB",
+      "type": "shell-thin",
+      "material": "concrete",
+      "thickness": 0.2
+    }
+  ],
+  "areas": [
+    {
+      "id": "F1",
+      "nodes": [
+        "c0",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ],
+      "section": "SLAB"
+    },
+    {
+      "id": "O1",
+      "nodes": [
+        "h0",
+        "h1",
+        "h2",
+        "h3"
+      ],
+      "opening": true
+    }
+  ],
+  "supports": [
+    {
+      "node": "s0",
+      "fix": "fixed"
+    },
+    {
+      "node": "s1",
+      "fix": "fixed"
+    },
+    {
+      "node": "s2",
+      "fix": "fixed"
+    },
+    {
+      "node": "s3",
+      "fix": "fixed"
+    },
+    {
+      "node": "s4",
+      "fix": "fixed"
+    },
+    {
+      "node": "s5",
+      "fix": "fixed"
+    },
+    {
+      "node": "s6",
+      "fix": "fixed"
+    },
+    {
+      "node": "s7",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "DEAD",
+      "area_loads": [
+        {
+          "area": "F1",
+          "dir": "Z",
+          "q": -6.0
+        }
+      ]
+    }
+  ]
+}

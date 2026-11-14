@@ -1,0 +1,147 @@
+{
+  "title": "Members given against the usual end order",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "steel",
+      "E": 200000000.0,
+      "nu": 0.3
+    }
+  ],
+  "sections": [
+    {
+      "id": "COL",
+      "A": 0.012,
+      "I22": 6e-05,
+      "I33": 0.00015,
+      "J": 3e-06
+    },
+    {
+      "id": "BEAM",
+      "A": 0.008,
+      "I22": 4e-05,
+      "I33": 0.00025,
+      "J": 1e-06
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 0,
+      "y": 0,
+      "z": 4.0
+    },
+    {
+      "id": "2",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "3",
+      "x": 5.0,
+      "y": 0,
+      "z": 4.0
+    },
+    {
+      "id": "4",
+      "x": 0,
+      "y": 4,
+      "z": 4.0
+    }
+  ],
+  "frames": [
+    {
+      "id": "C",
+      "type": "frame",
+      "nodes": [
+        "1",
+        "2"
+      ],
+      "material": "steel",
+      "section": "COL",
+      "angle": 20
+    },
+    {
+      "id": "B1",
+      "type": "frame",
+      "nodes": [
+        "3",
+        "1"
+      ],
+      "material": "steel",
+      "section": "BEAM",
+      "angle": -15
+    },
+    {
+      "id": "B2",
+      "type": "frame",
+      "nodes": [
+        "4",
+        "1"
+      ],
+      "material": "steel",
+      "section": "BEAM"
+    }
+  ],
+  "supports": [
+    {
+      "node": "2",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "LC1",
+      "node_loads": [
+        {
+          "node": "3",
+          "fy": 2.0
+        }
+      ],
+      "frame_loads": [
+        {
+          "type": "uniform",
+          "frame": "B1",
+          "dir": "2",
+          "w": -6.0,
+          "from": 0.5,
+          "to": 2.5
+        },
+        {
+          "type": "point",
+          "frame": "B1",
+          "dir": "3",
+          "p": 3.0,
+          "at": 1.0
+        },
+        {
+          "type": "point",
+          "frame": "B2",
+          "dir": "1",
+          "p": 4.0,
+          "at": 1.5
+        },
+        {
+          "type": "uniform",
+          "frame": "B2",
+          "dir": "Z",
+          "w": -5.0
+        },
+        {
+          "type": "uniform",
+          "frame": "C",
+          "dir": "3",
+          "w": 1.5,
+          "from": 1.0,
+          "to": 3.0
+        }
+      ]
+    }
+  ],
+  "mesh": "off"
+}

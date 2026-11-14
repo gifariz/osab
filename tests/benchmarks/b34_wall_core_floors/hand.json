@@ -1,0 +1,56 @@
+{
+  "source": "Statics: base reactions balance the loads (DEAD 5 kN/m^2 on two 4 x 3 m floors = 120 kN; WIND 45 kN in X, 20 kN in Y).",
+  "values": [
+    {
+      "case": "DEAD",
+      "kind": "reaction_sum",
+      "nodes": [
+        "a0",
+        "b0",
+        "c0",
+        "d0",
+        "o1",
+        "o2",
+        "~20",
+        "~26",
+        "~29"
+      ],
+      "dof": "fz",
+      "value": 120.0
+    },
+    {
+      "case": "WIND",
+      "kind": "reaction_sum",
+      "nodes": [
+        "a0",
+        "b0",
+        "c0",
+        "d0",
+        "o1",
+        "o2",
+        "~20",
+        "~26",
+        "~29"
+      ],
+      "dof": "fx",
+      "value": -45.0
+    },
+    {
+      "case": "WIND",
+      "kind": "reaction_sum",
+      "nodes": [
+        "a0",
+        "b0",
+        "c0",
+        "d0",
+        "o1",
+        "o2",
+        "~20",
+        "~26",
+        "~29"
+      ],
+      "dof": "fy",
+      "value": -20.0
+    }
+  ]
+}

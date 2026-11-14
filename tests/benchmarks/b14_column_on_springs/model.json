@@ -1,0 +1,78 @@
+{
+  "title": "Column on six base springs",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "steel",
+      "E": 200000000.0,
+      "nu": 0.3
+    }
+  ],
+  "sections": [
+    {
+      "id": "COL",
+      "A": 0.012,
+      "I22": 6e-05,
+      "I33": 0.00015,
+      "J": 3e-06
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "2",
+      "x": 0,
+      "y": 0,
+      "z": 3.5
+    }
+  ],
+  "frames": [
+    {
+      "id": "1",
+      "type": "frame",
+      "nodes": [
+        "1",
+        "2"
+      ],
+      "material": "steel",
+      "section": "COL"
+    }
+  ],
+  "supports": [],
+  "load_cases": [
+    {
+      "id": "LC1",
+      "node_loads": [
+        {
+          "node": "2",
+          "fx": 8.0,
+          "fy": -5.0,
+          "fz": -40.0,
+          "mx": 2.0,
+          "mz": 3.0
+        }
+      ]
+    }
+  ],
+  "springs": [
+    {
+      "node": "1",
+      "ux": 40000.0,
+      "uy": 30000.0,
+      "uz": 200000.0,
+      "rx": 50000.0,
+      "ry": 60000.0,
+      "rz": 20000.0
+    }
+  ],
+  "mesh": "off"
+}

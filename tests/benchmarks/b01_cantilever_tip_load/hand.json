@@ -1,0 +1,57 @@
+{
+  "source": "Closed form: tip deflection P L^3 / 3EI, tip rotation P L^2 / 2EI, support moment P L",
+  "values": [
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "uz",
+      "value": -0.005333333333333333
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "ry",
+      "value": 0.002
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fz",
+      "value": 10.0
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "my",
+      "value": -40.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "M3",
+      "value": -40.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "V2",
+      "value": -10.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "j",
+      "comp": "V2",
+      "value": -10.0
+    }
+  ]
+}

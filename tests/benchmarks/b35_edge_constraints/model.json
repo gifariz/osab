@@ -1,0 +1,160 @@
+{
+  "title": "Edge constraints: a meshed floor next to an unmeshed one, a beam on an element edge",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "mesh": {
+    "floor_size": 0.5
+  },
+  "materials": [
+    {
+      "id": "concrete",
+      "E": 25000000.0,
+      "nu": 0.2
+    }
+  ],
+  "sections": [
+    {
+      "id": "BEAM",
+      "A": 0.15,
+      "I22": 0.001125,
+      "I33": 0.0031249999999999997,
+      "J": 0.0028173707999999994,
+      "As2": 0.125,
+      "As3": 0.125
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 0,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "2",
+      "x": 2,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "3",
+      "x": 2,
+      "y": 2,
+      "z": 3.0
+    },
+    {
+      "id": "4",
+      "x": 0,
+      "y": 2,
+      "z": 3.0
+    },
+    {
+      "id": "5",
+      "x": 4,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "6",
+      "x": 4,
+      "y": 2,
+      "z": 3.0
+    },
+    {
+      "id": "7",
+      "x": 4,
+      "y": 1,
+      "z": 3.0
+    },
+    {
+      "id": "8",
+      "x": 5.5,
+      "y": 1,
+      "z": 3.0
+    }
+  ],
+  "frames": [
+    {
+      "id": "B1",
+      "type": "frame",
+      "nodes": [
+        "7",
+        "8"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    }
+  ],
+  "area_sections": [
+    {
+      "id": "SLAB",
+      "type": "shell-thin",
+      "material": "concrete",
+      "thickness": 0.2
+    }
+  ],
+  "areas": [
+    {
+      "id": "F1",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "section": "SLAB",
+      "edge_restraints": true
+    },
+    {
+      "id": "F2",
+      "nodes": [
+        "2",
+        "5",
+        "6",
+        "3"
+      ],
+      "section": "SLAB",
+      "mesh": "none"
+    }
+  ],
+  "supports": [
+    {
+      "node": "1",
+      "fix": "fixed"
+    },
+    {
+      "node": "4",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "DEAD",
+      "area_loads": [
+        {
+          "area": "F1",
+          "dir": "Z",
+          "q": -4.0
+        },
+        {
+          "area": "F2",
+          "dir": "Z",
+          "q": -4.0
+        }
+      ]
+    },
+    {
+      "id": "TIP",
+      "node_loads": [
+        {
+          "node": "8",
+          "fz": -5.0,
+          "fy": 2.0
+        }
+      ]
+    }
+  ]
+}

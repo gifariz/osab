@@ -1,0 +1,328 @@
+{
+  "title": "B46 frame end releases",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "steel",
+      "E": 200000000.0,
+      "nu": 0.3
+    }
+  ],
+  "sections": [
+    {
+      "id": "COL",
+      "A": 0.012,
+      "I22": 6e-05,
+      "I33": 0.00015,
+      "J": 3e-06
+    },
+    {
+      "id": "BEAM",
+      "A": 0.008,
+      "I22": 2e-05,
+      "I33": 0.00012,
+      "J": 1e-06
+    },
+    {
+      "id": "BR",
+      "A": 0.004,
+      "I22": 4e-06,
+      "I33": 4e-06,
+      "J": 8e-06
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "2",
+      "x": 6,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "3",
+      "x": 12,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "4",
+      "x": 0,
+      "y": 0,
+      "z": 4
+    },
+    {
+      "id": "5",
+      "x": 6,
+      "y": 0,
+      "z": 4
+    },
+    {
+      "id": "6",
+      "x": 12,
+      "y": 0,
+      "z": 4
+    },
+    {
+      "id": "7",
+      "x": 0,
+      "y": 10,
+      "z": 3
+    },
+    {
+      "id": "8",
+      "x": 4,
+      "y": 10,
+      "z": 3
+    },
+    {
+      "id": "9",
+      "x": 8,
+      "y": 10,
+      "z": 3
+    },
+    {
+      "id": "10",
+      "x": 0,
+      "y": 20,
+      "z": 3
+    },
+    {
+      "id": "11",
+      "x": 3,
+      "y": 20,
+      "z": 3
+    },
+    {
+      "id": "12",
+      "x": 6,
+      "y": 20,
+      "z": 3
+    }
+  ],
+  "frames": [
+    {
+      "id": "C1",
+      "type": "frame",
+      "nodes": [
+        "1",
+        "4"
+      ],
+      "material": "steel",
+      "section": "COL"
+    },
+    {
+      "id": "C2",
+      "type": "frame",
+      "nodes": [
+        "2",
+        "5"
+      ],
+      "material": "steel",
+      "section": "COL"
+    },
+    {
+      "id": "C3",
+      "type": "frame",
+      "nodes": [
+        "3",
+        "6"
+      ],
+      "material": "steel",
+      "section": "COL"
+    },
+    {
+      "id": "B1",
+      "type": "frame",
+      "nodes": [
+        "4",
+        "5"
+      ],
+      "material": "steel",
+      "section": "BEAM",
+      "releases": {
+        "i": [
+          "M2",
+          "M3"
+        ],
+        "j": [
+          "M2",
+          "M3"
+        ]
+      }
+    },
+    {
+      "id": "B2",
+      "type": "frame",
+      "nodes": [
+        "5",
+        "6"
+      ],
+      "material": "steel",
+      "section": "BEAM",
+      "releases": {
+        "i": [
+          "M2",
+          "M3"
+        ],
+        "j": [
+          "M2",
+          "M3"
+        ]
+      }
+    },
+    {
+      "id": "D1",
+      "type": "frame",
+      "nodes": [
+        "1",
+        "5"
+      ],
+      "material": "steel",
+      "section": "BR",
+      "releases": {
+        "i": [
+          "M2",
+          "M3"
+        ],
+        "j": [
+          "M2",
+          "M3"
+        ]
+      }
+    },
+    {
+      "id": "B3",
+      "type": "frame",
+      "nodes": [
+        "7",
+        "8"
+      ],
+      "material": "steel",
+      "section": "BEAM",
+      "releases": {
+        "j": [
+          "M3"
+        ]
+      }
+    },
+    {
+      "id": "B4",
+      "type": "frame",
+      "nodes": [
+        "8",
+        "9"
+      ],
+      "material": "steel",
+      "section": "BEAM"
+    },
+    {
+      "id": "B5",
+      "type": "frame",
+      "nodes": [
+        "10",
+        "11"
+      ],
+      "material": "steel",
+      "section": "BEAM",
+      "releases": {
+        "i": [
+          "T"
+        ]
+      }
+    },
+    {
+      "id": "B6",
+      "type": "frame",
+      "nodes": [
+        "11",
+        "12"
+      ],
+      "material": "steel",
+      "section": "BEAM"
+    }
+  ],
+  "supports": [
+    {
+      "node": "1",
+      "fix": "fixed"
+    },
+    {
+      "node": "2",
+      "fix": "fixed"
+    },
+    {
+      "node": "3",
+      "fix": "fixed"
+    },
+    {
+      "node": "7",
+      "fix": "fixed"
+    },
+    {
+      "node": "9",
+      "fix": [
+        "uy",
+        "uz",
+        "rx"
+      ]
+    },
+    {
+      "node": "10",
+      "fix": "fixed"
+    },
+    {
+      "node": "12",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "GRAV",
+      "frame_loads": [
+        {
+          "type": "uniform",
+          "frame": "B1",
+          "dir": "Z",
+          "w": -15.0
+        },
+        {
+          "type": "uniform",
+          "frame": "B2",
+          "dir": "Z",
+          "w": -15.0
+        },
+        {
+          "type": "point",
+          "frame": "B4",
+          "dir": "Z",
+          "p": -30.0,
+          "at": 3.0
+        }
+      ]
+    },
+    {
+      "id": "LAT",
+      "node_loads": [
+        {
+          "node": "4",
+          "fx": 20.0
+        },
+        {
+          "node": "11",
+          "mx": 6.0
+        }
+      ]
+    }
+  ],
+  "mesh": "off"
+}

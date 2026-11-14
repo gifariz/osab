@@ -1,0 +1,215 @@
+{
+  "source": "Statics: total reactions.",
+  "values": [
+    {
+      "case": "GRAV",
+      "kind": "reaction_sum",
+      "nodes": [
+        "11",
+        "12"
+      ],
+      "dof": "fz",
+      "value": 72.0
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "11",
+        "12"
+      ],
+      "dof": "fx",
+      "value": -15.0
+    },
+    {
+      "case": "OUT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "11",
+        "12"
+      ],
+      "dof": "fy",
+      "value": -8.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction_sum",
+      "nodes": [
+        "21",
+        "22"
+      ],
+      "dof": "fz",
+      "value": 72.0
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "21",
+        "22"
+      ],
+      "dof": "fx",
+      "value": -15.0
+    },
+    {
+      "case": "OUT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "21",
+        "22"
+      ],
+      "dof": "fy",
+      "value": -8.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction_sum",
+      "nodes": [
+        "31",
+        "32"
+      ],
+      "dof": "fz",
+      "value": 72.0
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "31",
+        "32"
+      ],
+      "dof": "fx",
+      "value": -15.0
+    },
+    {
+      "case": "OUT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "31",
+        "32"
+      ],
+      "dof": "fy",
+      "value": -8.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction_sum",
+      "nodes": [
+        "41",
+        "42"
+      ],
+      "dof": "fz",
+      "value": 72.0
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "41",
+        "42"
+      ],
+      "dof": "fx",
+      "value": -15.0
+    },
+    {
+      "case": "OUT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "41",
+        "42"
+      ],
+      "dof": "fy",
+      "value": -8.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction_sum",
+      "nodes": [
+        "51",
+        "52"
+      ],
+      "dof": "fz",
+      "value": 72.0
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "51",
+        "52"
+      ],
+      "dof": "fx",
+      "value": -15.0
+    },
+    {
+      "case": "OUT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "51",
+        "52"
+      ],
+      "dof": "fy",
+      "value": -8.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction_sum",
+      "nodes": [
+        "61",
+        "62"
+      ],
+      "dof": "fz",
+      "value": 72.0
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "61",
+        "62"
+      ],
+      "dof": "fx",
+      "value": -15.0
+    },
+    {
+      "case": "OUT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "61",
+        "62"
+      ],
+      "dof": "fy",
+      "value": -8.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction_sum",
+      "nodes": [
+        "71",
+        "72"
+      ],
+      "dof": "fz",
+      "value": 72.0
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "71",
+        "72"
+      ],
+      "dof": "fx",
+      "value": -15.0
+    },
+    {
+      "case": "OUT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "71",
+        "72"
+      ],
+      "dof": "fy",
+      "value": -8.0
+    }
+  ]
+}

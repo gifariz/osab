@@ -1,0 +1,565 @@
+{
+  "source": "Cantilever columns (Euler-Bernoulli, tops free to rotate) joined only by the rigid diaphragm: lateral stiffness 3EI/h^3 (I33 along local 2, I22 along local 3), torsion GJ/h; the diaphragm's UX, UY, RZ at T1 from the 3 x 3 system sum k a a^T, a = (1, 0, -y) or (0, 1, x); tip rotations P h^2 / 2EI, base moments P h.",
+  "values": [
+    {
+      "case": "LX",
+      "kind": "disp",
+      "node": "T1",
+      "dof": "ux",
+      "value": 0.006027866812410687
+    },
+    {
+      "case": "LX",
+      "kind": "disp",
+      "node": "T1",
+      "dof": "uy",
+      "value": -0.001054493282069859
+    },
+    {
+      "case": "LX",
+      "kind": "disp",
+      "node": "T1",
+      "dof": "rz",
+      "value": 0.00027891998232526825
+    },
+    {
+      "case": "LX",
+      "kind": "disp",
+      "node": "T1",
+      "dof": "ry",
+      "value": 0.0025833714910331513
+    },
+    {
+      "case": "LX",
+      "kind": "disp",
+      "node": "T1",
+      "dof": "rx",
+      "value": 0.0004519256923156538
+    },
+    {
+      "case": "LX",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "fx",
+      "value": -22.49466332328187
+    },
+    {
+      "case": "LX",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "fy",
+      "value": 3.9351352800274633
+    },
+    {
+      "case": "LX",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "mz",
+      "value": -2.9928556830864896
+    },
+    {
+      "case": "LX",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "my",
+      "value": -78.73132163148654
+    },
+    {
+      "case": "LX",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "mx",
+      "value": -13.772973480096121
+    },
+    {
+      "case": "LX",
+      "kind": "disp",
+      "node": "T2",
+      "dof": "ux",
+      "value": 0.006027866812410687
+    },
+    {
+      "case": "LX",
+      "kind": "disp",
+      "node": "T2",
+      "dof": "uy",
+      "value": 0.001176866576532287
+    },
+    {
+      "case": "LX",
+      "kind": "disp",
+      "node": "T2",
+      "dof": "rz",
+      "value": 0.00027891998232526825
+    },
+    {
+      "case": "LX",
+      "kind": "disp",
+      "node": "T2",
+      "dof": "ry",
+      "value": 0.0025833714910331517
+    },
+    {
+      "case": "LX",
+      "kind": "disp",
+      "node": "T2",
+      "dof": "rx",
+      "value": -0.0005043713899424086
+    },
+    {
+      "case": "LX",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "fx",
+      "value": -56.939616537057205
+    },
+    {
+      "case": "LX",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "fy",
+      "value": -2.779189291519394
+    },
+    {
+      "case": "LX",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "mz",
+      "value": -3.0779644980344645
+    },
+    {
+      "case": "LX",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "my",
+      "value": -199.28865787970022
+    },
+    {
+      "case": "LX",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "mx",
+      "value": 9.72716252031788
+    },
+    {
+      "case": "LX",
+      "kind": "disp",
+      "node": "T3",
+      "dof": "ux",
+      "value": 0.004354346918459078
+    },
+    {
+      "case": "LX",
+      "kind": "disp",
+      "node": "T3",
+      "dof": "uy",
+      "value": 0.001176866576532287
+    },
+    {
+      "case": "LX",
+      "kind": "disp",
+      "node": "T3",
+      "dof": "rz",
+      "value": 0.00027891998232526825
+    },
+    {
+      "case": "LX",
+      "kind": "disp",
+      "node": "T3",
+      "dof": "ry",
+      "value": 0.0018661486793396047
+    },
+    {
+      "case": "LX",
+      "kind": "disp",
+      "node": "T3",
+      "dof": "rx",
+      "value": -0.0005043713899424086
+    },
+    {
+      "case": "LX",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "fx",
+      "value": -10.282860069830473
+    },
+    {
+      "case": "LX",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "fy",
+      "value": -11.116757166077576
+    },
+    {
+      "case": "LX",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "mz",
+      "value": -3.0779644980344645
+    },
+    {
+      "case": "LX",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "my",
+      "value": -35.990010244406655
+    },
+    {
+      "case": "LX",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "mx",
+      "value": 38.90865008127152
+    },
+    {
+      "case": "LX",
+      "kind": "disp",
+      "node": "T4",
+      "dof": "ux",
+      "value": 0.004354346918459078
+    },
+    {
+      "case": "LX",
+      "kind": "disp",
+      "node": "T4",
+      "dof": "uy",
+      "value": -0.001054493282069859
+    },
+    {
+      "case": "LX",
+      "kind": "disp",
+      "node": "T4",
+      "dof": "rz",
+      "value": 0.00027891998232526825
+    },
+    {
+      "case": "LX",
+      "kind": "disp",
+      "node": "T4",
+      "dof": "ry",
+      "value": 0.0018661486793396047
+    },
+    {
+      "case": "LX",
+      "kind": "disp",
+      "node": "T4",
+      "dof": "rx",
+      "value": 0.0004519256923156539
+    },
+    {
+      "case": "LX",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "fx",
+      "value": -10.282860069830473
+    },
+    {
+      "case": "LX",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "fy",
+      "value": 9.960811177569513
+    },
+    {
+      "case": "LX",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "mz",
+      "value": -3.0779644980344645
+    },
+    {
+      "case": "LX",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "my",
+      "value": -35.990010244406655
+    },
+    {
+      "case": "LX",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "mx",
+      "value": -34.862839121493295
+    },
+    {
+      "case": "LY",
+      "kind": "disp",
+      "node": "T1",
+      "dof": "ux",
+      "value": -0.0005211279763118094
+    },
+    {
+      "case": "LY",
+      "kind": "disp",
+      "node": "T1",
+      "dof": "uy",
+      "value": 0.003645945458792104
+    },
+    {
+      "case": "LY",
+      "kind": "disp",
+      "node": "T1",
+      "dof": "rz",
+      "value": -0.00032918989450149183
+    },
+    {
+      "case": "LY",
+      "kind": "disp",
+      "node": "T1",
+      "dof": "ry",
+      "value": -0.00022334056127648974
+    },
+    {
+      "case": "LY",
+      "kind": "disp",
+      "node": "T1",
+      "dof": "rx",
+      "value": -0.0015625480537680445
+    },
+    {
+      "case": "LY",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "fx",
+      "value": 1.9447341390061696
+    },
+    {
+      "case": "LY",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "fy",
+      "value": -13.605860604238758
+    },
+    {
+      "case": "LY",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "mz",
+      "value": 3.532259820038637
+    },
+    {
+      "case": "LY",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "my",
+      "value": 6.806569486521594
+    },
+    {
+      "case": "LY",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "mx",
+      "value": 47.620512114835655
+    },
+    {
+      "case": "LY",
+      "kind": "disp",
+      "node": "T2",
+      "dof": "ux",
+      "value": -0.0005211279763118094
+    },
+    {
+      "case": "LY",
+      "kind": "disp",
+      "node": "T2",
+      "dof": "uy",
+      "value": 0.0010124263027801693
+    },
+    {
+      "case": "LY",
+      "kind": "disp",
+      "node": "T2",
+      "dof": "rz",
+      "value": -0.00032918989450149183
+    },
+    {
+      "case": "LY",
+      "kind": "disp",
+      "node": "T2",
+      "dof": "ry",
+      "value": -0.00022334056127648976
+    },
+    {
+      "case": "LY",
+      "kind": "disp",
+      "node": "T2",
+      "dof": "rx",
+      "value": -0.0004338969869057869
+    },
+    {
+      "case": "LY",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "fx",
+      "value": 4.922608289359365
+    },
+    {
+      "case": "LY",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "fy",
+      "value": -2.390860948256376
+    },
+    {
+      "case": "LY",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "mz",
+      "value": 3.6327078466744562
+    },
+    {
+      "case": "LY",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "my",
+      "value": 17.229129012757777
+    },
+    {
+      "case": "LY",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "mx",
+      "value": 8.368013318897317
+    },
+    {
+      "case": "LY",
+      "kind": "disp",
+      "node": "T3",
+      "dof": "ux",
+      "value": 0.0014540113906971416
+    },
+    {
+      "case": "LY",
+      "kind": "disp",
+      "node": "T3",
+      "dof": "uy",
+      "value": 0.0010124263027801693
+    },
+    {
+      "case": "LY",
+      "kind": "disp",
+      "node": "T3",
+      "dof": "rz",
+      "value": -0.00032918989450149183
+    },
+    {
+      "case": "LY",
+      "kind": "disp",
+      "node": "T3",
+      "dof": "ry",
+      "value": 0.0006231477388702036
+    },
+    {
+      "case": "LY",
+      "kind": "disp",
+      "node": "T3",
+      "dof": "rx",
+      "value": -0.0004338969869057869
+    },
+    {
+      "case": "LY",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "fx",
+      "value": -3.4336712141827537
+    },
+    {
+      "case": "LY",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "fy",
+      "value": -9.563443793025504
+    },
+    {
+      "case": "LY",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "mz",
+      "value": 3.6327078466744562
+    },
+    {
+      "case": "LY",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "my",
+      "value": -12.017849249639639
+    },
+    {
+      "case": "LY",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "mx",
+      "value": 33.47205327558927
+    },
+    {
+      "case": "LY",
+      "kind": "disp",
+      "node": "T4",
+      "dof": "ux",
+      "value": 0.0014540113906971416
+    },
+    {
+      "case": "LY",
+      "kind": "disp",
+      "node": "T4",
+      "dof": "uy",
+      "value": 0.003645945458792104
+    },
+    {
+      "case": "LY",
+      "kind": "disp",
+      "node": "T4",
+      "dof": "rz",
+      "value": -0.00032918989450149183
+    },
+    {
+      "case": "LY",
+      "kind": "disp",
+      "node": "T4",
+      "dof": "ry",
+      "value": 0.0006231477388702036
+    },
+    {
+      "case": "LY",
+      "kind": "disp",
+      "node": "T4",
+      "dof": "rx",
+      "value": -0.0015625480537680447
+    },
+    {
+      "case": "LY",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "fx",
+      "value": -3.4336712141827537
+    },
+    {
+      "case": "LY",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "fy",
+      "value": -34.43983465447934
+    },
+    {
+      "case": "LY",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "mz",
+      "value": 3.6327078466744562
+    },
+    {
+      "case": "LY",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "my",
+      "value": -12.017849249639639
+    },
+    {
+      "case": "LY",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "mx",
+      "value": 120.5394212906777
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+{
+  "source": "Statics: each case's reactions carry the sum of its patterns' loads times the scale factors (self-weight: material weight x A or x t x the patterns' multipliers times the factors; a pattern applied twice counts twice; an empty case gives zero); COMB1 = C1 + 0.5 Wind.",
+  "values": [
+    {
+      "case": "Dead",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fz",
+      "value": 244.8
+    },
+    {
+      "case": "Dead",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fx",
+      "value": 0
+    },
+    {
+      "case": "Dead",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fy",
+      "value": 0
+    },
+    {
+      "case": "Dead",
+      "kind": "reaction_sum",
+      "nodes": [
+        "9"
+      ],
+      "dof": "fz",
+      "value": 11.52
+    },
+    {
+      "case": "Dead",
+      "kind": "reaction_sum",
+      "nodes": [
+        "9"
+      ],
+      "dof": "fy",
+      "value": 0
+    },
+    {
+      "case": "SDL",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fz",
+      "value": 54.0
+    },
+    {
+      "case": "SDL",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fx",
+      "value": 0
+    },
+    {
+      "case": "SDL",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fy",
+      "value": 0
+    },
+    {
+      "case": "SDL",
+      "kind": "reaction_sum",
+      "nodes": [
+        "9"
+      ],
+      "dof": "fz",
+      "value": 0
+    },
+    {
+      "case": "SDL",
+      "kind": "reaction_sum",
+      "nodes": [
+        "9"
+      ],
+      "dof": "fy",
+      "value": 0
+    },
+    {
+      "case": "Live",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fz",
+      "value": 68
+    },
+    {
+      "case": "Live",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fx",
+      "value": 0
+    },
+    {
+      "case": "Live",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fy",
+      "value": 0
+    },
+    {
+      "case": "Live",
+      "kind": "reaction_sum",
+      "nodes": [
+        "9"
+      ],
+      "dof": "fz",
+      "value": 10
+    },
+    {
+      "case": "Live",
+      "kind": "reaction_sum",
+      "nodes": [
+        "9"
+      ],
+      "dof": "fy",
+      "value": 0
+    },
+    {
+      "case": "Wind",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fz",
+      "value": 0
+    },
+    {
+      "case": "Wind",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fx",
+      "value": -5
+    },
+    {
+      "case": "Wind",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fy",
+      "value": -4
+    },
+    {
+      "case": "Wind",
+      "kind": "reaction_sum",
+      "nodes": [
+        "9"
+      ],
+      "dof": "fz",
+      "value": 0
+    },
+    {
+      "case": "Wind",
+      "kind": "reaction_sum",
+      "nodes": [
+        "9"
+      ],
+      "dof": "fy",
+      "value": -4
+    },
+    {
+      "case": "C1",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fz",
+      "value": 467.36
+    },
+    {
+      "case": "C1",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fx",
+      "value": 4.0
+    },
+    {
+      "case": "C1",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fy",
+      "value": 3.2
+    },
+    {
+      "case": "C1",
+      "kind": "reaction_sum",
+      "nodes": [
+        "9"
+      ],
+      "dof": "fz",
+      "value": 29.823999999999998
+    },
+    {
+      "case": "C1",
+      "kind": "reaction_sum",
+      "nodes": [
+        "9"
+      ],
+      "dof": "fy",
+      "value": 3.2
+    },
+    {
+      "case": "TWICE",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fz",
+      "value": 523.6
+    },
+    {
+      "case": "TWICE",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fx",
+      "value": -0.0
+    },
+    {
+      "case": "TWICE",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fy",
+      "value": -0.0
+    },
+    {
+      "case": "TWICE",
+      "kind": "reaction_sum",
+      "nodes": [
+        "9"
+      ],
+      "dof": "fz",
+      "value": 28.04
+    },
+    {
+      "case": "TWICE",
+      "kind": "reaction_sum",
+      "nodes": [
+        "9"
+      ],
+      "dof": "fy",
+      "value": -0.0
+    },
+    {
+      "case": "EMPTY",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fz",
+      "value": 0
+    },
+    {
+      "case": "EMPTY",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fx",
+      "value": 0
+    },
+    {
+      "case": "EMPTY",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fy",
+      "value": 0
+    },
+    {
+      "case": "EMPTY",
+      "kind": "reaction_sum",
+      "nodes": [
+        "9"
+      ],
+      "dof": "fz",
+      "value": 0
+    },
+    {
+      "case": "EMPTY",
+      "kind": "reaction_sum",
+      "nodes": [
+        "9"
+      ],
+      "dof": "fy",
+      "value": 0
+    },
+    {
+      "case": "SW2",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fz",
+      "value": 122.4
+    },
+    {
+      "case": "SW2",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fx",
+      "value": 0
+    },
+    {
+      "case": "SW2",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fy",
+      "value": 0
+    },
+    {
+      "case": "SW2",
+      "kind": "reaction_sum",
+      "nodes": [
+        "9"
+      ],
+      "dof": "fz",
+      "value": 5.76
+    },
+    {
+      "case": "SW2",
+      "kind": "reaction_sum",
+      "nodes": [
+        "9"
+      ],
+      "dof": "fy",
+      "value": 0
+    },
+    {
+      "case": "MIXED",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fz",
+      "value": 6
+    },
+    {
+      "case": "MIXED",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fx",
+      "value": 6
+    },
+    {
+      "case": "MIXED",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fy",
+      "value": -4
+    },
+    {
+      "case": "MIXED",
+      "kind": "reaction_sum",
+      "nodes": [
+        "9"
+      ],
+      "dof": "fz",
+      "value": 0
+    },
+    {
+      "case": "MIXED",
+      "kind": "reaction_sum",
+      "nodes": [
+        "9"
+      ],
+      "dof": "fy",
+      "value": 0
+    },
+    {
+      "case": "COMB1",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fz",
+      "value": 467.36
+    },
+    {
+      "case": "COMB1",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fx",
+      "value": 1.5000000000000002
+    },
+    {
+      "case": "COMB1",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "dof": "fy",
+      "value": 1.2000000000000002
+    },
+    {
+      "case": "COMB1",
+      "kind": "reaction_sum",
+      "nodes": [
+        "9"
+      ],
+      "dof": "fz",
+      "value": 29.823999999999998
+    },
+    {
+      "case": "COMB1",
+      "kind": "reaction_sum",
+      "nodes": [
+        "9"
+      ],
+      "dof": "fy",
+      "value": 1.2000000000000002
+    }
+  ]
+}

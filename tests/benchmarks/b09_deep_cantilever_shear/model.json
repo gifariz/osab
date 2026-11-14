@@ -1,0 +1,70 @@
+{
+  "title": "Deep cantilever with shear deformation",
+  "dimension": "2D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "concrete",
+      "E": 25000000.0,
+      "nu": 0.2
+    }
+  ],
+  "sections": [
+    {
+      "id": "RC",
+      "A": 0.18,
+      "I22": 0.0013499999999999996,
+      "I33": 0.0053999999999999986,
+      "J": 0.0037,
+      "As2": 0.15,
+      "As3": 0.15
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "2",
+      "x": 1.0,
+      "y": 0,
+      "z": 0
+    }
+  ],
+  "frames": [
+    {
+      "id": "1",
+      "type": "frame",
+      "nodes": [
+        "1",
+        "2"
+      ],
+      "material": "concrete",
+      "section": "RC"
+    }
+  ],
+  "supports": [
+    {
+      "node": "1",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "LC1",
+      "node_loads": [
+        {
+          "node": "2",
+          "fz": -100.0
+        }
+      ]
+    }
+  ],
+  "mesh": "off"
+}

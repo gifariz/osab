@@ -1,0 +1,24 @@
+[package]
+name = "osab-gui"
+description = "OSAB desktop app (Tauri shell around the solver)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+name = "osab_gui"
+
+[[bin]]
+name = "osab-gui"
+path = "src/main.rs"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+osab-solver = { path = "../../solver" }
+osab-mesh = { path = "../../mesh" }
+serde.workspace = true
+serde_json = { workspace = true, features = ["raw_value", "preserve_order", "float_roundtrip"] }
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2"

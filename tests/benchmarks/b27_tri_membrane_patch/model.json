@@ -1,0 +1,278 @@
+{
+  "title": "Membrane patch test with triangles",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "concrete",
+      "E": 25000000.0,
+      "nu": 0.2
+    }
+  ],
+  "sections": [],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 0.0,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "2",
+      "x": 2.4,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "3",
+      "x": 2.4,
+      "y": 1.2,
+      "z": 0.0
+    },
+    {
+      "id": "4",
+      "x": 0.0,
+      "y": 1.2,
+      "z": 0.0
+    },
+    {
+      "id": "5",
+      "x": 0.4,
+      "y": 0.2,
+      "z": 0.0
+    },
+    {
+      "id": "6",
+      "x": 1.8,
+      "y": 0.3,
+      "z": 0.0
+    },
+    {
+      "id": "7",
+      "x": 1.6,
+      "y": 0.8,
+      "z": 0.0
+    },
+    {
+      "id": "8",
+      "x": 0.8,
+      "y": 0.8,
+      "z": 0.0
+    }
+  ],
+  "frames": [],
+  "area_sections": [
+    {
+      "id": "MEM",
+      "type": "membrane",
+      "material": "concrete",
+      "thickness": 0.2
+    }
+  ],
+  "areas": [
+    {
+      "id": "F1",
+      "nodes": [
+        "1",
+        "2",
+        "6"
+      ],
+      "section": "MEM"
+    },
+    {
+      "id": "F2",
+      "nodes": [
+        "1",
+        "6",
+        "5"
+      ],
+      "section": "MEM"
+    },
+    {
+      "id": "F3",
+      "nodes": [
+        "2",
+        "3",
+        "7"
+      ],
+      "section": "MEM"
+    },
+    {
+      "id": "F4",
+      "nodes": [
+        "2",
+        "7",
+        "6"
+      ],
+      "section": "MEM"
+    },
+    {
+      "id": "F5",
+      "nodes": [
+        "3",
+        "4",
+        "8"
+      ],
+      "section": "MEM"
+    },
+    {
+      "id": "F6",
+      "nodes": [
+        "3",
+        "8",
+        "7"
+      ],
+      "section": "MEM"
+    },
+    {
+      "id": "F7",
+      "nodes": [
+        "4",
+        "1",
+        "5"
+      ],
+      "section": "MEM"
+    },
+    {
+      "id": "F8",
+      "nodes": [
+        "4",
+        "5",
+        "8"
+      ],
+      "section": "MEM"
+    },
+    {
+      "id": "F9",
+      "nodes": [
+        "5",
+        "6",
+        "7"
+      ],
+      "section": "MEM"
+    },
+    {
+      "id": "F10",
+      "nodes": [
+        "5",
+        "7",
+        "8"
+      ],
+      "section": "MEM"
+    }
+  ],
+  "supports": [
+    {
+      "node": "1",
+      "fix": "fixed"
+    },
+    {
+      "node": "2",
+      "fix": [
+        "uz",
+        "rx",
+        "ry"
+      ]
+    },
+    {
+      "node": "3",
+      "fix": [
+        "uz",
+        "rx",
+        "ry"
+      ]
+    },
+    {
+      "node": "4",
+      "fix": [
+        "uz",
+        "rx",
+        "ry"
+      ]
+    },
+    {
+      "node": "5",
+      "fix": [
+        "uz",
+        "rx",
+        "ry"
+      ]
+    },
+    {
+      "node": "6",
+      "fix": [
+        "uz",
+        "rx",
+        "ry"
+      ]
+    },
+    {
+      "node": "7",
+      "fix": [
+        "uz",
+        "rx",
+        "ry"
+      ]
+    },
+    {
+      "node": "8",
+      "fix": [
+        "uz",
+        "rx",
+        "ry"
+      ]
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "TENS",
+      "node_loads": [
+        {
+          "node": "2",
+          "fx": 6.0
+        },
+        {
+          "node": "3",
+          "fx": 6.0
+        },
+        {
+          "node": "1",
+          "fx": -6.0
+        },
+        {
+          "node": "4",
+          "fx": -6.0
+        }
+      ]
+    },
+    {
+      "id": "SHEAR",
+      "node_loads": [
+        {
+          "node": "2",
+          "fx": -6.0,
+          "fy": 3.0
+        },
+        {
+          "node": "3",
+          "fx": 6.0,
+          "fy": 3.0
+        },
+        {
+          "node": "4",
+          "fx": 6.0,
+          "fy": -3.0
+        },
+        {
+          "node": "1",
+          "fx": -6.0,
+          "fy": -3.0
+        }
+      ]
+    }
+  ],
+  "mesh": "off"
+}

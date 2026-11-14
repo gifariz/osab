@@ -1,0 +1,290 @@
+{
+  "title": "Two-story wall core with a door, floors meeting the walls (auto-mesh)",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "mesh": {},
+  "materials": [
+    {
+      "id": "concrete",
+      "E": 25000000.0,
+      "nu": 0.2
+    }
+  ],
+  "sections": [
+    {
+      "id": "COL",
+      "A": 0.16000000000000003,
+      "I22": 0.002133333333333334,
+      "I33": 0.002133333333333334,
+      "J": 0.0036053333333333345,
+      "As2": 0.13333333333333336,
+      "As3": 0.13333333333333336
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a0",
+      "x": 0,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "b0",
+      "x": 4,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "c0",
+      "x": 4,
+      "y": 3,
+      "z": 0.0
+    },
+    {
+      "id": "d0",
+      "x": 0,
+      "y": 3,
+      "z": 0.0
+    },
+    {
+      "id": "a1",
+      "x": 0,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "b1",
+      "x": 4,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "c1",
+      "x": 4,
+      "y": 3,
+      "z": 3.0
+    },
+    {
+      "id": "d1",
+      "x": 0,
+      "y": 3,
+      "z": 3.0
+    },
+    {
+      "id": "a2",
+      "x": 0,
+      "y": 0,
+      "z": 6.0
+    },
+    {
+      "id": "b2",
+      "x": 4,
+      "y": 0,
+      "z": 6.0
+    },
+    {
+      "id": "c2",
+      "x": 4,
+      "y": 3,
+      "z": 6.0
+    },
+    {
+      "id": "d2",
+      "x": 0,
+      "y": 3,
+      "z": 6.0
+    },
+    {
+      "id": "o1",
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "o2",
+      "x": 2,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "o3",
+      "x": 2,
+      "y": 0,
+      "z": 2
+    },
+    {
+      "id": "o4",
+      "x": 1,
+      "y": 0,
+      "z": 2
+    }
+  ],
+  "frames": [
+    {
+      "id": "C1",
+      "type": "frame",
+      "nodes": [
+        "c0",
+        "c1"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C2",
+      "type": "frame",
+      "nodes": [
+        "c1",
+        "c2"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    }
+  ],
+  "area_sections": [
+    {
+      "id": "SLAB",
+      "type": "shell-thin",
+      "material": "concrete",
+      "thickness": 0.2
+    },
+    {
+      "id": "WALL",
+      "type": "shell-thin",
+      "material": "concrete",
+      "thickness": 0.25
+    }
+  ],
+  "areas": [
+    {
+      "id": "F1",
+      "nodes": [
+        "a1",
+        "b1",
+        "c1",
+        "d1"
+      ],
+      "section": "SLAB"
+    },
+    {
+      "id": "W1x",
+      "nodes": [
+        "a0",
+        "b0",
+        "b1",
+        "a1"
+      ],
+      "section": "WALL"
+    },
+    {
+      "id": "W1y",
+      "nodes": [
+        "a0",
+        "d0",
+        "d1",
+        "a1"
+      ],
+      "section": "WALL"
+    },
+    {
+      "id": "F2",
+      "nodes": [
+        "a2",
+        "b2",
+        "c2",
+        "d2"
+      ],
+      "section": "SLAB"
+    },
+    {
+      "id": "W2x",
+      "nodes": [
+        "a1",
+        "b1",
+        "b2",
+        "a2"
+      ],
+      "section": "WALL"
+    },
+    {
+      "id": "W2y",
+      "nodes": [
+        "a1",
+        "d1",
+        "d2",
+        "a2"
+      ],
+      "section": "WALL"
+    },
+    {
+      "id": "D1",
+      "nodes": [
+        "o1",
+        "o2",
+        "o3",
+        "o4"
+      ],
+      "opening": true
+    }
+  ],
+  "supports": [
+    {
+      "node": "a0",
+      "fix": "fixed"
+    },
+    {
+      "node": "b0",
+      "fix": "fixed"
+    },
+    {
+      "node": "c0",
+      "fix": "fixed"
+    },
+    {
+      "node": "d0",
+      "fix": "fixed"
+    },
+    {
+      "node": "o1",
+      "fix": "fixed"
+    },
+    {
+      "node": "o2",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "DEAD",
+      "area_loads": [
+        {
+          "area": "F1",
+          "dir": "Z",
+          "q": -5.0
+        },
+        {
+          "area": "F2",
+          "dir": "Z",
+          "q": -5.0
+        }
+      ]
+    },
+    {
+      "id": "WIND",
+      "node_loads": [
+        {
+          "node": "c2",
+          "fx": 30.0,
+          "fy": 20.0
+        },
+        {
+          "node": "c1",
+          "fx": 15.0
+        }
+      ]
+    }
+  ]
+}

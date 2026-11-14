@@ -1,0 +1,72 @@
+{
+  "source": "Closed form: end moments wL^2/12, midspan moment wL^2/24, midspan deflection wL^4/384EI",
+  "values": [
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "uz",
+      "value": -0.0010125
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fz",
+      "value": 36.0
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "my",
+      "value": -36.0
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "3",
+      "dof": "fz",
+      "value": 36.0
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "3",
+      "dof": "my",
+      "value": 36.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "M3",
+      "value": -36.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "V2",
+      "value": -36.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "j",
+      "comp": "M3",
+      "value": 18.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "2",
+      "at": "j",
+      "comp": "M3",
+      "value": -36.0
+    }
+  ]
+}

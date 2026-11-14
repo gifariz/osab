@@ -1,0 +1,37 @@
+{
+  "source": "Statics: the columns carry q * (64 - 16 - 2) m^2 = 276 kN (DEAD) and 10 kN/m * 4 m = 40 kN (LIVE).",
+  "values": [
+    {
+      "case": "DEAD",
+      "kind": "reaction_sum",
+      "nodes": [
+        "sa",
+        "sb",
+        "sc",
+        "sd",
+        "se",
+        "sf",
+        "sg",
+        "sh"
+      ],
+      "dof": "fz",
+      "value": 276.0
+    },
+    {
+      "case": "LIVE",
+      "kind": "reaction_sum",
+      "nodes": [
+        "sa",
+        "sb",
+        "sc",
+        "sd",
+        "se",
+        "sf",
+        "sg",
+        "sh"
+      ],
+      "dof": "fz",
+      "value": 40.0
+    }
+  ]
+}

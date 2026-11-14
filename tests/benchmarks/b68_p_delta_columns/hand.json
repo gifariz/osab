@@ -1,0 +1,343 @@
+{
+  "source": "Closed form with the consistent geometric stiffness of each element (pd / 30 l [36, 3l, -36, 3l; ...], with shear deformation the Timoshenko element's shape functions), small solves of 2 x 2 or chains of cantilevers (checks/make_pdelta_benchmarks.py, checks/pdelta_findings.py): tips, base moments H L + P u, the beam-column's end turns and mid-span moment.",
+  "values": [
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "K1_1",
+      "dof": "ux",
+      "value": 0.0007246641133199594
+    },
+    {
+      "case": "PDLAT",
+      "kind": "disp",
+      "node": "K1_1",
+      "dof": "ux",
+      "value": 0.0007246641133199594
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "K1_0",
+      "dof": "my",
+      "value": -32.17399233995988
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "K1_1",
+      "dof": "uy",
+      "value": 0.0019623655913978497
+    },
+    {
+      "case": "PDLAT",
+      "kind": "disp",
+      "node": "K1_1",
+      "dof": "uy",
+      "value": 0.0019623655913978497
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "K1_0",
+      "dof": "mx",
+      "value": 20.887096774193548
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "K4_4",
+      "dof": "ux",
+      "value": 0.0007246980675909514
+    },
+    {
+      "case": "PDLAT",
+      "kind": "disp",
+      "node": "K4_4",
+      "dof": "ux",
+      "value": 0.0007246980675909514
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "K4_0",
+      "dof": "my",
+      "value": -32.17409420277286
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "K4_4",
+      "dof": "uy",
+      "value": 0.001964426273595944
+    },
+    {
+      "case": "PDLAT",
+      "kind": "disp",
+      "node": "K4_4",
+      "dof": "uy",
+      "value": 0.001964426273595944
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "K4_0",
+      "dof": "mx",
+      "value": 20.89327882078783
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "KT_1",
+      "dof": "ux",
+      "value": 0.0006173028769993359
+    },
+    {
+      "case": "PDLAT",
+      "kind": "disp",
+      "node": "KT_1",
+      "dof": "ux",
+      "value": 0.0006173028769993359
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "KT_0",
+      "dof": "my",
+      "value": -28.148091369001992
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "KT_1",
+      "dof": "uy",
+      "value": 0.0010104986876640423
+    },
+    {
+      "case": "PDLAT",
+      "kind": "disp",
+      "node": "KT_1",
+      "dof": "uy",
+      "value": 0.0010104986876640423
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "KT_0",
+      "dof": "mx",
+      "value": 11.968503937007874
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "K2_1",
+      "dof": "ux",
+      "value": 0.0007467929945107121
+    },
+    {
+      "case": "PDLAT",
+      "kind": "disp",
+      "node": "K2_1",
+      "dof": "ux",
+      "value": 0.0007467929945107121
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "K2_0",
+      "dof": "my",
+      "value": -32.24037898353214
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "K2_1",
+      "dof": "uy",
+      "value": 0.001981026391564945
+    },
+    {
+      "case": "PDLAT",
+      "kind": "disp",
+      "node": "K2_1",
+      "dof": "uy",
+      "value": 0.001981026391564945
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "K2_0",
+      "dof": "mx",
+      "value": 20.943079174694834
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "KI_1",
+      "dof": "ux",
+      "value": 0.0007246641133199594
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "KI_0",
+      "dof": "my",
+      "value": -32.17399233995988
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "KO0_1",
+      "dof": "ux",
+      "value": 0.0007246641133199594
+    },
+    {
+      "case": "PDLAT",
+      "kind": "disp",
+      "node": "KO0_1",
+      "dof": "ux",
+      "value": 0.0007246641133199594
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "KO0_0",
+      "dof": "my",
+      "value": -32.17399233995988
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "KO0_1",
+      "dof": "uy",
+      "value": 0.0019623655913978497
+    },
+    {
+      "case": "PDLAT",
+      "kind": "disp",
+      "node": "KO0_1",
+      "dof": "uy",
+      "value": 0.0019623655913978497
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "KO0_0",
+      "dof": "mx",
+      "value": 20.887096774193548
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "KU_1",
+      "dof": "ux",
+      "value": 0.00040716760897319023
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "KU_0",
+      "dof": "my",
+      "value": -23.721502826919572
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "KW_1",
+      "dof": "ux",
+      "value": 0.0006944504928217857
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "KPT_1",
+      "dof": "ux",
+      "value": 0.0006849341189481915
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "KO1_1",
+      "dof": "ux",
+      "value": 0.00040496241011325654
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "LNK_2",
+      "dof": "ux",
+      "value": 0.0005946005415783853
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "KU_1",
+      "dof": "uy",
+      "value": 0.0008790322580645161
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction",
+      "node": "KU_0",
+      "dof": "mx",
+      "value": 11.637096774193548
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "KW_1",
+      "dof": "uy",
+      "value": 0.0015875569857870747
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "KPT_1",
+      "dof": "uy",
+      "value": 0.0014926372155287832
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "KO1_1",
+      "dof": "uy",
+      "value": 0.0009813638349875872
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "LNK_2",
+      "dof": "uy",
+      "value": 0.0012626907410784852
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "BC_0",
+      "dof": "ry",
+      "value": 0.0006896551724137933
+    },
+    {
+      "case": "LAT",
+      "kind": "force",
+      "element": "BC",
+      "at": 3.0,
+      "comp": "M3",
+      "value": 46.55172413793103
+    },
+    {
+      "case": "LAT",
+      "kind": "disp",
+      "node": "BC_0",
+      "dof": "rz",
+      "value": 0.0006153846153846155
+    },
+    {
+      "case": "LAT",
+      "kind": "force",
+      "element": "BC",
+      "at": 3.0,
+      "comp": "M2",
+      "value": 10.384615384615385
+    }
+  ]
+}

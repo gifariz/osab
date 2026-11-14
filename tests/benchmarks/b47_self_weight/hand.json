@@ -1,0 +1,236 @@
+{
+  "source": "Statics: each part's reactions carry its whole self-weight, material weight x A (or x t) x weight modifiers x the case's multiplier (ULS = 1.2 DEAD + 1.6 HALF: 2.0); a truss sends half its weight to each end; the cantilever's axial force grows from 0 at the top to its weight at the base.",
+  "values": [
+    {
+      "case": "DEAD",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1"
+      ],
+      "dof": "fz",
+      "value": 9.216000000000001
+    },
+    {
+      "case": "DEAD",
+      "kind": "force",
+      "element": "C1",
+      "at": "i",
+      "comp": "P",
+      "value": -9.216000000000001
+    },
+    {
+      "case": "DEAD",
+      "kind": "force",
+      "element": "C1",
+      "at": "j",
+      "comp": "P",
+      "value": 0.0
+    },
+    {
+      "case": "DEAD",
+      "kind": "reaction_sum",
+      "nodes": [
+        "3",
+        "4"
+      ],
+      "dof": "fz",
+      "value": 37.536
+    },
+    {
+      "case": "DEAD",
+      "kind": "reaction_sum",
+      "nodes": [
+        "7"
+      ],
+      "dof": "fz",
+      "value": 8.64
+    },
+    {
+      "case": "DEAD",
+      "kind": "reaction_sum",
+      "nodes": [
+        "8"
+      ],
+      "dof": "fz",
+      "value": 8.64
+    },
+    {
+      "case": "DEAD",
+      "kind": "reaction_sum",
+      "nodes": [
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "dof": "fz",
+      "value": 200.06400000000002
+    },
+    {
+      "case": "DEAD",
+      "kind": "reaction_sum",
+      "nodes": [
+        "51",
+        "52",
+        "53",
+        "54"
+      ],
+      "dof": "fz",
+      "value": 108.0
+    },
+    {
+      "case": "HALF",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1"
+      ],
+      "dof": "fz",
+      "value": 4.6080000000000005
+    },
+    {
+      "case": "HALF",
+      "kind": "force",
+      "element": "C1",
+      "at": "i",
+      "comp": "P",
+      "value": -4.6080000000000005
+    },
+    {
+      "case": "HALF",
+      "kind": "force",
+      "element": "C1",
+      "at": "j",
+      "comp": "P",
+      "value": 0.0
+    },
+    {
+      "case": "HALF",
+      "kind": "reaction_sum",
+      "nodes": [
+        "3",
+        "4"
+      ],
+      "dof": "fz",
+      "value": 18.768
+    },
+    {
+      "case": "HALF",
+      "kind": "reaction_sum",
+      "nodes": [
+        "7"
+      ],
+      "dof": "fz",
+      "value": 4.32
+    },
+    {
+      "case": "HALF",
+      "kind": "reaction_sum",
+      "nodes": [
+        "8"
+      ],
+      "dof": "fz",
+      "value": 4.32
+    },
+    {
+      "case": "HALF",
+      "kind": "reaction_sum",
+      "nodes": [
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "dof": "fz",
+      "value": 100.03200000000001
+    },
+    {
+      "case": "HALF",
+      "kind": "reaction_sum",
+      "nodes": [
+        "51",
+        "52",
+        "53",
+        "54"
+      ],
+      "dof": "fz",
+      "value": 54.0
+    },
+    {
+      "case": "ULS",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1"
+      ],
+      "dof": "fz",
+      "value": 18.432000000000002
+    },
+    {
+      "case": "ULS",
+      "kind": "force",
+      "element": "C1",
+      "at": "i",
+      "comp": "P",
+      "value": -18.432000000000002
+    },
+    {
+      "case": "ULS",
+      "kind": "force",
+      "element": "C1",
+      "at": "j",
+      "comp": "P",
+      "value": 0.0
+    },
+    {
+      "case": "ULS",
+      "kind": "reaction_sum",
+      "nodes": [
+        "3",
+        "4"
+      ],
+      "dof": "fz",
+      "value": 75.072
+    },
+    {
+      "case": "ULS",
+      "kind": "reaction_sum",
+      "nodes": [
+        "7"
+      ],
+      "dof": "fz",
+      "value": 17.28
+    },
+    {
+      "case": "ULS",
+      "kind": "reaction_sum",
+      "nodes": [
+        "8"
+      ],
+      "dof": "fz",
+      "value": 17.28
+    },
+    {
+      "case": "ULS",
+      "kind": "reaction_sum",
+      "nodes": [
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "dof": "fz",
+      "value": 400.12800000000004
+    },
+    {
+      "case": "ULS",
+      "kind": "reaction_sum",
+      "nodes": [
+        "51",
+        "52",
+        "53",
+        "54"
+      ],
+      "dof": "fz",
+      "value": 216.0
+    }
+  ]
+}

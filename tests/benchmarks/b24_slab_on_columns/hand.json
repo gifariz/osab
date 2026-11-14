@@ -1,0 +1,33 @@
+{
+  "source": "Symmetry: each column carries a quarter of the load, base reaction fz = q a^2 / 4 = 72 kN.",
+  "values": [
+    {
+      "case": "DEAD",
+      "kind": "reaction",
+      "node": "100",
+      "dof": "fz",
+      "value": 72.0
+    },
+    {
+      "case": "DEAD",
+      "kind": "reaction",
+      "node": "101",
+      "dof": "fz",
+      "value": 72.0
+    },
+    {
+      "case": "DEAD",
+      "kind": "reaction",
+      "node": "102",
+      "dof": "fz",
+      "value": 72.0
+    },
+    {
+      "case": "DEAD",
+      "kind": "reaction",
+      "node": "103",
+      "dof": "fz",
+      "value": 72.0
+    }
+  ]
+}

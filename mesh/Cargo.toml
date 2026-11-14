@@ -1,0 +1,11 @@
+[package]
+name = "osab-mesh"
+description = "OSAB mesh step: turns floors, walls and frames into analysis elements, then runs the solver"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+osab-solver = { path = "../solver" }
+serde.workspace = true
+serde_json.workspace = true

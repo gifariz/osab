@@ -1,0 +1,363 @@
+{
+  "title": "Null objects and Include in mesh: null lines, a null load area, point loads, a stiffener (Rectangular mesh)",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "mesh": {
+    "floor": "rectangular",
+    "floor_size": 1.0
+  },
+  "materials": [
+    {
+      "id": "concrete",
+      "E": 25000000.0,
+      "nu": 0.2
+    }
+  ],
+  "sections": [
+    {
+      "id": "COL",
+      "A": 0.25,
+      "I22": 0.005208333333333333,
+      "I33": 0.005208333333333333,
+      "J": 0.008802083333333334,
+      "As2": 0.20833333333333334,
+      "As3": 0.20833333333333334
+    },
+    {
+      "id": "STIF",
+      "A": 0.1,
+      "I22": 0.0013333333333333337,
+      "I33": 0.0005208333333333333,
+      "J": 0.0012734516461690266,
+      "As2": 0.08333333333333334,
+      "As3": 0.08333333333333334
+    }
+  ],
+  "nodes": [
+    {
+      "id": "F1",
+      "x": 0,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "F2",
+      "x": 8,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "F3",
+      "x": 8,
+      "y": 6,
+      "z": 3.0
+    },
+    {
+      "id": "F4",
+      "x": 0,
+      "y": 6,
+      "z": 3.0
+    },
+    {
+      "id": "n1i",
+      "x": 3.3,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "n1j",
+      "x": 3.3,
+      "y": 6,
+      "z": 3.0
+    },
+    {
+      "id": "n2i",
+      "x": 5.0,
+      "y": 4.4,
+      "z": 3.0
+    },
+    {
+      "id": "n2j",
+      "x": 6.9,
+      "y": 4.4,
+      "z": 3.0
+    },
+    {
+      "id": "a1",
+      "x": 5.2,
+      "y": 0.7,
+      "z": 3.0
+    },
+    {
+      "id": "a2",
+      "x": 7.3,
+      "y": 0.7,
+      "z": 3.0
+    },
+    {
+      "id": "a3",
+      "x": 7.3,
+      "y": 2.1,
+      "z": 3.0
+    },
+    {
+      "id": "a4",
+      "x": 5.2,
+      "y": 2.1,
+      "z": 3.0
+    },
+    {
+      "id": "p1",
+      "x": 1.7,
+      "y": 4.3,
+      "z": 3.0
+    },
+    {
+      "id": "p2",
+      "x": 6.3,
+      "y": 5.0,
+      "z": 3.0,
+      "in_mesh": true
+    },
+    {
+      "id": "s1",
+      "x": 0,
+      "y": 2.35,
+      "z": 3.0
+    },
+    {
+      "id": "s2",
+      "x": 8,
+      "y": 2.35,
+      "z": 3.0
+    },
+    {
+      "id": "b0",
+      "x": 0,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "b1",
+      "x": 8,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "b2",
+      "x": 8,
+      "y": 6,
+      "z": 0.0
+    },
+    {
+      "id": "b3",
+      "x": 0,
+      "y": 6,
+      "z": 0.0
+    },
+    {
+      "id": "t4",
+      "x": 4.0,
+      "y": 3.0,
+      "z": 3.0
+    },
+    {
+      "id": "b4",
+      "x": 4.0,
+      "y": 3.0,
+      "z": 0.0
+    }
+  ],
+  "frames": [
+    {
+      "id": "N1",
+      "type": "frame",
+      "nodes": [
+        "n1i",
+        "n1j"
+      ]
+    },
+    {
+      "id": "N2",
+      "type": "frame",
+      "nodes": [
+        "n2i",
+        "n2j"
+      ]
+    },
+    {
+      "id": "S1",
+      "type": "frame",
+      "nodes": [
+        "s1",
+        "s2"
+      ],
+      "material": "concrete",
+      "section": "STIF",
+      "in_mesh": false
+    },
+    {
+      "id": "C1",
+      "type": "frame",
+      "nodes": [
+        "b0",
+        "F1"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C2",
+      "type": "frame",
+      "nodes": [
+        "b1",
+        "F2"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C3",
+      "type": "frame",
+      "nodes": [
+        "b2",
+        "F3"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C4",
+      "type": "frame",
+      "nodes": [
+        "b3",
+        "F4"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C5",
+      "type": "frame",
+      "nodes": [
+        "b4",
+        "t4"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    }
+  ],
+  "area_sections": [
+    {
+      "id": "SLAB",
+      "type": "shell-thin",
+      "material": "concrete",
+      "thickness": 0.2
+    }
+  ],
+  "areas": [
+    {
+      "id": "F1",
+      "nodes": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "section": "SLAB"
+    },
+    {
+      "id": "NA1",
+      "nodes": [
+        "a1",
+        "a2",
+        "a3",
+        "a4"
+      ]
+    }
+  ],
+  "supports": [
+    {
+      "node": "b0",
+      "fix": "fixed"
+    },
+    {
+      "node": "b1",
+      "fix": "fixed"
+    },
+    {
+      "node": "b2",
+      "fix": "fixed"
+    },
+    {
+      "node": "b3",
+      "fix": "fixed"
+    },
+    {
+      "node": "b4",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "DEAD",
+      "area_loads": [
+        {
+          "area": "F1",
+          "dir": "Z",
+          "q": -5.0
+        }
+      ]
+    },
+    {
+      "id": "SUPER",
+      "frame_loads": [
+        {
+          "type": "uniform",
+          "frame": "N1",
+          "dir": "Z",
+          "w": -6.0
+        },
+        {
+          "type": "uniform",
+          "frame": "N2",
+          "dir": "Z",
+          "w": -4.0
+        }
+      ],
+      "area_loads": [
+        {
+          "area": "NA1",
+          "dir": "Z",
+          "q": -3.0
+        }
+      ],
+      "node_loads": [
+        {
+          "node": "p1",
+          "fz": -12.0
+        },
+        {
+          "node": "p2",
+          "fz": -8.0
+        }
+      ]
+    },
+    {
+      "id": "LAT",
+      "node_loads": [
+        {
+          "node": "t4",
+          "fx": 10.0
+        },
+        {
+          "node": "F3",
+          "fy": -6.0
+        }
+      ]
+    }
+  ]
+}

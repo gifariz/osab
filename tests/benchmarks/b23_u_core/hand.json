@@ -1,0 +1,107 @@
+{
+  "source": "Statics: base reaction totals (sum over all base joints) balance the applied forces.",
+  "values": [
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "9",
+        "11",
+        "13",
+        "15",
+        "17"
+      ],
+      "dof": "fx",
+      "value": -50.0
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "9",
+        "11",
+        "13",
+        "15",
+        "17"
+      ],
+      "dof": "fy",
+      "value": 0.0
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "9",
+        "11",
+        "13",
+        "15",
+        "17"
+      ],
+      "dof": "fz",
+      "value": 0.0
+    },
+    {
+      "case": "TORQ",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "9",
+        "11",
+        "13",
+        "15",
+        "17"
+      ],
+      "dof": "fx",
+      "value": 0.0
+    },
+    {
+      "case": "TORQ",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "9",
+        "11",
+        "13",
+        "15",
+        "17"
+      ],
+      "dof": "fy",
+      "value": 0.0
+    },
+    {
+      "case": "TORQ",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "9",
+        "11",
+        "13",
+        "15",
+        "17"
+      ],
+      "dof": "fz",
+      "value": 0.0
+    }
+  ]
+}

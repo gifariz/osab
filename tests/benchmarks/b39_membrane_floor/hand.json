@@ -1,0 +1,77 @@
+{
+  "source": "Statics: base reactions balance the loads (DEAD 5 kN/m^2 on the 60 m^2 floor = 300 kN; WIND 20 kN in X and 15 kN in Y; TRAP (4 + 10) / 2 * 3 = 21 kN).",
+  "values": [
+    {
+      "case": "DEAD",
+      "kind": "reaction_sum",
+      "nodes": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "w0",
+        "w1",
+        "~2",
+        "~8",
+        "~12"
+      ],
+      "dof": "fz",
+      "value": 300.0
+    },
+    {
+      "case": "WIND",
+      "kind": "reaction_sum",
+      "nodes": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "w0",
+        "w1",
+        "~2",
+        "~8",
+        "~12"
+      ],
+      "dof": "fx",
+      "value": -20.0
+    },
+    {
+      "case": "WIND",
+      "kind": "reaction_sum",
+      "nodes": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "w0",
+        "w1",
+        "~2",
+        "~8",
+        "~12"
+      ],
+      "dof": "fy",
+      "value": -15.0
+    },
+    {
+      "case": "TRAP",
+      "kind": "reaction_sum",
+      "nodes": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "w0",
+        "w1",
+        "~2",
+        "~8",
+        "~12"
+      ],
+      "dof": "fz",
+      "value": 21.0
+    }
+  ]
+}

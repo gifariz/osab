@@ -1,0 +1,227 @@
+{
+  "source": "Statics for the spring forces (reaction = -load resultant), base movement = force / k, tip = rigid-body motion of the base + cantilever formulas (numpy)",
+  "values": [
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "1",
+      "dof": "ux",
+      "value": 0.0002
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "1",
+      "dof": "uy",
+      "value": -0.00016666666666666666
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "1",
+      "dof": "uz",
+      "value": -0.0002
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "1",
+      "dof": "rx",
+      "value": 0.00039
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "1",
+      "dof": "ry",
+      "value": 0.00046666666666666666
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "1",
+      "dof": "rz",
+      "value": 0.00015
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "ux",
+      "value": 0.005644444444444445
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "uy",
+      "value": -0.008507361111111111
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "uz",
+      "value": -0.00025833333333333334
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "rx",
+      "value": 0.0035254166666666667
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "ry",
+      "value": 0.0021000000000000003
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "rz",
+      "value": 0.045649999999999996
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fx",
+      "value": -8.0
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fy",
+      "value": 5.0
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fz",
+      "value": 40.0
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "mx",
+      "value": -19.5
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "my",
+      "value": -28.0
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "mz",
+      "value": -3.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "P",
+      "value": -40.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "V2",
+      "value": 8.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "V3",
+      "value": -5.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "T",
+      "value": 3.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "M2",
+      "value": -19.5
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "M3",
+      "value": 28.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "j",
+      "comp": "P",
+      "value": -40.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "j",
+      "comp": "V2",
+      "value": 8.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "j",
+      "comp": "V3",
+      "value": -5.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "j",
+      "comp": "T",
+      "value": 3.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "j",
+      "comp": "M2",
+      "value": -2.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "j",
+      "comp": "M3",
+      "value": 0.0
+    }
+  ]
+}

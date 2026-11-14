@@ -1,0 +1,122 @@
+{
+  "title": "Portal frame, fixed bases",
+  "dimension": "2D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "steel",
+      "E": 200000000.0,
+      "nu": 0.3
+    }
+  ],
+  "sections": [
+    {
+      "id": "COL",
+      "A": 0.012,
+      "I22": 5e-05,
+      "I33": 0.00015,
+      "J": 2e-06
+    },
+    {
+      "id": "BEAM",
+      "A": 0.008,
+      "I22": 4e-05,
+      "I33": 0.00025,
+      "J": 1e-06
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "2",
+      "x": 0,
+      "y": 0,
+      "z": 4.0
+    },
+    {
+      "id": "3",
+      "x": 6.0,
+      "y": 0,
+      "z": 4.0
+    },
+    {
+      "id": "4",
+      "x": 6.0,
+      "y": 0,
+      "z": 0
+    }
+  ],
+  "frames": [
+    {
+      "id": "1",
+      "type": "frame",
+      "nodes": [
+        "1",
+        "2"
+      ],
+      "material": "steel",
+      "section": "COL"
+    },
+    {
+      "id": "2",
+      "type": "frame",
+      "nodes": [
+        "2",
+        "3"
+      ],
+      "material": "steel",
+      "section": "BEAM"
+    },
+    {
+      "id": "3",
+      "type": "frame",
+      "nodes": [
+        "4",
+        "3"
+      ],
+      "material": "steel",
+      "section": "COL"
+    }
+  ],
+  "supports": [
+    {
+      "node": "1",
+      "fix": "fixed"
+    },
+    {
+      "node": "4",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "DEAD",
+      "frame_loads": [
+        {
+          "type": "uniform",
+          "frame": "2",
+          "dir": "Z",
+          "w": -15.0
+        }
+      ]
+    },
+    {
+      "id": "WIND",
+      "node_loads": [
+        {
+          "node": "2",
+          "fx": 10.0
+        }
+      ]
+    }
+  ],
+  "mesh": "off"
+}

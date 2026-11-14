@@ -1,0 +1,47 @@
+{
+  "source": "Uniform pressure on a mat on uniform springs: an even settlement q/k; each joint's spring takes q times its share of the area (a corner a quarter of 1 m2, an edge joint a half, an inner joint all of it).",
+  "values": [
+    {
+      "case": "Q",
+      "kind": "disp",
+      "node": "0_0",
+      "dof": "uz",
+      "value": -0.001
+    },
+    {
+      "case": "Q",
+      "kind": "reaction",
+      "node": "0_0",
+      "dof": "fz",
+      "value": 5.0
+    },
+    {
+      "case": "Q",
+      "kind": "disp",
+      "node": "4_0",
+      "dof": "uz",
+      "value": -0.001
+    },
+    {
+      "case": "Q",
+      "kind": "reaction",
+      "node": "4_0",
+      "dof": "fz",
+      "value": 10.0
+    },
+    {
+      "case": "Q",
+      "kind": "disp",
+      "node": "4_4",
+      "dof": "uz",
+      "value": -0.001
+    },
+    {
+      "case": "Q",
+      "kind": "reaction",
+      "node": "4_4",
+      "dof": "fz",
+      "value": 20.0
+    }
+  ]
+}

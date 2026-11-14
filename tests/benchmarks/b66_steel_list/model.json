@@ -1,0 +1,450 @@
+{
+  "title": "B66 steel section list: a cantilever of AISC shapes",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "S",
+      "E": 200000000.0,
+      "nu": 0.3,
+      "weight": 76.9729
+    }
+  ],
+  "sections": [
+    {
+      "id": "W14X90",
+      "shape": {
+        "type": "aisc",
+        "name": "W14X90"
+      }
+    },
+    {
+      "id": "C15X50",
+      "shape": {
+        "type": "aisc",
+        "name": "C15X50"
+      }
+    },
+    {
+      "id": "WT7X45",
+      "shape": {
+        "type": "aisc",
+        "name": "WT7X45"
+      }
+    },
+    {
+      "id": "L6X4X1/2",
+      "shape": {
+        "type": "aisc",
+        "name": "L6X4X1/2"
+      }
+    },
+    {
+      "id": "L8X8X1",
+      "shape": {
+        "type": "aisc",
+        "name": "L8X8X1"
+      }
+    },
+    {
+      "id": "2L6X4X1/2LLBB",
+      "shape": {
+        "type": "aisc",
+        "name": "2L6X4X1/2LLBB"
+      }
+    },
+    {
+      "id": "HSS20X12X5/8",
+      "shape": {
+        "type": "aisc",
+        "name": "HSS20X12X5/8"
+      }
+    },
+    {
+      "id": "HSS20.000X0.500",
+      "shape": {
+        "type": "aisc",
+        "name": "HSS20.000X0.500"
+      }
+    },
+    {
+      "id": "Pipe8XS",
+      "shape": {
+        "type": "aisc",
+        "name": "Pipe8XS"
+      }
+    },
+    {
+      "id": "HP14X117",
+      "shape": {
+        "type": "aisc",
+        "name": "HP14X117"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "K10",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "K11",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "K20",
+      "x": 2.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "K21",
+      "x": 2.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "K30",
+      "x": 4.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "K31",
+      "x": 4.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "K40",
+      "x": 6.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "K41",
+      "x": 6.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "K50",
+      "x": 8.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "K51",
+      "x": 8.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "K60",
+      "x": 10.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "K61",
+      "x": 10.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "K70",
+      "x": 12.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "K71",
+      "x": 12.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "K80",
+      "x": 14.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "K81",
+      "x": 14.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "K90",
+      "x": 16.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "K91",
+      "x": 16.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "K100",
+      "x": 18.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "K101",
+      "x": 18.0,
+      "y": 0.0,
+      "z": 6.0
+    }
+  ],
+  "frames": [
+    {
+      "id": "K1",
+      "type": "frame",
+      "nodes": [
+        "K10",
+        "K11"
+      ],
+      "material": "S",
+      "section": "W14X90"
+    },
+    {
+      "id": "K2",
+      "type": "frame",
+      "nodes": [
+        "K20",
+        "K21"
+      ],
+      "material": "S",
+      "section": "C15X50"
+    },
+    {
+      "id": "K3",
+      "type": "frame",
+      "nodes": [
+        "K30",
+        "K31"
+      ],
+      "material": "S",
+      "section": "WT7X45"
+    },
+    {
+      "id": "K4",
+      "type": "frame",
+      "nodes": [
+        "K40",
+        "K41"
+      ],
+      "material": "S",
+      "section": "L6X4X1/2"
+    },
+    {
+      "id": "K5",
+      "type": "frame",
+      "nodes": [
+        "K50",
+        "K51"
+      ],
+      "material": "S",
+      "section": "L8X8X1"
+    },
+    {
+      "id": "K6",
+      "type": "frame",
+      "nodes": [
+        "K60",
+        "K61"
+      ],
+      "material": "S",
+      "section": "2L6X4X1/2LLBB"
+    },
+    {
+      "id": "K7",
+      "type": "frame",
+      "nodes": [
+        "K70",
+        "K71"
+      ],
+      "material": "S",
+      "section": "HSS20X12X5/8"
+    },
+    {
+      "id": "K8",
+      "type": "frame",
+      "nodes": [
+        "K80",
+        "K81"
+      ],
+      "material": "S",
+      "section": "HSS20.000X0.500"
+    },
+    {
+      "id": "K9",
+      "type": "frame",
+      "nodes": [
+        "K90",
+        "K91"
+      ],
+      "material": "S",
+      "section": "Pipe8XS"
+    },
+    {
+      "id": "K10",
+      "type": "frame",
+      "nodes": [
+        "K100",
+        "K101"
+      ],
+      "material": "S",
+      "section": "HP14X117"
+    }
+  ],
+  "supports": [
+    {
+      "node": "K10",
+      "fix": "fixed"
+    },
+    {
+      "node": "K20",
+      "fix": "fixed"
+    },
+    {
+      "node": "K30",
+      "fix": "fixed"
+    },
+    {
+      "node": "K40",
+      "fix": "fixed"
+    },
+    {
+      "node": "K50",
+      "fix": "fixed"
+    },
+    {
+      "node": "K60",
+      "fix": "fixed"
+    },
+    {
+      "node": "K70",
+      "fix": "fixed"
+    },
+    {
+      "node": "K80",
+      "fix": "fixed"
+    },
+    {
+      "node": "K90",
+      "fix": "fixed"
+    },
+    {
+      "node": "K100",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "FX",
+      "node_loads": [
+        {
+          "node": "K11",
+          "fx": 10.0
+        },
+        {
+          "node": "K21",
+          "fx": 10.0
+        },
+        {
+          "node": "K31",
+          "fx": 10.0
+        },
+        {
+          "node": "K41",
+          "fx": 10.0
+        },
+        {
+          "node": "K51",
+          "fx": 10.0
+        },
+        {
+          "node": "K61",
+          "fx": 10.0
+        },
+        {
+          "node": "K71",
+          "fx": 10.0
+        },
+        {
+          "node": "K81",
+          "fx": 10.0
+        },
+        {
+          "node": "K91",
+          "fx": 10.0
+        },
+        {
+          "node": "K101",
+          "fx": 10.0
+        }
+      ]
+    },
+    {
+      "id": "FY",
+      "node_loads": [
+        {
+          "node": "K11",
+          "fy": 10.0
+        },
+        {
+          "node": "K21",
+          "fy": 10.0
+        },
+        {
+          "node": "K31",
+          "fy": 10.0
+        },
+        {
+          "node": "K41",
+          "fy": 10.0
+        },
+        {
+          "node": "K51",
+          "fy": 10.0
+        },
+        {
+          "node": "K61",
+          "fy": 10.0
+        },
+        {
+          "node": "K71",
+          "fy": 10.0
+        },
+        {
+          "node": "K81",
+          "fy": 10.0
+        },
+        {
+          "node": "K91",
+          "fy": 10.0
+        },
+        {
+          "node": "K101",
+          "fy": 10.0
+        }
+      ]
+    },
+    {
+      "id": "DEAD",
+      "self_weight": 1
+    }
+  ]
+}

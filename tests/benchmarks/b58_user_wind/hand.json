@@ -1,0 +1,1157 @@
+{
+  "source": "Cantilever columns (Euler-Bernoulli, no beams, joints free to rotate) joined at each level only by the rigid diaphragm: lateral flexibility a^2 (3b - a) / 6EI between heights a <= b, torsion GJ/h per story; UX, UY, RZ of both levels (about the origin) from the 6 x 6 system; a user wind force (Fx, Fy) at (x, y) with Mz loads the level with Fx, Fy and Mz - Fx y + Fy x. Base shears sum k u per column; self-weight: material weight x A x height.",
+  "values": [
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L11",
+      "dof": "ux",
+      "value": 0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L11",
+      "dof": "uy",
+      "value": 0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L11",
+      "dof": "rz",
+      "value": -0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L21",
+      "dof": "ux",
+      "value": 0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L21",
+      "dof": "uy",
+      "value": 0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L21",
+      "dof": "rz",
+      "value": -0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "fx",
+      "value": -0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "fy",
+      "value": -0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "mz",
+      "value": 0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L12",
+      "dof": "ux",
+      "value": 0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L12",
+      "dof": "uy",
+      "value": 0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L12",
+      "dof": "rz",
+      "value": -0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L22",
+      "dof": "ux",
+      "value": 0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L22",
+      "dof": "uy",
+      "value": 0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L22",
+      "dof": "rz",
+      "value": -0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "fx",
+      "value": -0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "fy",
+      "value": -0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "mz",
+      "value": 0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L13",
+      "dof": "ux",
+      "value": 0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L13",
+      "dof": "uy",
+      "value": 0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L13",
+      "dof": "rz",
+      "value": -0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L23",
+      "dof": "ux",
+      "value": 0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L23",
+      "dof": "uy",
+      "value": 0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L23",
+      "dof": "rz",
+      "value": -0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "fx",
+      "value": -0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "fy",
+      "value": -0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "mz",
+      "value": 0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L14",
+      "dof": "ux",
+      "value": 0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L14",
+      "dof": "uy",
+      "value": 0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L14",
+      "dof": "rz",
+      "value": -0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L24",
+      "dof": "ux",
+      "value": 0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L24",
+      "dof": "uy",
+      "value": 0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "disp",
+      "node": "L24",
+      "dof": "rz",
+      "value": -0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "fx",
+      "value": -0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "fy",
+      "value": -0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "mz",
+      "value": 0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "reaction_sum",
+      "nodes": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "dof": "fz",
+      "value": 117.6
+    },
+    {
+      "case": "Dead",
+      "kind": "reaction_sum",
+      "nodes": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "dof": "fx",
+      "value": -0.0
+    },
+    {
+      "case": "Dead",
+      "kind": "reaction_sum",
+      "nodes": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "dof": "fy",
+      "value": -0.0
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L11",
+      "dof": "ux",
+      "value": 0.00983548683852245
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L11",
+      "dof": "uy",
+      "value": 0.0018592418558818077
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L11",
+      "dof": "rz",
+      "value": -0.0004917809476823163
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L21",
+      "dof": "ux",
+      "value": 0.029934466448060904
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L21",
+      "dof": "uy",
+      "value": 0.0058896833951404045
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L21",
+      "dof": "rz",
+      "value": -0.0015578576140849736
+    },
+    {
+      "case": "WX",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "fx",
+      "value": -19.60458436138462
+    },
+    {
+      "case": "WX",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "fy",
+      "value": -2.9668813773233667
+    },
+    {
+      "case": "WX",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "mz",
+      "value": 5.276887628611263
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L12",
+      "dof": "ux",
+      "value": 0.00983548683852245
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L12",
+      "dof": "uy",
+      "value": -0.0020750057255767233
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L12",
+      "dof": "rz",
+      "value": -0.0004917809476823163
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L22",
+      "dof": "ux",
+      "value": 0.029934466448060904
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L22",
+      "dof": "uy",
+      "value": -0.006573177517539384
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L22",
+      "dof": "rz",
+      "value": -0.0015578576140849736
+    },
+    {
+      "case": "WX",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "fx",
+      "value": -49.62410416475481
+    },
+    {
+      "case": "WX",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "fy",
+      "value": 2.095359972734614
+    },
+    {
+      "case": "WX",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "mz",
+      "value": 5.426948206280539
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L13",
+      "dof": "ux",
+      "value": 0.012786172524616349
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L13",
+      "dof": "uy",
+      "value": -0.0020750057255767233
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L13",
+      "dof": "rz",
+      "value": -0.0004917809476823163
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L23",
+      "dof": "ux",
+      "value": 0.039281612132570747
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L23",
+      "dof": "uy",
+      "value": -0.006573177517539384
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L23",
+      "dof": "rz",
+      "value": -0.0015578576140849736
+    },
+    {
+      "case": "WX",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "fx",
+      "value": -15.385655736930232
+    },
+    {
+      "case": "WX",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "fy",
+      "value": 8.381439890938456
+    },
+    {
+      "case": "WX",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "mz",
+      "value": 5.426948206280539
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L14",
+      "dof": "ux",
+      "value": 0.012786172524616349
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L14",
+      "dof": "uy",
+      "value": 0.0018592418558818077
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L14",
+      "dof": "rz",
+      "value": -0.0004917809476823163
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L24",
+      "dof": "ux",
+      "value": 0.039281612132570747
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L24",
+      "dof": "uy",
+      "value": 0.0058896833951404045
+    },
+    {
+      "case": "WX",
+      "kind": "disp",
+      "node": "L24",
+      "dof": "rz",
+      "value": -0.0015578576140849736
+    },
+    {
+      "case": "WX",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "fx",
+      "value": -15.385655736930232
+    },
+    {
+      "case": "WX",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "fy",
+      "value": -7.509918486349765
+    },
+    {
+      "case": "WX",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "mz",
+      "value": 5.426948206280539
+    },
+    {
+      "case": "WX",
+      "kind": "reaction_sum",
+      "nodes": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "dof": "fz",
+      "value": 0.0
+    },
+    {
+      "case": "WX",
+      "kind": "reaction_sum",
+      "nodes": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "dof": "fx",
+      "value": -100.0
+    },
+    {
+      "case": "WX",
+      "kind": "reaction_sum",
+      "nodes": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "dof": "fy",
+      "value": -0.0
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L11",
+      "dof": "ux",
+      "value": -0.0004372342206011036
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L11",
+      "dof": "uy",
+      "value": 0.007247809457211493
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L11",
+      "dof": "rz",
+      "value": -0.00027619527926859476
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L21",
+      "dof": "ux",
+      "value": -0.001743039410096278
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L21",
+      "dof": "uy",
+      "value": 0.02317376973084059
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L21",
+      "dof": "rz",
+      "value": -0.0011010557590525856
+    },
+    {
+      "case": "WY",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "fx",
+      "value": -0.4473248718918512
+    },
+    {
+      "case": "WY",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "fy",
+      "value": -10.880367672727987
+    },
+    {
+      "case": "WY",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "mz",
+      "value": 2.9636191867985375
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L12",
+      "dof": "ux",
+      "value": -0.0004372342206011036
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L12",
+      "dof": "uy",
+      "value": 0.005038247223062734
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L12",
+      "dof": "rz",
+      "value": -0.00027619527926859476
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L22",
+      "dof": "ux",
+      "value": -0.001743039410096278
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L22",
+      "dof": "uy",
+      "value": 0.014365323658419905
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L22",
+      "dof": "rz",
+      "value": -0.0011010557590525856
+    },
+    {
+      "case": "WY",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "fx",
+      "value": -1.1322910819762497
+    },
+    {
+      "case": "WY",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "fy",
+      "value": -8.315740331135853
+    },
+    {
+      "case": "WY",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "mz",
+      "value": 3.047896593948816
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L13",
+      "dof": "ux",
+      "value": 0.001219937455010465
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L13",
+      "dof": "uy",
+      "value": 0.005038247223062734
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L13",
+      "dof": "rz",
+      "value": -0.00027619527926859476
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L23",
+      "dof": "ux",
+      "value": 0.004863295144219236
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L23",
+      "dof": "uy",
+      "value": 0.014365323658419905
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L23",
+      "dof": "rz",
+      "value": -0.0011010557590525856
+    },
+    {
+      "case": "WY",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "fx",
+      "value": 0.7898079769341937
+    },
+    {
+      "case": "WY",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "fy",
+      "value": -33.26296132454341
+    },
+    {
+      "case": "WY",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "mz",
+      "value": 3.047896593948816
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L14",
+      "dof": "ux",
+      "value": 0.001219937455010465
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L14",
+      "dof": "uy",
+      "value": 0.007247809457211493
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L14",
+      "dof": "rz",
+      "value": -0.00027619527926859476
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L24",
+      "dof": "ux",
+      "value": 0.004863295144219236
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L24",
+      "dof": "uy",
+      "value": 0.02317376973084059
+    },
+    {
+      "case": "WY",
+      "kind": "disp",
+      "node": "L24",
+      "dof": "rz",
+      "value": -0.0011010557590525856
+    },
+    {
+      "case": "WY",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "fx",
+      "value": 0.7898079769341937
+    },
+    {
+      "case": "WY",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "fy",
+      "value": -27.540930671592747
+    },
+    {
+      "case": "WY",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "mz",
+      "value": 3.047896593948816
+    },
+    {
+      "case": "WY",
+      "kind": "reaction_sum",
+      "nodes": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "dof": "fz",
+      "value": 0.0
+    },
+    {
+      "case": "WY",
+      "kind": "reaction_sum",
+      "nodes": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "dof": "fx",
+      "value": -0.0
+    },
+    {
+      "case": "WY",
+      "kind": "reaction_sum",
+      "nodes": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "dof": "fy",
+      "value": -80.0
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L11",
+      "dof": "ux",
+      "value": 0.016086566318116804
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L11",
+      "dof": "uy",
+      "value": -0.002823460596358303
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L11",
+      "dof": "rz",
+      "value": -0.0005658932928768304
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L21",
+      "dof": "ux",
+      "value": 0.04928957784497447
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L21",
+      "dof": "uy",
+      "value": -0.009115522352447827
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L21",
+      "dof": "rz",
+      "value": -0.0016117275752938894
+    },
+    {
+      "case": "C1",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "fx",
+      "value": -31.009475080701915
+    },
+    {
+      "case": "C1",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "fy",
+      "value": 3.957283934465016
+    },
+    {
+      "case": "C1",
+      "kind": "reaction",
+      "node": "B1",
+      "dof": "mz",
+      "value": 6.07212485633919
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L12",
+      "dof": "ux",
+      "value": 0.016086566318116804
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L12",
+      "dof": "uy",
+      "value": -0.007350606939372946
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L12",
+      "dof": "rz",
+      "value": -0.0005658932928768304
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L22",
+      "dof": "ux",
+      "value": 0.04928957784497447
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L22",
+      "dof": "uy",
+      "value": -0.022009342954798942
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L22",
+      "dof": "rz",
+      "value": -0.0016117275752938894
+    },
+    {
+      "case": "C1",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "fx",
+      "value": -78.49273379802668
+    },
+    {
+      "case": "C1",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "fy",
+      "value": 10.005168221284059
+    },
+    {
+      "case": "C1",
+      "kind": "reaction",
+      "node": "B2",
+      "dof": "mz",
+      "value": 6.244799854889809
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L13",
+      "dof": "ux",
+      "value": 0.019481926075377784
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L13",
+      "dof": "uy",
+      "value": -0.007350606939372946
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L13",
+      "dof": "rz",
+      "value": -0.0005658932928768304
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L23",
+      "dof": "ux",
+      "value": 0.05895994329673781
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L23",
+      "dof": "uy",
+      "value": -0.022009342954798942
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L23",
+      "dof": "rz",
+      "value": -0.0016117275752938894
+    },
+    {
+      "case": "C1",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "fx",
+      "value": -25.24889556063571
+    },
+    {
+      "case": "C1",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "fy",
+      "value": 40.020672885136236
+    },
+    {
+      "case": "C1",
+      "kind": "reaction",
+      "node": "B3",
+      "dof": "mz",
+      "value": 6.244799854889809
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L14",
+      "dof": "ux",
+      "value": 0.019481926075377784
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L14",
+      "dof": "uy",
+      "value": -0.002823460596358303
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L14",
+      "dof": "rz",
+      "value": -0.0005658932928768304
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L24",
+      "dof": "ux",
+      "value": 0.05895994329673781
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L24",
+      "dof": "uy",
+      "value": -0.009115522352447827
+    },
+    {
+      "case": "C1",
+      "kind": "disp",
+      "node": "L24",
+      "dof": "rz",
+      "value": -0.0016117275752938894
+    },
+    {
+      "case": "C1",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "fx",
+      "value": -25.24889556063571
+    },
+    {
+      "case": "C1",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "fy",
+      "value": 10.016874959114569
+    },
+    {
+      "case": "C1",
+      "kind": "reaction",
+      "node": "B4",
+      "dof": "mz",
+      "value": 6.244799854889809
+    },
+    {
+      "case": "C1",
+      "kind": "reaction_sum",
+      "nodes": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "dof": "fz",
+      "value": 141.11999999999998
+    },
+    {
+      "case": "C1",
+      "kind": "reaction_sum",
+      "nodes": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "dof": "fx",
+      "value": -160.0
+    },
+    {
+      "case": "C1",
+      "kind": "reaction_sum",
+      "nodes": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "dof": "fy",
+      "value": 64.0
+    }
+  ]
+}

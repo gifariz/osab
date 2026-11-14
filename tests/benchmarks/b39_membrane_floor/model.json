@@ -1,0 +1,341 @@
+{
+  "title": "Membrane floor (L-shaped) on beams, columns and a wall: load transfer",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "mesh": {},
+  "materials": [
+    {
+      "id": "concrete",
+      "E": 25000000.0,
+      "nu": 0.2
+    }
+  ],
+  "sections": [
+    {
+      "id": "COL",
+      "A": 0.16000000000000003,
+      "I22": 0.002133333333333334,
+      "I33": 0.002133333333333334,
+      "J": 0.0036053333333333345,
+      "As2": 0.13333333333333336,
+      "As3": 0.13333333333333336
+    },
+    {
+      "id": "BEAM",
+      "A": 0.15,
+      "I22": 0.001125,
+      "I33": 0.0031249999999999997,
+      "J": 0.0028173707999999994,
+      "As2": 0.125,
+      "As3": 0.125
+    }
+  ],
+  "nodes": [
+    {
+      "id": "f0",
+      "x": 0,
+      "y": 0,
+      "z": 3.5
+    },
+    {
+      "id": "f1",
+      "x": 10,
+      "y": 0,
+      "z": 3.5
+    },
+    {
+      "id": "f2",
+      "x": 10,
+      "y": 4,
+      "z": 3.5
+    },
+    {
+      "id": "f3",
+      "x": 5,
+      "y": 4,
+      "z": 3.5
+    },
+    {
+      "id": "f4",
+      "x": 5,
+      "y": 8,
+      "z": 3.5
+    },
+    {
+      "id": "f5",
+      "x": 0,
+      "y": 8,
+      "z": 3.5
+    },
+    {
+      "id": "w0",
+      "x": 0,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "w1",
+      "x": 5,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "w2",
+      "x": 5,
+      "y": 0,
+      "z": 3.5
+    },
+    {
+      "id": "s0",
+      "x": 10,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "s1",
+      "x": 10,
+      "y": 4,
+      "z": 0.0
+    },
+    {
+      "id": "s2",
+      "x": 5,
+      "y": 4,
+      "z": 0.0
+    },
+    {
+      "id": "s3",
+      "x": 5,
+      "y": 8,
+      "z": 0.0
+    },
+    {
+      "id": "s4",
+      "x": 0,
+      "y": 8,
+      "z": 0.0
+    }
+  ],
+  "frames": [
+    {
+      "id": "B1",
+      "type": "frame",
+      "nodes": [
+        "w2",
+        "f1"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "B2",
+      "type": "frame",
+      "nodes": [
+        "f1",
+        "f2"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "B3",
+      "type": "frame",
+      "nodes": [
+        "f2",
+        "f3"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "B4",
+      "type": "frame",
+      "nodes": [
+        "f3",
+        "f4"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "B5",
+      "type": "frame",
+      "nodes": [
+        "f4",
+        "f5"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "B6",
+      "type": "frame",
+      "nodes": [
+        "f5",
+        "f0"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "C1",
+      "type": "frame",
+      "nodes": [
+        "s0",
+        "f1"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C2",
+      "type": "frame",
+      "nodes": [
+        "s1",
+        "f2"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C3",
+      "type": "frame",
+      "nodes": [
+        "s2",
+        "f3"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C4",
+      "type": "frame",
+      "nodes": [
+        "s3",
+        "f4"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C5",
+      "type": "frame",
+      "nodes": [
+        "s4",
+        "f5"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    }
+  ],
+  "area_sections": [
+    {
+      "id": "DIAPH",
+      "type": "membrane",
+      "material": "concrete",
+      "thickness": 0.15
+    },
+    {
+      "id": "WALL",
+      "type": "shell-thin",
+      "material": "concrete",
+      "thickness": 0.25
+    }
+  ],
+  "areas": [
+    {
+      "id": "F1",
+      "nodes": [
+        "f0",
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "f5"
+      ],
+      "section": "DIAPH"
+    },
+    {
+      "id": "W1",
+      "nodes": [
+        "w0",
+        "w1",
+        "w2",
+        "f0"
+      ],
+      "section": "WALL"
+    }
+  ],
+  "supports": [
+    {
+      "node": "s0",
+      "fix": "fixed"
+    },
+    {
+      "node": "s1",
+      "fix": "fixed"
+    },
+    {
+      "node": "s2",
+      "fix": "fixed"
+    },
+    {
+      "node": "s3",
+      "fix": "fixed"
+    },
+    {
+      "node": "s4",
+      "fix": "fixed"
+    },
+    {
+      "node": "w0",
+      "fix": "fixed"
+    },
+    {
+      "node": "w1",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "DEAD",
+      "area_loads": [
+        {
+          "area": "F1",
+          "dir": "Z",
+          "q": -5.0
+        }
+      ]
+    },
+    {
+      "id": "WIND",
+      "node_loads": [
+        {
+          "node": "f2",
+          "fx": 20.0
+        },
+        {
+          "node": "f4",
+          "fy": 15.0
+        }
+      ]
+    },
+    {
+      "id": "TRAP",
+      "frame_loads": [
+        {
+          "type": "trapezoidal",
+          "frame": "B2",
+          "dir": "Z",
+          "w1": -4.0,
+          "w2": -10.0,
+          "from": 0.5,
+          "to": 3.5
+        }
+      ]
+    }
+  ]
+}

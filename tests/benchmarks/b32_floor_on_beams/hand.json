@@ -1,0 +1,56 @@
+{
+  "source": "Statics: base reactions balance the loads (DEAD q * 10 * 8 = 400 kN; WIND 20 kN in X, 10 kN in Y).",
+  "values": [
+    {
+      "case": "DEAD",
+      "kind": "reaction_sum",
+      "nodes": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8"
+      ],
+      "dof": "fz",
+      "value": 400.0
+    },
+    {
+      "case": "WIND",
+      "kind": "reaction_sum",
+      "nodes": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8"
+      ],
+      "dof": "fx",
+      "value": -20.0
+    },
+    {
+      "case": "WIND",
+      "kind": "reaction_sum",
+      "nodes": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8"
+      ],
+      "dof": "fy",
+      "value": -10.0
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "source": "Statics: base reaction totals of the one-valued combinations equal minus the scaled applied loads.",
+  "values": [
+    {
+      "case": "ULS1",
+      "kind": "reaction_sum",
+      "nodes": [
+        "100",
+        "101",
+        "102",
+        "103"
+      ],
+      "dof": "fx",
+      "value": -6.4
+    },
+    {
+      "case": "ULS1",
+      "kind": "reaction_sum",
+      "nodes": [
+        "100",
+        "101",
+        "102",
+        "103"
+      ],
+      "dof": "fy",
+      "value": -0.0
+    },
+    {
+      "case": "ULS1",
+      "kind": "reaction_sum",
+      "nodes": [
+        "100",
+        "101",
+        "102",
+        "103"
+      ],
+      "dof": "fz",
+      "value": 432.0
+    },
+    {
+      "case": "ULS2",
+      "kind": "reaction_sum",
+      "nodes": [
+        "100",
+        "101",
+        "102",
+        "103"
+      ],
+      "dof": "fx",
+      "value": -14.0
+    },
+    {
+      "case": "ULS2",
+      "kind": "reaction_sum",
+      "nodes": [
+        "100",
+        "101",
+        "102",
+        "103"
+      ],
+      "dof": "fy",
+      "value": 6.0
+    },
+    {
+      "case": "ULS2",
+      "kind": "reaction_sum",
+      "nodes": [
+        "100",
+        "101",
+        "102",
+        "103"
+      ],
+      "dof": "fz",
+      "value": 399.59999999999997
+    },
+    {
+      "case": "ULS3",
+      "kind": "reaction_sum",
+      "nodes": [
+        "100",
+        "101",
+        "102",
+        "103"
+      ],
+      "dof": "fx",
+      "value": 10.0
+    },
+    {
+      "case": "ULS3",
+      "kind": "reaction_sum",
+      "nodes": [
+        "100",
+        "101",
+        "102",
+        "103"
+      ],
+      "dof": "fy",
+      "value": -6.0
+    },
+    {
+      "case": "ULS3",
+      "kind": "reaction_sum",
+      "nodes": [
+        "100",
+        "101",
+        "102",
+        "103"
+      ],
+      "dof": "fz",
+      "value": 259.2
+    }
+  ]
+}

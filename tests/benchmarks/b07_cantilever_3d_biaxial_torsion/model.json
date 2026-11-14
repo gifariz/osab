@@ -1,0 +1,70 @@
+{
+  "title": "3D cantilever, biaxial bending and torsion",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "steel",
+      "E": 200000000.0,
+      "nu": 0.3
+    }
+  ],
+  "sections": [
+    {
+      "id": "S7",
+      "A": 0.01,
+      "I22": 8e-05,
+      "I33": 0.0002,
+      "J": 0.00015
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "2",
+      "x": 3.0,
+      "y": 0,
+      "z": 0
+    }
+  ],
+  "frames": [
+    {
+      "id": "1",
+      "type": "frame",
+      "nodes": [
+        "1",
+        "2"
+      ],
+      "material": "steel",
+      "section": "S7"
+    }
+  ],
+  "supports": [
+    {
+      "node": "1",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "LC1",
+      "node_loads": [
+        {
+          "node": "2",
+          "fy": 5.0,
+          "fz": -8.0,
+          "mx": 2.0
+        }
+      ]
+    }
+  ],
+  "mesh": "off"
+}

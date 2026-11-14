@@ -1,0 +1,57 @@
+{
+  "source": "Statics: the null lines' loads 6 kN/m * 6 m + 4 kN/m * 1.9 m = 43.6 kN, the null area's 3 kN/m^2 * 2.1 m * 1.4 m = 8.82 kN and the point loads 12 + 8 kN all reach the slab: SUPER 72.42 kN; DEAD 5 kN/m^2 * 48 m^2 = 240 kN; LAT 10 kN in X and -6 kN in Y.",
+  "values": [
+    {
+      "case": "DEAD",
+      "kind": "reaction_sum",
+      "nodes": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4"
+      ],
+      "dof": "fz",
+      "value": 240.0
+    },
+    {
+      "case": "SUPER",
+      "kind": "reaction_sum",
+      "nodes": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4"
+      ],
+      "dof": "fz",
+      "value": 72.42
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4"
+      ],
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4"
+      ],
+      "dof": "fy",
+      "value": 6.0
+    }
+  ]
+}

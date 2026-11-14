@@ -1,0 +1,107 @@
+{
+  "title": "3D tripod truss",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "steel",
+      "E": 200000000.0,
+      "nu": 0.3
+    }
+  ],
+  "sections": [
+    {
+      "id": "BAR",
+      "A": 0.003
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "2",
+      "x": 4,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "3",
+      "x": 0,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "id": "4",
+      "x": 1,
+      "y": 1,
+      "z": 3
+    }
+  ],
+  "frames": [
+    {
+      "id": "1",
+      "type": "truss",
+      "nodes": [
+        "1",
+        "4"
+      ],
+      "material": "steel",
+      "section": "BAR"
+    },
+    {
+      "id": "2",
+      "type": "truss",
+      "nodes": [
+        "2",
+        "4"
+      ],
+      "material": "steel",
+      "section": "BAR"
+    },
+    {
+      "id": "3",
+      "type": "truss",
+      "nodes": [
+        "3",
+        "4"
+      ],
+      "material": "steel",
+      "section": "BAR"
+    }
+  ],
+  "supports": [
+    {
+      "node": "1",
+      "fix": "pinned"
+    },
+    {
+      "node": "2",
+      "fix": "pinned"
+    },
+    {
+      "node": "3",
+      "fix": "pinned"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "LC1",
+      "node_loads": [
+        {
+          "node": "4",
+          "fx": 10.0,
+          "fy": -5.0,
+          "fz": -20.0
+        }
+      ]
+    }
+  ],
+  "mesh": "off"
+}

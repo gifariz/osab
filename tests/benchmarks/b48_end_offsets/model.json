@@ -1,0 +1,409 @@
+{
+  "title": "B48 end length offsets and rigid zones",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "concrete",
+      "E": 25000000.0,
+      "nu": 0.2,
+      "weight": 24.0
+    }
+  ],
+  "sections": [
+    {
+      "id": "BEAM",
+      "A": 0.18,
+      "I22": 0.0013499999999999996,
+      "I33": 0.0053999999999999986,
+      "J": 0.003707859375,
+      "depth": 0.6,
+      "width": 0.3
+    },
+    {
+      "id": "COL",
+      "A": 0.25,
+      "I22": 0.005208333333333333,
+      "I33": 0.005208333333333333,
+      "J": 0.008802083333,
+      "depth": 0.5,
+      "width": 0.5,
+      "As2": 0.20833333333333334,
+      "As3": 0.20833333333333334
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 0,
+      "y": 0.0,
+      "z": 3
+    },
+    {
+      "id": "2",
+      "x": 6.0,
+      "y": 0.0,
+      "z": 3
+    },
+    {
+      "id": "11",
+      "x": 0,
+      "y": 4.0,
+      "z": 3
+    },
+    {
+      "id": "12",
+      "x": 6.0,
+      "y": 4.0,
+      "z": 3
+    },
+    {
+      "id": "21",
+      "x": 0,
+      "y": 8.0,
+      "z": 3
+    },
+    {
+      "id": "22",
+      "x": 6.0,
+      "y": 8.0,
+      "z": 3
+    },
+    {
+      "id": "31",
+      "x": 0,
+      "y": 12,
+      "z": 3
+    },
+    {
+      "id": "32",
+      "x": 6.0,
+      "y": 12,
+      "z": 3
+    },
+    {
+      "id": "41",
+      "x": 0,
+      "y": 16.0,
+      "z": 0
+    },
+    {
+      "id": "42",
+      "x": 6.0,
+      "y": 16.0,
+      "z": 0
+    },
+    {
+      "id": "43",
+      "x": 0,
+      "y": 16.0,
+      "z": 4
+    },
+    {
+      "id": "44",
+      "x": 6.0,
+      "y": 16.0,
+      "z": 4
+    },
+    {
+      "id": "51",
+      "x": 0,
+      "y": 20.0,
+      "z": 0
+    },
+    {
+      "id": "52",
+      "x": 6.0,
+      "y": 20.0,
+      "z": 0
+    },
+    {
+      "id": "53",
+      "x": 0,
+      "y": 20.0,
+      "z": 4
+    },
+    {
+      "id": "54",
+      "x": 6.0,
+      "y": 20.0,
+      "z": 4
+    }
+  ],
+  "frames": [
+    {
+      "id": "BA1",
+      "type": "frame",
+      "nodes": [
+        "1",
+        "2"
+      ],
+      "material": "concrete",
+      "section": "BEAM",
+      "end_offsets": {
+        "i": 0.4,
+        "j": 0.4
+      },
+      "rigid_zone": 1.0
+    },
+    {
+      "id": "BA2",
+      "type": "frame",
+      "nodes": [
+        "11",
+        "12"
+      ],
+      "material": "concrete",
+      "section": "BEAM",
+      "end_offsets": {
+        "i": 0.4,
+        "j": 0.4
+      },
+      "rigid_zone": 0.5
+    },
+    {
+      "id": "BA3",
+      "type": "frame",
+      "nodes": [
+        "21",
+        "22"
+      ],
+      "material": "concrete",
+      "section": "BEAM",
+      "end_offsets": {
+        "i": 0.4,
+        "j": 0.4
+      },
+      "rigid_zone": 0.0
+    },
+    {
+      "id": "BB",
+      "type": "frame",
+      "nodes": [
+        "31",
+        "32"
+      ],
+      "material": "concrete",
+      "section": "BEAM",
+      "end_offsets": {
+        "i": 0.5,
+        "j": 0.5
+      },
+      "rigid_zone": 1.0
+    },
+    {
+      "id": "C1",
+      "type": "frame",
+      "nodes": [
+        "41",
+        "43"
+      ],
+      "material": "concrete",
+      "section": "COL",
+      "end_offsets": {
+        "i": 0.0,
+        "j": 0.6
+      },
+      "rigid_zone": 0.75
+    },
+    {
+      "id": "C2",
+      "type": "frame",
+      "nodes": [
+        "42",
+        "44"
+      ],
+      "material": "concrete",
+      "section": "COL",
+      "end_offsets": {
+        "i": 0.0,
+        "j": 0.6
+      },
+      "rigid_zone": 0.75
+    },
+    {
+      "id": "CB",
+      "type": "frame",
+      "nodes": [
+        "43",
+        "44"
+      ],
+      "material": "concrete",
+      "section": "BEAM",
+      "end_offsets": {
+        "i": 0.25,
+        "j": 0.25
+      },
+      "rigid_zone": 0.75
+    },
+    {
+      "id": "D1",
+      "type": "frame",
+      "nodes": [
+        "51",
+        "53"
+      ],
+      "material": "concrete",
+      "section": "COL",
+      "end_offsets": {
+        "i": 0.0,
+        "j": 0.6
+      },
+      "rigid_zone": 0.75
+    },
+    {
+      "id": "D2",
+      "type": "frame",
+      "nodes": [
+        "52",
+        "54"
+      ],
+      "material": "concrete",
+      "section": "COL",
+      "end_offsets": {
+        "i": 0.0,
+        "j": 0.6
+      },
+      "rigid_zone": 0.75
+    },
+    {
+      "id": "DB",
+      "type": "frame",
+      "nodes": [
+        "53",
+        "54"
+      ],
+      "material": "concrete",
+      "section": "BEAM",
+      "end_offsets": {
+        "i": 0.25,
+        "j": 0.25
+      },
+      "rigid_zone": 0.75,
+      "releases": {
+        "i": [
+          "M3"
+        ],
+        "j": [
+          "M3"
+        ]
+      }
+    }
+  ],
+  "supports": [
+    {
+      "node": "1",
+      "fix": "fixed"
+    },
+    {
+      "node": "2",
+      "fix": "fixed"
+    },
+    {
+      "node": "11",
+      "fix": "fixed"
+    },
+    {
+      "node": "12",
+      "fix": "fixed"
+    },
+    {
+      "node": "21",
+      "fix": "fixed"
+    },
+    {
+      "node": "22",
+      "fix": "fixed"
+    },
+    {
+      "node": "31",
+      "fix": "fixed"
+    },
+    {
+      "node": "32",
+      "fix": "fixed"
+    },
+    {
+      "node": "41",
+      "fix": "fixed"
+    },
+    {
+      "node": "42",
+      "fix": "fixed"
+    },
+    {
+      "node": "51",
+      "fix": "fixed"
+    },
+    {
+      "node": "52",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "GRAV",
+      "frame_loads": [
+        {
+          "type": "uniform",
+          "frame": "BA1",
+          "dir": "Z",
+          "w": -12.0
+        },
+        {
+          "type": "uniform",
+          "frame": "BA2",
+          "dir": "Z",
+          "w": -12.0
+        },
+        {
+          "type": "uniform",
+          "frame": "BA3",
+          "dir": "Z",
+          "w": -12.0
+        },
+        {
+          "type": "uniform",
+          "frame": "CB",
+          "dir": "Z",
+          "w": -12.0
+        },
+        {
+          "type": "uniform",
+          "frame": "DB",
+          "dir": "Z",
+          "w": -12.0
+        }
+      ]
+    },
+    {
+      "id": "PT",
+      "frame_loads": [
+        {
+          "type": "point",
+          "frame": "BB",
+          "dir": "Z",
+          "p": -20.0,
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "id": "LAT",
+      "node_loads": [
+        {
+          "node": "43",
+          "fx": 15.0
+        },
+        {
+          "node": "53",
+          "fx": 15.0
+        }
+      ]
+    }
+  ],
+  "mesh": "off"
+}

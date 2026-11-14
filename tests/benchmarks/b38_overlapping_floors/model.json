@@ -1,0 +1,294 @@
+{
+  "title": "Overlapping floors: a slab with a drop panel and a slab band (Rectangular mesh)",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "mesh": {
+    "floor": "rectangular",
+    "floor_size": 1.0
+  },
+  "materials": [
+    {
+      "id": "concrete",
+      "E": 25000000.0,
+      "nu": 0.2
+    }
+  ],
+  "sections": [
+    {
+      "id": "COL",
+      "A": 0.25,
+      "I22": 0.005208333333333333,
+      "I33": 0.005208333333333333,
+      "J": 0.008802083333333334,
+      "As2": 0.20833333333333334,
+      "As3": 0.20833333333333334
+    }
+  ],
+  "nodes": [
+    {
+      "id": "F10",
+      "x": 0,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "F11",
+      "x": 8,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "F12",
+      "x": 8,
+      "y": 6,
+      "z": 3.0
+    },
+    {
+      "id": "F13",
+      "x": 0,
+      "y": 6,
+      "z": 3.0
+    },
+    {
+      "id": "P10",
+      "x": 2,
+      "y": 2,
+      "z": 3.0
+    },
+    {
+      "id": "P11",
+      "x": 4,
+      "y": 2,
+      "z": 3.0
+    },
+    {
+      "id": "P12",
+      "x": 4,
+      "y": 4,
+      "z": 3.0
+    },
+    {
+      "id": "P13",
+      "x": 2,
+      "y": 4,
+      "z": 3.0
+    },
+    {
+      "id": "S10",
+      "x": 0,
+      "y": 4,
+      "z": 3.0
+    },
+    {
+      "id": "S11",
+      "x": 8,
+      "y": 4,
+      "z": 3.0
+    },
+    {
+      "id": "S12",
+      "x": 8,
+      "y": 5,
+      "z": 3.0
+    },
+    {
+      "id": "S13",
+      "x": 0,
+      "y": 5,
+      "z": 3.0
+    },
+    {
+      "id": "s0",
+      "x": 0,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "s1",
+      "x": 8,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "t2",
+      "x": 3,
+      "y": 3,
+      "z": 3.0
+    },
+    {
+      "id": "s2",
+      "x": 3,
+      "y": 3,
+      "z": 0.0
+    },
+    {
+      "id": "s3",
+      "x": 8,
+      "y": 6,
+      "z": 0.0
+    },
+    {
+      "id": "s4",
+      "x": 0,
+      "y": 6,
+      "z": 0.0
+    }
+  ],
+  "frames": [
+    {
+      "id": "C1",
+      "type": "frame",
+      "nodes": [
+        "s0",
+        "F10"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C2",
+      "type": "frame",
+      "nodes": [
+        "s1",
+        "F11"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C3",
+      "type": "frame",
+      "nodes": [
+        "s2",
+        "t2"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C4",
+      "type": "frame",
+      "nodes": [
+        "s3",
+        "F12"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C5",
+      "type": "frame",
+      "nodes": [
+        "s4",
+        "F13"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    }
+  ],
+  "area_sections": [
+    {
+      "id": "SLAB",
+      "type": "shell-thin",
+      "material": "concrete",
+      "thickness": 0.2
+    },
+    {
+      "id": "DROP",
+      "type": "shell-thin",
+      "material": "concrete",
+      "thickness": 0.35,
+      "slab_type": "drop"
+    },
+    {
+      "id": "BAND",
+      "type": "shell-thin",
+      "material": "concrete",
+      "thickness": 0.45
+    }
+  ],
+  "areas": [
+    {
+      "id": "F1",
+      "nodes": [
+        "F10",
+        "F11",
+        "F12",
+        "F13"
+      ],
+      "section": "SLAB"
+    },
+    {
+      "id": "P1",
+      "nodes": [
+        "P10",
+        "P11",
+        "P12",
+        "P13"
+      ],
+      "section": "DROP"
+    },
+    {
+      "id": "S1",
+      "nodes": [
+        "S10",
+        "S11",
+        "S12",
+        "S13"
+      ],
+      "section": "BAND"
+    }
+  ],
+  "supports": [
+    {
+      "node": "s0",
+      "fix": "fixed"
+    },
+    {
+      "node": "s1",
+      "fix": "fixed"
+    },
+    {
+      "node": "s2",
+      "fix": "fixed"
+    },
+    {
+      "node": "s3",
+      "fix": "fixed"
+    },
+    {
+      "node": "s4",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "DEAD",
+      "area_loads": [
+        {
+          "area": "F1",
+          "dir": "Z",
+          "q": -5.0
+        }
+      ]
+    },
+    {
+      "id": "EXTRA",
+      "area_loads": [
+        {
+          "area": "P1",
+          "dir": "Z",
+          "q": -2.0
+        },
+        {
+          "area": "S1",
+          "dir": "Z",
+          "q": -3.0
+        }
+      ]
+    }
+  ]
+}

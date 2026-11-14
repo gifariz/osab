@@ -1,0 +1,877 @@
+{
+  "title": "B68 P-Delta from loads: columns, a leaning column, a beam-column",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "c0",
+      "E": 25000000.0,
+      "nu": 0.2,
+      "weight": 0.0
+    }
+  ],
+  "sections": [
+    {
+      "id": "C6030",
+      "A": 0.18,
+      "I22": 0.0013499999999999996,
+      "I33": 0.0053999999999999986,
+      "J": 0.003707859375,
+      "depth": 0.6,
+      "width": 0.3
+    },
+    {
+      "id": "C6030S",
+      "A": 0.18,
+      "I22": 0.0013499999999999996,
+      "I33": 0.0053999999999999986,
+      "J": 0.003707859375,
+      "depth": 0.6,
+      "width": 0.3,
+      "As2": 0.15,
+      "As3": 0.15
+    }
+  ],
+  "nodes": [
+    {
+      "id": "K1_0",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "K1_1",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "K2_0",
+      "x": 10.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "K2_1",
+      "x": 10.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "K4_0",
+      "x": 20.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "K4_1",
+      "x": 20.0,
+      "y": 0.0,
+      "z": 0.75
+    },
+    {
+      "id": "K4_2",
+      "x": 20.0,
+      "y": 0.0,
+      "z": 1.5
+    },
+    {
+      "id": "K4_3",
+      "x": 20.0,
+      "y": 0.0,
+      "z": 2.25
+    },
+    {
+      "id": "K4_4",
+      "x": 20.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "KT_0",
+      "x": 30.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "KT_1",
+      "x": 30.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "KU_0",
+      "x": 40.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "KU_1",
+      "x": 40.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "KW_0",
+      "x": 50.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "KW_1",
+      "x": 50.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "KO1_0",
+      "x": 60.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "KO1_1",
+      "x": 60.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "KO0_0",
+      "x": 70.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "KO0_1",
+      "x": 70.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "LA_0",
+      "x": 80.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "LA_1",
+      "x": 80.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "LB_0",
+      "x": 84.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "LB_1",
+      "x": 84.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "LNK_0",
+      "x": 100.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "LNK_1",
+      "x": 100.0,
+      "y": 0.0,
+      "z": 1.5
+    },
+    {
+      "id": "LNK_2",
+      "x": 100.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "BC_0",
+      "x": 110.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "BC_1",
+      "x": 116.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    {
+      "id": "KPT_0",
+      "x": 120.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "KPT_1",
+      "x": 120.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "KR_0",
+      "x": 130.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "KR_1",
+      "x": 130.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "KF_0",
+      "x": 134.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "KF_1",
+      "x": 134.0,
+      "y": 0.0,
+      "z": 3.0
+    },
+    {
+      "id": "KI_0",
+      "x": 140.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "KI_1",
+      "x": 140.0,
+      "y": 0.0,
+      "z": 3.0
+    }
+  ],
+  "frames": [
+    {
+      "id": "K1",
+      "type": "frame",
+      "nodes": [
+        "K1_0",
+        "K1_1"
+      ],
+      "material": "c0",
+      "section": "C6030"
+    },
+    {
+      "id": "K2",
+      "type": "frame",
+      "nodes": [
+        "K2_0",
+        "K2_1"
+      ],
+      "material": "c0",
+      "section": "C6030S"
+    },
+    {
+      "id": "K4_1",
+      "type": "frame",
+      "nodes": [
+        "K4_0",
+        "K4_1"
+      ],
+      "material": "c0",
+      "section": "C6030"
+    },
+    {
+      "id": "K4_2",
+      "type": "frame",
+      "nodes": [
+        "K4_1",
+        "K4_2"
+      ],
+      "material": "c0",
+      "section": "C6030"
+    },
+    {
+      "id": "K4_3",
+      "type": "frame",
+      "nodes": [
+        "K4_2",
+        "K4_3"
+      ],
+      "material": "c0",
+      "section": "C6030"
+    },
+    {
+      "id": "K4_4",
+      "type": "frame",
+      "nodes": [
+        "K4_3",
+        "K4_4"
+      ],
+      "material": "c0",
+      "section": "C6030"
+    },
+    {
+      "id": "KT",
+      "type": "frame",
+      "nodes": [
+        "KT_0",
+        "KT_1"
+      ],
+      "material": "c0",
+      "section": "C6030"
+    },
+    {
+      "id": "KU",
+      "type": "frame",
+      "nodes": [
+        "KU_0",
+        "KU_1"
+      ],
+      "material": "c0",
+      "section": "C6030"
+    },
+    {
+      "id": "KW",
+      "type": "frame",
+      "nodes": [
+        "KW_0",
+        "KW_1"
+      ],
+      "material": "c0",
+      "section": "C6030"
+    },
+    {
+      "id": "KO1",
+      "type": "frame",
+      "nodes": [
+        "KO1_0",
+        "KO1_1"
+      ],
+      "material": "c0",
+      "section": "C6030",
+      "end_offsets": {
+        "i": 0.5,
+        "j": 0.5
+      },
+      "rigid_zone": 1.0
+    },
+    {
+      "id": "KO0",
+      "type": "frame",
+      "nodes": [
+        "KO0_0",
+        "KO0_1"
+      ],
+      "material": "c0",
+      "section": "C6030",
+      "end_offsets": {
+        "i": 0.5,
+        "j": 0.5
+      },
+      "rigid_zone": 0.0
+    },
+    {
+      "id": "LA",
+      "type": "frame",
+      "nodes": [
+        "LA_0",
+        "LA_1"
+      ],
+      "material": "c0",
+      "section": "C6030"
+    },
+    {
+      "id": "LB",
+      "type": "truss",
+      "nodes": [
+        "LB_0",
+        "LB_1"
+      ],
+      "material": "c0",
+      "section": "C6030"
+    },
+    {
+      "id": "LBEAM",
+      "type": "frame",
+      "nodes": [
+        "LA_1",
+        "LB_1"
+      ],
+      "material": "c0",
+      "section": "C6030"
+    },
+    {
+      "id": "LNKF",
+      "type": "frame",
+      "nodes": [
+        "LNK_0",
+        "LNK_1"
+      ],
+      "material": "c0",
+      "section": "C6030"
+    },
+    {
+      "id": "BC",
+      "type": "frame",
+      "nodes": [
+        "BC_0",
+        "BC_1"
+      ],
+      "material": "c0",
+      "section": "C6030"
+    },
+    {
+      "id": "KPT",
+      "type": "frame",
+      "nodes": [
+        "KPT_0",
+        "KPT_1"
+      ],
+      "material": "c0",
+      "section": "C6030"
+    },
+    {
+      "id": "KR",
+      "type": "frame",
+      "nodes": [
+        "KR_0",
+        "KR_1"
+      ],
+      "material": "c0",
+      "section": "C6030",
+      "releases": {
+        "j": [
+          "M2",
+          "M3"
+        ]
+      }
+    },
+    {
+      "id": "KF",
+      "type": "frame",
+      "nodes": [
+        "KF_0",
+        "KF_1"
+      ],
+      "material": "c0",
+      "section": "C6030"
+    },
+    {
+      "id": "KRB",
+      "type": "frame",
+      "nodes": [
+        "KR_1",
+        "KF_1"
+      ],
+      "material": "c0",
+      "section": "C6030"
+    },
+    {
+      "id": "KI",
+      "type": "frame",
+      "nodes": [
+        "KI_0",
+        "KI_1"
+      ],
+      "material": "c0",
+      "section": "C6030",
+      "insertion": {
+        "offset_i": [
+          0.2,
+          0.0,
+          0.0
+        ],
+        "offset_j": [
+          0.2,
+          0.0,
+          0.0
+        ],
+        "global": true,
+        "transform": true
+      }
+    }
+  ],
+  "supports": [
+    {
+      "node": "K1_0",
+      "fix": "fixed"
+    },
+    {
+      "node": "K2_0",
+      "fix": "fixed"
+    },
+    {
+      "node": "K4_0",
+      "fix": "fixed"
+    },
+    {
+      "node": "KT_0",
+      "fix": "fixed"
+    },
+    {
+      "node": "KU_0",
+      "fix": "fixed"
+    },
+    {
+      "node": "KW_0",
+      "fix": "fixed"
+    },
+    {
+      "node": "KO1_0",
+      "fix": "fixed"
+    },
+    {
+      "node": "KO0_0",
+      "fix": "fixed"
+    },
+    {
+      "node": "LA_0",
+      "fix": "fixed"
+    },
+    {
+      "node": "LB_0",
+      "fix": "pinned"
+    },
+    {
+      "node": "LB_1",
+      "fix": [
+        "uy"
+      ]
+    },
+    {
+      "node": "LNK_0",
+      "fix": "fixed"
+    },
+    {
+      "node": "BC_0",
+      "fix": [
+        "ux",
+        "uy",
+        "uz",
+        "rx"
+      ]
+    },
+    {
+      "node": "BC_1",
+      "fix": [
+        "uy",
+        "uz"
+      ]
+    },
+    {
+      "node": "KPT_0",
+      "fix": "fixed"
+    },
+    {
+      "node": "KR_0",
+      "fix": "fixed"
+    },
+    {
+      "node": "KF_0",
+      "fix": "fixed"
+    },
+    {
+      "node": "KI_0",
+      "fix": "fixed"
+    }
+  ],
+  "load_patterns": [
+    {
+      "id": "PD",
+      "type": "dead",
+      "node_loads": [
+        {
+          "node": "K1_1",
+          "fz": -3000.0
+        },
+        {
+          "node": "K2_1",
+          "fz": -3000.0
+        },
+        {
+          "node": "K4_4",
+          "fz": -3000.0
+        },
+        {
+          "node": "KT_1",
+          "fz": 3000.0
+        },
+        {
+          "node": "KU_1",
+          "fz": -3000.0
+        },
+        {
+          "node": "KO1_1",
+          "fz": -3000.0
+        },
+        {
+          "node": "KO0_1",
+          "fz": -3000.0
+        },
+        {
+          "node": "LA_1",
+          "fz": -500.0
+        },
+        {
+          "node": "LB_1",
+          "fz": -1500.0
+        },
+        {
+          "node": "LNK_2",
+          "fz": -3000.0
+        },
+        {
+          "node": "BC_1",
+          "fx": -1500.0
+        },
+        {
+          "node": "KR_1",
+          "fz": -3000.0
+        },
+        {
+          "node": "KF_1",
+          "fz": -1000.0
+        },
+        {
+          "node": "KI_1",
+          "fz": -3000.0
+        }
+      ],
+      "frame_loads": [
+        {
+          "type": "uniform",
+          "frame": "KW",
+          "dir": "Z",
+          "w": -1000.0
+        },
+        {
+          "type": "point",
+          "frame": "KPT",
+          "dir": "Z",
+          "p": -3000.0,
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "id": "LAT",
+      "type": "other",
+      "node_loads": [
+        {
+          "node": "K1_1",
+          "fx": 10.0,
+          "fy": 5.0
+        },
+        {
+          "node": "K2_1",
+          "fx": 10.0,
+          "fy": 5.0
+        },
+        {
+          "node": "K4_4",
+          "fx": 10.0,
+          "fy": 5.0
+        },
+        {
+          "node": "KT_1",
+          "fx": 10.0,
+          "fy": 5.0
+        },
+        {
+          "node": "KW_1",
+          "fx": 10.0,
+          "fy": 5.0
+        },
+        {
+          "node": "KO1_1",
+          "fx": 10.0,
+          "fy": 5.0
+        },
+        {
+          "node": "KO0_1",
+          "fx": 10.0,
+          "fy": 5.0
+        },
+        {
+          "node": "LA_1",
+          "fx": 10.0,
+          "fy": 5.0
+        },
+        {
+          "node": "LNK_2",
+          "fx": 10.0,
+          "fy": 5.0
+        },
+        {
+          "node": "KPT_1",
+          "fx": 10.0,
+          "fy": 5.0
+        },
+        {
+          "node": "KR_1",
+          "fx": 10.0,
+          "fy": 5.0
+        },
+        {
+          "node": "KI_1",
+          "fx": 10.0,
+          "fy": 5.0
+        }
+      ],
+      "frame_loads": [
+        {
+          "type": "uniform",
+          "frame": "KU",
+          "dir": "X",
+          "w": 5.0
+        },
+        {
+          "type": "uniform",
+          "frame": "KU",
+          "dir": "Y",
+          "w": 2.0
+        },
+        {
+          "type": "uniform",
+          "frame": "BC",
+          "dir": "Z",
+          "w": -10.0
+        },
+        {
+          "type": "uniform",
+          "frame": "BC",
+          "dir": "Y",
+          "w": 2.0
+        }
+      ]
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "PD",
+      "loads": [
+        {
+          "pattern": "PD"
+        }
+      ]
+    },
+    {
+      "id": "LAT",
+      "loads": [
+        {
+          "pattern": "LAT"
+        }
+      ]
+    }
+  ],
+  "load_combinations": [
+    {
+      "id": "PDLAT",
+      "type": "linear-add",
+      "items": [
+        {
+          "case": "PD",
+          "scale": 1.0
+        },
+        {
+          "case": "LAT",
+          "scale": 1.0
+        }
+      ]
+    }
+  ],
+  "p_delta": {
+    "method": "loads",
+    "loads": [
+      {
+        "pattern": "PD",
+        "scale": 1.0
+      }
+    ]
+  },
+  "mass_source": {
+    "elements": false,
+    "joint_masses": true
+  },
+  "links": [
+    {
+      "id": "LNKL",
+      "type": "rigid",
+      "nodes": [
+        "LNK_1",
+        "LNK_2"
+      ]
+    }
+  ],
+  "masses": [
+    {
+      "node": "K1_1",
+      "ux": 305.9148638933785,
+      "uy": 305.9148638933785
+    },
+    {
+      "node": "K2_1",
+      "ux": 305.9148638933785,
+      "uy": 305.9148638933785
+    },
+    {
+      "node": "K4_4",
+      "ux": 305.9148638933785,
+      "uy": 305.9148638933785
+    },
+    {
+      "node": "KU_1",
+      "ux": 305.9148638933785,
+      "uy": 305.9148638933785
+    },
+    {
+      "node": "KO1_1",
+      "ux": 305.9148638933785,
+      "uy": 305.9148638933785
+    },
+    {
+      "node": "KO0_1",
+      "ux": 305.9148638933785,
+      "uy": 305.9148638933785
+    },
+    {
+      "node": "LA_1",
+      "ux": 50.98581064889642,
+      "uy": 50.98581064889642
+    },
+    {
+      "node": "LB_1",
+      "ux": 152.95743194668924,
+      "uy": 152.95743194668924
+    },
+    {
+      "node": "LNK_2",
+      "ux": 305.9148638933785,
+      "uy": 305.9148638933785
+    },
+    {
+      "node": "KR_1",
+      "ux": 305.9148638933785,
+      "uy": 305.9148638933785
+    },
+    {
+      "node": "KF_1",
+      "ux": 101.97162129779284,
+      "uy": 101.97162129779284
+    },
+    {
+      "node": "KI_1",
+      "ux": 305.9148638933785,
+      "uy": 305.9148638933785
+    }
+  ],
+  "modal": {
+    "id": "Modal",
+    "modes": 30
+  },
+  "mesh": "off"
+}

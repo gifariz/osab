@@ -1,0 +1,129 @@
+{
+  "source": "Cantilever formulas in local axes (computed independently with numpy), statics for reactions",
+  "values": [
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "ux",
+      "value": 0.04991829514758149
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "uy",
+      "value": 0.0017328016804225577
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "uz",
+      "value": -0.017568832556071775
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "rx",
+      "value": -0.0017780199528606199
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "ry",
+      "value": 0.010018695306215283
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "rz",
+      "value": -0.004416674335487436
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fx",
+      "value": -3.0
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fy",
+      "value": 4.0
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fz",
+      "value": 24.0
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "mx",
+      "value": 27.0
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "my",
+      "value": -52.0
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "mz",
+      "value": 17.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "P",
+      "value": -21.42857142857143
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "V2",
+      "value": -7.112960691086501
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "V3",
+      "value": 9.551026999106979
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "M3",
+      "value": -27.933231843211114
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "M2",
+      "value": 54.237759529624896
+    }
+  ]
+}

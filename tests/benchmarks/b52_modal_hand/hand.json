@@ -1,0 +1,1030 @@
+{
+  "source": "Closed forms and small eigenproblems: a cantilever with a tip mass (T = 2 pi sqrt(m h^3 / 3EI)); a shear building (3 x 3, stories 12EI/h^3 held in rotation); a rigid diaphragm (3 x 3 in UX, UY, RZ, M from the joint masses about the master). Shapes at unit modal mass, the rest of each shape from statics (cantilever tip rotation 1.5 u / h); mass ratios over the free mass (rotations about the centre of all the mass).",
+  "values": [
+    {
+      "kind": "period",
+      "mode": 1,
+      "value": 0.5472212608690621
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 1,
+      "dof": "ux",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 1,
+      "dof": "uy",
+      "value": 0.10000000000000002
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 1,
+      "dof": "uz",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 1,
+      "dof": "rx",
+      "value": 0.0099948964516909
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 1,
+      "dof": "ry",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 1,
+      "dof": "rz",
+      "value": 0.330364520261851
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 1,
+      "node": "A1",
+      "dof": "rx",
+      "value": -0.11858541225631422
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 1,
+      "node": "A1",
+      "dof": "uy",
+      "value": 0.31622776601683794
+    },
+    {
+      "kind": "period",
+      "mode": 2,
+      "value": 0.32833275652143723
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 2,
+      "dof": "ux",
+      "value": 0.10000000000000002
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 2,
+      "dof": "uy",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 2,
+      "dof": "uz",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 2,
+      "dof": "rx",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 2,
+      "dof": "ry",
+      "value": 0.0099948964516909
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 2,
+      "dof": "rz",
+      "value": 0.0001010898752171853
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 2,
+      "node": "A1",
+      "dof": "ry",
+      "value": 0.11858541225631422
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 2,
+      "node": "A1",
+      "dof": "ux",
+      "value": 0.31622776601683794
+    },
+    {
+      "kind": "period",
+      "mode": 3,
+      "value": 0.29745897909607394
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 3,
+      "dof": "ux",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 3,
+      "dof": "uy",
+      "value": 0.4808744487574401
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 3,
+      "dof": "uz",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 3,
+      "dof": "rx",
+      "value": 0.3172804744170385
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 3,
+      "dof": "ry",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 3,
+      "dof": "rz",
+      "value": 0.1167892200931038
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 3,
+      "node": "S1",
+      "dof": "uy",
+      "value": 0.08701897279857833
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 3,
+      "node": "S2",
+      "dof": "uy",
+      "value": 0.15219847785615873
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 3,
+      "node": "S3",
+      "dof": "uy",
+      "value": 0.17918017799293837
+    },
+    {
+      "kind": "period",
+      "mode": 4,
+      "value": 0.29185416155064614
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 4,
+      "dof": "ux",
+      "value": 0.3489452961233919
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 4,
+      "dof": "uy",
+      "value": 0.011479054931000997
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 4,
+      "dof": "uz",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 4,
+      "dof": "rx",
+      "value": 0.0037990124850214436
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 4,
+      "dof": "ry",
+      "value": 0.11548403109232895
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 4,
+      "dof": "rz",
+      "value": 0.01860185509723697
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 4,
+      "node": "T1",
+      "dof": "rx",
+      "value": 0.004182946342417722
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 4,
+      "node": "T1",
+      "dof": "ry",
+      "value": 0.07086551638828122
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 4,
+      "node": "T1",
+      "dof": "rz",
+      "value": 0.007838540350882597
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 4,
+      "node": "T1",
+      "dof": "ux",
+      "value": 0.16535287157265618
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 4,
+      "node": "T1",
+      "dof": "uy",
+      "value": -0.009760208132308018
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 4,
+      "node": "T2",
+      "dof": "rx",
+      "value": -0.022692049146322613
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 4,
+      "node": "T2",
+      "dof": "ry",
+      "value": 0.07086551638828122
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 4,
+      "node": "T2",
+      "dof": "rz",
+      "value": 0.007838540350882597
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 4,
+      "node": "T2",
+      "dof": "ux",
+      "value": 0.16535287157265618
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 4,
+      "node": "T2",
+      "dof": "uy",
+      "value": 0.05294811467475276
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 4,
+      "node": "T3",
+      "dof": "rx",
+      "value": -0.022692049146322613
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 4,
+      "node": "T3",
+      "dof": "ry",
+      "value": 0.050709269771725976
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 4,
+      "node": "T3",
+      "dof": "rz",
+      "value": 0.007838540350882597
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 4,
+      "node": "T3",
+      "dof": "ux",
+      "value": 0.1183216294673606
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 4,
+      "node": "T3",
+      "dof": "uy",
+      "value": 0.05294811467475276
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 4,
+      "node": "T4",
+      "dof": "rx",
+      "value": 0.004182946342417722
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 4,
+      "node": "T4",
+      "dof": "ry",
+      "value": 0.050709269771725976
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 4,
+      "node": "T4",
+      "dof": "rz",
+      "value": 0.007838540350882597
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 4,
+      "node": "T4",
+      "dof": "ux",
+      "value": 0.1183216294673606
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 4,
+      "node": "T4",
+      "dof": "uy",
+      "value": -0.009760208132308018
+    },
+    {
+      "kind": "period",
+      "mode": 5,
+      "value": 0.27040566539543387
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 5,
+      "dof": "ux",
+      "value": 0.029330768753026194
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 5,
+      "dof": "uy",
+      "value": 0.21561804904527782
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 5,
+      "dof": "uz",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 5,
+      "dof": "rx",
+      "value": 0.07135915502127024
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 5,
+      "dof": "ry",
+      "value": 0.00970706711988063
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 5,
+      "dof": "rz",
+      "value": 0.43358984607908546
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 5,
+      "node": "T1",
+      "dof": "rx",
+      "value": -0.009644786610554878
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 5,
+      "node": "T1",
+      "dof": "ry",
+      "value": -0.008169599537546956
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 5,
+      "node": "T1",
+      "dof": "rz",
+      "value": 0.02058857597725432
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 5,
+      "node": "T1",
+      "dof": "ux",
+      "value": -0.0190623989209429
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 5,
+      "node": "T1",
+      "dof": "uy",
+      "value": 0.022504502091294717
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 5,
+      "node": "T2",
+      "dof": "rx",
+      "value": -0.08023418996114111
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 5,
+      "node": "T2",
+      "dof": "ry",
+      "value": -0.008169599537546956
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 5,
+      "node": "T2",
+      "dof": "rz",
+      "value": 0.02058857597725432
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 5,
+      "node": "T2",
+      "dof": "ux",
+      "value": -0.0190623989209429
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 5,
+      "node": "T2",
+      "dof": "uy",
+      "value": 0.18721310990932927
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 5,
+      "node": "T3",
+      "dof": "rx",
+      "value": -0.08023418996114111
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 5,
+      "node": "T3",
+      "dof": "ry",
+      "value": -0.061111652050486645
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 5,
+      "node": "T3",
+      "dof": "rz",
+      "value": 0.02058857597725432
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 5,
+      "node": "T3",
+      "dof": "ux",
+      "value": -0.14259385478446884
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 5,
+      "node": "T3",
+      "dof": "uy",
+      "value": 0.18721310990932927
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 5,
+      "node": "T4",
+      "dof": "rx",
+      "value": -0.009644786610554878
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 5,
+      "node": "T4",
+      "dof": "ry",
+      "value": -0.061111652050486645
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 5,
+      "node": "T4",
+      "dof": "rz",
+      "value": 0.02058857597725432
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 5,
+      "node": "T4",
+      "dof": "ux",
+      "value": -0.14259385478446884
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 5,
+      "node": "T4",
+      "dof": "uy",
+      "value": 0.022504502091294717
+    },
+    {
+      "kind": "period",
+      "mode": 6,
+      "value": 0.2170616017598213
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 6,
+      "dof": "ux",
+      "value": 0.0017239351235821116
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 6,
+      "dof": "uy",
+      "value": 0.1529028960237212
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 6,
+      "dof": "uz",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 6,
+      "dof": "rx",
+      "value": 0.050603469926892214
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 6,
+      "dof": "ry",
+      "value": 0.0005705392209743804
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 6,
+      "dof": "rz",
+      "value": 0.09052544022665035
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 6,
+      "node": "T1",
+      "dof": "rx",
+      "value": 0.09929411314375736
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 6,
+      "node": "T1",
+      "dof": "ry",
+      "value": 0.009715488610456369
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 6,
+      "node": "T1",
+      "dof": "rz",
+      "value": 0.026596728488050857
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 6,
+      "node": "T1",
+      "dof": "ux",
+      "value": 0.022669473424398193
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 6,
+      "node": "T1",
+      "dof": "uy",
+      "value": -0.2316862640021005
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 6,
+      "node": "T2",
+      "dof": "rx",
+      "value": 0.008105329756154415
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 6,
+      "node": "T2",
+      "dof": "ry",
+      "value": 0.009715488610456369
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 6,
+      "node": "T2",
+      "dof": "rz",
+      "value": 0.026596728488050857
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 6,
+      "node": "T2",
+      "dof": "ux",
+      "value": 0.022669473424398193
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 6,
+      "node": "T2",
+      "dof": "uy",
+      "value": -0.018912436097693636
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 6,
+      "node": "T3",
+      "dof": "rx",
+      "value": 0.008105329756154415
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 6,
+      "node": "T3",
+      "dof": "ry",
+      "value": -0.058676098930245835
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 6,
+      "node": "T3",
+      "dof": "rz",
+      "value": 0.026596728488050857
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 6,
+      "node": "T3",
+      "dof": "ux",
+      "value": -0.13691089750390695
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 6,
+      "node": "T3",
+      "dof": "uy",
+      "value": -0.018912436097693636
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 6,
+      "node": "T4",
+      "dof": "rx",
+      "value": 0.09929411314375736
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 6,
+      "node": "T4",
+      "dof": "ry",
+      "value": -0.058676098930245835
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 6,
+      "node": "T4",
+      "dof": "rz",
+      "value": 0.026596728488050857
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 6,
+      "node": "T4",
+      "dof": "ux",
+      "value": -0.13691089750390695
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 6,
+      "node": "T4",
+      "dof": "uy",
+      "value": -0.2316862640021005
+    },
+    {
+      "kind": "period",
+      "mode": 7,
+      "value": 0.1983059860640493
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 7,
+      "dof": "ux",
+      "value": 0.48087444875743995
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 7,
+      "dof": "uy",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 7,
+      "dof": "uz",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 7,
+      "dof": "rx",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 7,
+      "dof": "ry",
+      "value": 0.3172804744170386
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 7,
+      "dof": "rz",
+      "value": 0.00048611538020022375
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 7,
+      "node": "S1",
+      "dof": "ux",
+      "value": 0.0870189727985783
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 7,
+      "node": "S2",
+      "dof": "ux",
+      "value": 0.15219847785615873
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 7,
+      "node": "S3",
+      "dof": "ux",
+      "value": 0.17918017799293837
+    },
+    {
+      "kind": "period",
+      "mode": 8,
+      "value": 0.10879303134404093
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 8,
+      "dof": "ux",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 8,
+      "dof": "uy",
+      "value": 0.03557494520011462
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 8,
+      "dof": "uz",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 8,
+      "dof": "rx",
+      "value": 0.5467246354317523
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 8,
+      "dof": "ry",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 8,
+      "dof": "rz",
+      "value": 0.008640030917658552
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 8,
+      "node": "S1",
+      "dof": "uy",
+      "value": -0.17693845551705173
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 8,
+      "node": "S2",
+      "dof": "uy",
+      "value": -0.02190423460564264
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 8,
+      "node": "S3",
+      "dof": "uy",
+      "value": 0.1742268036477226
+    },
+    {
+      "kind": "period",
+      "mode": 9,
+      "value": 0.07920833048272734
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 9,
+      "dof": "ux",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 9,
+      "dof": "uy",
+      "value": 0.0035506060424451967
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 9,
+      "dof": "uz",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 9,
+      "dof": "rx",
+      "value": 0.00023835626633438757
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 9,
+      "dof": "ry",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 9,
+      "dof": "rz",
+      "value": 0.0008623300980672462
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 9,
+      "node": "S1",
+      "dof": "uy",
+      "value": -0.10545369283396654
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 9,
+      "node": "S2",
+      "dof": "uy",
+      "value": 0.16234478077415768
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 9,
+      "node": "S3",
+      "dof": "uy",
+      "value": -0.14447428158136028
+    },
+    {
+      "kind": "period",
+      "mode": 10,
+      "value": 0.07252868756269398
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 10,
+      "dof": "ux",
+      "value": 0.03557494520011467
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 10,
+      "dof": "uy",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 10,
+      "dof": "uz",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 10,
+      "dof": "rx",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 10,
+      "dof": "ry",
+      "value": 0.5467246354317528
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 10,
+      "dof": "rz",
+      "value": 3.596266771137797e-05
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 10,
+      "node": "S1",
+      "dof": "ux",
+      "value": -0.17693845551705184
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 10,
+      "node": "S2",
+      "dof": "ux",
+      "value": -0.021904234605642586
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 10,
+      "node": "S3",
+      "dof": "ux",
+      "value": 0.17422680364772264
+    },
+    {
+      "kind": "period",
+      "mode": 11,
+      "value": 0.05280555365515158
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 11,
+      "dof": "ux",
+      "value": 0.0035506060424451806
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 11,
+      "dof": "uy",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 11,
+      "dof": "uz",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 11,
+      "dof": "rx",
+      "value": 0.0
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 11,
+      "dof": "ry",
+      "value": 0.00023835626633438757
+    },
+    {
+      "kind": "mass_ratio",
+      "mode": 11,
+      "dof": "rz",
+      "value": 3.589303217761673e-06
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 11,
+      "node": "S1",
+      "dof": "ux",
+      "value": -0.10545369283396651
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 11,
+      "node": "S2",
+      "dof": "ux",
+      "value": 0.16234478077415773
+    },
+    {
+      "kind": "mode_shape",
+      "mode": 11,
+      "node": "S3",
+      "dof": "ux",
+      "value": -0.14447428158136028
+    }
+  ]
+}

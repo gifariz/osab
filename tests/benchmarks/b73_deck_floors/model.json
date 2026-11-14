@@ -1,0 +1,488 @@
+{
+  "title": "Deck floors: a filled deck and a solid slab deck on beams",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "4000Psi",
+      "E": 24855578.0,
+      "nu": 0.2,
+      "weight": 23.563121
+    },
+    {
+      "id": "A992Fy50",
+      "E": 199947980.0,
+      "nu": 0.3,
+      "weight": 76.972865
+    }
+  ],
+  "sections": [
+    {
+      "id": "C50",
+      "shape": {
+        "type": "rectangle",
+        "depth": 0.5,
+        "width": 0.5
+      }
+    },
+    {
+      "id": "B60x30",
+      "shape": {
+        "type": "rectangle",
+        "depth": 0.6,
+        "width": 0.3
+      }
+    }
+  ],
+  "area_sections": [
+    {
+      "id": "DF",
+      "type": "membrane",
+      "material": "4000Psi",
+      "thickness": 0.14,
+      "property_type": "deck",
+      "one_way": true,
+      "deck": {
+        "type": "filled",
+        "steel": "A992Fy50",
+        "slab_depth": 0.065,
+        "rib_depth": 0.075,
+        "rib_width_top": 0.15,
+        "rib_width_bottom": 0.12,
+        "rib_spacing": 0.3,
+        "shear_thickness": 0.001,
+        "unit_weight": 0.1
+      }
+    },
+    {
+      "id": "DS",
+      "type": "membrane",
+      "material": "4000Psi",
+      "thickness": 0.15,
+      "property_type": "deck",
+      "one_way": true,
+      "deck": {
+        "type": "solid",
+        "steel": "A992Fy50",
+        "slab_depth": 0.15,
+        "rib_depth": 0,
+        "rib_width_top": 0,
+        "rib_width_bottom": 0,
+        "rib_spacing": 0,
+        "shear_thickness": 0,
+        "unit_weight": 0
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "DF.base0",
+      "x": 80.0,
+      "y": 20.0,
+      "z": 0.0
+    },
+    {
+      "id": "DF.t0",
+      "x": 80.0,
+      "y": 20.0,
+      "z": 3.0
+    },
+    {
+      "id": "DF.base1",
+      "x": 88.0,
+      "y": 20.0,
+      "z": 0.0
+    },
+    {
+      "id": "DF.t1",
+      "x": 88.0,
+      "y": 20.0,
+      "z": 3.0
+    },
+    {
+      "id": "DF.base2",
+      "x": 88.0,
+      "y": 24.0,
+      "z": 0.0
+    },
+    {
+      "id": "DF.t2",
+      "x": 88.0,
+      "y": 24.0,
+      "z": 3.0
+    },
+    {
+      "id": "DF.base3",
+      "x": 80.0,
+      "y": 24.0,
+      "z": 0.0
+    },
+    {
+      "id": "DF.t3",
+      "x": 80.0,
+      "y": 24.0,
+      "z": 3.0
+    },
+    {
+      "id": "DS.base0",
+      "x": 100.0,
+      "y": 20.0,
+      "z": 0.0
+    },
+    {
+      "id": "DS.t0",
+      "x": 100.0,
+      "y": 20.0,
+      "z": 3.0
+    },
+    {
+      "id": "DS.base1",
+      "x": 108.0,
+      "y": 20.0,
+      "z": 0.0
+    },
+    {
+      "id": "DS.t1",
+      "x": 108.0,
+      "y": 20.0,
+      "z": 3.0
+    },
+    {
+      "id": "DS.base2",
+      "x": 108.0,
+      "y": 24.0,
+      "z": 0.0
+    },
+    {
+      "id": "DS.t2",
+      "x": 108.0,
+      "y": 24.0,
+      "z": 3.0
+    },
+    {
+      "id": "DS.base3",
+      "x": 100.0,
+      "y": 24.0,
+      "z": 0.0
+    },
+    {
+      "id": "DS.t3",
+      "x": 100.0,
+      "y": 24.0,
+      "z": 3.0
+    }
+  ],
+  "frames": [
+    {
+      "id": "DF.C0",
+      "type": "frame",
+      "nodes": [
+        "DF.base0",
+        "DF.t0"
+      ],
+      "material": "4000Psi",
+      "section": "C50",
+      "modifiers": {
+        "mass": 0,
+        "weight": 0
+      }
+    },
+    {
+      "id": "DF.C1",
+      "type": "frame",
+      "nodes": [
+        "DF.base1",
+        "DF.t1"
+      ],
+      "material": "4000Psi",
+      "section": "C50",
+      "modifiers": {
+        "mass": 0,
+        "weight": 0
+      }
+    },
+    {
+      "id": "DF.C2",
+      "type": "frame",
+      "nodes": [
+        "DF.base2",
+        "DF.t2"
+      ],
+      "material": "4000Psi",
+      "section": "C50",
+      "modifiers": {
+        "mass": 0,
+        "weight": 0
+      }
+    },
+    {
+      "id": "DF.C3",
+      "type": "frame",
+      "nodes": [
+        "DF.base3",
+        "DF.t3"
+      ],
+      "material": "4000Psi",
+      "section": "C50",
+      "modifiers": {
+        "mass": 0,
+        "weight": 0
+      }
+    },
+    {
+      "id": "DF.B0",
+      "type": "frame",
+      "nodes": [
+        "DF.t0",
+        "DF.t1"
+      ],
+      "material": "4000Psi",
+      "section": "B60x30",
+      "modifiers": {
+        "mass": 0,
+        "weight": 0
+      }
+    },
+    {
+      "id": "DF.B1",
+      "type": "frame",
+      "nodes": [
+        "DF.t1",
+        "DF.t2"
+      ],
+      "material": "4000Psi",
+      "section": "B60x30",
+      "modifiers": {
+        "mass": 0,
+        "weight": 0
+      }
+    },
+    {
+      "id": "DF.B2",
+      "type": "frame",
+      "nodes": [
+        "DF.t3",
+        "DF.t2"
+      ],
+      "material": "4000Psi",
+      "section": "B60x30",
+      "modifiers": {
+        "mass": 0,
+        "weight": 0
+      }
+    },
+    {
+      "id": "DF.B3",
+      "type": "frame",
+      "nodes": [
+        "DF.t0",
+        "DF.t3"
+      ],
+      "material": "4000Psi",
+      "section": "B60x30",
+      "modifiers": {
+        "mass": 0,
+        "weight": 0
+      }
+    },
+    {
+      "id": "DS.C0",
+      "type": "frame",
+      "nodes": [
+        "DS.base0",
+        "DS.t0"
+      ],
+      "material": "4000Psi",
+      "section": "C50",
+      "modifiers": {
+        "mass": 0,
+        "weight": 0
+      }
+    },
+    {
+      "id": "DS.C1",
+      "type": "frame",
+      "nodes": [
+        "DS.base1",
+        "DS.t1"
+      ],
+      "material": "4000Psi",
+      "section": "C50",
+      "modifiers": {
+        "mass": 0,
+        "weight": 0
+      }
+    },
+    {
+      "id": "DS.C2",
+      "type": "frame",
+      "nodes": [
+        "DS.base2",
+        "DS.t2"
+      ],
+      "material": "4000Psi",
+      "section": "C50",
+      "modifiers": {
+        "mass": 0,
+        "weight": 0
+      }
+    },
+    {
+      "id": "DS.C3",
+      "type": "frame",
+      "nodes": [
+        "DS.base3",
+        "DS.t3"
+      ],
+      "material": "4000Psi",
+      "section": "C50",
+      "modifiers": {
+        "mass": 0,
+        "weight": 0
+      }
+    },
+    {
+      "id": "DS.B0",
+      "type": "frame",
+      "nodes": [
+        "DS.t0",
+        "DS.t1"
+      ],
+      "material": "4000Psi",
+      "section": "B60x30",
+      "modifiers": {
+        "mass": 0,
+        "weight": 0
+      }
+    },
+    {
+      "id": "DS.B1",
+      "type": "frame",
+      "nodes": [
+        "DS.t1",
+        "DS.t2"
+      ],
+      "material": "4000Psi",
+      "section": "B60x30",
+      "modifiers": {
+        "mass": 0,
+        "weight": 0
+      }
+    },
+    {
+      "id": "DS.B2",
+      "type": "frame",
+      "nodes": [
+        "DS.t3",
+        "DS.t2"
+      ],
+      "material": "4000Psi",
+      "section": "B60x30",
+      "modifiers": {
+        "mass": 0,
+        "weight": 0
+      }
+    },
+    {
+      "id": "DS.B3",
+      "type": "frame",
+      "nodes": [
+        "DS.t0",
+        "DS.t3"
+      ],
+      "material": "4000Psi",
+      "section": "B60x30",
+      "modifiers": {
+        "mass": 0,
+        "weight": 0
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "DF",
+      "nodes": [
+        "DF.t0",
+        "DF.t1",
+        "DF.t2",
+        "DF.t3"
+      ],
+      "section": "DF",
+      "diaphragm": "D1"
+    },
+    {
+      "id": "DS",
+      "nodes": [
+        "DS.t0",
+        "DS.t1",
+        "DS.t2",
+        "DS.t3"
+      ],
+      "section": "DS",
+      "diaphragm": "D1"
+    }
+  ],
+  "supports": [
+    {
+      "node": "DF.base0",
+      "fix": "fixed"
+    },
+    {
+      "node": "DF.base1",
+      "fix": "fixed"
+    },
+    {
+      "node": "DF.base2",
+      "fix": "fixed"
+    },
+    {
+      "node": "DF.base3",
+      "fix": "fixed"
+    },
+    {
+      "node": "DS.base0",
+      "fix": "fixed"
+    },
+    {
+      "node": "DS.base1",
+      "fix": "fixed"
+    },
+    {
+      "node": "DS.base2",
+      "fix": "fixed"
+    },
+    {
+      "node": "DS.base3",
+      "fix": "fixed"
+    }
+  ],
+  "diaphragms": [
+    {
+      "id": "D1"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "Dead",
+      "self_weight": 1.0
+    },
+    {
+      "id": "SDL",
+      "area_loads": [
+        {
+          "area": "DF",
+          "dir": "Z",
+          "q": -2.0
+        },
+        {
+          "area": "DS",
+          "dir": "Z",
+          "q": -2.0
+        }
+      ]
+    }
+  ]
+}

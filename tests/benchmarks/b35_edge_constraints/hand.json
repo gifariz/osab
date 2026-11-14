@@ -1,0 +1,44 @@
+{
+  "source": "Statics: the fixed edge carries everything (DEAD 4 kN/m^2 * 8 m^2 = 32 kN; TIP 5 kN down, 2 kN in Y).",
+  "values": [
+    {
+      "case": "DEAD",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "4",
+        "~3",
+        "~5",
+        "~7"
+      ],
+      "dof": "fz",
+      "value": 32.0
+    },
+    {
+      "case": "TIP",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "4",
+        "~3",
+        "~5",
+        "~7"
+      ],
+      "dof": "fz",
+      "value": 5.0
+    },
+    {
+      "case": "TIP",
+      "kind": "reaction_sum",
+      "nodes": [
+        "1",
+        "4",
+        "~3",
+        "~5",
+        "~7"
+      ],
+      "dof": "fy",
+      "value": -2.0
+    }
+  ]
+}

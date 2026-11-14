@@ -1,0 +1,308 @@
+{
+  "title": "Plane grid: B32's floor and beams on point supports (UZ, RX, RY only)",
+  "dimension": "grid",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "mesh": {},
+  "materials": [
+    {
+      "id": "concrete",
+      "E": 25000000.0,
+      "nu": 0.2
+    }
+  ],
+  "sections": [
+    {
+      "id": "BEAM",
+      "A": 0.15,
+      "I22": 0.001125,
+      "I33": 0.0031249999999999997,
+      "J": 0.0028173707999999994,
+      "As2": 0.125,
+      "As3": 0.125
+    }
+  ],
+  "nodes": [
+    {
+      "id": "g00",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 3.5
+    },
+    {
+      "id": "g01",
+      "x": 0.0,
+      "y": 4.0,
+      "z": 3.5
+    },
+    {
+      "id": "g02",
+      "x": 0.0,
+      "y": 8.0,
+      "z": 3.5
+    },
+    {
+      "id": "g10",
+      "x": 5.0,
+      "y": 0.0,
+      "z": 3.5
+    },
+    {
+      "id": "g11",
+      "x": 5.0,
+      "y": 4.0,
+      "z": 3.5
+    },
+    {
+      "id": "g12",
+      "x": 5.0,
+      "y": 8.0,
+      "z": 3.5
+    },
+    {
+      "id": "g20",
+      "x": 10.0,
+      "y": 0.0,
+      "z": 3.5
+    },
+    {
+      "id": "g21",
+      "x": 10.0,
+      "y": 4.0,
+      "z": 3.5
+    },
+    {
+      "id": "g22",
+      "x": 10.0,
+      "y": 8.0,
+      "z": 3.5
+    },
+    {
+      "id": "p",
+      "x": 7.0,
+      "y": 2.5,
+      "z": 3.5
+    }
+  ],
+  "frames": [
+    {
+      "id": "B1",
+      "type": "frame",
+      "nodes": [
+        "g00",
+        "g10"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "B2",
+      "type": "frame",
+      "nodes": [
+        "g10",
+        "g20"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "B3",
+      "type": "frame",
+      "nodes": [
+        "g01",
+        "g11"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "B4",
+      "type": "frame",
+      "nodes": [
+        "g11",
+        "g21"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "B5",
+      "type": "frame",
+      "nodes": [
+        "g02",
+        "g12"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "B6",
+      "type": "frame",
+      "nodes": [
+        "g12",
+        "g22"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "B7",
+      "type": "frame",
+      "nodes": [
+        "g00",
+        "g01"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "B8",
+      "type": "frame",
+      "nodes": [
+        "g01",
+        "g02"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "B9",
+      "type": "frame",
+      "nodes": [
+        "g10",
+        "g11"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "B10",
+      "type": "frame",
+      "nodes": [
+        "g11",
+        "g12"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "B11",
+      "type": "frame",
+      "nodes": [
+        "g20",
+        "g21"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "B12",
+      "type": "frame",
+      "nodes": [
+        "g21",
+        "g22"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    }
+  ],
+  "area_sections": [
+    {
+      "id": "SLAB",
+      "type": "shell-thin",
+      "material": "concrete",
+      "thickness": 0.2
+    }
+  ],
+  "areas": [
+    {
+      "id": "F1",
+      "nodes": [
+        "g00",
+        "g20",
+        "g22",
+        "g02"
+      ],
+      "section": "SLAB"
+    }
+  ],
+  "supports": [
+    {
+      "node": "g00",
+      "fix": "pinned"
+    },
+    {
+      "node": "g01",
+      "fix": "pinned"
+    },
+    {
+      "node": "g02",
+      "fix": "pinned"
+    },
+    {
+      "node": "g10",
+      "fix": "pinned"
+    },
+    {
+      "node": "g11",
+      "fix": "pinned"
+    },
+    {
+      "node": "g12",
+      "fix": "pinned"
+    },
+    {
+      "node": "g20",
+      "fix": "pinned"
+    },
+    {
+      "node": "g21",
+      "fix": "pinned"
+    },
+    {
+      "node": "g22",
+      "fix": "pinned"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "DEAD",
+      "area_loads": [
+        {
+          "area": "F1",
+          "dir": "Z",
+          "q": -5.0
+        }
+      ]
+    },
+    {
+      "id": "LIVE",
+      "frame_loads": [
+        {
+          "type": "uniform",
+          "frame": "B1",
+          "dir": "Z",
+          "w": -10.0
+        }
+      ],
+      "node_loads": [
+        {
+          "node": "p",
+          "fz": -20.0
+        }
+      ]
+    },
+    {
+      "id": "MOM",
+      "node_loads": [
+        {
+          "node": "g11",
+          "mx": 10.0,
+          "my": -15.0
+        }
+      ]
+    }
+  ]
+}

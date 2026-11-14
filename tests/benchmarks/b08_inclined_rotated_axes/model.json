@@ -1,0 +1,79 @@
+{
+  "title": "Inclined cantilever with rotated local axes",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "steel",
+      "E": 200000000.0,
+      "nu": 0.3
+    }
+  ],
+  "sections": [
+    {
+      "id": "S8",
+      "A": 0.01,
+      "I22": 8e-05,
+      "I33": 0.0002,
+      "J": 0.00015
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "2",
+      "x": 2.0,
+      "y": 3.0,
+      "z": 6.0
+    }
+  ],
+  "frames": [
+    {
+      "id": "1",
+      "type": "frame",
+      "nodes": [
+        "1",
+        "2"
+      ],
+      "material": "steel",
+      "section": "S8",
+      "angle": 30.0
+    }
+  ],
+  "supports": [
+    {
+      "node": "1",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "LC1",
+      "node_loads": [
+        {
+          "node": "2",
+          "fx": 3.0,
+          "fy": -4.0,
+          "fz": -10.0
+        }
+      ],
+      "frame_loads": [
+        {
+          "type": "uniform",
+          "frame": "1",
+          "dir": "Z",
+          "w": -2.0
+        }
+      ]
+    }
+  ],
+  "mesh": "off"
+}

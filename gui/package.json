@@ -1,0 +1,45 @@
+{
+  "name": "osab-gui",
+  "private": true,
+  "license": "Apache-2.0",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:web": "npm run build:wasm && vite",
+    "prebuild": "npm run build:wasm",
+    "build": "vite build",
+    "build:web": "npm run build:wasm && vite build --mode web",
+    "preview:web": "vite preview --mode web",
+    "typecheck": "tsc --noEmit",
+    "build:wasm": "node scripts/build-wasm.mjs",
+    "pretest": "npm run build:wasm",
+    "test": "vitest run",
+    "e2e": "playwright test",
+    "e2e:web": "playwright test -c playwright.web.config.ts",
+    "tauri": "tauri",
+    "app": "tauri dev",
+    "app:build": "tauri build",
+    "smoke": "node scripts/desktop-smoke.mjs"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.12.4",
+    "@tauri-apps/plugin-dialog": "^2.8.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "three": "^0.186.1",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@tauri-apps/cli": "^2.12.3",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.186.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.4"
+  }
+}

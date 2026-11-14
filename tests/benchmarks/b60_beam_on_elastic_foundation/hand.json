@@ -1,0 +1,41 @@
+{
+  "source": "Uniform load: an even settlement q/k with no bending. Point load at the middle: the closed-form finite beam on an elastic foundation (Hetenyi), free ends, Euler-Bernoulli (checks/make_springs_benchmarks.py).",
+  "values": [
+    {
+      "case": "W",
+      "kind": "disp",
+      "node": "25",
+      "dof": "uz",
+      "value": -0.004
+    },
+    {
+      "case": "W",
+      "kind": "disp",
+      "node": "49",
+      "dof": "uz",
+      "value": -0.004
+    },
+    {
+      "case": "P",
+      "kind": "disp",
+      "node": "25",
+      "dof": "uz",
+      "value": -0.0017594402596902785
+    },
+    {
+      "case": "P",
+      "kind": "disp",
+      "node": "49",
+      "dof": "uz",
+      "value": -0.003369782938920515
+    },
+    {
+      "case": "P",
+      "kind": "force",
+      "element": "M48",
+      "at": "j",
+      "comp": "M3",
+      "value": 86.23585479414655
+    }
+  ]
+}

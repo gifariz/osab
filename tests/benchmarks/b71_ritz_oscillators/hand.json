@@ -1,0 +1,137 @@
+{
+ "source": "Closed form: twelve independent oscillators, T = 2 pi sqrt(m / k), each mode's mass ratio the point's mass over the direction's total (checks/make_ritz_benchmarks.py).",
+ "values": [
+  {
+   "kind": "period",
+   "mode": 1,
+   "value": 3.141592653589793
+  },
+  {
+   "kind": "mass_ratio",
+   "mode": 1,
+   "dof": "ux",
+   "value": 0.11764705882352941
+  },
+  {
+   "kind": "period",
+   "mode": 2,
+   "value": 2.0943951023931953
+  },
+  {
+   "kind": "mass_ratio",
+   "mode": 2,
+   "dof": "uy",
+   "value": 0.11764705882352941
+  },
+  {
+   "kind": "period",
+   "mode": 3,
+   "value": 1.5707963267948966
+  },
+  {
+   "kind": "mass_ratio",
+   "mode": 3,
+   "dof": "uz",
+   "value": 0.11764705882352941
+  },
+  {
+   "kind": "period",
+   "mode": 4,
+   "value": 1.2566370614359172
+  },
+  {
+   "kind": "mass_ratio",
+   "mode": 4,
+   "dof": "ux",
+   "value": 0.17647058823529413
+  },
+  {
+   "kind": "period",
+   "mode": 5,
+   "value": 1.0471975511965976
+  },
+  {
+   "kind": "mass_ratio",
+   "mode": 5,
+   "dof": "uy",
+   "value": 0.17647058823529413
+  },
+  {
+   "kind": "period",
+   "mode": 6,
+   "value": 0.8975979010256552
+  },
+  {
+   "kind": "mass_ratio",
+   "mode": 6,
+   "dof": "uz",
+   "value": 0.17647058823529413
+  },
+  {
+   "kind": "period",
+   "mode": 7,
+   "value": 0.6981317007977318
+  },
+  {
+   "kind": "mass_ratio",
+   "mode": 7,
+   "dof": "ux",
+   "value": 0.29411764705882354
+  },
+  {
+   "kind": "period",
+   "mode": 8,
+   "value": 0.6283185307179586
+  },
+  {
+   "kind": "mass_ratio",
+   "mode": 8,
+   "dof": "uy",
+   "value": 0.29411764705882354
+  },
+  {
+   "kind": "period",
+   "mode": 9,
+   "value": 0.5711986642890533
+  },
+  {
+   "kind": "mass_ratio",
+   "mode": 9,
+   "dof": "uz",
+   "value": 0.29411764705882354
+  },
+  {
+   "kind": "period",
+   "mode": 10,
+   "value": 0.4487989505128276
+  },
+  {
+   "kind": "mass_ratio",
+   "mode": 10,
+   "dof": "ux",
+   "value": 0.4117647058823529
+  },
+  {
+   "kind": "period",
+   "mode": 11,
+   "value": 0.41887902047863906
+  },
+  {
+   "kind": "mass_ratio",
+   "mode": 11,
+   "dof": "uy",
+   "value": 0.4117647058823529
+  },
+  {
+   "kind": "period",
+   "mode": 12,
+   "value": 0.39269908169872414
+  },
+  {
+   "kind": "mass_ratio",
+   "mode": 12,
+   "dof": "uz",
+   "value": 0.4117647058823529
+  }
+ ]
+}

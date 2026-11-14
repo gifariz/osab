@@ -1,0 +1,40 @@
+name: Command-line tool
+
+# Builds the command-line tool `osab` as single files for a release: Linux x86_64 (static, runs on any
+# distribution) and Windows x86_64. Started by hand only (Actions > Command-line tool > Run workflow), before a
+# release; the files are downloadable artifacts of the run, to attach to the GitHub release.
+
+on:
+  workflow_dispatch:
+
+jobs:
+  linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: x86_64-unknown-linux-musl
+      - run: sudo apt-get update && sudo apt-get install -y musl-tools
+      - run: cargo build --release --locked -p osab-cli --target x86_64-unknown-linux-musl
+      # The file runs alone and solves the example (a quick check of the build).
+      - run: |
+          cp target/x86_64-unknown-linux-musl/release/osab osab
+          ./osab solve examples/portal_frame.osab
+          file osab
+      - uses: actions/upload-artifact@v4
+        with:
+          name: osab-linux-x86_64
+          path: osab
+
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - run: cargo build --release --locked -p osab-cli
+      - run: target/release/osab.exe solve examples/portal_frame.osab
+      - uses: actions/upload-artifact@v4
+        with:
+          name: osab-windows-x86_64
+          path: target/release/osab.exe

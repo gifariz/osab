@@ -1,0 +1,238 @@
+{
+  "title": "Pratt truss",
+  "dimension": "2D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "steel",
+      "E": 200000000.0,
+      "nu": 0.3
+    }
+  ],
+  "sections": [
+    {
+      "id": "BAR",
+      "A": 0.002
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "2",
+      "x": 3,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "3",
+      "x": 6,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "4",
+      "x": 9,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "5",
+      "x": 12,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "6",
+      "x": 3,
+      "y": 0,
+      "z": 3
+    },
+    {
+      "id": "7",
+      "x": 6,
+      "y": 0,
+      "z": 3
+    },
+    {
+      "id": "8",
+      "x": 9,
+      "y": 0,
+      "z": 3
+    }
+  ],
+  "frames": [
+    {
+      "id": "1",
+      "type": "truss",
+      "nodes": [
+        "1",
+        "2"
+      ],
+      "material": "steel",
+      "section": "BAR"
+    },
+    {
+      "id": "2",
+      "type": "truss",
+      "nodes": [
+        "2",
+        "3"
+      ],
+      "material": "steel",
+      "section": "BAR"
+    },
+    {
+      "id": "3",
+      "type": "truss",
+      "nodes": [
+        "3",
+        "4"
+      ],
+      "material": "steel",
+      "section": "BAR"
+    },
+    {
+      "id": "4",
+      "type": "truss",
+      "nodes": [
+        "4",
+        "5"
+      ],
+      "material": "steel",
+      "section": "BAR"
+    },
+    {
+      "id": "5",
+      "type": "truss",
+      "nodes": [
+        "6",
+        "7"
+      ],
+      "material": "steel",
+      "section": "BAR"
+    },
+    {
+      "id": "6",
+      "type": "truss",
+      "nodes": [
+        "7",
+        "8"
+      ],
+      "material": "steel",
+      "section": "BAR"
+    },
+    {
+      "id": "7",
+      "type": "truss",
+      "nodes": [
+        "1",
+        "6"
+      ],
+      "material": "steel",
+      "section": "BAR"
+    },
+    {
+      "id": "8",
+      "type": "truss",
+      "nodes": [
+        "5",
+        "8"
+      ],
+      "material": "steel",
+      "section": "BAR"
+    },
+    {
+      "id": "9",
+      "type": "truss",
+      "nodes": [
+        "2",
+        "6"
+      ],
+      "material": "steel",
+      "section": "BAR"
+    },
+    {
+      "id": "10",
+      "type": "truss",
+      "nodes": [
+        "3",
+        "7"
+      ],
+      "material": "steel",
+      "section": "BAR"
+    },
+    {
+      "id": "11",
+      "type": "truss",
+      "nodes": [
+        "4",
+        "8"
+      ],
+      "material": "steel",
+      "section": "BAR"
+    },
+    {
+      "id": "12",
+      "type": "truss",
+      "nodes": [
+        "3",
+        "6"
+      ],
+      "material": "steel",
+      "section": "BAR"
+    },
+    {
+      "id": "13",
+      "type": "truss",
+      "nodes": [
+        "3",
+        "8"
+      ],
+      "material": "steel",
+      "section": "BAR"
+    }
+  ],
+  "supports": [
+    {
+      "node": "1",
+      "fix": [
+        "ux",
+        "uz"
+      ]
+    },
+    {
+      "node": "5",
+      "fix": [
+        "uz"
+      ]
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "LC1",
+      "node_loads": [
+        {
+          "node": "2",
+          "fz": -20.0
+        },
+        {
+          "node": "3",
+          "fz": -20.0
+        },
+        {
+          "node": "4",
+          "fz": -20.0
+        }
+      ]
+    }
+  ],
+  "mesh": "off"
+}

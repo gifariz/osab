@@ -1,0 +1,432 @@
+{
+  "title": "Slab on four columns, three load cases and their combinations",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "concrete",
+      "E": 25000000.0,
+      "nu": 0.2
+    }
+  ],
+  "sections": [
+    {
+      "id": "COL",
+      "A": 0.16000000000000003,
+      "I22": 0.002133333333333334,
+      "I33": 0.002133333333333334,
+      "J": 0.0036053333333333345,
+      "As2": 0.13333333333333336,
+      "As3": 0.13333333333333336
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 3.5
+    },
+    {
+      "id": "2",
+      "x": 3.0,
+      "y": 0.0,
+      "z": 3.5
+    },
+    {
+      "id": "3",
+      "x": 6.0,
+      "y": 0.0,
+      "z": 3.5
+    },
+    {
+      "id": "4",
+      "x": 0.0,
+      "y": 3.0,
+      "z": 3.5
+    },
+    {
+      "id": "5",
+      "x": 3.0,
+      "y": 3.0,
+      "z": 3.5
+    },
+    {
+      "id": "6",
+      "x": 6.0,
+      "y": 3.0,
+      "z": 3.5
+    },
+    {
+      "id": "7",
+      "x": 0.0,
+      "y": 6.0,
+      "z": 3.5
+    },
+    {
+      "id": "8",
+      "x": 3.0,
+      "y": 6.0,
+      "z": 3.5
+    },
+    {
+      "id": "9",
+      "x": 6.0,
+      "y": 6.0,
+      "z": 3.5
+    },
+    {
+      "id": "100",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "101",
+      "x": 6.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "102",
+      "x": 6.0,
+      "y": 6.0,
+      "z": 0.0
+    },
+    {
+      "id": "103",
+      "x": 0.0,
+      "y": 6.0,
+      "z": 0.0
+    }
+  ],
+  "frames": [
+    {
+      "id": "C1",
+      "type": "frame",
+      "nodes": [
+        "100",
+        "1"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C2",
+      "type": "frame",
+      "nodes": [
+        "101",
+        "3"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C3",
+      "type": "frame",
+      "nodes": [
+        "102",
+        "9"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C4",
+      "type": "frame",
+      "nodes": [
+        "103",
+        "7"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    }
+  ],
+  "area_sections": [
+    {
+      "id": "SLAB",
+      "type": "shell-thin",
+      "material": "concrete",
+      "thickness": 0.2
+    }
+  ],
+  "areas": [
+    {
+      "id": "F1",
+      "nodes": [
+        "1",
+        "2",
+        "5",
+        "4"
+      ],
+      "section": "SLAB"
+    },
+    {
+      "id": "F2",
+      "nodes": [
+        "2",
+        "3",
+        "6",
+        "5"
+      ],
+      "section": "SLAB"
+    },
+    {
+      "id": "F3",
+      "nodes": [
+        "4",
+        "5",
+        "8",
+        "7"
+      ],
+      "section": "SLAB"
+    },
+    {
+      "id": "F4",
+      "nodes": [
+        "5",
+        "6",
+        "9",
+        "8"
+      ],
+      "section": "SLAB"
+    }
+  ],
+  "supports": [
+    {
+      "node": "100",
+      "fix": "fixed"
+    },
+    {
+      "node": "101",
+      "fix": "fixed"
+    },
+    {
+      "node": "102",
+      "fix": "fixed"
+    },
+    {
+      "node": "103",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "DEAD",
+      "area_loads": [
+        {
+          "area": "F1",
+          "dir": "Z",
+          "q": -8.0
+        },
+        {
+          "area": "F2",
+          "dir": "Z",
+          "q": -8.0
+        },
+        {
+          "area": "F3",
+          "dir": "Z",
+          "q": -8.0
+        },
+        {
+          "area": "F4",
+          "dir": "Z",
+          "q": -8.0
+        }
+      ]
+    },
+    {
+      "id": "LIVE",
+      "area_loads": [
+        {
+          "area": "F1",
+          "dir": "Z",
+          "q": -3.0
+        },
+        {
+          "area": "F2",
+          "dir": "Z",
+          "q": -3.0
+        }
+      ],
+      "frame_loads": [
+        {
+          "type": "point",
+          "frame": "C1",
+          "dir": "X",
+          "p": 4.0,
+          "at": 1.5
+        }
+      ]
+    },
+    {
+      "id": "WIND",
+      "node_loads": [
+        {
+          "node": "9",
+          "fx": 10.0,
+          "fy": -6.0
+        }
+      ]
+    }
+  ],
+  "load_combinations": [
+    {
+      "id": "ULS1",
+      "type": "linear-add",
+      "items": [
+        {
+          "case": "DEAD",
+          "scale": 1.2
+        },
+        {
+          "case": "LIVE",
+          "scale": 1.6
+        }
+      ]
+    },
+    {
+      "id": "ULS2",
+      "type": "linear-add",
+      "items": [
+        {
+          "case": "DEAD",
+          "scale": 1.2
+        },
+        {
+          "case": "LIVE",
+          "scale": 1.0
+        },
+        {
+          "case": "WIND",
+          "scale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "ULS3",
+      "type": "linear-add",
+      "items": [
+        {
+          "case": "DEAD",
+          "scale": 0.9
+        },
+        {
+          "case": "WIND",
+          "scale": -1.0
+        }
+      ]
+    },
+    {
+      "id": "ENV",
+      "type": "envelope",
+      "items": [
+        {
+          "combo": "ULS1",
+          "scale": 1.0
+        },
+        {
+          "combo": "ULS2",
+          "scale": 1.0
+        },
+        {
+          "combo": "ULS3",
+          "scale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "ENVL",
+      "type": "linear-add",
+      "items": [
+        {
+          "combo": "ENV",
+          "scale": 1.0
+        },
+        {
+          "case": "LIVE",
+          "scale": -0.5
+        }
+      ]
+    },
+    {
+      "id": "SRSS1",
+      "type": "srss",
+      "items": [
+        {
+          "case": "DEAD",
+          "scale": 1.0
+        },
+        {
+          "case": "LIVE",
+          "scale": 0.5
+        },
+        {
+          "case": "WIND",
+          "scale": -1.0
+        }
+      ]
+    },
+    {
+      "id": "SRSS2",
+      "type": "srss",
+      "items": [
+        {
+          "combo": "ENV",
+          "scale": 1.0
+        },
+        {
+          "case": "WIND",
+          "scale": 0.5
+        }
+      ]
+    },
+    {
+      "id": "SRSSL",
+      "type": "linear-add",
+      "items": [
+        {
+          "combo": "SRSS1",
+          "scale": -0.5
+        },
+        {
+          "case": "DEAD",
+          "scale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "SRSSE",
+      "type": "envelope",
+      "items": [
+        {
+          "combo": "SRSS1",
+          "scale": 1.0
+        },
+        {
+          "combo": "ULS1",
+          "scale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "SRSSN",
+      "type": "srss",
+      "items": [
+        {
+          "combo": "SRSS1",
+          "scale": 1.0
+        },
+        {
+          "case": "LIVE",
+          "scale": 2.0
+        }
+      ]
+    }
+  ],
+  "mesh": "off"
+}

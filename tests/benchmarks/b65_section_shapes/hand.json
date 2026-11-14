@@ -1,0 +1,593 @@
+{
+  "source": "Statics (base reactions of the tip forces) and the self weight of the shapes with a closed-form area (checks/make_shape_benchmarks.py).",
+  "values": [
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "IU0",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "IU0",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "IU0",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "IU0",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "DEAD",
+      "kind": "reaction",
+      "node": "IU0",
+      "dof": "fz",
+      "value": 4.500143625600001
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "CH0",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "CH0",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "CH0",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "CH0",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "TE0",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "TE0",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "TE0",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "TE0",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "AN0",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "AN0",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "AN0",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "AN0",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "DA0",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "DA0",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "DA0",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "DA0",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "DC0",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "DC0",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "DC0",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "DC0",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "BX0",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "BX0",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "BX0",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "BX0",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "DEAD",
+      "kind": "reaction",
+      "node": "BX0",
+      "dof": "fz",
+      "value": 4.766161967999998
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "PI0",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "PI0",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "PI0",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "PI0",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "DEAD",
+      "kind": "reaction",
+      "node": "PI0",
+      "dof": "fz",
+      "value": 4.207624450679736
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "RC0",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "RC0",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "RC0",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "RC0",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "DEAD",
+      "kind": "reaction",
+      "node": "RC0",
+      "dof": "fz",
+      "value": 33.928703999999996
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "CR0",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "CR0",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "CR0",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "CR0",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "DEAD",
+      "kind": "reaction",
+      "node": "CR0",
+      "dof": "fz",
+      "value": 39.97131271208348
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "CT0",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "CT0",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "CT0",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "CT0",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "CL0",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "CL0",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "CL0",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "CL0",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "CP0",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "CP0",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "CP0",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "CP0",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "CX0",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "CX0",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "CX0",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "CX0",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "TR0",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "TR0",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "TR0",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "TR0",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "FT0",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "FT0",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "FT0",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "FT0",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "DEAD",
+      "kind": "reaction",
+      "node": "FT0",
+      "dof": "fz",
+      "value": 11.789403695999997
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "FP0",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "FP0",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "FP0",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "FP0",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "ER0",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "ER0",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "ER0",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "ER0",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "EC0",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "EC0",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "EC0",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "EC0",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "TE80",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "TE80",
+      "dof": "my",
+      "value": -60.0
+    }
+  ]
+}

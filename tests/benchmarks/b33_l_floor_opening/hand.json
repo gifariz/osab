@@ -1,0 +1,21 @@
+{
+  "source": "Statics: the columns carry q * (64 - 16 - 2) m^2 = 276 kN (the opening carries no load).",
+  "values": [
+    {
+      "case": "DEAD",
+      "kind": "reaction_sum",
+      "nodes": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7"
+      ],
+      "dof": "fz",
+      "value": 276.0
+    }
+  ]
+}

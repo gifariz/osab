@@ -1,0 +1,47 @@
+{
+  "source": "Statics: the end loads are self-equilibrated, so the support reaction is 0. The plane-stress closed form (tip deflection M L^2 / 2EI) is reached as the mesh is refined; checked in solver/tests/shell_convergence.rs.",
+  "values": [
+    {
+      "case": "M",
+      "kind": "reaction",
+      "node": "8",
+      "dof": "fx",
+      "value": 0.0
+    },
+    {
+      "case": "M",
+      "kind": "reaction",
+      "node": "8",
+      "dof": "fz",
+      "value": 0.0
+    },
+    {
+      "case": "M",
+      "kind": "reaction",
+      "node": "8",
+      "dof": "my",
+      "value": 0.0
+    },
+    {
+      "case": "M",
+      "kind": "reaction",
+      "node": "108",
+      "dof": "fx",
+      "value": 0.0
+    },
+    {
+      "case": "M",
+      "kind": "reaction",
+      "node": "108",
+      "dof": "fz",
+      "value": 0.0
+    },
+    {
+      "case": "M",
+      "kind": "reaction",
+      "node": "108",
+      "dof": "my",
+      "value": 0.0
+    }
+  ]
+}

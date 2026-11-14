@@ -1,0 +1,4027 @@
+{
+  "source": "Exact constant states of the patches with the modified rigidities (any correct element reproduces them): membrane N = C' eps with C' = E t/(1 - nu^2) [[a, nu sqrt(a b), 0], [nu sqrt(a b), b, 0], [0, 0, (1 - nu)/2 c]] (a, b, c = f11, f22, f12 of section times area); plate BEND kx = M11 / (D m11 (1 - nu^2)), ky = -nu sqrt(m11 / m22) kx, w = (kx x^2 + ky y^2)/2; TWIST w = P x y / (2 D (1 - nu) m12). Statics (load totals) for the thick plate, slab and wall.",
+  "values": [
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "1",
+      "dof": "ux",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "1",
+      "dof": "uy",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "1",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "2",
+      "dof": "ux",
+      "value": 6.857142857142856e-06
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "2",
+      "dof": "uy",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "2",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "3",
+      "dof": "ux",
+      "value": 6.857142857142856e-06
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "3",
+      "dof": "uy",
+      "value": -9.697464427701225e-07
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "3",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "4",
+      "dof": "ux",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "4",
+      "dof": "uy",
+      "value": -9.697464427701225e-07
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "4",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "5",
+      "dof": "ux",
+      "value": 1.1428571428571428e-06
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "5",
+      "dof": "uy",
+      "value": -1.6162440712835375e-07
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "5",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "6",
+      "dof": "ux",
+      "value": 5.142857142857142e-06
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "6",
+      "dof": "uy",
+      "value": -2.424366106925306e-07
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "6",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "7",
+      "dof": "ux",
+      "value": 4.571428571428571e-06
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "7",
+      "dof": "uy",
+      "value": -6.46497628513415e-07
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "7",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "8",
+      "dof": "ux",
+      "value": 2.2857142857142856e-06
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "8",
+      "dof": "uy",
+      "value": -6.46497628513415e-07
+    },
+    {
+      "case": "TENS",
+      "kind": "disp",
+      "node": "8",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M1",
+      "node": "1",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M1",
+      "node": "1",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M1",
+      "node": "1",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M1",
+      "node": "2",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M1",
+      "node": "2",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M1",
+      "node": "2",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M1",
+      "node": "6",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M1",
+      "node": "6",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M1",
+      "node": "6",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M1",
+      "node": "5",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M1",
+      "node": "5",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M1",
+      "node": "5",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M2",
+      "node": "2",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M2",
+      "node": "2",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M2",
+      "node": "2",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M2",
+      "node": "3",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M2",
+      "node": "3",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M2",
+      "node": "3",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M2",
+      "node": "7",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M2",
+      "node": "7",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M2",
+      "node": "7",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M2",
+      "node": "6",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M2",
+      "node": "6",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M2",
+      "node": "6",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M3",
+      "node": "3",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M3",
+      "node": "3",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M3",
+      "node": "3",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M3",
+      "node": "4",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M3",
+      "node": "4",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M3",
+      "node": "4",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M3",
+      "node": "8",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M3",
+      "node": "8",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M3",
+      "node": "8",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M3",
+      "node": "7",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M3",
+      "node": "7",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M3",
+      "node": "7",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M4",
+      "node": "4",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M4",
+      "node": "4",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M4",
+      "node": "4",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M4",
+      "node": "1",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M4",
+      "node": "1",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M4",
+      "node": "1",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M4",
+      "node": "5",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M4",
+      "node": "5",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M4",
+      "node": "5",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M4",
+      "node": "8",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M4",
+      "node": "8",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M4",
+      "node": "8",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M5",
+      "node": "5",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M5",
+      "node": "5",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M5",
+      "node": "5",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M5",
+      "node": "6",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M5",
+      "node": "6",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M5",
+      "node": "6",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M5",
+      "node": "7",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M5",
+      "node": "7",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M5",
+      "node": "7",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M5",
+      "node": "8",
+      "comp": "F11",
+      "value": 10.0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M5",
+      "node": "8",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "shell",
+      "area": "M5",
+      "node": "8",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fx",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fy",
+      "value": 0.0
+    },
+    {
+      "case": "TENS",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "mz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "1",
+      "dof": "ux",
+      "value": 0.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "1",
+      "dof": "uy",
+      "value": 0.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "1",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "2",
+      "dof": "ux",
+      "value": -1.5515943084321956e-06
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "2",
+      "dof": "uy",
+      "value": 0.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "2",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "3",
+      "dof": "ux",
+      "value": -1.5515943084321956e-06
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "3",
+      "dof": "uy",
+      "value": 5.485714285714285e-06
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "3",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "4",
+      "dof": "ux",
+      "value": 0.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "4",
+      "dof": "uy",
+      "value": 5.485714285714285e-06
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "4",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "5",
+      "dof": "ux",
+      "value": -2.58599051405366e-07
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "5",
+      "dof": "uy",
+      "value": 9.142857142857143e-07
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "5",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "6",
+      "dof": "ux",
+      "value": -1.1636957313241469e-06
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "6",
+      "dof": "uy",
+      "value": 1.3714285714285712e-06
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "6",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "7",
+      "dof": "ux",
+      "value": -1.034396205621464e-06
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "7",
+      "dof": "uy",
+      "value": 3.6571428571428572e-06
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "7",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "8",
+      "dof": "ux",
+      "value": -5.17198102810732e-07
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "8",
+      "dof": "uy",
+      "value": 3.6571428571428572e-06
+    },
+    {
+      "case": "TENS2",
+      "kind": "disp",
+      "node": "8",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M1",
+      "node": "1",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M1",
+      "node": "1",
+      "comp": "F22",
+      "value": 8.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M1",
+      "node": "1",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M1",
+      "node": "2",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M1",
+      "node": "2",
+      "comp": "F22",
+      "value": 8.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M1",
+      "node": "2",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M1",
+      "node": "6",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M1",
+      "node": "6",
+      "comp": "F22",
+      "value": 8.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M1",
+      "node": "6",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M1",
+      "node": "5",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M1",
+      "node": "5",
+      "comp": "F22",
+      "value": 8.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M1",
+      "node": "5",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M2",
+      "node": "2",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M2",
+      "node": "2",
+      "comp": "F22",
+      "value": 8.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M2",
+      "node": "2",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M2",
+      "node": "3",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M2",
+      "node": "3",
+      "comp": "F22",
+      "value": 8.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M2",
+      "node": "3",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M2",
+      "node": "7",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M2",
+      "node": "7",
+      "comp": "F22",
+      "value": 8.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M2",
+      "node": "7",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M2",
+      "node": "6",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M2",
+      "node": "6",
+      "comp": "F22",
+      "value": 8.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M2",
+      "node": "6",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M3",
+      "node": "3",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M3",
+      "node": "3",
+      "comp": "F22",
+      "value": 8.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M3",
+      "node": "3",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M3",
+      "node": "4",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M3",
+      "node": "4",
+      "comp": "F22",
+      "value": 8.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M3",
+      "node": "4",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M3",
+      "node": "8",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M3",
+      "node": "8",
+      "comp": "F22",
+      "value": 8.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M3",
+      "node": "8",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M3",
+      "node": "7",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M3",
+      "node": "7",
+      "comp": "F22",
+      "value": 8.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M3",
+      "node": "7",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M4",
+      "node": "4",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M4",
+      "node": "4",
+      "comp": "F22",
+      "value": 8.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M4",
+      "node": "4",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M4",
+      "node": "1",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M4",
+      "node": "1",
+      "comp": "F22",
+      "value": 8.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M4",
+      "node": "1",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M4",
+      "node": "5",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M4",
+      "node": "5",
+      "comp": "F22",
+      "value": 8.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M4",
+      "node": "5",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M4",
+      "node": "8",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M4",
+      "node": "8",
+      "comp": "F22",
+      "value": 8.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M4",
+      "node": "8",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M5",
+      "node": "5",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M5",
+      "node": "5",
+      "comp": "F22",
+      "value": 8.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M5",
+      "node": "5",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M5",
+      "node": "6",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M5",
+      "node": "6",
+      "comp": "F22",
+      "value": 8.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M5",
+      "node": "6",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M5",
+      "node": "7",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M5",
+      "node": "7",
+      "comp": "F22",
+      "value": 8.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M5",
+      "node": "7",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M5",
+      "node": "8",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M5",
+      "node": "8",
+      "comp": "F22",
+      "value": 8.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "shell",
+      "area": "M5",
+      "node": "8",
+      "comp": "F12",
+      "value": 0
+    },
+    {
+      "case": "TENS2",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fx",
+      "value": 0.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fy",
+      "value": 0.0
+    },
+    {
+      "case": "TENS2",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "mz",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "1",
+      "dof": "ux",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "1",
+      "dof": "uy",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "1",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "2",
+      "dof": "ux",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "2",
+      "dof": "uy",
+      "value": 1.1519999999999996e-05
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "2",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "3",
+      "dof": "ux",
+      "value": 5.759999999999998e-06
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "3",
+      "dof": "uy",
+      "value": 1.1519999999999996e-05
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "3",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "4",
+      "dof": "ux",
+      "value": 5.759999999999998e-06
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "4",
+      "dof": "uy",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "4",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "5",
+      "dof": "ux",
+      "value": 9.6e-07
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "5",
+      "dof": "uy",
+      "value": 1.92e-06
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "5",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "6",
+      "dof": "ux",
+      "value": 1.4399999999999996e-06
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "6",
+      "dof": "uy",
+      "value": 8.639999999999999e-06
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "6",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "7",
+      "dof": "ux",
+      "value": 3.84e-06
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "7",
+      "dof": "uy",
+      "value": 7.68e-06
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "7",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "8",
+      "dof": "ux",
+      "value": 3.84e-06
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "8",
+      "dof": "uy",
+      "value": 3.84e-06
+    },
+    {
+      "case": "SHEAR",
+      "kind": "disp",
+      "node": "8",
+      "dof": "rz",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M1",
+      "node": "1",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M1",
+      "node": "1",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M1",
+      "node": "1",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M1",
+      "node": "2",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M1",
+      "node": "2",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M1",
+      "node": "2",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M1",
+      "node": "6",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M1",
+      "node": "6",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M1",
+      "node": "6",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M1",
+      "node": "5",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M1",
+      "node": "5",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M1",
+      "node": "5",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M2",
+      "node": "2",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M2",
+      "node": "2",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M2",
+      "node": "2",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M2",
+      "node": "3",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M2",
+      "node": "3",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M2",
+      "node": "3",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M2",
+      "node": "7",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M2",
+      "node": "7",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M2",
+      "node": "7",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M2",
+      "node": "6",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M2",
+      "node": "6",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M2",
+      "node": "6",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M3",
+      "node": "3",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M3",
+      "node": "3",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M3",
+      "node": "3",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M3",
+      "node": "4",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M3",
+      "node": "4",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M3",
+      "node": "4",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M3",
+      "node": "8",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M3",
+      "node": "8",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M3",
+      "node": "8",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M3",
+      "node": "7",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M3",
+      "node": "7",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M3",
+      "node": "7",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M4",
+      "node": "4",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M4",
+      "node": "4",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M4",
+      "node": "4",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M4",
+      "node": "1",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M4",
+      "node": "1",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M4",
+      "node": "1",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M4",
+      "node": "5",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M4",
+      "node": "5",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M4",
+      "node": "5",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M4",
+      "node": "8",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M4",
+      "node": "8",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M4",
+      "node": "8",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M5",
+      "node": "5",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M5",
+      "node": "5",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M5",
+      "node": "5",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M5",
+      "node": "6",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M5",
+      "node": "6",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M5",
+      "node": "6",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M5",
+      "node": "7",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M5",
+      "node": "7",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M5",
+      "node": "7",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M5",
+      "node": "8",
+      "comp": "F11",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M5",
+      "node": "8",
+      "comp": "F22",
+      "value": 0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "shell",
+      "area": "M5",
+      "node": "8",
+      "comp": "F12",
+      "value": 5.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fx",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fy",
+      "value": 0.0
+    },
+    {
+      "case": "SHEAR",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "mz",
+      "value": 0.0
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "21",
+      "dof": "uz",
+      "value": 0.0
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "21",
+      "dof": "rx",
+      "value": -0.0
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "21",
+      "dof": "ry",
+      "value": -0.0
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "22",
+      "dof": "uz",
+      "value": 0.006911999999999998
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "22",
+      "dof": "rx",
+      "value": -0.0
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "22",
+      "dof": "ry",
+      "value": -0.005759999999999999
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "23",
+      "dof": "uz",
+      "value": 0.006667623896421927
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "23",
+      "dof": "rx",
+      "value": -0.0004072935059634514
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "23",
+      "dof": "ry",
+      "value": -0.005759999999999999
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "24",
+      "dof": "uz",
+      "value": -0.00024437610357807085
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "24",
+      "dof": "rx",
+      "value": -0.0004072935059634514
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "24",
+      "dof": "ry",
+      "value": -0.0
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "25",
+      "dof": "uz",
+      "value": 0.0001852117749006091
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "25",
+      "dof": "rx",
+      "value": -6.788225099390861e-05
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "25",
+      "dof": "ry",
+      "value": -0.0009599999999999998
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "26",
+      "dof": "uz",
+      "value": 0.0038727264935263703
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "26",
+      "dof": "rx",
+      "value": -0.00010182337649086278
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "26",
+      "dof": "ry",
+      "value": -0.004319999999999999
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "27",
+      "dof": "uz",
+      "value": 0.002963388398409746
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "27",
+      "dof": "rx",
+      "value": -0.0002715290039756342
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "27",
+      "dof": "ry",
+      "value": -0.0038399999999999992
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "28",
+      "dof": "uz",
+      "value": 0.0006593883984097463
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "28",
+      "dof": "rx",
+      "value": -0.0002715290039756342
+    },
+    {
+      "case": "BEND",
+      "kind": "disp",
+      "node": "28",
+      "dof": "ry",
+      "value": -0.0019199999999999996
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "31",
+      "dof": "uz",
+      "value": 0.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "31",
+      "dof": "rx",
+      "value": 0.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "31",
+      "dof": "ry",
+      "value": -0.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "32",
+      "dof": "uz",
+      "value": 0.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "32",
+      "dof": "rx",
+      "value": 0.0009874285714285714
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "32",
+      "dof": "ry",
+      "value": -0.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "33",
+      "dof": "uz",
+      "value": 0.0011849142857142858
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "33",
+      "dof": "rx",
+      "value": 0.0009874285714285714
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "33",
+      "dof": "ry",
+      "value": -0.0004937142857142857
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "34",
+      "dof": "uz",
+      "value": 0.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "34",
+      "dof": "rx",
+      "value": 0.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "34",
+      "dof": "ry",
+      "value": -0.0004937142857142857
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "35",
+      "dof": "uz",
+      "value": 3.2914285714285764e-05
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "35",
+      "dof": "rx",
+      "value": 0.00016457142857142866
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "35",
+      "dof": "ry",
+      "value": -8.228571428571433e-05
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "36",
+      "dof": "uz",
+      "value": 0.00022217142857142836
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "36",
+      "dof": "rx",
+      "value": 0.0007405714285714283
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "36",
+      "dof": "ry",
+      "value": -0.00012342857142857132
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "37",
+      "dof": "uz",
+      "value": 0.0005266285714285711
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "37",
+      "dof": "rx",
+      "value": 0.000658285714285714
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "37",
+      "dof": "ry",
+      "value": -0.000329142857142857
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "38",
+      "dof": "uz",
+      "value": 0.00026331428571428557
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "38",
+      "dof": "rx",
+      "value": 0.000329142857142857
+    },
+    {
+      "case": "TWIST",
+      "kind": "disp",
+      "node": "38",
+      "dof": "ry",
+      "value": -0.000329142857142857
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB1",
+      "node": "21",
+      "comp": "M11",
+      "value": 10.0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB1",
+      "node": "21",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB1",
+      "node": "21",
+      "comp": "M12",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB1",
+      "node": "21",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB1",
+      "node": "21",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB1",
+      "node": "22",
+      "comp": "M11",
+      "value": 10.0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB1",
+      "node": "22",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB1",
+      "node": "22",
+      "comp": "M12",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB1",
+      "node": "22",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB1",
+      "node": "22",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB1",
+      "node": "26",
+      "comp": "M11",
+      "value": 10.0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB1",
+      "node": "26",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB1",
+      "node": "26",
+      "comp": "M12",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB1",
+      "node": "26",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB1",
+      "node": "26",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB1",
+      "node": "25",
+      "comp": "M11",
+      "value": 10.0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB1",
+      "node": "25",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB1",
+      "node": "25",
+      "comp": "M12",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB1",
+      "node": "25",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB1",
+      "node": "25",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB2",
+      "node": "22",
+      "comp": "M11",
+      "value": 10.0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB2",
+      "node": "22",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB2",
+      "node": "22",
+      "comp": "M12",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB2",
+      "node": "22",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB2",
+      "node": "22",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB2",
+      "node": "23",
+      "comp": "M11",
+      "value": 10.0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB2",
+      "node": "23",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB2",
+      "node": "23",
+      "comp": "M12",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB2",
+      "node": "23",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB2",
+      "node": "23",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB2",
+      "node": "27",
+      "comp": "M11",
+      "value": 10.0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB2",
+      "node": "27",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB2",
+      "node": "27",
+      "comp": "M12",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB2",
+      "node": "27",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB2",
+      "node": "27",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB2",
+      "node": "26",
+      "comp": "M11",
+      "value": 10.0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB2",
+      "node": "26",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB2",
+      "node": "26",
+      "comp": "M12",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB2",
+      "node": "26",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB2",
+      "node": "26",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB3",
+      "node": "23",
+      "comp": "M11",
+      "value": 10.0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB3",
+      "node": "23",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB3",
+      "node": "23",
+      "comp": "M12",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB3",
+      "node": "23",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB3",
+      "node": "23",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB3",
+      "node": "24",
+      "comp": "M11",
+      "value": 10.0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB3",
+      "node": "24",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB3",
+      "node": "24",
+      "comp": "M12",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB3",
+      "node": "24",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB3",
+      "node": "24",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB3",
+      "node": "28",
+      "comp": "M11",
+      "value": 10.0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB3",
+      "node": "28",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB3",
+      "node": "28",
+      "comp": "M12",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB3",
+      "node": "28",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB3",
+      "node": "28",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB3",
+      "node": "27",
+      "comp": "M11",
+      "value": 10.0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB3",
+      "node": "27",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB3",
+      "node": "27",
+      "comp": "M12",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB3",
+      "node": "27",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB3",
+      "node": "27",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB4",
+      "node": "24",
+      "comp": "M11",
+      "value": 10.0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB4",
+      "node": "24",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB4",
+      "node": "24",
+      "comp": "M12",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB4",
+      "node": "24",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB4",
+      "node": "24",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB4",
+      "node": "21",
+      "comp": "M11",
+      "value": 10.0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB4",
+      "node": "21",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB4",
+      "node": "21",
+      "comp": "M12",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB4",
+      "node": "21",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB4",
+      "node": "21",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB4",
+      "node": "25",
+      "comp": "M11",
+      "value": 10.0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB4",
+      "node": "25",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB4",
+      "node": "25",
+      "comp": "M12",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB4",
+      "node": "25",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB4",
+      "node": "25",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB4",
+      "node": "28",
+      "comp": "M11",
+      "value": 10.0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB4",
+      "node": "28",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB4",
+      "node": "28",
+      "comp": "M12",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB4",
+      "node": "28",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB4",
+      "node": "28",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB5",
+      "node": "25",
+      "comp": "M11",
+      "value": 10.0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB5",
+      "node": "25",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB5",
+      "node": "25",
+      "comp": "M12",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB5",
+      "node": "25",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB5",
+      "node": "25",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB5",
+      "node": "26",
+      "comp": "M11",
+      "value": 10.0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB5",
+      "node": "26",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB5",
+      "node": "26",
+      "comp": "M12",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB5",
+      "node": "26",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB5",
+      "node": "26",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB5",
+      "node": "27",
+      "comp": "M11",
+      "value": 10.0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB5",
+      "node": "27",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB5",
+      "node": "27",
+      "comp": "M12",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB5",
+      "node": "27",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB5",
+      "node": "27",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB5",
+      "node": "28",
+      "comp": "M11",
+      "value": 10.0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB5",
+      "node": "28",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB5",
+      "node": "28",
+      "comp": "M12",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB5",
+      "node": "28",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "BEND",
+      "kind": "shell",
+      "area": "PB5",
+      "node": "28",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT1",
+      "node": "31",
+      "comp": "M11",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT1",
+      "node": "31",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT1",
+      "node": "31",
+      "comp": "M12",
+      "value": 2.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT1",
+      "node": "31",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT1",
+      "node": "31",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT1",
+      "node": "32",
+      "comp": "M11",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT1",
+      "node": "32",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT1",
+      "node": "32",
+      "comp": "M12",
+      "value": 2.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT1",
+      "node": "32",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT1",
+      "node": "32",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT1",
+      "node": "36",
+      "comp": "M11",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT1",
+      "node": "36",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT1",
+      "node": "36",
+      "comp": "M12",
+      "value": 2.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT1",
+      "node": "36",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT1",
+      "node": "36",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT1",
+      "node": "35",
+      "comp": "M11",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT1",
+      "node": "35",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT1",
+      "node": "35",
+      "comp": "M12",
+      "value": 2.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT1",
+      "node": "35",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT1",
+      "node": "35",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT2",
+      "node": "32",
+      "comp": "M11",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT2",
+      "node": "32",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT2",
+      "node": "32",
+      "comp": "M12",
+      "value": 2.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT2",
+      "node": "32",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT2",
+      "node": "32",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT2",
+      "node": "33",
+      "comp": "M11",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT2",
+      "node": "33",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT2",
+      "node": "33",
+      "comp": "M12",
+      "value": 2.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT2",
+      "node": "33",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT2",
+      "node": "33",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT2",
+      "node": "37",
+      "comp": "M11",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT2",
+      "node": "37",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT2",
+      "node": "37",
+      "comp": "M12",
+      "value": 2.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT2",
+      "node": "37",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT2",
+      "node": "37",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT2",
+      "node": "36",
+      "comp": "M11",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT2",
+      "node": "36",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT2",
+      "node": "36",
+      "comp": "M12",
+      "value": 2.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT2",
+      "node": "36",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT2",
+      "node": "36",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT3",
+      "node": "33",
+      "comp": "M11",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT3",
+      "node": "33",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT3",
+      "node": "33",
+      "comp": "M12",
+      "value": 2.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT3",
+      "node": "33",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT3",
+      "node": "33",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT3",
+      "node": "34",
+      "comp": "M11",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT3",
+      "node": "34",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT3",
+      "node": "34",
+      "comp": "M12",
+      "value": 2.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT3",
+      "node": "34",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT3",
+      "node": "34",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT3",
+      "node": "38",
+      "comp": "M11",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT3",
+      "node": "38",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT3",
+      "node": "38",
+      "comp": "M12",
+      "value": 2.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT3",
+      "node": "38",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT3",
+      "node": "38",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT3",
+      "node": "37",
+      "comp": "M11",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT3",
+      "node": "37",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT3",
+      "node": "37",
+      "comp": "M12",
+      "value": 2.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT3",
+      "node": "37",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT3",
+      "node": "37",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT4",
+      "node": "34",
+      "comp": "M11",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT4",
+      "node": "34",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT4",
+      "node": "34",
+      "comp": "M12",
+      "value": 2.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT4",
+      "node": "34",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT4",
+      "node": "34",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT4",
+      "node": "31",
+      "comp": "M11",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT4",
+      "node": "31",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT4",
+      "node": "31",
+      "comp": "M12",
+      "value": 2.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT4",
+      "node": "31",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT4",
+      "node": "31",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT4",
+      "node": "35",
+      "comp": "M11",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT4",
+      "node": "35",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT4",
+      "node": "35",
+      "comp": "M12",
+      "value": 2.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT4",
+      "node": "35",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT4",
+      "node": "35",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT4",
+      "node": "38",
+      "comp": "M11",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT4",
+      "node": "38",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT4",
+      "node": "38",
+      "comp": "M12",
+      "value": 2.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT4",
+      "node": "38",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT4",
+      "node": "38",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT5",
+      "node": "35",
+      "comp": "M11",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT5",
+      "node": "35",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT5",
+      "node": "35",
+      "comp": "M12",
+      "value": 2.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT5",
+      "node": "35",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT5",
+      "node": "35",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT5",
+      "node": "36",
+      "comp": "M11",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT5",
+      "node": "36",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT5",
+      "node": "36",
+      "comp": "M12",
+      "value": 2.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT5",
+      "node": "36",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT5",
+      "node": "36",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT5",
+      "node": "37",
+      "comp": "M11",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT5",
+      "node": "37",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT5",
+      "node": "37",
+      "comp": "M12",
+      "value": 2.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT5",
+      "node": "37",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT5",
+      "node": "37",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT5",
+      "node": "38",
+      "comp": "M11",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT5",
+      "node": "38",
+      "comp": "M22",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT5",
+      "node": "38",
+      "comp": "M12",
+      "value": 2.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT5",
+      "node": "38",
+      "comp": "V13",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "shell",
+      "area": "PT5",
+      "node": "38",
+      "comp": "V23",
+      "value": 0
+    },
+    {
+      "case": "TWIST",
+      "kind": "reaction",
+      "node": "31",
+      "dof": "fz",
+      "value": 4.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "reaction",
+      "node": "32",
+      "dof": "fz",
+      "value": -4.0
+    },
+    {
+      "case": "TWIST",
+      "kind": "reaction",
+      "node": "34",
+      "dof": "fz",
+      "value": -4.0
+    },
+    {
+      "case": "TIPC",
+      "kind": "reaction_sum",
+      "nodes": [
+        "41",
+        "46",
+        "51"
+      ],
+      "dof": "fz",
+      "value": 30.0
+    },
+    {
+      "case": "TWISTC",
+      "kind": "reaction_sum",
+      "nodes": [
+        "41",
+        "46",
+        "51"
+      ],
+      "dof": "fz",
+      "value": 0.0
+    },
+    {
+      "case": "GRAVD",
+      "kind": "reaction_sum",
+      "nodes": [
+        "81",
+        "82",
+        "83",
+        "84"
+      ],
+      "dof": "fz",
+      "value": 288.0
+    },
+    {
+      "case": "WALLX",
+      "kind": "reaction_sum",
+      "nodes": [
+        "91",
+        "92",
+        "93",
+        "94"
+      ],
+      "dof": "fx",
+      "value": -80.0
+    },
+    {
+      "case": "WALLY",
+      "kind": "reaction_sum",
+      "nodes": [
+        "91",
+        "92",
+        "93",
+        "94"
+      ],
+      "dof": "fy",
+      "value": -12.0
+    }
+  ]
+}

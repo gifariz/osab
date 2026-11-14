@@ -1,0 +1,1428 @@
+{
+  "title": "B54 small building: defaults, diaphragms, releases, cracked modifiers, core wall, modal",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "C",
+      "E": 25000000.0,
+      "nu": 0.2,
+      "weight": 24.0
+    }
+  ],
+  "sections": [
+    {
+      "id": "C50",
+      "A": 0.25,
+      "I22": 0.005208333333333333,
+      "I33": 0.005208333333333333,
+      "J": 0.008802083333,
+      "depth": 0.5,
+      "width": 0.5,
+      "As2": 0.20833333333333334,
+      "As3": 0.20833333333333334,
+      "modifiers": {
+        "I22": 0.7,
+        "I33": 0.7
+      }
+    },
+    {
+      "id": "B30x60",
+      "A": 0.18,
+      "I22": 0.0013499999999999996,
+      "I33": 0.0053999999999999986,
+      "J": 0.003707859375,
+      "depth": 0.6,
+      "width": 0.3,
+      "As2": 0.15,
+      "As3": 0.15,
+      "modifiers": {
+        "I22": 0.35,
+        "I33": 0.35
+      }
+    }
+  ],
+  "area_sections": [
+    {
+      "id": "S200",
+      "type": "shell-thin",
+      "material": "C",
+      "thickness": 0.2,
+      "modifiers": {
+        "m11": 0.25,
+        "m22": 0.25,
+        "m12": 0.25
+      }
+    },
+    {
+      "id": "W250",
+      "type": "shell-thin",
+      "material": "C",
+      "thickness": 0.25,
+      "modifiers": {
+        "f11": 0.7,
+        "f22": 0.7,
+        "f12": 0.7
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "0A1",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "0A2",
+      "x": 0.0,
+      "y": 5.0,
+      "z": 0.0
+    },
+    {
+      "id": "0A3",
+      "x": 0.0,
+      "y": 10.0,
+      "z": 0.0
+    },
+    {
+      "id": "0B1",
+      "x": 6.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "0B2",
+      "x": 6.0,
+      "y": 5.0,
+      "z": 0.0
+    },
+    {
+      "id": "0B3",
+      "x": 6.0,
+      "y": 10.0,
+      "z": 0.0
+    },
+    {
+      "id": "0C1",
+      "x": 12.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "0C2",
+      "x": 12.0,
+      "y": 5.0,
+      "z": 0.0
+    },
+    {
+      "id": "0C3",
+      "x": 12.0,
+      "y": 10.0,
+      "z": 0.0
+    },
+    {
+      "id": "1A1",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 3.5
+    },
+    {
+      "id": "1A2",
+      "x": 0.0,
+      "y": 5.0,
+      "z": 3.5
+    },
+    {
+      "id": "1A3",
+      "x": 0.0,
+      "y": 10.0,
+      "z": 3.5
+    },
+    {
+      "id": "1B1",
+      "x": 6.0,
+      "y": 0.0,
+      "z": 3.5
+    },
+    {
+      "id": "1B2",
+      "x": 6.0,
+      "y": 5.0,
+      "z": 3.5
+    },
+    {
+      "id": "1B3",
+      "x": 6.0,
+      "y": 10.0,
+      "z": 3.5
+    },
+    {
+      "id": "1C1",
+      "x": 12.0,
+      "y": 0.0,
+      "z": 3.5
+    },
+    {
+      "id": "1C2",
+      "x": 12.0,
+      "y": 5.0,
+      "z": 3.5
+    },
+    {
+      "id": "1C3",
+      "x": 12.0,
+      "y": 10.0,
+      "z": 3.5
+    },
+    {
+      "id": "2A1",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 6.5
+    },
+    {
+      "id": "2A2",
+      "x": 0.0,
+      "y": 5.0,
+      "z": 6.5
+    },
+    {
+      "id": "2A3",
+      "x": 0.0,
+      "y": 10.0,
+      "z": 6.5
+    },
+    {
+      "id": "2B1",
+      "x": 6.0,
+      "y": 0.0,
+      "z": 6.5
+    },
+    {
+      "id": "2B2",
+      "x": 6.0,
+      "y": 5.0,
+      "z": 6.5
+    },
+    {
+      "id": "2B3",
+      "x": 6.0,
+      "y": 10.0,
+      "z": 6.5
+    },
+    {
+      "id": "2C1",
+      "x": 12.0,
+      "y": 0.0,
+      "z": 6.5
+    },
+    {
+      "id": "2C2",
+      "x": 12.0,
+      "y": 5.0,
+      "z": 6.5
+    },
+    {
+      "id": "2C3",
+      "x": 12.0,
+      "y": 10.0,
+      "z": 6.5
+    },
+    {
+      "id": "3A1",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 9.5
+    },
+    {
+      "id": "3A2",
+      "x": 0.0,
+      "y": 5.0,
+      "z": 9.5
+    },
+    {
+      "id": "3A3",
+      "x": 0.0,
+      "y": 10.0,
+      "z": 9.5
+    },
+    {
+      "id": "3B1",
+      "x": 6.0,
+      "y": 0.0,
+      "z": 9.5
+    },
+    {
+      "id": "3B2",
+      "x": 6.0,
+      "y": 5.0,
+      "z": 9.5
+    },
+    {
+      "id": "3B3",
+      "x": 6.0,
+      "y": 10.0,
+      "z": 9.5
+    },
+    {
+      "id": "3C1",
+      "x": 12.0,
+      "y": 0.0,
+      "z": 9.5
+    },
+    {
+      "id": "3C2",
+      "x": 12.0,
+      "y": 5.0,
+      "z": 9.5
+    },
+    {
+      "id": "3C3",
+      "x": 12.0,
+      "y": 10.0,
+      "z": 9.5
+    }
+  ],
+  "frames": [
+    {
+      "id": "C1A1",
+      "type": "frame",
+      "nodes": [
+        "0A1",
+        "1A1"
+      ],
+      "material": "C",
+      "section": "C50",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "C1A2",
+      "type": "frame",
+      "nodes": [
+        "0A2",
+        "1A2"
+      ],
+      "material": "C",
+      "section": "C50",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "C1A3",
+      "type": "frame",
+      "nodes": [
+        "0A3",
+        "1A3"
+      ],
+      "material": "C",
+      "section": "C50",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "C1B1",
+      "type": "frame",
+      "nodes": [
+        "0B1",
+        "1B1"
+      ],
+      "material": "C",
+      "section": "C50",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "C1B2",
+      "type": "frame",
+      "nodes": [
+        "0B2",
+        "1B2"
+      ],
+      "material": "C",
+      "section": "C50",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "C1B3",
+      "type": "frame",
+      "nodes": [
+        "0B3",
+        "1B3"
+      ],
+      "material": "C",
+      "section": "C50",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "C1C3",
+      "type": "frame",
+      "nodes": [
+        "0C3",
+        "1C3"
+      ],
+      "material": "C",
+      "section": "C50",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BX1A1",
+      "type": "frame",
+      "nodes": [
+        "1A1",
+        "1B1"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BX1B1",
+      "type": "frame",
+      "nodes": [
+        "1B1",
+        "1C1"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BX1A2",
+      "type": "frame",
+      "nodes": [
+        "1A2",
+        "1B2"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BX1B2",
+      "type": "frame",
+      "nodes": [
+        "1B2",
+        "1C2"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BX1A3",
+      "type": "frame",
+      "nodes": [
+        "1A3",
+        "1B3"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto",
+      "releases": {
+        "i": [
+          "M2",
+          "M3"
+        ],
+        "j": [
+          "M2",
+          "M3"
+        ]
+      }
+    },
+    {
+      "id": "BX1B3",
+      "type": "frame",
+      "nodes": [
+        "1B3",
+        "1C3"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto",
+      "releases": {
+        "i": [
+          "M2",
+          "M3"
+        ],
+        "j": [
+          "M2",
+          "M3"
+        ]
+      }
+    },
+    {
+      "id": "BY1A1",
+      "type": "frame",
+      "nodes": [
+        "1A1",
+        "1A2"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BY1A2",
+      "type": "frame",
+      "nodes": [
+        "1A2",
+        "1A3"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BY1B1",
+      "type": "frame",
+      "nodes": [
+        "1B1",
+        "1B2"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BY1B2",
+      "type": "frame",
+      "nodes": [
+        "1B2",
+        "1B3"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BY1C2",
+      "type": "frame",
+      "nodes": [
+        "1C2",
+        "1C3"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "C2A1",
+      "type": "frame",
+      "nodes": [
+        "1A1",
+        "2A1"
+      ],
+      "material": "C",
+      "section": "C50",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "C2A2",
+      "type": "frame",
+      "nodes": [
+        "1A2",
+        "2A2"
+      ],
+      "material": "C",
+      "section": "C50",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "C2A3",
+      "type": "frame",
+      "nodes": [
+        "1A3",
+        "2A3"
+      ],
+      "material": "C",
+      "section": "C50",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "C2B1",
+      "type": "frame",
+      "nodes": [
+        "1B1",
+        "2B1"
+      ],
+      "material": "C",
+      "section": "C50",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "C2B2",
+      "type": "frame",
+      "nodes": [
+        "1B2",
+        "2B2"
+      ],
+      "material": "C",
+      "section": "C50",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "C2B3",
+      "type": "frame",
+      "nodes": [
+        "1B3",
+        "2B3"
+      ],
+      "material": "C",
+      "section": "C50",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "C2C3",
+      "type": "frame",
+      "nodes": [
+        "1C3",
+        "2C3"
+      ],
+      "material": "C",
+      "section": "C50",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BX2A1",
+      "type": "frame",
+      "nodes": [
+        "2A1",
+        "2B1"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BX2B1",
+      "type": "frame",
+      "nodes": [
+        "2B1",
+        "2C1"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BX2A2",
+      "type": "frame",
+      "nodes": [
+        "2A2",
+        "2B2"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BX2B2",
+      "type": "frame",
+      "nodes": [
+        "2B2",
+        "2C2"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BX2A3",
+      "type": "frame",
+      "nodes": [
+        "2A3",
+        "2B3"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto",
+      "releases": {
+        "i": [
+          "M2",
+          "M3"
+        ],
+        "j": [
+          "M2",
+          "M3"
+        ]
+      }
+    },
+    {
+      "id": "BX2B3",
+      "type": "frame",
+      "nodes": [
+        "2B3",
+        "2C3"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto",
+      "releases": {
+        "i": [
+          "M2",
+          "M3"
+        ],
+        "j": [
+          "M2",
+          "M3"
+        ]
+      }
+    },
+    {
+      "id": "BY2A1",
+      "type": "frame",
+      "nodes": [
+        "2A1",
+        "2A2"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BY2A2",
+      "type": "frame",
+      "nodes": [
+        "2A2",
+        "2A3"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BY2B1",
+      "type": "frame",
+      "nodes": [
+        "2B1",
+        "2B2"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BY2B2",
+      "type": "frame",
+      "nodes": [
+        "2B2",
+        "2B3"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BY2C2",
+      "type": "frame",
+      "nodes": [
+        "2C2",
+        "2C3"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "C3A1",
+      "type": "frame",
+      "nodes": [
+        "2A1",
+        "3A1"
+      ],
+      "material": "C",
+      "section": "C50",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "C3A2",
+      "type": "frame",
+      "nodes": [
+        "2A2",
+        "3A2"
+      ],
+      "material": "C",
+      "section": "C50",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "C3A3",
+      "type": "frame",
+      "nodes": [
+        "2A3",
+        "3A3"
+      ],
+      "material": "C",
+      "section": "C50",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "C3B1",
+      "type": "frame",
+      "nodes": [
+        "2B1",
+        "3B1"
+      ],
+      "material": "C",
+      "section": "C50",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "C3B2",
+      "type": "frame",
+      "nodes": [
+        "2B2",
+        "3B2"
+      ],
+      "material": "C",
+      "section": "C50",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "C3B3",
+      "type": "frame",
+      "nodes": [
+        "2B3",
+        "3B3"
+      ],
+      "material": "C",
+      "section": "C50",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "C3C3",
+      "type": "frame",
+      "nodes": [
+        "2C3",
+        "3C3"
+      ],
+      "material": "C",
+      "section": "C50",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BX3A1",
+      "type": "frame",
+      "nodes": [
+        "3A1",
+        "3B1"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BX3B1",
+      "type": "frame",
+      "nodes": [
+        "3B1",
+        "3C1"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BX3A2",
+      "type": "frame",
+      "nodes": [
+        "3A2",
+        "3B2"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BX3B2",
+      "type": "frame",
+      "nodes": [
+        "3B2",
+        "3C2"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BX3A3",
+      "type": "frame",
+      "nodes": [
+        "3A3",
+        "3B3"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto",
+      "releases": {
+        "i": [
+          "M2",
+          "M3"
+        ],
+        "j": [
+          "M2",
+          "M3"
+        ]
+      }
+    },
+    {
+      "id": "BX3B3",
+      "type": "frame",
+      "nodes": [
+        "3B3",
+        "3C3"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto",
+      "releases": {
+        "i": [
+          "M2",
+          "M3"
+        ],
+        "j": [
+          "M2",
+          "M3"
+        ]
+      }
+    },
+    {
+      "id": "BY3A1",
+      "type": "frame",
+      "nodes": [
+        "3A1",
+        "3A2"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BY3A2",
+      "type": "frame",
+      "nodes": [
+        "3A2",
+        "3A3"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BY3B1",
+      "type": "frame",
+      "nodes": [
+        "3B1",
+        "3B2"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BY3B2",
+      "type": "frame",
+      "nodes": [
+        "3B2",
+        "3B3"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BY3C2",
+      "type": "frame",
+      "nodes": [
+        "3C2",
+        "3C3"
+      ],
+      "material": "C",
+      "section": "B30x60",
+      "end_offsets": "auto"
+    }
+  ],
+  "areas": [
+    {
+      "id": "F1A1",
+      "nodes": [
+        "1A1",
+        "1B1",
+        "1B2",
+        "1A2"
+      ],
+      "section": "S200",
+      "diaphragm": "D1"
+    },
+    {
+      "id": "F1A2",
+      "nodes": [
+        "1A2",
+        "1B2",
+        "1B3",
+        "1A3"
+      ],
+      "section": "S200",
+      "diaphragm": "D1"
+    },
+    {
+      "id": "F1B1",
+      "nodes": [
+        "1B1",
+        "1C1",
+        "1C2",
+        "1B2"
+      ],
+      "section": "S200",
+      "diaphragm": "D1"
+    },
+    {
+      "id": "F1B2",
+      "nodes": [
+        "1B2",
+        "1C2",
+        "1C3",
+        "1B3"
+      ],
+      "section": "S200",
+      "diaphragm": "D1"
+    },
+    {
+      "id": "W1",
+      "nodes": [
+        "0C1",
+        "0C2",
+        "1C2",
+        "1C1"
+      ],
+      "section": "W250"
+    },
+    {
+      "id": "F2A1",
+      "nodes": [
+        "2A1",
+        "2B1",
+        "2B2",
+        "2A2"
+      ],
+      "section": "S200",
+      "diaphragm": "D1"
+    },
+    {
+      "id": "F2A2",
+      "nodes": [
+        "2A2",
+        "2B2",
+        "2B3",
+        "2A3"
+      ],
+      "section": "S200",
+      "diaphragm": "D1"
+    },
+    {
+      "id": "F2B1",
+      "nodes": [
+        "2B1",
+        "2C1",
+        "2C2",
+        "2B2"
+      ],
+      "section": "S200",
+      "diaphragm": "D1"
+    },
+    {
+      "id": "F2B2",
+      "nodes": [
+        "2B2",
+        "2C2",
+        "2C3",
+        "2B3"
+      ],
+      "section": "S200",
+      "diaphragm": "D1"
+    },
+    {
+      "id": "W2",
+      "nodes": [
+        "1C1",
+        "1C2",
+        "2C2",
+        "2C1"
+      ],
+      "section": "W250"
+    },
+    {
+      "id": "F3A1",
+      "nodes": [
+        "3A1",
+        "3B1",
+        "3B2",
+        "3A2"
+      ],
+      "section": "S200",
+      "diaphragm": "D1"
+    },
+    {
+      "id": "F3A2",
+      "nodes": [
+        "3A2",
+        "3B2",
+        "3B3",
+        "3A3"
+      ],
+      "section": "S200",
+      "diaphragm": "D1"
+    },
+    {
+      "id": "F3B1",
+      "nodes": [
+        "3B1",
+        "3C1",
+        "3C2",
+        "3B2"
+      ],
+      "section": "S200",
+      "diaphragm": "D1"
+    },
+    {
+      "id": "F3B2",
+      "nodes": [
+        "3B2",
+        "3C2",
+        "3C3",
+        "3B3"
+      ],
+      "section": "S200",
+      "diaphragm": "D1"
+    },
+    {
+      "id": "W3",
+      "nodes": [
+        "2C1",
+        "2C2",
+        "3C2",
+        "3C1"
+      ],
+      "section": "W250"
+    }
+  ],
+  "supports": [
+    {
+      "node": "0A1",
+      "fix": "fixed"
+    },
+    {
+      "node": "0A2",
+      "fix": "fixed"
+    },
+    {
+      "node": "0A3",
+      "fix": "fixed"
+    },
+    {
+      "node": "0B1",
+      "fix": "fixed"
+    },
+    {
+      "node": "0B2",
+      "fix": "fixed"
+    },
+    {
+      "node": "0B3",
+      "fix": "fixed"
+    },
+    {
+      "node": "0C1",
+      "fix": "fixed"
+    },
+    {
+      "node": "0C2",
+      "fix": "fixed"
+    },
+    {
+      "node": "0C3",
+      "fix": "fixed"
+    }
+  ],
+  "diaphragms": [
+    {
+      "id": "D1"
+    }
+  ],
+  "stories": [
+    {
+      "id": "Base",
+      "z": 0.0
+    },
+    {
+      "id": "Story1",
+      "z": 3.5
+    },
+    {
+      "id": "Story2",
+      "z": 6.5
+    },
+    {
+      "id": "Story3",
+      "z": 9.5
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "DEAD",
+      "self_weight": 1
+    },
+    {
+      "id": "SDL",
+      "area_loads": [
+        {
+          "area": "F1A1",
+          "dir": "Z",
+          "q": -1.5
+        },
+        {
+          "area": "F1A2",
+          "dir": "Z",
+          "q": -1.5
+        },
+        {
+          "area": "F1B1",
+          "dir": "Z",
+          "q": -1.5
+        },
+        {
+          "area": "F1B2",
+          "dir": "Z",
+          "q": -1.5
+        },
+        {
+          "area": "F2A1",
+          "dir": "Z",
+          "q": -1.5
+        },
+        {
+          "area": "F2A2",
+          "dir": "Z",
+          "q": -1.5
+        },
+        {
+          "area": "F2B1",
+          "dir": "Z",
+          "q": -1.5
+        },
+        {
+          "area": "F2B2",
+          "dir": "Z",
+          "q": -1.5
+        },
+        {
+          "area": "F3A1",
+          "dir": "Z",
+          "q": -1.5
+        },
+        {
+          "area": "F3A2",
+          "dir": "Z",
+          "q": -1.5
+        },
+        {
+          "area": "F3B1",
+          "dir": "Z",
+          "q": -1.5
+        },
+        {
+          "area": "F3B2",
+          "dir": "Z",
+          "q": -1.5
+        }
+      ]
+    },
+    {
+      "id": "LIVE",
+      "area_loads": [
+        {
+          "area": "F1A1",
+          "dir": "Z",
+          "q": -2.5
+        },
+        {
+          "area": "F1A2",
+          "dir": "Z",
+          "q": -2.5
+        },
+        {
+          "area": "F1B1",
+          "dir": "Z",
+          "q": -2.5
+        },
+        {
+          "area": "F1B2",
+          "dir": "Z",
+          "q": -2.5
+        },
+        {
+          "area": "F2A1",
+          "dir": "Z",
+          "q": -2.5
+        },
+        {
+          "area": "F2A2",
+          "dir": "Z",
+          "q": -2.5
+        },
+        {
+          "area": "F2B1",
+          "dir": "Z",
+          "q": -2.5
+        },
+        {
+          "area": "F2B2",
+          "dir": "Z",
+          "q": -2.5
+        },
+        {
+          "area": "F3A1",
+          "dir": "Z",
+          "q": -1.0
+        },
+        {
+          "area": "F3A2",
+          "dir": "Z",
+          "q": -1.0
+        },
+        {
+          "area": "F3B1",
+          "dir": "Z",
+          "q": -1.0
+        },
+        {
+          "area": "F3B2",
+          "dir": "Z",
+          "q": -1.0
+        }
+      ]
+    },
+    {
+      "id": "EQX",
+      "node_loads": [
+        {
+          "node": "1A1",
+          "fx": 5.0
+        },
+        {
+          "node": "1A3",
+          "fx": 5.0
+        },
+        {
+          "node": "2A1",
+          "fx": 10.0
+        },
+        {
+          "node": "2A3",
+          "fx": 10.0
+        },
+        {
+          "node": "3A1",
+          "fx": 15.0
+        },
+        {
+          "node": "3A3",
+          "fx": 15.0
+        }
+      ]
+    },
+    {
+      "id": "EQY",
+      "node_loads": [
+        {
+          "node": "1A3",
+          "fy": 6.0
+        },
+        {
+          "node": "1C3",
+          "fy": 6.0
+        },
+        {
+          "node": "2A3",
+          "fy": 12.0
+        },
+        {
+          "node": "2C3",
+          "fy": 12.0
+        },
+        {
+          "node": "3A3",
+          "fy": 18.0
+        },
+        {
+          "node": "3C3",
+          "fy": 18.0
+        }
+      ]
+    }
+  ],
+  "load_combinations": [
+    {
+      "id": "C1",
+      "type": "linear-add",
+      "items": [
+        {
+          "case": "DEAD",
+          "scale": 1.2
+        },
+        {
+          "case": "SDL",
+          "scale": 1.2
+        },
+        {
+          "case": "LIVE",
+          "scale": 1.6
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "linear-add",
+      "items": [
+        {
+          "case": "DEAD",
+          "scale": 1.2
+        },
+        {
+          "case": "SDL",
+          "scale": 1.2
+        },
+        {
+          "case": "LIVE",
+          "scale": 1.0
+        },
+        {
+          "case": "EQX",
+          "scale": 1.0
+        }
+      ]
+    }
+  ],
+  "mass_source": {
+    "loads": [
+      {
+        "case": "SDL",
+        "scale": 1.0
+      },
+      {
+        "case": "LIVE",
+        "scale": 0.25
+      }
+    ]
+  },
+  "modal": {
+    "id": "Modal",
+    "modes": 12
+  },
+  "mesh": {
+    "floor": "general",
+    "floor_size": 1.25,
+    "wall_size": 1.25
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "title": "Slab with quads and triangles, triangular gable wall, on four columns",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "concrete",
+      "E": 25000000.0,
+      "nu": 0.2
+    }
+  ],
+  "sections": [
+    {
+      "id": "COL",
+      "A": 0.16000000000000003,
+      "I22": 0.002133333333333334,
+      "I33": 0.002133333333333334,
+      "J": 0.0036053333333333345,
+      "As2": 0.13333333333333336,
+      "As3": 0.13333333333333336
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 3.5
+    },
+    {
+      "id": "2",
+      "x": 3.0,
+      "y": 0.0,
+      "z": 3.5
+    },
+    {
+      "id": "3",
+      "x": 3.0,
+      "y": 3.0,
+      "z": 3.5
+    },
+    {
+      "id": "4",
+      "x": 0.0,
+      "y": 3.0,
+      "z": 3.5
+    },
+    {
+      "id": "5",
+      "x": 3.0,
+      "y": 6.0,
+      "z": 3.5
+    },
+    {
+      "id": "6",
+      "x": 0.0,
+      "y": 6.0,
+      "z": 3.5
+    },
+    {
+      "id": "7",
+      "x": 6.0,
+      "y": 0.0,
+      "z": 3.5
+    },
+    {
+      "id": "8",
+      "x": 6.0,
+      "y": 3.0,
+      "z": 3.5
+    },
+    {
+      "id": "9",
+      "x": 6.0,
+      "y": 6.0,
+      "z": 3.5
+    },
+    {
+      "id": "10",
+      "x": 3.0,
+      "y": 0.0,
+      "z": 5.5
+    },
+    {
+      "id": "11",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "12",
+      "x": 6.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "13",
+      "x": 6.0,
+      "y": 6.0,
+      "z": 0.0
+    },
+    {
+      "id": "14",
+      "x": 0.0,
+      "y": 6.0,
+      "z": 0.0
+    }
+  ],
+  "frames": [
+    {
+      "id": "C1",
+      "type": "frame",
+      "nodes": [
+        "11",
+        "1"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C2",
+      "type": "frame",
+      "nodes": [
+        "12",
+        "7"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C3",
+      "type": "frame",
+      "nodes": [
+        "13",
+        "9"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "C4",
+      "type": "frame",
+      "nodes": [
+        "14",
+        "6"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    }
+  ],
+  "area_sections": [
+    {
+      "id": "SLAB",
+      "type": "shell-thin",
+      "material": "concrete",
+      "thickness": 0.2
+    },
+    {
+      "id": "WALL",
+      "type": "shell-thin",
+      "material": "concrete",
+      "thickness": 0.2
+    }
+  ],
+  "areas": [
+    {
+      "id": "F1",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "section": "SLAB"
+    },
+    {
+      "id": "F2",
+      "nodes": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "section": "SLAB"
+    },
+    {
+      "id": "F3",
+      "nodes": [
+        "2",
+        "7",
+        "8"
+      ],
+      "section": "SLAB"
+    },
+    {
+      "id": "F4",
+      "nodes": [
+        "2",
+        "8",
+        "3"
+      ],
+      "section": "SLAB"
+    },
+    {
+      "id": "F5",
+      "nodes": [
+        "3",
+        "8",
+        "9"
+      ],
+      "section": "SLAB"
+    },
+    {
+      "id": "F6",
+      "nodes": [
+        "3",
+        "9",
+        "5"
+      ],
+      "section": "SLAB"
+    },
+    {
+      "id": "W1",
+      "nodes": [
+        "1",
+        "2",
+        "10"
+      ],
+      "section": "WALL"
+    },
+    {
+      "id": "W2",
+      "nodes": [
+        "2",
+        "7",
+        "10"
+      ],
+      "section": "WALL"
+    }
+  ],
+  "supports": [
+    {
+      "node": "11",
+      "fix": "fixed"
+    },
+    {
+      "node": "12",
+      "fix": "fixed"
+    },
+    {
+      "node": "13",
+      "fix": "fixed"
+    },
+    {
+      "node": "14",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "DEAD",
+      "area_loads": [
+        {
+          "area": "F1",
+          "dir": "Z",
+          "q": -8.0
+        },
+        {
+          "area": "F2",
+          "dir": "Z",
+          "q": -8.0
+        },
+        {
+          "area": "F3",
+          "dir": "Z",
+          "q": -8.0
+        },
+        {
+          "area": "F4",
+          "dir": "Z",
+          "q": -8.0
+        },
+        {
+          "area": "F5",
+          "dir": "Z",
+          "q": -8.0
+        },
+        {
+          "area": "F6",
+          "dir": "Z",
+          "q": -8.0
+        }
+      ]
+    },
+    {
+      "id": "WIND",
+      "node_loads": [
+        {
+          "node": "10",
+          "fx": 10.0,
+          "fy": 5.0
+        }
+      ],
+      "area_loads": [
+        {
+          "area": "W1",
+          "dir": "3",
+          "q": 1.5
+        },
+        {
+          "area": "W2",
+          "dir": "3",
+          "q": 1.5
+        }
+      ]
+    }
+  ],
+  "mesh": "off"
+}

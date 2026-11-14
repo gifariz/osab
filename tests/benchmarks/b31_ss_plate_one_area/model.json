@@ -1,0 +1,113 @@
+{
+  "title": "Simply supported square plate as one floor object, auto-meshed (B20's mesh)",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "mesh": {
+    "floor_size": 0.5
+  },
+  "materials": [
+    {
+      "id": "concrete",
+      "E": 25000000.0,
+      "nu": 0.2
+    }
+  ],
+  "sections": [],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "2",
+      "x": 4.0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "3",
+      "x": 4.0,
+      "y": 4.0,
+      "z": 0
+    },
+    {
+      "id": "4",
+      "x": 0,
+      "y": 4.0,
+      "z": 0
+    }
+  ],
+  "frames": [],
+  "area_sections": [
+    {
+      "id": "THIN",
+      "type": "shell-thin",
+      "material": "concrete",
+      "thickness": 0.2
+    }
+  ],
+  "areas": [
+    {
+      "id": "F1",
+      "nodes": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "section": "THIN",
+      "edge_restraints": true
+    }
+  ],
+  "supports": [
+    {
+      "node": "1",
+      "fix": [
+        "ux",
+        "uy",
+        "uz"
+      ]
+    },
+    {
+      "node": "2",
+      "fix": [
+        "ux",
+        "uy",
+        "uz"
+      ]
+    },
+    {
+      "node": "3",
+      "fix": [
+        "ux",
+        "uy",
+        "uz"
+      ]
+    },
+    {
+      "node": "4",
+      "fix": [
+        "ux",
+        "uy",
+        "uz"
+      ]
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "Q",
+      "area_loads": [
+        {
+          "area": "F1",
+          "dir": "Z",
+          "q": -10.0
+        }
+      ]
+    }
+  ]
+}

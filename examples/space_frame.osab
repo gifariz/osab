@@ -1,0 +1,248 @@
+{
+  "title": "3D one-bay frame",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "steel",
+      "E": 200000000.0,
+      "nu": 0.3
+    }
+  ],
+  "sections": [
+    {
+      "id": "COL",
+      "A": 0.012,
+      "I22": 6e-05,
+      "I33": 0.00015,
+      "J": 3e-06
+    },
+    {
+      "id": "BEAM",
+      "A": 0.008,
+      "I22": 4e-05,
+      "I33": 0.00025,
+      "J": 1e-06
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "2",
+      "x": 6.0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "3",
+      "x": 6.0,
+      "y": 5.0,
+      "z": 0
+    },
+    {
+      "id": "4",
+      "x": 0,
+      "y": 5.0,
+      "z": 0
+    },
+    {
+      "id": "5",
+      "x": 0,
+      "y": 0,
+      "z": 3.5
+    },
+    {
+      "id": "6",
+      "x": 6.0,
+      "y": 0,
+      "z": 3.5
+    },
+    {
+      "id": "7",
+      "x": 6.0,
+      "y": 5.0,
+      "z": 3.5
+    },
+    {
+      "id": "8",
+      "x": 0,
+      "y": 5.0,
+      "z": 3.5
+    }
+  ],
+  "frames": [
+    {
+      "id": "1",
+      "type": "frame",
+      "nodes": [
+        "1",
+        "5"
+      ],
+      "material": "steel",
+      "section": "COL"
+    },
+    {
+      "id": "2",
+      "type": "frame",
+      "nodes": [
+        "2",
+        "6"
+      ],
+      "material": "steel",
+      "section": "COL"
+    },
+    {
+      "id": "3",
+      "type": "frame",
+      "nodes": [
+        "3",
+        "7"
+      ],
+      "material": "steel",
+      "section": "COL",
+      "angle": 90
+    },
+    {
+      "id": "4",
+      "type": "frame",
+      "nodes": [
+        "4",
+        "8"
+      ],
+      "material": "steel",
+      "section": "COL",
+      "angle": 90
+    },
+    {
+      "id": "5",
+      "type": "frame",
+      "nodes": [
+        "5",
+        "6"
+      ],
+      "material": "steel",
+      "section": "BEAM"
+    },
+    {
+      "id": "6",
+      "type": "frame",
+      "nodes": [
+        "6",
+        "7"
+      ],
+      "material": "steel",
+      "section": "BEAM"
+    },
+    {
+      "id": "7",
+      "type": "frame",
+      "nodes": [
+        "8",
+        "7"
+      ],
+      "material": "steel",
+      "section": "BEAM"
+    },
+    {
+      "id": "8",
+      "type": "frame",
+      "nodes": [
+        "5",
+        "8"
+      ],
+      "material": "steel",
+      "section": "BEAM"
+    }
+  ],
+  "supports": [
+    {
+      "node": "1",
+      "fix": "fixed"
+    },
+    {
+      "node": "2",
+      "fix": "fixed"
+    },
+    {
+      "node": "3",
+      "fix": "fixed"
+    },
+    {
+      "node": "4",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "GRAV",
+      "frame_loads": [
+        {
+          "type": "uniform",
+          "frame": "5",
+          "dir": "Z",
+          "w": -10.0
+        },
+        {
+          "type": "uniform",
+          "frame": "6",
+          "dir": "Z",
+          "w": -10.0
+        },
+        {
+          "type": "uniform",
+          "frame": "7",
+          "dir": "Z",
+          "w": -10.0
+        },
+        {
+          "type": "uniform",
+          "frame": "8",
+          "dir": "Z",
+          "w": -10.0
+        }
+      ]
+    },
+    {
+      "id": "LAT",
+      "node_loads": [
+        {
+          "node": "5",
+          "fx": 20.0
+        },
+        {
+          "node": "7",
+          "fy": 10.0
+        },
+        {
+          "node": "6",
+          "fz": -15.0
+        }
+      ],
+      "frame_loads": [
+        {
+          "type": "point",
+          "frame": "6",
+          "dir": "3",
+          "p": 5.0,
+          "at": 2.0
+        },
+        {
+          "type": "uniform",
+          "frame": "5",
+          "dir": "2",
+          "w": -4.0,
+          "from": 1.0,
+          "to": 4.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source": "Statics: the supports carry the loads (DEAD q * 10 * 8 = 400 kN; LIVE 10 kN/m * 5 m + 20 kN = 70 kN; MOM moments only, no vertical force).",
+  "values": [
+    {
+      "case": "DEAD",
+      "kind": "reaction_sum",
+      "nodes": [
+        "g00",
+        "g01",
+        "g02",
+        "g10",
+        "g11",
+        "g12",
+        "g20",
+        "g21",
+        "g22"
+      ],
+      "dof": "fz",
+      "value": 400.0
+    },
+    {
+      "case": "LIVE",
+      "kind": "reaction_sum",
+      "nodes": [
+        "g00",
+        "g01",
+        "g02",
+        "g10",
+        "g11",
+        "g12",
+        "g20",
+        "g21",
+        "g22"
+      ],
+      "dof": "fz",
+      "value": 70.0
+    },
+    {
+      "case": "MOM",
+      "kind": "reaction_sum",
+      "nodes": [
+        "g00",
+        "g01",
+        "g02",
+        "g10",
+        "g11",
+        "g12",
+        "g20",
+        "g21",
+        "g22"
+      ],
+      "dof": "fz",
+      "value": 0.0
+    }
+  ]
+}

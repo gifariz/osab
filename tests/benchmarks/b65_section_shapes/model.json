@@ -1,0 +1,928 @@
+{
+  "title": "B65 section shapes: a cantilever of every shape",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "S",
+      "E": 200000000.0,
+      "nu": 0.3,
+      "weight": 76.9729
+    },
+    {
+      "id": "C",
+      "E": 25000000.0,
+      "nu": 0.2,
+      "weight": 23.5616
+    }
+  ],
+  "sections": [
+    {
+      "id": "IU",
+      "shape": {
+        "type": "i",
+        "depth": 0.4,
+        "width": 0.15,
+        "flange": 0.012,
+        "web": 0.008,
+        "bottom_width": 0.25,
+        "bottom_flange": 0.02
+      }
+    },
+    {
+      "id": "CH",
+      "shape": {
+        "type": "channel",
+        "depth": 0.3,
+        "width": 0.1,
+        "flange": 0.012,
+        "web": 0.008
+      }
+    },
+    {
+      "id": "TE",
+      "shape": {
+        "type": "tee",
+        "depth": 0.3,
+        "width": 0.2,
+        "flange": 0.015,
+        "web": 0.01
+      }
+    },
+    {
+      "id": "AN",
+      "shape": {
+        "type": "angle",
+        "depth": 0.15,
+        "width": 0.1,
+        "flange": 0.012,
+        "web": 0.01,
+        "mirror2": true
+      }
+    },
+    {
+      "id": "DA",
+      "shape": {
+        "type": "double_angle",
+        "depth": 0.15,
+        "width": 0.21,
+        "flange": 0.012,
+        "web": 0.01,
+        "gap": 0.01
+      }
+    },
+    {
+      "id": "DC",
+      "shape": {
+        "type": "double_channel",
+        "depth": 0.3,
+        "width": 0.22,
+        "flange": 0.012,
+        "web": 0.008,
+        "gap": 0.02
+      }
+    },
+    {
+      "id": "BX",
+      "shape": {
+        "type": "box",
+        "depth": 0.3,
+        "width": 0.2,
+        "flange": 0.012,
+        "web": 0.01
+      }
+    },
+    {
+      "id": "PI",
+      "shape": {
+        "type": "pipe",
+        "diameter": 0.3,
+        "wall": 0.01
+      }
+    },
+    {
+      "id": "RC",
+      "shape": {
+        "type": "rectangle",
+        "depth": 0.6,
+        "width": 0.4
+      }
+    },
+    {
+      "id": "CR",
+      "shape": {
+        "type": "circle",
+        "diameter": 0.6
+      }
+    },
+    {
+      "id": "CT",
+      "shape": {
+        "type": "concrete_tee",
+        "depth": 0.6,
+        "width": 1.0,
+        "flange": 0.15,
+        "web": 0.3,
+        "web_tip": 0.25
+      }
+    },
+    {
+      "id": "CL",
+      "shape": {
+        "type": "concrete_l",
+        "depth": 0.6,
+        "width": 0.5,
+        "flange": 0.15,
+        "web": 0.3,
+        "web_tip": 0.25
+      }
+    },
+    {
+      "id": "CP",
+      "shape": {
+        "type": "concrete_pipe",
+        "diameter": 0.8,
+        "wall": 0.15
+      }
+    },
+    {
+      "id": "CX",
+      "shape": {
+        "type": "cross",
+        "depth": 0.8,
+        "width": 0.6,
+        "flange": 0.2,
+        "web": 0.25
+      }
+    },
+    {
+      "id": "TR",
+      "shape": {
+        "type": "trapezoid",
+        "depth": 0.6,
+        "width": 0.4,
+        "bottom_width": 0.3
+      }
+    },
+    {
+      "id": "FT",
+      "shape": {
+        "type": "filled_tube",
+        "depth": 0.3,
+        "width": 0.2,
+        "flange": 0.012,
+        "web": 0.01,
+        "material": "S",
+        "fill": "C"
+      }
+    },
+    {
+      "id": "FP",
+      "shape": {
+        "type": "filled_pipe",
+        "diameter": 0.3,
+        "wall": 0.01,
+        "material": "S",
+        "fill": "C"
+      }
+    },
+    {
+      "id": "ER",
+      "shape": {
+        "type": "encased_rectangle",
+        "depth": 0.6,
+        "width": 0.5,
+        "core": {
+          "type": "i",
+          "depth": 0.4,
+          "width": 0.2,
+          "flange": 0.016,
+          "web": 0.01
+        },
+        "material": "S",
+        "encasement": "C"
+      }
+    },
+    {
+      "id": "EC",
+      "shape": {
+        "type": "encased_circle",
+        "diameter": 0.8,
+        "core": {
+          "type": "i",
+          "depth": 0.4,
+          "width": 0.2,
+          "flange": 0.016,
+          "web": 0.01
+        },
+        "material": "S",
+        "encasement": "C"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "IU0",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "IU1",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "CH0",
+      "x": 2.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "CH1",
+      "x": 2.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "TE0",
+      "x": 4.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "TE1",
+      "x": 4.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "AN0",
+      "x": 6.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "AN1",
+      "x": 6.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "DA0",
+      "x": 8.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "DA1",
+      "x": 8.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "DC0",
+      "x": 10.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "DC1",
+      "x": 10.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "BX0",
+      "x": 12.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "BX1",
+      "x": 12.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "PI0",
+      "x": 14.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "PI1",
+      "x": 14.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "RC0",
+      "x": 16.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "RC1",
+      "x": 16.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "CR0",
+      "x": 18.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "CR1",
+      "x": 18.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "CT0",
+      "x": 20.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "CT1",
+      "x": 20.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "CL0",
+      "x": 22.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "CL1",
+      "x": 22.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "CP0",
+      "x": 24.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "CP1",
+      "x": 24.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "CX0",
+      "x": 26.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "CX1",
+      "x": 26.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "TR0",
+      "x": 28.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "TR1",
+      "x": 28.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "FT0",
+      "x": 30.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "FT1",
+      "x": 30.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "FP0",
+      "x": 32.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "FP1",
+      "x": 32.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "ER0",
+      "x": 34.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "ER1",
+      "x": 34.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "EC0",
+      "x": 36.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "EC1",
+      "x": 36.0,
+      "y": 0.0,
+      "z": 6.0
+    },
+    {
+      "id": "TE80",
+      "x": 38.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "TE81",
+      "x": 38.0,
+      "y": 0.0,
+      "z": 6.0
+    }
+  ],
+  "frames": [
+    {
+      "id": "IU",
+      "type": "frame",
+      "nodes": [
+        "IU0",
+        "IU1"
+      ],
+      "material": "S",
+      "section": "IU"
+    },
+    {
+      "id": "CH",
+      "type": "frame",
+      "nodes": [
+        "CH0",
+        "CH1"
+      ],
+      "material": "S",
+      "section": "CH"
+    },
+    {
+      "id": "TE",
+      "type": "frame",
+      "nodes": [
+        "TE0",
+        "TE1"
+      ],
+      "material": "S",
+      "section": "TE"
+    },
+    {
+      "id": "AN",
+      "type": "frame",
+      "nodes": [
+        "AN0",
+        "AN1"
+      ],
+      "material": "S",
+      "section": "AN"
+    },
+    {
+      "id": "DA",
+      "type": "frame",
+      "nodes": [
+        "DA0",
+        "DA1"
+      ],
+      "material": "S",
+      "section": "DA"
+    },
+    {
+      "id": "DC",
+      "type": "frame",
+      "nodes": [
+        "DC0",
+        "DC1"
+      ],
+      "material": "S",
+      "section": "DC"
+    },
+    {
+      "id": "BX",
+      "type": "frame",
+      "nodes": [
+        "BX0",
+        "BX1"
+      ],
+      "material": "S",
+      "section": "BX"
+    },
+    {
+      "id": "PI",
+      "type": "frame",
+      "nodes": [
+        "PI0",
+        "PI1"
+      ],
+      "material": "S",
+      "section": "PI"
+    },
+    {
+      "id": "RC",
+      "type": "frame",
+      "nodes": [
+        "RC0",
+        "RC1"
+      ],
+      "material": "C",
+      "section": "RC"
+    },
+    {
+      "id": "CR",
+      "type": "frame",
+      "nodes": [
+        "CR0",
+        "CR1"
+      ],
+      "material": "C",
+      "section": "CR"
+    },
+    {
+      "id": "CT",
+      "type": "frame",
+      "nodes": [
+        "CT0",
+        "CT1"
+      ],
+      "material": "C",
+      "section": "CT"
+    },
+    {
+      "id": "CL",
+      "type": "frame",
+      "nodes": [
+        "CL0",
+        "CL1"
+      ],
+      "material": "C",
+      "section": "CL"
+    },
+    {
+      "id": "CP",
+      "type": "frame",
+      "nodes": [
+        "CP0",
+        "CP1"
+      ],
+      "material": "C",
+      "section": "CP"
+    },
+    {
+      "id": "CX",
+      "type": "frame",
+      "nodes": [
+        "CX0",
+        "CX1"
+      ],
+      "material": "C",
+      "section": "CX"
+    },
+    {
+      "id": "TR",
+      "type": "frame",
+      "nodes": [
+        "TR0",
+        "TR1"
+      ],
+      "material": "C",
+      "section": "TR"
+    },
+    {
+      "id": "FT",
+      "type": "frame",
+      "nodes": [
+        "FT0",
+        "FT1"
+      ],
+      "material": "S",
+      "section": "FT"
+    },
+    {
+      "id": "FP",
+      "type": "frame",
+      "nodes": [
+        "FP0",
+        "FP1"
+      ],
+      "material": "S",
+      "section": "FP"
+    },
+    {
+      "id": "ER",
+      "type": "frame",
+      "nodes": [
+        "ER0",
+        "ER1"
+      ],
+      "material": "S",
+      "section": "ER"
+    },
+    {
+      "id": "EC",
+      "type": "frame",
+      "nodes": [
+        "EC0",
+        "EC1"
+      ],
+      "material": "S",
+      "section": "EC"
+    },
+    {
+      "id": "TE8",
+      "type": "frame",
+      "nodes": [
+        "TE80",
+        "TE81"
+      ],
+      "material": "S",
+      "section": "TE",
+      "insertion": {
+        "point": 8,
+        "transform": true
+      }
+    }
+  ],
+  "supports": [
+    {
+      "node": "IU0",
+      "fix": "fixed"
+    },
+    {
+      "node": "CH0",
+      "fix": "fixed"
+    },
+    {
+      "node": "TE0",
+      "fix": "fixed"
+    },
+    {
+      "node": "AN0",
+      "fix": "fixed"
+    },
+    {
+      "node": "DA0",
+      "fix": "fixed"
+    },
+    {
+      "node": "DC0",
+      "fix": "fixed"
+    },
+    {
+      "node": "BX0",
+      "fix": "fixed"
+    },
+    {
+      "node": "PI0",
+      "fix": "fixed"
+    },
+    {
+      "node": "RC0",
+      "fix": "fixed"
+    },
+    {
+      "node": "CR0",
+      "fix": "fixed"
+    },
+    {
+      "node": "CT0",
+      "fix": "fixed"
+    },
+    {
+      "node": "CL0",
+      "fix": "fixed"
+    },
+    {
+      "node": "CP0",
+      "fix": "fixed"
+    },
+    {
+      "node": "CX0",
+      "fix": "fixed"
+    },
+    {
+      "node": "TR0",
+      "fix": "fixed"
+    },
+    {
+      "node": "FT0",
+      "fix": "fixed"
+    },
+    {
+      "node": "FP0",
+      "fix": "fixed"
+    },
+    {
+      "node": "ER0",
+      "fix": "fixed"
+    },
+    {
+      "node": "EC0",
+      "fix": "fixed"
+    },
+    {
+      "node": "TE80",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "FX",
+      "node_loads": [
+        {
+          "node": "IU1",
+          "fx": 10.0
+        },
+        {
+          "node": "CH1",
+          "fx": 10.0
+        },
+        {
+          "node": "TE1",
+          "fx": 10.0
+        },
+        {
+          "node": "AN1",
+          "fx": 10.0
+        },
+        {
+          "node": "DA1",
+          "fx": 10.0
+        },
+        {
+          "node": "DC1",
+          "fx": 10.0
+        },
+        {
+          "node": "BX1",
+          "fx": 10.0
+        },
+        {
+          "node": "PI1",
+          "fx": 10.0
+        },
+        {
+          "node": "RC1",
+          "fx": 10.0
+        },
+        {
+          "node": "CR1",
+          "fx": 10.0
+        },
+        {
+          "node": "CT1",
+          "fx": 10.0
+        },
+        {
+          "node": "CL1",
+          "fx": 10.0
+        },
+        {
+          "node": "CP1",
+          "fx": 10.0
+        },
+        {
+          "node": "CX1",
+          "fx": 10.0
+        },
+        {
+          "node": "TR1",
+          "fx": 10.0
+        },
+        {
+          "node": "FT1",
+          "fx": 10.0
+        },
+        {
+          "node": "FP1",
+          "fx": 10.0
+        },
+        {
+          "node": "ER1",
+          "fx": 10.0
+        },
+        {
+          "node": "EC1",
+          "fx": 10.0
+        },
+        {
+          "node": "TE81",
+          "fx": 10.0
+        }
+      ]
+    },
+    {
+      "id": "FY",
+      "node_loads": [
+        {
+          "node": "IU1",
+          "fy": 10.0
+        },
+        {
+          "node": "CH1",
+          "fy": 10.0
+        },
+        {
+          "node": "TE1",
+          "fy": 10.0
+        },
+        {
+          "node": "AN1",
+          "fy": 10.0
+        },
+        {
+          "node": "DA1",
+          "fy": 10.0
+        },
+        {
+          "node": "DC1",
+          "fy": 10.0
+        },
+        {
+          "node": "BX1",
+          "fy": 10.0
+        },
+        {
+          "node": "PI1",
+          "fy": 10.0
+        },
+        {
+          "node": "RC1",
+          "fy": 10.0
+        },
+        {
+          "node": "CR1",
+          "fy": 10.0
+        },
+        {
+          "node": "CT1",
+          "fy": 10.0
+        },
+        {
+          "node": "CL1",
+          "fy": 10.0
+        },
+        {
+          "node": "CP1",
+          "fy": 10.0
+        },
+        {
+          "node": "CX1",
+          "fy": 10.0
+        },
+        {
+          "node": "TR1",
+          "fy": 10.0
+        },
+        {
+          "node": "FT1",
+          "fy": 10.0
+        },
+        {
+          "node": "FP1",
+          "fy": 10.0
+        },
+        {
+          "node": "ER1",
+          "fy": 10.0
+        },
+        {
+          "node": "EC1",
+          "fy": 10.0
+        }
+      ]
+    },
+    {
+      "id": "DEAD",
+      "self_weight": 1
+    }
+  ]
+}

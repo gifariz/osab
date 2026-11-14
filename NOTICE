@@ -1,0 +1,10 @@
+OSAB (Open Structural Analysis for Buildings)
+Copyright 2026 gifariz (https://github.com/gifariz)
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+OSAB is provided "AS IS", without warranties or conditions of any kind. OSAB is a tool for
+engineers: the engineer using it is responsible for the model, for checking its results and
+for the design decisions made with them.
+
+Third-party software included in OSAB is listed in THIRD_PARTY_LICENSES.md.

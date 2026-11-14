@@ -1,0 +1,761 @@
+{
+ "source": "Statics: the load at joint 3 moved to the pier cuts' centroids (x = 3 m, z = 3 and 0) in the pier's axes (checks/make_pier_benchmark.py).",
+ "values": [
+  {
+   "case": "FX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "P",
+   "value": 0.0
+  },
+  {
+   "case": "FX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "V2",
+   "value": 11.0
+  },
+  {
+   "case": "FX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "V3",
+   "value": 0.0
+  },
+  {
+   "case": "FX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "T",
+   "value": 0.0
+  },
+  {
+   "case": "FX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "M2",
+   "value": -0.0
+  },
+  {
+   "case": "FX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "M3",
+   "value": 0.0
+  },
+  {
+   "case": "FX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "P",
+   "value": 0.0
+  },
+  {
+   "case": "FX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "V2",
+   "value": 11.0
+  },
+  {
+   "case": "FX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "V3",
+   "value": 0.0
+  },
+  {
+   "case": "FX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "T",
+   "value": 0.0
+  },
+  {
+   "case": "FX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "M2",
+   "value": -0.0
+  },
+  {
+   "case": "FX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "M3",
+   "value": 33.0
+  },
+  {
+   "case": "FY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "P",
+   "value": 0.0
+  },
+  {
+   "case": "FY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "V2",
+   "value": 0.0
+  },
+  {
+   "case": "FY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "V3",
+   "value": 13.0
+  },
+  {
+   "case": "FY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "T",
+   "value": 39.0
+  },
+  {
+   "case": "FY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "M2",
+   "value": -0.0
+  },
+  {
+   "case": "FY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "M3",
+   "value": 0.0
+  },
+  {
+   "case": "FY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "P",
+   "value": 0.0
+  },
+  {
+   "case": "FY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "V2",
+   "value": 0.0
+  },
+  {
+   "case": "FY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "V3",
+   "value": 13.0
+  },
+  {
+   "case": "FY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "T",
+   "value": 39.0
+  },
+  {
+   "case": "FY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "M2",
+   "value": 39.0
+  },
+  {
+   "case": "FY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "M3",
+   "value": 0.0
+  },
+  {
+   "case": "FZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "P",
+   "value": -17.0
+  },
+  {
+   "case": "FZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "V2",
+   "value": 0.0
+  },
+  {
+   "case": "FZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "V3",
+   "value": 0.0
+  },
+  {
+   "case": "FZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "T",
+   "value": 0.0
+  },
+  {
+   "case": "FZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "M2",
+   "value": -0.0
+  },
+  {
+   "case": "FZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "M3",
+   "value": 51.0
+  },
+  {
+   "case": "FZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "P",
+   "value": -17.0
+  },
+  {
+   "case": "FZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "V2",
+   "value": 0.0
+  },
+  {
+   "case": "FZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "V3",
+   "value": 0.0
+  },
+  {
+   "case": "FZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "T",
+   "value": 0.0
+  },
+  {
+   "case": "FZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "M2",
+   "value": -0.0
+  },
+  {
+   "case": "FZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "M3",
+   "value": 51.0
+  },
+  {
+   "case": "MX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "P",
+   "value": 0.0
+  },
+  {
+   "case": "MX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "V2",
+   "value": 0.0
+  },
+  {
+   "case": "MX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "V3",
+   "value": 0.0
+  },
+  {
+   "case": "MX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "T",
+   "value": 0.0
+  },
+  {
+   "case": "MX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "M2",
+   "value": -19.0
+  },
+  {
+   "case": "MX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "M3",
+   "value": 0.0
+  },
+  {
+   "case": "MX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "P",
+   "value": 0.0
+  },
+  {
+   "case": "MX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "V2",
+   "value": 0.0
+  },
+  {
+   "case": "MX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "V3",
+   "value": 0.0
+  },
+  {
+   "case": "MX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "T",
+   "value": 0.0
+  },
+  {
+   "case": "MX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "M2",
+   "value": -19.0
+  },
+  {
+   "case": "MX",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "M3",
+   "value": 0.0
+  },
+  {
+   "case": "MY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "P",
+   "value": 0.0
+  },
+  {
+   "case": "MY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "V2",
+   "value": 0.0
+  },
+  {
+   "case": "MY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "V3",
+   "value": 0.0
+  },
+  {
+   "case": "MY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "T",
+   "value": 0.0
+  },
+  {
+   "case": "MY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "M2",
+   "value": -0.0
+  },
+  {
+   "case": "MY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "M3",
+   "value": 23.0
+  },
+  {
+   "case": "MY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "P",
+   "value": 0.0
+  },
+  {
+   "case": "MY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "V2",
+   "value": 0.0
+  },
+  {
+   "case": "MY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "V3",
+   "value": 0.0
+  },
+  {
+   "case": "MY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "T",
+   "value": 0.0
+  },
+  {
+   "case": "MY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "M2",
+   "value": -0.0
+  },
+  {
+   "case": "MY",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "M3",
+   "value": 23.0
+  },
+  {
+   "case": "MZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "P",
+   "value": 0.0
+  },
+  {
+   "case": "MZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "V2",
+   "value": 0.0
+  },
+  {
+   "case": "MZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "V3",
+   "value": 0.0
+  },
+  {
+   "case": "MZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "T",
+   "value": 29.0
+  },
+  {
+   "case": "MZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "M2",
+   "value": -0.0
+  },
+  {
+   "case": "MZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "M3",
+   "value": 0.0
+  },
+  {
+   "case": "MZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "P",
+   "value": 0.0
+  },
+  {
+   "case": "MZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "V2",
+   "value": 0.0
+  },
+  {
+   "case": "MZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "V3",
+   "value": 0.0
+  },
+  {
+   "case": "MZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "T",
+   "value": 29.0
+  },
+  {
+   "case": "MZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "M2",
+   "value": -0.0
+  },
+  {
+   "case": "MZ",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "M3",
+   "value": 0.0
+  },
+  {
+   "case": "L",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "P",
+   "value": -17.0
+  },
+  {
+   "case": "L",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "V2",
+   "value": 11.0
+  },
+  {
+   "case": "L",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "V3",
+   "value": 13.0
+  },
+  {
+   "case": "L",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "T",
+   "value": 68.0
+  },
+  {
+   "case": "L",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "M2",
+   "value": -19.0
+  },
+  {
+   "case": "L",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "top",
+   "comp": "M3",
+   "value": 74.0
+  },
+  {
+   "case": "L",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "P",
+   "value": -17.0
+  },
+  {
+   "case": "L",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "V2",
+   "value": 11.0
+  },
+  {
+   "case": "L",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "V3",
+   "value": 13.0
+  },
+  {
+   "case": "L",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "T",
+   "value": 68.0
+  },
+  {
+   "case": "L",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "M2",
+   "value": 20.0
+  },
+  {
+   "case": "L",
+   "kind": "pier",
+   "story": "L1",
+   "label": "P",
+   "at": "bottom",
+   "comp": "M3",
+   "value": 107.0
+  }
+ ]
+}

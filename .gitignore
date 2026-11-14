@@ -1,0 +1,14 @@
+/target/
+/tmp/
+checks/.venv/
+checks/.csi/
+__pycache__/
+# Desktop app (gui/)
+gui/node_modules/
+gui/dist/
+gui/dist-web/
+gui/src-tauri/gen/schemas/
+gui/test-results/
+gui/playwright-report/
+# Solver as WebAssembly, built by `npm run build:wasm`
+gui/src/ipc/osab.wasm

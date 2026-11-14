@@ -1,0 +1,53 @@
+{
+  "source": "Statics: each bay's base reactions carry its floor's weight (32 m2 x the deck's weight per area: concrete per area x the fill's unit weight + the deck's unit weight) and 2 kN/m2 x 32 m2.",
+  "values": [
+    {
+      "case": "Dead",
+      "kind": "reaction_sum",
+      "nodes": [
+        "DF.base0",
+        "DF.base1",
+        "DF.base2",
+        "DF.base3"
+      ],
+      "dof": "fz",
+      "value": 77.65946236
+    },
+    {
+      "case": "Dead",
+      "kind": "reaction_sum",
+      "nodes": [
+        "DS.base0",
+        "DS.base1",
+        "DS.base2",
+        "DS.base3"
+      ],
+      "dof": "fz",
+      "value": 113.1029808
+    },
+    {
+      "case": "SDL",
+      "kind": "reaction_sum",
+      "nodes": [
+        "DF.base0",
+        "DF.base1",
+        "DF.base2",
+        "DF.base3"
+      ],
+      "dof": "fz",
+      "value": 64.0
+    },
+    {
+      "case": "SDL",
+      "kind": "reaction_sum",
+      "nodes": [
+        "DS.base0",
+        "DS.base1",
+        "DS.base2",
+        "DS.base3"
+      ],
+      "dof": "fz",
+      "value": 64.0
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "source": "Cantilevers K1, K2: closed form of a cantilever with the joints on rigid arms e = 0.3 m above the centroid (K1, stiffness transform) or at it (K2), Euler-Bernoulli. Floors T1, T2: statics (checks/make_insertion_benchmarks.py).",
+  "values": [
+    {
+      "case": "KZ",
+      "kind": "disp",
+      "node": "K1b",
+      "dof": "uz",
+      "value": -0.0015802469135802475
+    },
+    {
+      "case": "KZ",
+      "kind": "disp",
+      "node": "K1b",
+      "dof": "ry",
+      "value": 0.0005925925925925927
+    },
+    {
+      "case": "KZ",
+      "kind": "disp",
+      "node": "K1b",
+      "dof": "ux",
+      "value": 0.0001777777777777778
+    },
+    {
+      "case": "KZ",
+      "kind": "reaction",
+      "node": "K1a",
+      "dof": "fz",
+      "value": 10.0
+    },
+    {
+      "case": "KZ",
+      "kind": "reaction",
+      "node": "K1a",
+      "dof": "my",
+      "value": -40.0
+    },
+    {
+      "case": "KZ",
+      "kind": "force",
+      "element": "K1",
+      "at": "i",
+      "comp": "V2",
+      "value": -10.0
+    },
+    {
+      "case": "KZ",
+      "kind": "force",
+      "element": "K1",
+      "at": "i",
+      "comp": "M3",
+      "value": -40.0
+    },
+    {
+      "case": "KZ",
+      "kind": "disp",
+      "node": "K2b",
+      "dof": "uz",
+      "value": -0.0015802469135802475
+    },
+    {
+      "case": "KZ",
+      "kind": "disp",
+      "node": "K2b",
+      "dof": "ry",
+      "value": 0.0005925925925925927
+    },
+    {
+      "case": "KZ",
+      "kind": "disp",
+      "node": "K2b",
+      "dof": "ux",
+      "value": 0.0
+    },
+    {
+      "case": "KZ",
+      "kind": "reaction",
+      "node": "K2a",
+      "dof": "fz",
+      "value": 10.0
+    },
+    {
+      "case": "KZ",
+      "kind": "reaction",
+      "node": "K2a",
+      "dof": "my",
+      "value": -40.0
+    },
+    {
+      "case": "KZ",
+      "kind": "force",
+      "element": "K2",
+      "at": "i",
+      "comp": "V2",
+      "value": -10.0
+    },
+    {
+      "case": "KZ",
+      "kind": "force",
+      "element": "K2",
+      "at": "i",
+      "comp": "M3",
+      "value": -40.0
+    },
+    {
+      "case": "KX",
+      "kind": "disp",
+      "node": "K1b",
+      "dof": "ux",
+      "value": 7.111111111111112e-05
+    },
+    {
+      "case": "KX",
+      "kind": "disp",
+      "node": "K1b",
+      "dof": "uz",
+      "value": -0.0003555555555555556
+    },
+    {
+      "case": "KX",
+      "kind": "disp",
+      "node": "K1b",
+      "dof": "ry",
+      "value": 0.0001777777777777778
+    },
+    {
+      "case": "KX",
+      "kind": "reaction",
+      "node": "K1a",
+      "dof": "fx",
+      "value": -20.0
+    },
+    {
+      "case": "KX",
+      "kind": "reaction",
+      "node": "K1a",
+      "dof": "my",
+      "value": 0.0
+    },
+    {
+      "case": "KX",
+      "kind": "force",
+      "element": "K1",
+      "at": "i",
+      "comp": "P",
+      "value": 20.0
+    },
+    {
+      "case": "KX",
+      "kind": "force",
+      "element": "K1",
+      "at": "j",
+      "comp": "M3",
+      "value": -6.0
+    },
+    {
+      "case": "KX",
+      "kind": "disp",
+      "node": "K2b",
+      "dof": "ux",
+      "value": 1.7777777777777777e-05
+    },
+    {
+      "case": "KX",
+      "kind": "disp",
+      "node": "K2b",
+      "dof": "uz",
+      "value": -0.0
+    },
+    {
+      "case": "KX",
+      "kind": "disp",
+      "node": "K2b",
+      "dof": "ry",
+      "value": 0.0
+    },
+    {
+      "case": "KX",
+      "kind": "reaction",
+      "node": "K2a",
+      "dof": "fx",
+      "value": -20.0
+    },
+    {
+      "case": "KX",
+      "kind": "reaction",
+      "node": "K2a",
+      "dof": "my",
+      "value": 0.0
+    },
+    {
+      "case": "KX",
+      "kind": "force",
+      "element": "K2",
+      "at": "i",
+      "comp": "P",
+      "value": 20.0
+    },
+    {
+      "case": "KX",
+      "kind": "force",
+      "element": "K2",
+      "at": "j",
+      "comp": "M3",
+      "value": -0.0
+    },
+    {
+      "case": "Q",
+      "kind": "reaction",
+      "node": "T1_0_2",
+      "dof": "fz",
+      "value": 60.0
+    },
+    {
+      "case": "P",
+      "kind": "reaction",
+      "node": "T1_0_2",
+      "dof": "fz",
+      "value": 25.0
+    },
+    {
+      "case": "Q",
+      "kind": "reaction",
+      "node": "T1_8_2",
+      "dof": "fz",
+      "value": 60.0
+    },
+    {
+      "case": "P",
+      "kind": "reaction",
+      "node": "T1_8_2",
+      "dof": "fz",
+      "value": 25.0
+    },
+    {
+      "case": "Q",
+      "kind": "reaction",
+      "node": "T2_0_2",
+      "dof": "fz",
+      "value": 60.0
+    },
+    {
+      "case": "P",
+      "kind": "reaction",
+      "node": "T2_0_2",
+      "dof": "fz",
+      "value": 25.0
+    },
+    {
+      "case": "Q",
+      "kind": "reaction",
+      "node": "T2_8_2",
+      "dof": "fz",
+      "value": 60.0
+    },
+    {
+      "case": "P",
+      "kind": "reaction",
+      "node": "T2_8_2",
+      "dof": "fz",
+      "value": 25.0
+    }
+  ]
+}

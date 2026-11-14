@@ -1,0 +1,113 @@
+{
+  "source": "Joint equilibrium at the apex (3 bars, determinate); virtual work for the apex displacement",
+  "values": [
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "4",
+      "dof": "ux",
+      "value": 0.00011422524190413505
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "4",
+      "dof": "uy",
+      "value": -2.324285525118756e-05
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "4",
+      "dof": "uz",
+      "value": -6.973797284378585e-05
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "P",
+      "value": -6.448992647913276
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "2",
+      "at": "i",
+      "comp": "P",
+      "value": -18.162078931419476
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "3",
+      "at": "i",
+      "comp": "P",
+      "value": -2.078698548207745
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fx",
+      "value": 1.9444444444444442
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fy",
+      "value": 1.9444444444444442
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fz",
+      "value": 5.833333333333333
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "2",
+      "dof": "fx",
+      "value": -12.500000000000002
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "2",
+      "dof": "fy",
+      "value": 4.166666666666667
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "2",
+      "dof": "fz",
+      "value": 12.500000000000002
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "3",
+      "dof": "fx",
+      "value": 0.5555555555555556
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "3",
+      "dof": "fy",
+      "value": -1.1111111111111112
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "3",
+      "dof": "fz",
+      "value": 1.6666666666666665
+    }
+  ]
+}

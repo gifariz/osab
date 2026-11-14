@@ -1,0 +1,285 @@
+{
+  "source": "Statics: base reactions of the tip forces (checks/make_shape_benchmarks.py).",
+  "values": [
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "K10",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "K10",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "K10",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "K10",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "K20",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "K20",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "K20",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "K20",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "K30",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "K30",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "K30",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "K30",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "K40",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "K40",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "K40",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "K40",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "K50",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "K50",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "K50",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "K50",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "K60",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "K60",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "K60",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "K60",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "K70",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "K70",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "K70",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "K70",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "K80",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "K80",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "K80",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "K80",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "K90",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "K90",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "K90",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "K90",
+      "dof": "mx",
+      "value": 60.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "K100",
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "FX",
+      "kind": "reaction",
+      "node": "K100",
+      "dof": "my",
+      "value": -60.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "K100",
+      "dof": "fy",
+      "value": -10.0
+    },
+    {
+      "case": "FY",
+      "kind": "reaction",
+      "node": "K100",
+      "dof": "mx",
+      "value": 60.0
+    }
+  ]
+}

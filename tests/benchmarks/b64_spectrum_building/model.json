@@ -1,0 +1,945 @@
+{
+  "title": "B64 response spectrum: two-story eccentric building",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "concrete",
+      "E": 25000000.0,
+      "nu": 0.2,
+      "weight": 25.0
+    }
+  ],
+  "sections": [
+    {
+      "id": "C50",
+      "A": 0.25,
+      "I22": 0.005208333333333333,
+      "I33": 0.005208333333333333,
+      "J": 0.008802083333,
+      "depth": 0.5,
+      "width": 0.5,
+      "As2": 0.20833333333333334,
+      "As3": 0.20833333333333334
+    },
+    {
+      "id": "C80",
+      "A": 0.6400000000000001,
+      "I22": 0.03413333333333334,
+      "I33": 0.03413333333333334,
+      "J": 0.057685333333,
+      "depth": 0.8,
+      "width": 0.8,
+      "As2": 0.5333333333333334,
+      "As3": 0.5333333333333334
+    },
+    {
+      "id": "B60x30",
+      "A": 0.18,
+      "I22": 0.0013499999999999996,
+      "I33": 0.0053999999999999986,
+      "J": 0.003707859375,
+      "depth": 0.6,
+      "width": 0.3,
+      "As2": 0.15,
+      "As3": 0.15
+    }
+  ],
+  "nodes": [
+    {
+      "id": "0_0_0",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "1_0_0",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 3.5,
+      "diaphragm": "D1"
+    },
+    {
+      "id": "2_0_0",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 6.5,
+      "diaphragm": "D1"
+    },
+    {
+      "id": "0_8_0",
+      "x": 8.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "id": "1_8_0",
+      "x": 8.0,
+      "y": 0.0,
+      "z": 3.5,
+      "diaphragm": "D1"
+    },
+    {
+      "id": "2_8_0",
+      "x": 8.0,
+      "y": 0.0,
+      "z": 6.5,
+      "diaphragm": "D1"
+    },
+    {
+      "id": "0_8_5",
+      "x": 8.0,
+      "y": 5.0,
+      "z": 0.0
+    },
+    {
+      "id": "1_8_5",
+      "x": 8.0,
+      "y": 5.0,
+      "z": 3.5,
+      "diaphragm": "D1"
+    },
+    {
+      "id": "2_8_5",
+      "x": 8.0,
+      "y": 5.0,
+      "z": 6.5,
+      "diaphragm": "D1"
+    },
+    {
+      "id": "0_0_5",
+      "x": 0.0,
+      "y": 5.0,
+      "z": 0.0
+    },
+    {
+      "id": "1_0_5",
+      "x": 0.0,
+      "y": 5.0,
+      "z": 3.5,
+      "diaphragm": "D1"
+    },
+    {
+      "id": "2_0_5",
+      "x": 0.0,
+      "y": 5.0,
+      "z": 6.5,
+      "diaphragm": "D1"
+    },
+    {
+      "id": "0_8_2.5",
+      "x": 8.0,
+      "y": 2.5,
+      "z": 0.0
+    },
+    {
+      "id": "1_8_2.5",
+      "x": 8.0,
+      "y": 2.5,
+      "z": 3.5,
+      "diaphragm": "D1"
+    },
+    {
+      "id": "2_8_2.5",
+      "x": 8.0,
+      "y": 2.5,
+      "z": 6.5,
+      "diaphragm": "D1"
+    },
+    {
+      "id": "mid",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 1.75
+    },
+    {
+      "id": "tip",
+      "x": 10.0,
+      "y": 5.0,
+      "z": 6.5,
+      "diaphragm": "D1"
+    }
+  ],
+  "frames": [
+    {
+      "id": "C1_0_0",
+      "type": "frame",
+      "nodes": [
+        "0_0_0",
+        "mid"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "C2_0_0",
+      "type": "frame",
+      "nodes": [
+        "1_0_0",
+        "2_0_0"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "C1_8_0",
+      "type": "frame",
+      "nodes": [
+        "0_8_0",
+        "1_8_0"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "C2_8_0",
+      "type": "frame",
+      "nodes": [
+        "1_8_0",
+        "2_8_0"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "C1_8_5",
+      "type": "frame",
+      "nodes": [
+        "0_8_5",
+        "1_8_5"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "C2_8_5",
+      "type": "frame",
+      "nodes": [
+        "1_8_5",
+        "2_8_5"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "C1_0_5",
+      "type": "frame",
+      "nodes": [
+        "0_0_5",
+        "1_0_5"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "C2_0_5",
+      "type": "frame",
+      "nodes": [
+        "1_0_5",
+        "2_0_5"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "C1_8_2.5",
+      "type": "frame",
+      "nodes": [
+        "0_8_2.5",
+        "1_8_2.5"
+      ],
+      "material": "concrete",
+      "section": "C80"
+    },
+    {
+      "id": "C2_8_2.5",
+      "type": "frame",
+      "nodes": [
+        "1_8_2.5",
+        "2_8_2.5"
+      ],
+      "material": "concrete",
+      "section": "C80"
+    },
+    {
+      "id": "B1_0",
+      "type": "frame",
+      "nodes": [
+        "1_0_0",
+        "1_8_0"
+      ],
+      "material": "concrete",
+      "section": "B60x30"
+    },
+    {
+      "id": "B1_1",
+      "type": "frame",
+      "nodes": [
+        "1_8_0",
+        "1_8_2.5"
+      ],
+      "material": "concrete",
+      "section": "B60x30"
+    },
+    {
+      "id": "B1_2",
+      "type": "frame",
+      "nodes": [
+        "1_8_2.5",
+        "1_8_5"
+      ],
+      "material": "concrete",
+      "section": "B60x30"
+    },
+    {
+      "id": "B1_3",
+      "type": "frame",
+      "nodes": [
+        "1_8_5",
+        "1_0_5"
+      ],
+      "material": "concrete",
+      "section": "B60x30"
+    },
+    {
+      "id": "B1_4",
+      "type": "frame",
+      "nodes": [
+        "1_0_5",
+        "1_0_0"
+      ],
+      "material": "concrete",
+      "section": "B60x30"
+    },
+    {
+      "id": "B2_0",
+      "type": "frame",
+      "nodes": [
+        "2_0_0",
+        "2_8_0"
+      ],
+      "material": "concrete",
+      "section": "B60x30"
+    },
+    {
+      "id": "B2_1",
+      "type": "frame",
+      "nodes": [
+        "2_8_0",
+        "2_8_2.5"
+      ],
+      "material": "concrete",
+      "section": "B60x30"
+    },
+    {
+      "id": "B2_2",
+      "type": "frame",
+      "nodes": [
+        "2_8_2.5",
+        "2_8_5"
+      ],
+      "material": "concrete",
+      "section": "B60x30"
+    },
+    {
+      "id": "B2_3",
+      "type": "frame",
+      "nodes": [
+        "2_8_5",
+        "2_0_5"
+      ],
+      "material": "concrete",
+      "section": "B60x30"
+    },
+    {
+      "id": "B2_4",
+      "type": "frame",
+      "nodes": [
+        "2_0_5",
+        "2_0_0"
+      ],
+      "material": "concrete",
+      "section": "B60x30"
+    },
+    {
+      "id": "C1_0_0b",
+      "type": "frame",
+      "nodes": [
+        "mid",
+        "1_0_0"
+      ],
+      "material": "concrete",
+      "section": "C50"
+    },
+    {
+      "id": "CANT",
+      "type": "frame",
+      "nodes": [
+        "2_8_5",
+        "tip"
+      ],
+      "material": "concrete",
+      "section": "B60x30"
+    }
+  ],
+  "supports": [
+    {
+      "node": "0_0_0",
+      "fix": "fixed"
+    },
+    {
+      "node": "0_8_0",
+      "fix": "fixed"
+    },
+    {
+      "node": "0_8_5",
+      "fix": "fixed"
+    },
+    {
+      "node": "0_0_5",
+      "fix": "fixed"
+    },
+    {
+      "node": "0_8_2.5",
+      "fix": "fixed"
+    }
+  ],
+  "masses": [
+    {
+      "node": "1_0_0",
+      "ux": 10.0,
+      "uy": 10.0
+    },
+    {
+      "node": "1_8_0",
+      "ux": 10.0,
+      "uy": 10.0
+    },
+    {
+      "node": "1_8_5",
+      "ux": 30.0,
+      "uy": 30.0
+    },
+    {
+      "node": "1_0_5",
+      "ux": 10.0,
+      "uy": 10.0
+    },
+    {
+      "node": "2_0_0",
+      "ux": 10.0,
+      "uy": 10.0
+    },
+    {
+      "node": "2_8_0",
+      "ux": 10.0,
+      "uy": 10.0
+    },
+    {
+      "node": "2_8_5",
+      "ux": 30.0,
+      "uy": 30.0
+    },
+    {
+      "node": "2_0_5",
+      "ux": 10.0,
+      "uy": 10.0
+    }
+  ],
+  "area_sections": [
+    {
+      "id": "W200",
+      "type": "shell-thin",
+      "material": "concrete",
+      "thickness": 0.2
+    }
+  ],
+  "areas": [
+    {
+      "id": "W1",
+      "nodes": [
+        "0_0_0",
+        "0_0_5",
+        "1_0_5",
+        "1_0_0"
+      ],
+      "section": "W200"
+    }
+  ],
+  "diaphragms": [
+    {
+      "id": "D1"
+    }
+  ],
+  "stories": [
+    {
+      "id": "Base",
+      "z": 0.0
+    },
+    {
+      "id": "Story1",
+      "z": 3.5
+    },
+    {
+      "id": "Story2",
+      "z": 6.5
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "DEAD",
+      "self_weight": 1.0
+    },
+    {
+      "id": "LAT",
+      "node_loads": [
+        {
+          "node": "2_0_5",
+          "fx": 100.0
+        },
+        {
+          "node": "1_8_0",
+          "fx": 50.0
+        },
+        {
+          "node": "2_8_5",
+          "fy": 30.0
+        },
+        {
+          "node": "tip",
+          "fz": -20.0
+        }
+      ],
+      "frame_loads": [
+        {
+          "type": "uniform",
+          "frame": "C1_0_5",
+          "dir": "X",
+          "w": 5.0
+        }
+      ]
+    }
+  ],
+  "load_combinations": [
+    {
+      "id": "C_DX",
+      "type": "linear-add",
+      "items": [
+        {
+          "case": "DEAD",
+          "scale": 1.2
+        },
+        {
+          "case": "X",
+          "scale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "C_DmX",
+      "type": "linear-add",
+      "items": [
+        {
+          "case": "DEAD",
+          "scale": 1.0
+        },
+        {
+          "case": "X",
+          "scale": -0.5
+        }
+      ]
+    },
+    {
+      "id": "C_XY",
+      "type": "linear-add",
+      "items": [
+        {
+          "case": "X",
+          "scale": 1.0
+        },
+        {
+          "case": "Y",
+          "scale": 0.3
+        }
+      ]
+    },
+    {
+      "id": "C_ENV",
+      "type": "envelope",
+      "items": [
+        {
+          "case": "DEAD",
+          "scale": 1.0
+        },
+        {
+          "case": "XE",
+          "scale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "C1",
+      "type": "linear-add",
+      "items": [
+        {
+          "case": "DEAD",
+          "scale": 1.0
+        },
+        {
+          "case": "LAT",
+          "scale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "linear-add",
+      "items": [
+        {
+          "case": "DEAD",
+          "scale": 1.0
+        },
+        {
+          "case": "X",
+          "scale": 1.0
+        }
+      ]
+    }
+  ],
+  "mass_source": {
+    "elements": false,
+    "joint_masses": true
+  },
+  "modal": {
+    "id": "Modal",
+    "modes": 12
+  },
+  "spectrum_functions": [
+    {
+      "id": "FUNC",
+      "damping": 0.05,
+      "points": [
+        [
+          0.1,
+          0.4
+        ],
+        [
+          0.3,
+          1.0
+        ],
+        [
+          0.8,
+          1.0
+        ],
+        [
+          1.6,
+          0.5
+        ],
+        [
+          3.2,
+          0.25
+        ]
+      ]
+    },
+    {
+      "id": "FUNCH",
+      "damping": 0.05,
+      "points": [
+        [
+          0.04,
+          1.0
+        ],
+        [
+          0.07,
+          1.0
+        ],
+        [
+          0.1,
+          0.02
+        ],
+        [
+          3.2,
+          0.02
+        ]
+      ]
+    }
+  ],
+  "spectrum_cases": [
+    {
+      "id": "X",
+      "loads": [
+        {
+          "dir": "X",
+          "function": "FUNC",
+          "scale": 9.80665
+        }
+      ]
+    },
+    {
+      "id": "Y",
+      "loads": [
+        {
+          "dir": "Y",
+          "function": "FUNC",
+          "scale": 9.80665
+        }
+      ]
+    },
+    {
+      "id": "XY",
+      "loads": [
+        {
+          "dir": "X",
+          "function": "FUNC",
+          "scale": 9.80665
+        },
+        {
+          "dir": "Y",
+          "function": "FUNC",
+          "scale": 9.80665
+        }
+      ]
+    },
+    {
+      "id": "XY_ABS",
+      "loads": [
+        {
+          "dir": "X",
+          "function": "FUNC",
+          "scale": 9.80665
+        },
+        {
+          "dir": "Y",
+          "function": "FUNC",
+          "scale": 9.80665
+        }
+      ],
+      "directional_combination": "absolute",
+      "abs_factor": 0.3
+    },
+    {
+      "id": "XY_ABS1",
+      "loads": [
+        {
+          "dir": "X",
+          "function": "FUNC",
+          "scale": 9.80665
+        },
+        {
+          "dir": "Y",
+          "function": "FUNC",
+          "scale": 9.80665
+        }
+      ],
+      "directional_combination": "absolute",
+      "abs_factor": 1.0
+    },
+    {
+      "id": "XY06_CQC3",
+      "loads": [
+        {
+          "dir": "X",
+          "function": "FUNC",
+          "scale": 9.80665
+        },
+        {
+          "dir": "Y",
+          "function": "FUNC",
+          "scale": 5.88399
+        }
+      ],
+      "directional_combination": "cqc3"
+    },
+    {
+      "id": "X06Y_CQC3",
+      "loads": [
+        {
+          "dir": "X",
+          "function": "FUNC",
+          "scale": 5.88399
+        },
+        {
+          "dir": "Y",
+          "function": "FUNC",
+          "scale": 9.80665
+        }
+      ],
+      "directional_combination": "cqc3"
+    },
+    {
+      "id": "X30",
+      "loads": [
+        {
+          "dir": "X",
+          "function": "FUNC",
+          "scale": 9.80665,
+          "angle": 30.0
+        }
+      ]
+    },
+    {
+      "id": "Y30",
+      "loads": [
+        {
+          "dir": "Y",
+          "function": "FUNC",
+          "scale": 9.80665,
+          "angle": 30.0
+        }
+      ]
+    },
+    {
+      "id": "X_SRSS",
+      "loads": [
+        {
+          "dir": "X",
+          "function": "FUNC",
+          "scale": 9.80665
+        }
+      ],
+      "modal_combination": "srss"
+    },
+    {
+      "id": "X_ABS",
+      "loads": [
+        {
+          "dir": "X",
+          "function": "FUNC",
+          "scale": 9.80665
+        }
+      ],
+      "modal_combination": "absolute"
+    },
+    {
+      "id": "XH",
+      "loads": [
+        {
+          "dir": "X",
+          "function": "FUNC",
+          "scale": 9.80665
+        },
+        {
+          "dir": "Y",
+          "function": "FUNCH",
+          "scale": 9.80665
+        }
+      ]
+    },
+    {
+      "id": "XE",
+      "loads": [
+        {
+          "dir": "X",
+          "function": "FUNC",
+          "scale": 9.80665
+        }
+      ],
+      "eccentricity": 0.05
+    },
+    {
+      "id": "YE",
+      "loads": [
+        {
+          "dir": "Y",
+          "function": "FUNC",
+          "scale": 9.80665
+        }
+      ],
+      "eccentricity": 0.05
+    },
+    {
+      "id": "XE10",
+      "loads": [
+        {
+          "dir": "X",
+          "function": "FUNC",
+          "scale": 9.80665
+        }
+      ],
+      "eccentricity": 0.1
+    },
+    {
+      "id": "XYE",
+      "loads": [
+        {
+          "dir": "X",
+          "function": "FUNC",
+          "scale": 9.80665
+        },
+        {
+          "dir": "Y",
+          "function": "FUNC",
+          "scale": 9.80665
+        }
+      ],
+      "eccentricity": 0.05
+    },
+    {
+      "id": "XYE_ABS",
+      "loads": [
+        {
+          "dir": "X",
+          "function": "FUNC",
+          "scale": 9.80665
+        },
+        {
+          "dir": "Y",
+          "function": "FUNC",
+          "scale": 9.80665
+        }
+      ],
+      "directional_combination": "absolute",
+      "abs_factor": 0.3,
+      "eccentricity": 0.05
+    },
+    {
+      "id": "XY06E_CQC3",
+      "loads": [
+        {
+          "dir": "X",
+          "function": "FUNC",
+          "scale": 9.80665
+        },
+        {
+          "dir": "Y",
+          "function": "FUNC",
+          "scale": 5.88399
+        }
+      ],
+      "directional_combination": "cqc3",
+      "eccentricity": 0.05
+    },
+    {
+      "id": "X60E",
+      "loads": [
+        {
+          "dir": "X",
+          "function": "FUNC",
+          "scale": 9.80665,
+          "angle": 60.0
+        }
+      ],
+      "eccentricity": 0.05
+    },
+    {
+      "id": "XH42E",
+      "loads": [
+        {
+          "dir": "X",
+          "function": "FUNC",
+          "scale": 9.80665
+        },
+        {
+          "dir": "Y",
+          "function": "FUNCH",
+          "scale": 41.18793
+        }
+      ],
+      "eccentricity": 0.05
+    }
+  ],
+  "mesh": "off"
+}

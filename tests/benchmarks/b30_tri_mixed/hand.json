@@ -1,0 +1,65 @@
+{
+  "source": "Statics: base reaction totals.",
+  "values": [
+    {
+      "case": "DEAD",
+      "kind": "reaction_sum",
+      "nodes": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "dof": "fz",
+      "value": 288.0
+    },
+    {
+      "case": "DEAD",
+      "kind": "reaction_sum",
+      "nodes": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "dof": "fx",
+      "value": 0.0
+    },
+    {
+      "case": "WIND",
+      "kind": "reaction_sum",
+      "nodes": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "WIND",
+      "kind": "reaction_sum",
+      "nodes": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "dof": "fy",
+      "value": 4.0
+    },
+    {
+      "case": "WIND",
+      "kind": "reaction_sum",
+      "nodes": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "dof": "fz",
+      "value": 0.0
+    }
+  ]
+}

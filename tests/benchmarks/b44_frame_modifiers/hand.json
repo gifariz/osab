@@ -1,0 +1,171 @@
+{
+  "source": "Cantilever C1 (section modifiers times its own, Timoshenko closed form): tip displacements u = F L^3 / (3 E I m) + F L / (G As m), w = F L / (E A m), twist = T L / (G J m); base reactions and axial force / torque by statics. Portal: statics (load totals).",
+  "values": [
+    {
+      "case": "TIP",
+      "kind": "disp",
+      "node": "2",
+      "dof": "ux",
+      "value": 0.0009298074074074076
+    },
+    {
+      "case": "TIP",
+      "kind": "disp",
+      "node": "2",
+      "dof": "uy",
+      "value": -0.002566083333333334
+    },
+    {
+      "case": "TIP",
+      "kind": "disp",
+      "node": "2",
+      "dof": "uz",
+      "value": -8.75e-05
+    },
+    {
+      "case": "TIP",
+      "kind": "disp",
+      "node": "2",
+      "dof": "rx",
+      "value": 0.00109375
+    },
+    {
+      "case": "TIP",
+      "kind": "disp",
+      "node": "2",
+      "dof": "ry",
+      "value": 0.0003888888888888889
+    },
+    {
+      "case": "TIP",
+      "kind": "disp",
+      "node": "2",
+      "dof": "rz",
+      "value": 0.001344
+    },
+    {
+      "case": "TIP",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fx",
+      "value": -8.0
+    },
+    {
+      "case": "TIP",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fy",
+      "value": 5.0
+    },
+    {
+      "case": "TIP",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fz",
+      "value": 120.0
+    },
+    {
+      "case": "TIP",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "mx",
+      "value": -17.5
+    },
+    {
+      "case": "TIP",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "my",
+      "value": -28.0
+    },
+    {
+      "case": "TIP",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "mz",
+      "value": -3.0
+    },
+    {
+      "case": "TIP",
+      "kind": "force",
+      "element": "C1",
+      "at": "i",
+      "comp": "P",
+      "value": -120.0
+    },
+    {
+      "case": "TIP",
+      "kind": "force",
+      "element": "C1",
+      "at": "j",
+      "comp": "P",
+      "value": -120.0
+    },
+    {
+      "case": "TIP",
+      "kind": "force",
+      "element": "C1",
+      "at": "i",
+      "comp": "T",
+      "value": 3.0
+    },
+    {
+      "case": "TIP",
+      "kind": "force",
+      "element": "C1",
+      "at": "j",
+      "comp": "T",
+      "value": 3.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction_sum",
+      "nodes": [
+        "3",
+        "4"
+      ],
+      "dof": "fz",
+      "value": 120.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction_sum",
+      "nodes": [
+        "3",
+        "4"
+      ],
+      "dof": "fx",
+      "value": 0.0
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "3",
+        "4"
+      ],
+      "dof": "fx",
+      "value": -15.0
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "3",
+        "4"
+      ],
+      "dof": "fy",
+      "value": -6.0
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "3",
+        "4"
+      ],
+      "dof": "fz",
+      "value": 0.0
+    }
+  ]
+}

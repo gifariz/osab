@@ -1,0 +1,58 @@
+{
+  "source": "Closed form (propped cantilever): R_B = P a^2 (3L - a) / 2L^3, M_A = P a - R_B L",
+  "values": [
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fz",
+      "value": 15.84
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "2",
+      "dof": "fz",
+      "value": 4.16
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "my",
+      "value": -19.2
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "M3",
+      "value": -19.2
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "V2",
+      "value": -15.84
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": 2.0,
+      "comp": "M3",
+      "value": 12.48
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "j",
+      "comp": "V2",
+      "value": 4.16
+    }
+  ]
+}

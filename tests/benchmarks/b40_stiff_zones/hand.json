@@ -1,0 +1,57 @@
+{
+  "source": "Statics: every object's load acts on its whole area, also where another object wins (overlapping loads add up): DEAD 5 kN/m^2 * 48 m^2 = 240 kN; EXTRA 2 * 4 + 4 * 0.25 + 4 * 0.25 = 10 kN (K2 also outside the slab); LAT 10 kN in X and -8 kN in Y.",
+  "values": [
+    {
+      "case": "DEAD",
+      "kind": "reaction_sum",
+      "nodes": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "dof": "fz",
+      "value": 240.0
+    },
+    {
+      "case": "EXTRA",
+      "kind": "reaction_sum",
+      "nodes": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "dof": "fz",
+      "value": 10.0
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "dof": "fx",
+      "value": -10.0
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "s0",
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "dof": "fy",
+      "value": 8.0
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "source": "Fixed-fixed beams with rigid ends (Euler-Bernoulli): the flexible part of length Lf = L - 2 r (r = factor x offset) is fixed-fixed under its share of w, M(x) = w s (Lf - s)/2 - w Lf^2/12 with s = x - r, the joint moment w Lf^2/12 + (w Lf/2) r + w r^2/2; a point load on a rigid zone goes straight to its joint (no forces on the clear length); portals: statics.",
+  "values": [
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "BA1",
+      "at": 0.4,
+      "comp": "M3",
+      "value": -27.040000000000003
+    },
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "BA1",
+      "at": 3.0,
+      "comp": "M3",
+      "value": 13.52
+    },
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "BA1",
+      "at": 5.6,
+      "comp": "M3",
+      "value": -27.039999999999974
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fz",
+      "value": 36.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction",
+      "node": "2",
+      "dof": "fz",
+      "value": 36.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "my",
+      "value": -40.480000000000004
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction",
+      "node": "2",
+      "dof": "my",
+      "value": 40.480000000000004
+    },
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "BA2",
+      "at": 0.4,
+      "comp": "M3",
+      "value": -24.879999999999995
+    },
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "BA2",
+      "at": 3.0,
+      "comp": "M3",
+      "value": 15.679999999999996
+    },
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "BA2",
+      "at": 5.6,
+      "comp": "M3",
+      "value": -24.87999999999999
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction",
+      "node": "11",
+      "dof": "fz",
+      "value": 36.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction",
+      "node": "12",
+      "dof": "fz",
+      "value": 36.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction",
+      "node": "11",
+      "dof": "my",
+      "value": -38.32
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction",
+      "node": "12",
+      "dof": "my",
+      "value": 38.32
+    },
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "BA3",
+      "at": 0.4,
+      "comp": "M3",
+      "value": -22.56
+    },
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "BA3",
+      "at": 3.0,
+      "comp": "M3",
+      "value": 18.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "force",
+      "element": "BA3",
+      "at": 5.6,
+      "comp": "M3",
+      "value": -22.559999999999988
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction",
+      "node": "21",
+      "dof": "fz",
+      "value": 36.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction",
+      "node": "22",
+      "dof": "fz",
+      "value": 36.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction",
+      "node": "21",
+      "dof": "my",
+      "value": -36.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction",
+      "node": "22",
+      "dof": "my",
+      "value": 36.0
+    },
+    {
+      "case": "PT",
+      "kind": "reaction",
+      "node": "31",
+      "dof": "fz",
+      "value": 20.0
+    },
+    {
+      "case": "PT",
+      "kind": "reaction",
+      "node": "31",
+      "dof": "my",
+      "value": -4.0
+    },
+    {
+      "case": "PT",
+      "kind": "reaction",
+      "node": "32",
+      "dof": "fz",
+      "value": 0.0
+    },
+    {
+      "case": "PT",
+      "kind": "force",
+      "element": "BB",
+      "at": 0.5,
+      "comp": "M3",
+      "value": 0.0
+    },
+    {
+      "case": "PT",
+      "kind": "force",
+      "element": "BB",
+      "at": 5.5,
+      "comp": "M3",
+      "value": 0.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction_sum",
+      "nodes": [
+        "41",
+        "42"
+      ],
+      "dof": "fz",
+      "value": 72.0
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "41",
+        "42"
+      ],
+      "dof": "fx",
+      "value": -15.0
+    },
+    {
+      "case": "GRAV",
+      "kind": "reaction_sum",
+      "nodes": [
+        "51",
+        "52"
+      ],
+      "dof": "fz",
+      "value": 72.0
+    },
+    {
+      "case": "LAT",
+      "kind": "reaction_sum",
+      "nodes": [
+        "51",
+        "52"
+      ],
+      "dof": "fx",
+      "value": -15.0
+    }
+  ]
+}

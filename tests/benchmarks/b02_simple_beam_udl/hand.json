@@ -1,0 +1,72 @@
+{
+  "source": "Closed form: midspan deflection 5wL^4/384EI, end rotation wL^3/24EI, midspan moment wL^2/8",
+  "values": [
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "2",
+      "dof": "uz",
+      "value": -0.0050625
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "1",
+      "dof": "ry",
+      "value": 0.0027
+    },
+    {
+      "case": "LC1",
+      "kind": "disp",
+      "node": "3",
+      "dof": "ry",
+      "value": -0.0027
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "1",
+      "dof": "fz",
+      "value": 36.0
+    },
+    {
+      "case": "LC1",
+      "kind": "reaction",
+      "node": "3",
+      "dof": "fz",
+      "value": 36.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "i",
+      "comp": "V2",
+      "value": -36.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": "j",
+      "comp": "M3",
+      "value": 54.0
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "1",
+      "at": 1.5,
+      "comp": "M3",
+      "value": 40.5
+    },
+    {
+      "case": "LC1",
+      "kind": "force",
+      "element": "2",
+      "at": "j",
+      "comp": "V2",
+      "value": 36.0
+    }
+  ]
+}

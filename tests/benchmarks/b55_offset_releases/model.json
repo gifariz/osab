@@ -1,0 +1,765 @@
+{
+  "title": "B55 P, V2, V3 and T releases with end offsets",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "concrete",
+      "E": 25000000.0,
+      "nu": 0.2,
+      "weight": 24.0
+    }
+  ],
+  "sections": [
+    {
+      "id": "BEAM",
+      "A": 0.18,
+      "I22": 0.0013499999999999996,
+      "I33": 0.0053999999999999986,
+      "J": 0.003707859375,
+      "depth": 0.6,
+      "width": 0.3,
+      "As2": 0.15,
+      "As3": 0.15
+    },
+    {
+      "id": "COL",
+      "A": 0.25,
+      "I22": 0.005208333333333333,
+      "I33": 0.005208333333333333,
+      "J": 0.008802083333,
+      "depth": 0.5,
+      "width": 0.5,
+      "As2": 0.20833333333333334,
+      "As3": 0.20833333333333334
+    }
+  ],
+  "nodes": [
+    {
+      "id": "11",
+      "x": 0,
+      "y": 0.0,
+      "z": 0
+    },
+    {
+      "id": "12",
+      "x": 6.0,
+      "y": 0.0,
+      "z": 0
+    },
+    {
+      "id": "13",
+      "x": 0,
+      "y": 0.0,
+      "z": 4.0
+    },
+    {
+      "id": "14",
+      "x": 6.0,
+      "y": 0.0,
+      "z": 4.0
+    },
+    {
+      "id": "21",
+      "x": 0,
+      "y": 8.0,
+      "z": 0
+    },
+    {
+      "id": "22",
+      "x": 6.0,
+      "y": 8.0,
+      "z": 0
+    },
+    {
+      "id": "23",
+      "x": 0,
+      "y": 8.0,
+      "z": 4.0
+    },
+    {
+      "id": "24",
+      "x": 6.0,
+      "y": 8.0,
+      "z": 4.0
+    },
+    {
+      "id": "31",
+      "x": 0,
+      "y": 16.0,
+      "z": 0
+    },
+    {
+      "id": "32",
+      "x": 6.0,
+      "y": 16.0,
+      "z": 0
+    },
+    {
+      "id": "33",
+      "x": 0,
+      "y": 16.0,
+      "z": 4.0
+    },
+    {
+      "id": "34",
+      "x": 6.0,
+      "y": 16.0,
+      "z": 4.0
+    },
+    {
+      "id": "41",
+      "x": 0,
+      "y": 24.0,
+      "z": 0
+    },
+    {
+      "id": "42",
+      "x": 6.0,
+      "y": 24.0,
+      "z": 0
+    },
+    {
+      "id": "43",
+      "x": 0,
+      "y": 24.0,
+      "z": 4.0
+    },
+    {
+      "id": "44",
+      "x": 6.0,
+      "y": 24.0,
+      "z": 4.0
+    },
+    {
+      "id": "51",
+      "x": 0,
+      "y": 32.0,
+      "z": 0
+    },
+    {
+      "id": "52",
+      "x": 6.0,
+      "y": 32.0,
+      "z": 0
+    },
+    {
+      "id": "53",
+      "x": 0,
+      "y": 32.0,
+      "z": 4.0
+    },
+    {
+      "id": "54",
+      "x": 6.0,
+      "y": 32.0,
+      "z": 4.0
+    },
+    {
+      "id": "61",
+      "x": 0,
+      "y": 40.0,
+      "z": 0
+    },
+    {
+      "id": "62",
+      "x": 6.0,
+      "y": 40.0,
+      "z": 0
+    },
+    {
+      "id": "63",
+      "x": 0,
+      "y": 40.0,
+      "z": 4.0
+    },
+    {
+      "id": "64",
+      "x": 6.0,
+      "y": 40.0,
+      "z": 4.0
+    },
+    {
+      "id": "71",
+      "x": 0,
+      "y": 48.0,
+      "z": 0
+    },
+    {
+      "id": "72",
+      "x": 6.0,
+      "y": 48.0,
+      "z": 0
+    },
+    {
+      "id": "73",
+      "x": 0,
+      "y": 48.0,
+      "z": 4.0
+    },
+    {
+      "id": "74",
+      "x": 6.0,
+      "y": 48.0,
+      "z": 4.0
+    }
+  ],
+  "frames": [
+    {
+      "id": "P1",
+      "type": "frame",
+      "nodes": [
+        "11",
+        "13"
+      ],
+      "material": "concrete",
+      "section": "COL",
+      "end_offsets": {
+        "i": 0.0,
+        "j": 0.6
+      },
+      "rigid_zone": 0.75
+    },
+    {
+      "id": "P2",
+      "type": "frame",
+      "nodes": [
+        "12",
+        "14"
+      ],
+      "material": "concrete",
+      "section": "COL",
+      "end_offsets": {
+        "i": 0.0,
+        "j": 0.6
+      },
+      "rigid_zone": 0.75
+    },
+    {
+      "id": "PB",
+      "type": "frame",
+      "nodes": [
+        "13",
+        "14"
+      ],
+      "material": "concrete",
+      "section": "BEAM",
+      "end_offsets": {
+        "i": 0.25,
+        "j": 0.5
+      },
+      "rigid_zone": 0.5,
+      "releases": {
+        "i": [
+          "P"
+        ]
+      }
+    },
+    {
+      "id": "V21",
+      "type": "frame",
+      "nodes": [
+        "21",
+        "23"
+      ],
+      "material": "concrete",
+      "section": "COL",
+      "end_offsets": {
+        "i": 0.0,
+        "j": 0.6
+      },
+      "rigid_zone": 0.75
+    },
+    {
+      "id": "V22",
+      "type": "frame",
+      "nodes": [
+        "22",
+        "24"
+      ],
+      "material": "concrete",
+      "section": "COL",
+      "end_offsets": {
+        "i": 0.0,
+        "j": 0.6
+      },
+      "rigid_zone": 0.75
+    },
+    {
+      "id": "V2B",
+      "type": "frame",
+      "nodes": [
+        "23",
+        "24"
+      ],
+      "material": "concrete",
+      "section": "BEAM",
+      "end_offsets": {
+        "i": 0.25,
+        "j": 0.5
+      },
+      "rigid_zone": 0.5,
+      "releases": {
+        "i": [
+          "V2"
+        ]
+      }
+    },
+    {
+      "id": "V31",
+      "type": "frame",
+      "nodes": [
+        "31",
+        "33"
+      ],
+      "material": "concrete",
+      "section": "COL",
+      "end_offsets": {
+        "i": 0.0,
+        "j": 0.6
+      },
+      "rigid_zone": 0.75
+    },
+    {
+      "id": "V32",
+      "type": "frame",
+      "nodes": [
+        "32",
+        "34"
+      ],
+      "material": "concrete",
+      "section": "COL",
+      "end_offsets": {
+        "i": 0.0,
+        "j": 0.6
+      },
+      "rigid_zone": 0.75
+    },
+    {
+      "id": "V3B",
+      "type": "frame",
+      "nodes": [
+        "33",
+        "34"
+      ],
+      "material": "concrete",
+      "section": "BEAM",
+      "end_offsets": {
+        "i": 0.25,
+        "j": 0.5
+      },
+      "rigid_zone": 0.5,
+      "releases": {
+        "i": [
+          "V3"
+        ]
+      }
+    },
+    {
+      "id": "T1",
+      "type": "frame",
+      "nodes": [
+        "41",
+        "43"
+      ],
+      "material": "concrete",
+      "section": "COL",
+      "end_offsets": {
+        "i": 0.0,
+        "j": 0.6
+      },
+      "rigid_zone": 0.75
+    },
+    {
+      "id": "T2",
+      "type": "frame",
+      "nodes": [
+        "42",
+        "44"
+      ],
+      "material": "concrete",
+      "section": "COL",
+      "end_offsets": {
+        "i": 0.0,
+        "j": 0.6
+      },
+      "rigid_zone": 0.75
+    },
+    {
+      "id": "TB",
+      "type": "frame",
+      "nodes": [
+        "43",
+        "44"
+      ],
+      "material": "concrete",
+      "section": "BEAM",
+      "end_offsets": {
+        "i": 0.25,
+        "j": 0.5
+      },
+      "rigid_zone": 0.5,
+      "releases": {
+        "i": [
+          "T"
+        ]
+      }
+    },
+    {
+      "id": "TM1",
+      "type": "frame",
+      "nodes": [
+        "51",
+        "53"
+      ],
+      "material": "concrete",
+      "section": "COL",
+      "end_offsets": {
+        "i": 0.0,
+        "j": 0.6
+      },
+      "rigid_zone": 0.75
+    },
+    {
+      "id": "TM2",
+      "type": "frame",
+      "nodes": [
+        "52",
+        "54"
+      ],
+      "material": "concrete",
+      "section": "COL",
+      "end_offsets": {
+        "i": 0.0,
+        "j": 0.6
+      },
+      "rigid_zone": 0.75
+    },
+    {
+      "id": "TMB",
+      "type": "frame",
+      "nodes": [
+        "53",
+        "54"
+      ],
+      "material": "concrete",
+      "section": "BEAM",
+      "end_offsets": {
+        "i": 0.25,
+        "j": 0.5
+      },
+      "rigid_zone": 0.5,
+      "releases": {
+        "i": [
+          "T",
+          "M3"
+        ],
+        "j": [
+          "M2"
+        ]
+      }
+    },
+    {
+      "id": "J1",
+      "type": "frame",
+      "nodes": [
+        "61",
+        "63"
+      ],
+      "material": "concrete",
+      "section": "COL",
+      "end_offsets": {
+        "i": 0.0,
+        "j": 0.6
+      },
+      "rigid_zone": 0.75
+    },
+    {
+      "id": "J2",
+      "type": "frame",
+      "nodes": [
+        "62",
+        "64"
+      ],
+      "material": "concrete",
+      "section": "COL",
+      "end_offsets": {
+        "i": 0.0,
+        "j": 0.6
+      },
+      "rigid_zone": 0.75
+    },
+    {
+      "id": "JB",
+      "type": "frame",
+      "nodes": [
+        "63",
+        "64"
+      ],
+      "material": "concrete",
+      "section": "BEAM",
+      "end_offsets": {
+        "i": 0.25,
+        "j": 0.5
+      },
+      "rigid_zone": 0.5,
+      "releases": {
+        "j": [
+          "P",
+          "T"
+        ]
+      }
+    },
+    {
+      "id": "V2M1",
+      "type": "frame",
+      "nodes": [
+        "71",
+        "73"
+      ],
+      "material": "concrete",
+      "section": "COL",
+      "end_offsets": {
+        "i": 0.0,
+        "j": 0.6
+      },
+      "rigid_zone": 0.75
+    },
+    {
+      "id": "V2M2",
+      "type": "frame",
+      "nodes": [
+        "72",
+        "74"
+      ],
+      "material": "concrete",
+      "section": "COL",
+      "end_offsets": {
+        "i": 0.0,
+        "j": 0.6
+      },
+      "rigid_zone": 0.75
+    },
+    {
+      "id": "V2MB",
+      "type": "frame",
+      "nodes": [
+        "73",
+        "74"
+      ],
+      "material": "concrete",
+      "section": "BEAM",
+      "end_offsets": {
+        "i": 0.25,
+        "j": 0.5
+      },
+      "rigid_zone": 0.5,
+      "releases": {
+        "i": [
+          "V2"
+        ],
+        "j": [
+          "M3"
+        ]
+      }
+    }
+  ],
+  "supports": [
+    {
+      "node": "11",
+      "fix": "fixed"
+    },
+    {
+      "node": "12",
+      "fix": "fixed"
+    },
+    {
+      "node": "21",
+      "fix": "fixed"
+    },
+    {
+      "node": "22",
+      "fix": "fixed"
+    },
+    {
+      "node": "31",
+      "fix": "fixed"
+    },
+    {
+      "node": "32",
+      "fix": "fixed"
+    },
+    {
+      "node": "41",
+      "fix": "fixed"
+    },
+    {
+      "node": "42",
+      "fix": "fixed"
+    },
+    {
+      "node": "51",
+      "fix": "fixed"
+    },
+    {
+      "node": "52",
+      "fix": "fixed"
+    },
+    {
+      "node": "61",
+      "fix": "fixed"
+    },
+    {
+      "node": "62",
+      "fix": "fixed"
+    },
+    {
+      "node": "71",
+      "fix": "fixed"
+    },
+    {
+      "node": "72",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "GRAV",
+      "frame_loads": [
+        {
+          "type": "uniform",
+          "frame": "PB",
+          "dir": "Z",
+          "w": -12.0
+        },
+        {
+          "type": "uniform",
+          "frame": "V2B",
+          "dir": "Z",
+          "w": -12.0
+        },
+        {
+          "type": "uniform",
+          "frame": "V3B",
+          "dir": "Z",
+          "w": -12.0
+        },
+        {
+          "type": "uniform",
+          "frame": "TB",
+          "dir": "Z",
+          "w": -12.0
+        },
+        {
+          "type": "uniform",
+          "frame": "TMB",
+          "dir": "Z",
+          "w": -12.0
+        },
+        {
+          "type": "uniform",
+          "frame": "JB",
+          "dir": "Z",
+          "w": -12.0
+        },
+        {
+          "type": "uniform",
+          "frame": "V2MB",
+          "dir": "Z",
+          "w": -12.0
+        }
+      ]
+    },
+    {
+      "id": "LAT",
+      "node_loads": [
+        {
+          "node": "13",
+          "fx": 15.0
+        },
+        {
+          "node": "23",
+          "fx": 15.0
+        },
+        {
+          "node": "33",
+          "fx": 15.0
+        },
+        {
+          "node": "43",
+          "fx": 15.0
+        },
+        {
+          "node": "53",
+          "fx": 15.0
+        },
+        {
+          "node": "63",
+          "fx": 15.0
+        },
+        {
+          "node": "73",
+          "fx": 15.0
+        }
+      ]
+    },
+    {
+      "id": "OUT",
+      "frame_loads": [
+        {
+          "type": "point",
+          "frame": "PB",
+          "dir": "Y",
+          "p": 8.0,
+          "at": 2.0
+        },
+        {
+          "type": "point",
+          "frame": "V2B",
+          "dir": "Y",
+          "p": 8.0,
+          "at": 2.0
+        },
+        {
+          "type": "point",
+          "frame": "V3B",
+          "dir": "Y",
+          "p": 8.0,
+          "at": 2.0
+        },
+        {
+          "type": "point",
+          "frame": "TB",
+          "dir": "Y",
+          "p": 8.0,
+          "at": 2.0
+        },
+        {
+          "type": "point",
+          "frame": "TMB",
+          "dir": "Y",
+          "p": 8.0,
+          "at": 2.0
+        },
+        {
+          "type": "point",
+          "frame": "JB",
+          "dir": "Y",
+          "p": 8.0,
+          "at": 2.0
+        },
+        {
+          "type": "point",
+          "frame": "V2MB",
+          "dir": "Y",
+          "p": 8.0,
+          "at": 2.0
+        }
+      ]
+    }
+  ],
+  "mesh": "off"
+}

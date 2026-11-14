@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "OSAB",
+  "version": "0.1.0",
+  "identifier": "io.github.gifariz.osab",
+  "build": {
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:5173",
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "OSAB",
+        "width": 1400,
+        "height": 900,
+        "minWidth": 900,
+        "minHeight": 600,
+        "center": true
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src ipc: http://ipc.localhost"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis"],
+    "shortDescription": "OSAB structural FEM app",
+    "longDescription": "A free structural analysis app for buildings: 3D frames, walls and slabs, with static, modal and response spectrum analysis.",
+    "copyright": "Copyright 2026 gifariz (https://github.com/gifariz). Apache License 2.0",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "fileAssociations": [
+      {
+        "ext": ["osab"],
+        "name": "OSAB model",
+        "description": "OSAB model",
+        "role": "Editor",
+        "mimeType": "application/x-osab+json"
+      }
+    ],
+    "windows": {
+      "webviewInstallMode": { "type": "embedBootstrapper" }
+    }
+  }
+}

@@ -1,0 +1,423 @@
+{
+  "title": "B49 automatic end offsets",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "materials": [
+    {
+      "id": "concrete",
+      "E": 25000000.0,
+      "nu": 0.2,
+      "weight": 24.0
+    }
+  ],
+  "sections": [
+    {
+      "id": "C60x40",
+      "A": 0.24,
+      "I22": 0.003200000000000001,
+      "I33": 0.007199999999999999,
+      "J": 0.007512493827,
+      "depth": 0.6,
+      "width": 0.4,
+      "As2": 0.2,
+      "As3": 0.2
+    },
+    {
+      "id": "C50",
+      "A": 0.25,
+      "I22": 0.005208333333333333,
+      "I33": 0.005208333333333333,
+      "J": 0.008802083333,
+      "depth": 0.5,
+      "width": 0.5,
+      "As2": 0.20833333333333334,
+      "As3": 0.20833333333333334
+    },
+    {
+      "id": "C40",
+      "A": 0.16000000000000003,
+      "I22": 0.002133333333333334,
+      "I33": 0.002133333333333334,
+      "J": 0.003605333333,
+      "depth": 0.4,
+      "width": 0.4,
+      "As2": 0.13333333333333336,
+      "As3": 0.13333333333333336
+    },
+    {
+      "id": "B60x30",
+      "A": 0.18,
+      "I22": 0.0013499999999999996,
+      "I33": 0.0053999999999999986,
+      "J": 0.003707859375,
+      "depth": 0.6,
+      "width": 0.3,
+      "As2": 0.15,
+      "As3": 0.15
+    },
+    {
+      "id": "B45x25",
+      "A": 0.1125,
+      "I22": 0.0005859375,
+      "I33": 0.0018984375000000002,
+      "J": 0.001529949405,
+      "depth": 0.45,
+      "width": 0.25,
+      "As2": 0.09375,
+      "As3": 0.09375
+    },
+    {
+      "id": "B50x30",
+      "A": 0.15,
+      "I22": 0.001125,
+      "I33": 0.0031249999999999997,
+      "J": 0.0028173708,
+      "depth": 0.5,
+      "width": 0.3,
+      "As2": 0.125,
+      "As3": 0.125
+    }
+  ],
+  "nodes": [
+    {
+      "id": "A0",
+      "x": 0,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "A1",
+      "x": 0,
+      "y": 0,
+      "z": 3.5
+    },
+    {
+      "id": "A2",
+      "x": 0,
+      "y": 0,
+      "z": 7.0
+    },
+    {
+      "id": "B0",
+      "x": 6,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "B1",
+      "x": 6,
+      "y": 0,
+      "z": 3.5
+    },
+    {
+      "id": "B2",
+      "x": 6,
+      "y": 0,
+      "z": 7.0
+    },
+    {
+      "id": "C0",
+      "x": 6,
+      "y": 5,
+      "z": 0.0
+    },
+    {
+      "id": "C1",
+      "x": 6,
+      "y": 5,
+      "z": 3.5
+    },
+    {
+      "id": "C2",
+      "x": 6,
+      "y": 5,
+      "z": 7.0
+    },
+    {
+      "id": "D0",
+      "x": 0,
+      "y": 5,
+      "z": 0.0
+    },
+    {
+      "id": "D1",
+      "x": 0,
+      "y": 5,
+      "z": 3.5
+    },
+    {
+      "id": "D2",
+      "x": 0,
+      "y": 5,
+      "z": 7.0
+    }
+  ],
+  "frames": [
+    {
+      "id": "CA1",
+      "type": "frame",
+      "nodes": [
+        "A0",
+        "A1"
+      ],
+      "material": "concrete",
+      "section": "C60x40",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "CA2",
+      "type": "frame",
+      "nodes": [
+        "A1",
+        "A2"
+      ],
+      "material": "concrete",
+      "section": "C40",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "CB1",
+      "type": "frame",
+      "nodes": [
+        "B0",
+        "B1"
+      ],
+      "material": "concrete",
+      "section": "C60x40",
+      "end_offsets": "auto",
+      "angle": 90.0
+    },
+    {
+      "id": "CB2",
+      "type": "frame",
+      "nodes": [
+        "B1",
+        "B2"
+      ],
+      "material": "concrete",
+      "section": "C40",
+      "end_offsets": "auto",
+      "angle": 90.0
+    },
+    {
+      "id": "CC1",
+      "type": "frame",
+      "nodes": [
+        "C0",
+        "C1"
+      ],
+      "material": "concrete",
+      "section": "C50",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "CC2",
+      "type": "frame",
+      "nodes": [
+        "C1",
+        "C2"
+      ],
+      "material": "concrete",
+      "section": "C40",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "CD1",
+      "type": "frame",
+      "nodes": [
+        "D0",
+        "D1"
+      ],
+      "material": "concrete",
+      "section": "C60x40",
+      "end_offsets": "auto",
+      "angle": 30.0
+    },
+    {
+      "id": "CD2",
+      "type": "frame",
+      "nodes": [
+        "D1",
+        "D2"
+      ],
+      "material": "concrete",
+      "section": "C40",
+      "end_offsets": "auto",
+      "angle": 30.0
+    },
+    {
+      "id": "BAB1",
+      "type": "frame",
+      "nodes": [
+        "A1",
+        "B1"
+      ],
+      "material": "concrete",
+      "section": "B60x30",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BDC1",
+      "type": "frame",
+      "nodes": [
+        "D1",
+        "C1"
+      ],
+      "material": "concrete",
+      "section": "B60x30",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BAD1",
+      "type": "frame",
+      "nodes": [
+        "A1",
+        "D1"
+      ],
+      "material": "concrete",
+      "section": "B45x25",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BBC1",
+      "type": "frame",
+      "nodes": [
+        "B1",
+        "C1"
+      ],
+      "material": "concrete",
+      "section": "B45x25",
+      "end_offsets": "auto"
+    },
+    {
+      "id": "BAB2",
+      "type": "frame",
+      "nodes": [
+        "A2",
+        "B2"
+      ],
+      "material": "concrete",
+      "section": "B50x30",
+      "end_offsets": "auto",
+      "rigid_zone": 0.75
+    },
+    {
+      "id": "BDC2",
+      "type": "frame",
+      "nodes": [
+        "D2",
+        "C2"
+      ],
+      "material": "concrete",
+      "section": "B50x30",
+      "end_offsets": "auto",
+      "rigid_zone": 0.75
+    },
+    {
+      "id": "BAD2",
+      "type": "frame",
+      "nodes": [
+        "A2",
+        "D2"
+      ],
+      "material": "concrete",
+      "section": "B50x30",
+      "end_offsets": "auto",
+      "rigid_zone": 0.75
+    },
+    {
+      "id": "BBC2",
+      "type": "frame",
+      "nodes": [
+        "B2",
+        "C2"
+      ],
+      "material": "concrete",
+      "section": "B50x30",
+      "end_offsets": "auto",
+      "rigid_zone": 0.75
+    }
+  ],
+  "supports": [
+    {
+      "node": "A0",
+      "fix": "fixed"
+    },
+    {
+      "node": "B0",
+      "fix": "fixed"
+    },
+    {
+      "node": "C0",
+      "fix": "fixed"
+    },
+    {
+      "node": "D0",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "DEAD",
+      "self_weight": 1
+    },
+    {
+      "id": "LIVE",
+      "frame_loads": [
+        {
+          "type": "uniform",
+          "frame": "BAB1",
+          "dir": "Z",
+          "w": -10.0
+        },
+        {
+          "type": "uniform",
+          "frame": "BDC1",
+          "dir": "Z",
+          "w": -10.0
+        },
+        {
+          "type": "uniform",
+          "frame": "BAD1",
+          "dir": "Z",
+          "w": -10.0
+        },
+        {
+          "type": "uniform",
+          "frame": "BBC1",
+          "dir": "Z",
+          "w": -10.0
+        }
+      ]
+    },
+    {
+      "id": "LAT",
+      "node_loads": [
+        {
+          "node": "A2",
+          "fx": 20.0,
+          "fy": 10.0
+        },
+        {
+          "node": "B2",
+          "fx": 20.0,
+          "fy": 10.0
+        },
+        {
+          "node": "C2",
+          "fx": 20.0,
+          "fy": 10.0
+        },
+        {
+          "node": "D2",
+          "fx": 20.0,
+          "fy": 10.0
+        }
+      ]
+    }
+  ],
+  "mesh": "off"
+}

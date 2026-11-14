@@ -1,0 +1,161 @@
+{
+  "title": "Irregular floor (skew edges, an opening near the re-entrant corner), General mesh with grading",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "mesh": {
+    "floor_size": 1.0
+  },
+  "materials": [
+    {
+      "id": "concrete",
+      "E": 25000000.0,
+      "nu": 0.2
+    }
+  ],
+  "sections": [],
+  "nodes": [
+    {
+      "id": "c0",
+      "x": 0,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "c1",
+      "x": 9,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "c2",
+      "x": 9,
+      "y": 3,
+      "z": 3.0
+    },
+    {
+      "id": "c3",
+      "x": 4,
+      "y": 3.5,
+      "z": 3.0
+    },
+    {
+      "id": "c4",
+      "x": 3.5,
+      "y": 8,
+      "z": 3.0
+    },
+    {
+      "id": "c5",
+      "x": 0,
+      "y": 8,
+      "z": 3.0
+    },
+    {
+      "id": "h0",
+      "x": 2,
+      "y": 2,
+      "z": 3.0
+    },
+    {
+      "id": "h1",
+      "x": 3,
+      "y": 2,
+      "z": 3.0
+    },
+    {
+      "id": "h2",
+      "x": 3,
+      "y": 2.8,
+      "z": 3.0
+    },
+    {
+      "id": "h3",
+      "x": 2,
+      "y": 2.8,
+      "z": 3.0
+    },
+    {
+      "id": "p1",
+      "x": 6.0,
+      "y": 1.5,
+      "z": 3.0,
+      "in_mesh": true
+    }
+  ],
+  "frames": [],
+  "area_sections": [
+    {
+      "id": "SLAB",
+      "type": "shell-thin",
+      "material": "concrete",
+      "thickness": 0.2
+    }
+  ],
+  "areas": [
+    {
+      "id": "F1",
+      "nodes": [
+        "c0",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ],
+      "section": "SLAB",
+      "edge_restraints": true
+    },
+    {
+      "id": "O1",
+      "nodes": [
+        "h0",
+        "h1",
+        "h2",
+        "h3"
+      ],
+      "opening": true
+    }
+  ],
+  "supports": [
+    {
+      "node": "c0",
+      "fix": "pinned"
+    },
+    {
+      "node": "c1",
+      "fix": "pinned"
+    },
+    {
+      "node": "c3",
+      "fix": "pinned"
+    },
+    {
+      "node": "c5",
+      "fix": "pinned"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "DEAD",
+      "area_loads": [
+        {
+          "area": "F1",
+          "dir": "Z",
+          "q": -6.0
+        }
+      ]
+    },
+    {
+      "id": "PT",
+      "node_loads": [
+        {
+          "node": "p1",
+          "fz": -20.0
+        }
+      ]
+    }
+  ]
+}

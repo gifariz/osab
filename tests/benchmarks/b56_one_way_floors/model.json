@@ -1,0 +1,899 @@
+{
+  "title": "One-way Membrane floors on beams, walls and a free edge",
+  "dimension": "3D",
+  "units": {
+    "force": "kN",
+    "length": "m"
+  },
+  "mesh": {},
+  "materials": [
+    {
+      "id": "concrete",
+      "E": 25000000.0,
+      "nu": 0.2,
+      "weight": 24.0
+    }
+  ],
+  "sections": [
+    {
+      "id": "COL",
+      "A": 0.16000000000000003,
+      "I22": 0.002133333333333334,
+      "I33": 0.002133333333333334,
+      "J": 0.0036053333333333345,
+      "As2": 0.13333333333333336,
+      "As3": 0.13333333333333336
+    },
+    {
+      "id": "BEAM",
+      "A": 0.15,
+      "I22": 0.001125,
+      "I33": 0.0031249999999999997,
+      "J": 0.0028173707999999994,
+      "As2": 0.125,
+      "As3": 0.125
+    }
+  ],
+  "nodes": [
+    {
+      "id": "A0",
+      "x": 0,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "A1",
+      "x": 8,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "A2",
+      "x": 8,
+      "y": 4,
+      "z": 3.0
+    },
+    {
+      "id": "A3",
+      "x": 0,
+      "y": 4,
+      "z": 3.0
+    },
+    {
+      "id": "A0s",
+      "x": 0,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "A1s",
+      "x": 8,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "A2s",
+      "x": 8,
+      "y": 4,
+      "z": 0.0
+    },
+    {
+      "id": "A3s",
+      "x": 0,
+      "y": 4,
+      "z": 0.0
+    },
+    {
+      "id": "B0",
+      "x": 20,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "B1",
+      "x": 28,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "B2",
+      "x": 28,
+      "y": 4,
+      "z": 3.0
+    },
+    {
+      "id": "B3",
+      "x": 20,
+      "y": 4,
+      "z": 3.0
+    },
+    {
+      "id": "B0s",
+      "x": 20,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "B1s",
+      "x": 28,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "B2s",
+      "x": 28,
+      "y": 4,
+      "z": 0.0
+    },
+    {
+      "id": "B3s",
+      "x": 20,
+      "y": 4,
+      "z": 0.0
+    },
+    {
+      "id": "W0",
+      "x": 40,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "W1",
+      "x": 48,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "W2",
+      "x": 48,
+      "y": 4,
+      "z": 3.0
+    },
+    {
+      "id": "W3",
+      "x": 40,
+      "y": 4,
+      "z": 3.0
+    },
+    {
+      "id": "Wg1a",
+      "x": 48,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "Wg1b",
+      "x": 48,
+      "y": 4,
+      "z": 0.0
+    },
+    {
+      "id": "Wg3a",
+      "x": 40,
+      "y": 4,
+      "z": 0.0
+    },
+    {
+      "id": "Wg3b",
+      "x": 40,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "V0",
+      "x": 60,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "V1",
+      "x": 68,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "V2",
+      "x": 68,
+      "y": 4,
+      "z": 3.0
+    },
+    {
+      "id": "V3",
+      "x": 60,
+      "y": 4,
+      "z": 3.0
+    },
+    {
+      "id": "Vg1a",
+      "x": 68,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "Vg1b",
+      "x": 68,
+      "y": 4,
+      "z": 0.0
+    },
+    {
+      "id": "Vg3a",
+      "x": 60,
+      "y": 4,
+      "z": 0.0
+    },
+    {
+      "id": "Vg3b",
+      "x": 60,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "S0",
+      "x": 80,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "S1",
+      "x": 88,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "S2",
+      "x": 88,
+      "y": 4,
+      "z": 3.0
+    },
+    {
+      "id": "S3",
+      "x": 80,
+      "y": 4,
+      "z": 3.0
+    },
+    {
+      "id": "Sg1a",
+      "x": 88,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "Sg1b",
+      "x": 88,
+      "y": 4,
+      "z": 0.0
+    },
+    {
+      "id": "Sg3a",
+      "x": 80,
+      "y": 4,
+      "z": 0.0
+    },
+    {
+      "id": "Sg3b",
+      "x": 80,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "K0",
+      "x": 100,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "K1",
+      "x": 108,
+      "y": 0,
+      "z": 3.0
+    },
+    {
+      "id": "K2",
+      "x": 108,
+      "y": 4,
+      "z": 3.0
+    },
+    {
+      "id": "K3",
+      "x": 100,
+      "y": 4,
+      "z": 3.0
+    },
+    {
+      "id": "K0s",
+      "x": 100,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "K1s",
+      "x": 108,
+      "y": 0,
+      "z": 0.0
+    },
+    {
+      "id": "K2s",
+      "x": 108,
+      "y": 4,
+      "z": 0.0
+    },
+    {
+      "id": "K3s",
+      "x": 100,
+      "y": 4,
+      "z": 0.0
+    }
+  ],
+  "frames": [
+    {
+      "id": "AB0",
+      "type": "frame",
+      "nodes": [
+        "A0",
+        "A1"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "AB1",
+      "type": "frame",
+      "nodes": [
+        "A1",
+        "A2"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "AB2",
+      "type": "frame",
+      "nodes": [
+        "A2",
+        "A3"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "AB3",
+      "type": "frame",
+      "nodes": [
+        "A3",
+        "A0"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "A0C",
+      "type": "frame",
+      "nodes": [
+        "A0s",
+        "A0"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "A1C",
+      "type": "frame",
+      "nodes": [
+        "A1s",
+        "A1"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "A2C",
+      "type": "frame",
+      "nodes": [
+        "A2s",
+        "A2"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "A3C",
+      "type": "frame",
+      "nodes": [
+        "A3s",
+        "A3"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "BB0",
+      "type": "frame",
+      "nodes": [
+        "B0",
+        "B1"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "BB1",
+      "type": "frame",
+      "nodes": [
+        "B1",
+        "B2"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "BB2",
+      "type": "frame",
+      "nodes": [
+        "B2",
+        "B3"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "BB3",
+      "type": "frame",
+      "nodes": [
+        "B3",
+        "B0"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "B0C",
+      "type": "frame",
+      "nodes": [
+        "B0s",
+        "B0"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "B1C",
+      "type": "frame",
+      "nodes": [
+        "B1s",
+        "B1"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "B2C",
+      "type": "frame",
+      "nodes": [
+        "B2s",
+        "B2"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "B3C",
+      "type": "frame",
+      "nodes": [
+        "B3s",
+        "B3"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "WB0",
+      "type": "frame",
+      "nodes": [
+        "W0",
+        "W1"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "WB2",
+      "type": "frame",
+      "nodes": [
+        "W2",
+        "W3"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "VB0",
+      "type": "frame",
+      "nodes": [
+        "V0",
+        "V1"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "VB2",
+      "type": "frame",
+      "nodes": [
+        "V2",
+        "V3"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "SB0",
+      "type": "frame",
+      "nodes": [
+        "S0",
+        "S1"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "SB2",
+      "type": "frame",
+      "nodes": [
+        "S2",
+        "S3"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "KB0",
+      "type": "frame",
+      "nodes": [
+        "K0",
+        "K1"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "KB1",
+      "type": "frame",
+      "nodes": [
+        "K1",
+        "K2"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "KB3",
+      "type": "frame",
+      "nodes": [
+        "K3",
+        "K0"
+      ],
+      "material": "concrete",
+      "section": "BEAM"
+    },
+    {
+      "id": "K0C",
+      "type": "frame",
+      "nodes": [
+        "K0s",
+        "K0"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "K1C",
+      "type": "frame",
+      "nodes": [
+        "K1s",
+        "K1"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "K2C",
+      "type": "frame",
+      "nodes": [
+        "K2s",
+        "K2"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    },
+    {
+      "id": "K3C",
+      "type": "frame",
+      "nodes": [
+        "K3s",
+        "K3"
+      ],
+      "material": "concrete",
+      "section": "COL"
+    }
+  ],
+  "area_sections": [
+    {
+      "id": "PLANK",
+      "type": "membrane",
+      "material": "concrete",
+      "thickness": 0.2,
+      "one_way": true
+    },
+    {
+      "id": "WALL",
+      "type": "shell-thin",
+      "material": "concrete",
+      "thickness": 0.25
+    }
+  ],
+  "areas": [
+    {
+      "id": "A",
+      "nodes": [
+        "A0",
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "section": "PLANK"
+    },
+    {
+      "id": "B",
+      "nodes": [
+        "B0",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "section": "PLANK",
+      "angle": 30
+    },
+    {
+      "id": "W",
+      "nodes": [
+        "W0",
+        "W1",
+        "W2",
+        "W3"
+      ],
+      "section": "PLANK"
+    },
+    {
+      "id": "WW1",
+      "nodes": [
+        "Wg1a",
+        "Wg1b",
+        "W2",
+        "W1"
+      ],
+      "section": "WALL"
+    },
+    {
+      "id": "WW3",
+      "nodes": [
+        "Wg3a",
+        "Wg3b",
+        "W0",
+        "W3"
+      ],
+      "section": "WALL"
+    },
+    {
+      "id": "V",
+      "nodes": [
+        "V0",
+        "V1",
+        "V2",
+        "V3"
+      ],
+      "section": "PLANK",
+      "angle": 90
+    },
+    {
+      "id": "VW1",
+      "nodes": [
+        "Vg1a",
+        "Vg1b",
+        "V2",
+        "V1"
+      ],
+      "section": "WALL"
+    },
+    {
+      "id": "VW3",
+      "nodes": [
+        "Vg3a",
+        "Vg3b",
+        "V0",
+        "V3"
+      ],
+      "section": "WALL"
+    },
+    {
+      "id": "S",
+      "nodes": [
+        "S0",
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "section": "PLANK",
+      "angle": 30
+    },
+    {
+      "id": "SW1",
+      "nodes": [
+        "Sg1a",
+        "Sg1b",
+        "S2",
+        "S1"
+      ],
+      "section": "WALL"
+    },
+    {
+      "id": "SW3",
+      "nodes": [
+        "Sg3a",
+        "Sg3b",
+        "S0",
+        "S3"
+      ],
+      "section": "WALL"
+    },
+    {
+      "id": "K",
+      "nodes": [
+        "K0",
+        "K1",
+        "K2",
+        "K3"
+      ],
+      "section": "PLANK",
+      "angle": 90
+    }
+  ],
+  "supports": [
+    {
+      "node": "A0s",
+      "fix": "fixed"
+    },
+    {
+      "node": "A1s",
+      "fix": "fixed"
+    },
+    {
+      "node": "A2s",
+      "fix": "fixed"
+    },
+    {
+      "node": "A3s",
+      "fix": "fixed"
+    },
+    {
+      "node": "B0s",
+      "fix": "fixed"
+    },
+    {
+      "node": "B1s",
+      "fix": "fixed"
+    },
+    {
+      "node": "B2s",
+      "fix": "fixed"
+    },
+    {
+      "node": "B3s",
+      "fix": "fixed"
+    },
+    {
+      "node": "Wg1a",
+      "fix": "fixed"
+    },
+    {
+      "node": "Wg1b",
+      "fix": "fixed"
+    },
+    {
+      "node": "Wg3a",
+      "fix": "fixed"
+    },
+    {
+      "node": "Wg3b",
+      "fix": "fixed"
+    },
+    {
+      "node": "Vg1a",
+      "fix": "fixed"
+    },
+    {
+      "node": "Vg1b",
+      "fix": "fixed"
+    },
+    {
+      "node": "Vg3a",
+      "fix": "fixed"
+    },
+    {
+      "node": "Vg3b",
+      "fix": "fixed"
+    },
+    {
+      "node": "Sg1a",
+      "fix": "fixed"
+    },
+    {
+      "node": "Sg1b",
+      "fix": "fixed"
+    },
+    {
+      "node": "Sg3a",
+      "fix": "fixed"
+    },
+    {
+      "node": "Sg3b",
+      "fix": "fixed"
+    },
+    {
+      "node": "K0s",
+      "fix": "fixed"
+    },
+    {
+      "node": "K1s",
+      "fix": "fixed"
+    },
+    {
+      "node": "K2s",
+      "fix": "fixed"
+    },
+    {
+      "node": "K3s",
+      "fix": "fixed"
+    }
+  ],
+  "load_cases": [
+    {
+      "id": "DEAD",
+      "area_loads": [
+        {
+          "area": "A",
+          "dir": "Z",
+          "q": -5.0
+        },
+        {
+          "area": "B",
+          "dir": "Z",
+          "q": -5.0
+        },
+        {
+          "area": "W",
+          "dir": "Z",
+          "q": -5.0
+        },
+        {
+          "area": "V",
+          "dir": "Z",
+          "q": -5.0
+        },
+        {
+          "area": "S",
+          "dir": "Z",
+          "q": -5.0
+        },
+        {
+          "area": "K",
+          "dir": "Z",
+          "q": -5.0
+        }
+      ]
+    },
+    {
+      "id": "SW",
+      "self_weight": 1.0
+    }
+  ]
+}
